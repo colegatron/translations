@@ -1,17 +1,18 @@
 # Translators:
 # Translators:
 # Translators:
+# Cristina <cristina.bustelo.fernandez@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2016-10-19 13:21-0500\n"
 "PO-Revision-Date: 2016-10-20 08:15+0000\n"
 "Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
-"Language-Team: English (http://www.transifex.com/inboundnow/inbound-pro/language/en/)\n"
+"Language-Team: Spanish (Spain) (http://www.transifex.com/inboundnow/inbound-pro/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
+"Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.9\n"
 "X-Poedit-Basepath: ../../_inbound-now\n"
@@ -32,15 +33,15 @@ msgstr ""
 #: core/shared/classes/class.branching.php:212
 msgid ""
 "You do not have sufficient permissions to delete plugins for this site."
-msgstr ""
+msgstr "No tienes suficientes permisos para borrar plugins de este sitio"
 
 #: classes/admin/class.download-management.php:138
 msgid " has been installed!"
-msgstr ""
+msgstr "se ha instalado!"
 
 #: classes/admin/class.download-management.php:184
 msgid " has been uninstalled!"
-msgstr ""
+msgstr "se ha desinstalado!"
 
 #: classes/admin/class.download-management.php:514
 #: classes/admin/class.reporting.funnels.php:144
@@ -61,7 +62,7 @@ msgstr ""
 #: classes/admin/class.download-management.php:516
 #: classes/admin/class.settings.php:256
 msgid "Calls to Action"
-msgstr ""
+msgstr "Llamadas a la acción"
 
 #: classes/admin/class.download-management.php:521
 #: classes/admin/class.download-management.php:624
@@ -99,7 +100,7 @@ msgstr ""
 
 #: classes/admin/class.download-management.php:535
 msgid " Search... "
-msgstr ""
+msgstr "Buscar..."
 
 #: classes/admin/class.download-management.php:538
 msgid "Uninstalled"

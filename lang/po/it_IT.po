@@ -1,17 +1,18 @@
 # Translators:
 # Translators:
 # Translators:
+# Claudio Ruggiu <19cldr82@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2016-10-19 13:21-0500\n"
 "PO-Revision-Date: 2016-10-20 08:15+0000\n"
 "Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
-"Language-Team: English (http://www.transifex.com/inboundnow/inbound-pro/language/en/)\n"
+"Language-Team: Italian (Italy) (http://www.transifex.com/inboundnow/inbound-pro/language/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
+"Language: it_IT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.9\n"
 "X-Poedit-Basepath: ../../_inbound-now\n"
@@ -32,22 +33,22 @@ msgstr ""
 #: core/shared/classes/class.branching.php:212
 msgid ""
 "You do not have sufficient permissions to delete plugins for this site."
-msgstr ""
+msgstr "Non hai permessi sufficienti per cancellare i plugin in questo sito"
 
 #: classes/admin/class.download-management.php:138
 msgid " has been installed!"
-msgstr ""
+msgstr "E' stato installato!"
 
 #: classes/admin/class.download-management.php:184
 msgid " has been uninstalled!"
-msgstr ""
+msgstr "E' stato disinstallato!"
 
 #: classes/admin/class.download-management.php:514
 #: classes/admin/class.reporting.funnels.php:144
 #: core/landing-pages/classes/class.metaboxes.php:784
 #: core/leads/classes/class.metaboxes.wp-lead.php:978
 msgid "All"
-msgstr ""
+msgstr "Tutti"
 
 #: classes/admin/class.download-management.php:515
 #: classes/admin/class.settings.php:239
@@ -61,7 +62,7 @@ msgstr ""
 #: classes/admin/class.download-management.php:516
 #: classes/admin/class.settings.php:256
 msgid "Calls to Action"
-msgstr ""
+msgstr "Inviti all'azione"
 
 #: classes/admin/class.download-management.php:521
 #: classes/admin/class.download-management.php:624
@@ -80,7 +81,7 @@ msgstr ""
 #: core/landing-pages/shared/classes/class.menus.adminbar.php:379
 #: core/shared/classes/class.menus.adminbar.php:379
 msgid "Automation"
-msgstr ""
+msgstr "Automazione"
 
 #: classes/admin/class.download-management.php:527
 #: classes/admin/class.download-management.php:630
@@ -99,19 +100,19 @@ msgstr ""
 
 #: classes/admin/class.download-management.php:535
 msgid " Search... "
-msgstr ""
+msgstr "Cerca"
 
 #: classes/admin/class.download-management.php:538
 msgid "Uninstalled"
-msgstr ""
+msgstr "Disinstallato"
 
 #: classes/admin/class.download-management.php:541
 msgid "Installed"
-msgstr ""
+msgstr "Installato"
 
 #: classes/admin/class.download-management.php:545
 msgid "Needs Update"
-msgstr ""
+msgstr "Necessita di aggiornamento"
 
 #: classes/admin/class.download-management.php:612
 #: core/landing-pages/classes/class.post-type.landing-page.php:72
@@ -122,19 +123,19 @@ msgstr ""
 #: core/cta/classes/class.post-type.wp-call-to-action.php:64
 #: core/cta/classes/class.post-type.wp-call-to-action.php:65
 msgid "Call to Action"
-msgstr ""
+msgstr "Invito all'azione"
 
 #: classes/admin/class.download-management.php:653
 msgid "View Details"
-msgstr ""
+msgstr "Vedi dettagli"
 
 #: classes/admin/class.download-management.php:662
 msgid "Turn On"
-msgstr ""
+msgstr "Attiva"
 
 #: classes/admin/class.download-management.php:670
 msgid "Turn Off"
-msgstr ""
+msgstr "Disattiva"
 
 #: classes/admin/class.download-management.php:677
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:2563
@@ -143,11 +144,11 @@ msgstr ""
 
 #: classes/admin/class.download-management.php:689
 msgid "View Settings"
-msgstr ""
+msgstr "Vedi configurazione"
 
 #: classes/admin/class.download-management.php:698
 msgid "Active license with correct permissions required to install."
-msgstr ""
+msgstr "Per l'installazione é necessaria una licenza con i permessi corretti"
 
 #: classes/admin/class.download-management.php:812
 #: classes/admin/class.download-management.php:823
@@ -158,11 +159,11 @@ msgstr ""
 #: core/landing-pages/shared/classes/class.menus.adminbar.php:462
 #: core/shared/classes/class.menus.adminbar.php:462
 msgid "Manage Templates"
-msgstr ""
+msgstr "Gestisci Modelli"
 
 #: classes/admin/class.download-management.php:834
 msgid "Manage Extensions"
-msgstr ""
+msgstr "Gestisci Estensioni"
 
 #: classes/admin/class.menus.adminmenu.php:29
 #: classes/admin/class.menus.adminmenu.php:30

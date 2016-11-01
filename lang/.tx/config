@@ -1,0 +1,6 @@
+[main]
+host = https://www.transifex.com
+
+[inbound-pro.enpo]
+file_filter = <lang>.po
+source_lang = en_US
