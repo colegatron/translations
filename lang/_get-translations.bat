@@ -1,4 +1,4 @@
-tx.exe pull -a 
+tx.exe pull -a -skip
 
 
 for %%a in (*.po) do (
