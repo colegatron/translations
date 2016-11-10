@@ -172,6 +172,8 @@ function phpmo_write_mo_file($hash, $out) {
 	$strings = '';
 
 	foreach ($hash as $entry) {
+        if($entry['msgstr'][0] == "") { continue; }
+        
 		$id = $entry['msgid'];
 		if (isset ($entry['msgid_plural']))
 			$id .= "\x00" . $entry['msgid_plural'];
@@ -208,12 +210,12 @@ function phpmo_write_mo_file($hash, $out) {
 
 	// write header
 	$mo .= pack('Iiiiiii', 0x950412de, // magic number
-	0, // version
-	sizeof($hash), // number of entries in the catalog
-	7 * 4, // key index offset
-	7 * 4 + sizeof($hash) * 8, // value index offset,
-	0, // hashtable size (unused, thus 0)
-	$key_start // hashtable offset
+        0, // version
+        sizeof($hash), // number of entries in the catalog
+        7 * 4, // key index offset
+        7 * 4 + sizeof($hash) * 8, // value index offset,
+        0, // hashtable size (unused, thus 0)
+        $key_start // hashtable offset
 	);
 	// offsets
 	foreach ($offsets as $offset)
