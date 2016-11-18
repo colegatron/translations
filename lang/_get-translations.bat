@@ -1,5 +1,4 @@
-tx.exe pull -a -skip
-
+tx.exe pull -a 
 
 for %%a in (*.po) do (
    if /i not "%%~na"=="en" (
