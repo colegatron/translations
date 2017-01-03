@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
-"POT-Creation-Date: 2016-12-31 13:58-0600\n"
-"PO-Revision-Date: 2016-12-31 14:00-0600\n"
+"POT-Creation-Date: 2016-12-31 14:00-0600\n"
+"PO-Revision-Date: 2016-12-31 15:45-0600\n"
 "Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
 "Language-Team: English (http://www.transifex.com/inboundnow/inbound-pro/"
 "language/en/)\n"
@@ -401,7 +401,7 @@ msgstr ""
 
 #: inbound-pro/classes/admin/class.reporting.funnels.php:453
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:249
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:324
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:323
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:249
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:324
 #: inbound-pro/core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:2391
@@ -410,7 +410,7 @@ msgid "Source"
 msgstr ""
 
 #: inbound-pro/classes/admin/class.reporting.funnels.php:456
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:327
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:326
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:413
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:330
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:424
@@ -903,7 +903,7 @@ msgid "Action Count"
 msgstr ""
 
 #: inbound-pro/classes/admin/report-templates/content.events.php:239
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:345
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:344
 #: inbound-pro/classes/admin/report-templates/content.visitor-events.php:37
 #: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:34
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:348
@@ -921,7 +921,7 @@ msgstr ""
 #: inbound-pro/classes/admin/report-templates/content.events.php:287
 #: inbound-pro/classes/admin/report-templates/content.events.php:353
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:278
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:378
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:377
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:278
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:398
 #: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:979
@@ -981,7 +981,7 @@ msgstr ""
 msgid "Stream"
 msgstr ""
 
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:321
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:320
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:407
 #: inbound-pro/core/cta/shared/classes/class.post-type.wp-lead.php:188
 #: inbound-pro/core/landing-pages/shared/classes/class.post-type.wp-lead.php:188
@@ -989,17 +989,17 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:330
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:329
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:416
 msgid "Impression Date"
 msgstr ""
 
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:385
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:384
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:386
 msgid "Lead exists. Click to view."
 msgstr ""
 
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:385
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:384
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:386
 msgid "Lead does not exist in database yet."
 msgstr ""
