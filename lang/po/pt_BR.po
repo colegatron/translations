@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
-"POT-Creation-Date: 2016-12-31 14:00-0600\n"
-"PO-Revision-Date: 2017-01-19 12:49+0000\n"
+"POT-Creation-Date: 2017-01-19 19:19-0600\n"
+"PO-Revision-Date: 2017-01-23 11:55+0000\n"
 "Last-Translator: Mahmod Issa <comunica.muh@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/inboundnow/inbound-pro/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -52,49 +52,6 @@ msgstr "Integração de afiliados WP"
 msgid "Inbound Marketer"
 msgstr "Comerciante de entrada"
 
-#: inbound-pro/classes/admin/class.analytics.php:146
-#: inbound-pro/classes/admin/class.reporting.templates.php:50
-#: inbound-pro/classes/admin/class.settings.php:285
-msgid "Inbound Analytics"
-msgstr "Analytics de entrada"
-
-#: inbound-pro/classes/admin/class.analytics.php:192
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:65
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:180
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:255
-#: inbound-pro/classes/admin/report-templates/content.visitors.php:180
-#: inbound-pro/classes/admin/report-templates/content.visitors.php:255
-#: inbound-pro/classes/admin/report-templates/content.visitors.php:327
-#: inbound-pro/classes/admin/report-templates/content.visitors.php:421
-#: inbound-pro/core/landing-pages/classes/class.inbound-statistics.php:266
-#: inbound-pro/core/landing-pages/classes/class.post-type.landing-page.php:459
-#: inbound-pro/core/landing-pages/classes/class.statistics.php:111
-msgid "Impressions"
-msgstr "Impressões"
-
-#: inbound-pro/classes/admin/class.analytics.php:193
-#: inbound-pro/classes/admin/report-templates/content.impressions.php:252
-#: inbound-pro/classes/admin/report-templates/content.visitors.php:65
-#: inbound-pro/classes/admin/report-templates/content.visitors.php:252
-msgid "Visitors"
-msgstr "Visitantes"
-
-#: inbound-pro/classes/admin/class.analytics.php:194
-#: inbound-pro/classes/admin/report-templates/content.events.php:64
-#: inbound-pro/classes/admin/report-templates/content.events.php:169
-#: inbound-pro/core/inbound-automation/classes/class.metaboxes.automation.php:143
-#: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:79
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:81
-msgid "Actions"
-msgstr "Ações"
-
-#: inbound-pro/classes/admin/class.analytics.php:216
-#: inbound-pro/classes/admin/class.analytics.php:229
-#: inbound-pro/classes/admin/class.analytics.php:237
-#, php-format
-msgid "past %s days"
-msgstr "dias passados %s"
-
 #: inbound-pro/classes/admin/class.download-management.php:114
 #: inbound-pro/classes/admin/class.download-management.php:165
 #: inbound-pro/core/landing-pages/shared/classes/class.branching.php:212
@@ -112,14 +69,15 @@ msgid " has been uninstalled!"
 msgstr "foi desinstalado!"
 
 #: inbound-pro/classes/admin/class.download-management.php:517
-#: inbound-pro/core/inbound-mailer/classes/class.notifications.php:73
-msgid "settings page"
-msgstr "página de configurações"
+msgid ""
+"ATTENTION: open_basedir restriction in effect which will cause problems with"
+" installation."
+msgstr "Atenção: restrição de open_basedir ira causar problemas na instalação"
 
 #: inbound-pro/classes/admin/class.download-management.php:548
 #: inbound-pro/classes/admin/class.reporting.funnels.php:144
 #: inbound-pro/core/landing-pages/classes/class.metaboxes.php:784
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1303
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1337
 msgid "All"
 msgstr "Todos"
 
@@ -151,8 +109,8 @@ msgstr "Contato"
 
 #: inbound-pro/classes/admin/class.download-management.php:556
 #: inbound-pro/core/cta/shared/classes/class.menus.adminbar.php:379
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:48
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:88
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:53
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:93
 #: inbound-pro/core/landing-pages/shared/classes/class.menus.adminbar.php:379
 #: inbound-pro/core/shared/classes/class.menus.adminbar.php:379
 msgid "Automation"
@@ -163,7 +121,6 @@ msgstr "Automação"
 #: inbound-pro/classes/admin/class.download-management.php:664
 #: inbound-pro/core/cta/shared/classes/class.lead-fields.php:28
 #: inbound-pro/core/cta/shared/classes/class.menus.adminbar.php:340
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:45
 #: inbound-pro/core/landing-pages/shared/classes/class.lead-fields.php:28
 #: inbound-pro/core/landing-pages/shared/classes/class.menus.adminbar.php:340
 #: inbound-pro/core/landing-pages/templates/demo/config.php:139
@@ -238,6 +195,53 @@ msgstr "Gerenciar Templates"
 msgid "Manage Extensions"
 msgstr "Gerenciar Extensões"
 
+#: inbound-pro/classes/admin/class.inbound-analytics.php:149
+#: inbound-pro/classes/admin/class.reporting.templates.php:50
+#: inbound-pro/classes/admin/class.settings.php:285
+msgid "Inbound Analytics"
+msgstr "Analytics de entrada"
+
+#: inbound-pro/classes/admin/class.inbound-analytics.php:195
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:65
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:180
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:255
+#: inbound-pro/classes/admin/report-templates/content.visitors.php:180
+#: inbound-pro/classes/admin/report-templates/content.visitors.php:255
+#: inbound-pro/classes/admin/report-templates/content.visitors.php:327
+#: inbound-pro/classes/admin/report-templates/content.visitors.php:421
+#: inbound-pro/core/landing-pages/classes/class.inbound-statistics.php:266
+#: inbound-pro/core/landing-pages/classes/class.post-type.landing-page.php:459
+#: inbound-pro/core/landing-pages/classes/class.statistics.php:111
+msgid "Impressions"
+msgstr "Impressões"
+
+#: inbound-pro/classes/admin/class.inbound-analytics.php:196
+#: inbound-pro/classes/admin/report-templates/content.impressions.php:252
+#: inbound-pro/classes/admin/report-templates/content.visitors.php:65
+#: inbound-pro/classes/admin/report-templates/content.visitors.php:252
+msgid "Visitors"
+msgstr "Visitantes"
+
+#: inbound-pro/classes/admin/class.inbound-analytics.php:197
+#: inbound-pro/classes/admin/report-templates/content.event.php:55
+#: inbound-pro/classes/admin/report-templates/content.event.php:164
+#: inbound-pro/classes/admin/report-templates/content.events.php:54
+#: inbound-pro/classes/admin/report-templates/content.events.php:188
+#: inbound-pro/core/inbound-automation/classes/class.metaboxes.automation.php:143
+#: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:79
+msgid "Actions"
+msgstr "Ações"
+
+#: inbound-pro/classes/admin/class.inbound-analytics.php:219
+#: inbound-pro/classes/admin/class.inbound-analytics.php:232
+#: inbound-pro/classes/admin/class.inbound-analytics.php:240
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:546
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:139
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:162
+#, php-format
+msgid "past %s days"
+msgstr "dias passados %s"
+
 #: inbound-pro/classes/admin/class.menus.adminmenu.php:29
 msgid "Inbound Pro"
 msgstr "Entrada Pro"
@@ -256,11 +260,11 @@ msgstr "Entrada Pro"
 #: inbound-pro/core/landing-pages/shared/classes/class.menus.adminbar.php:256
 #: inbound-pro/core/landing-pages/shared/classes/class.menus.adminbar.php:315
 #: inbound-pro/core/landing-pages/shared/classes/class.menus.adminbar.php:505
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:528
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:621
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:622
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:639
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:640
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:549
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:642
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:643
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:660
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:661
 #: inbound-pro/core/leads/classes/class.settings.php:165
 #: inbound-pro/core/shared/classes/class.menus.adminbar.php:256
 #: inbound-pro/core/shared/classes/class.menus.adminbar.php:315
@@ -269,8 +273,8 @@ msgid "Settings"
 msgstr "Configurações"
 
 #: inbound-pro/classes/admin/class.menus.adminmenu.php:50
-#: inbound-pro/core/inbound-mailer/classes/class.post-type.inbound-email.php:633
 #: inbound-pro/core/inbound-mailer/classes/class.post-type.inbound-email.php:634
+#: inbound-pro/core/inbound-mailer/classes/class.post-type.inbound-email.php:635
 msgid "Templates"
 msgstr "Modelos"
 
@@ -350,7 +354,8 @@ msgid "Pages in Funnel"
 msgstr "Páginas em funil"
 
 #: inbound-pro/classes/admin/class.reporting.funnels.php:235
-#: inbound-pro/classes/admin/report-templates/content.events.php:174
+#: inbound-pro/classes/admin/report-templates/content.event.php:169
+#: inbound-pro/classes/admin/report-templates/content.events.php:193
 msgid "Event Name"
 msgstr "Nome do evento"
 
@@ -376,7 +381,8 @@ msgid "View Funnel Path"
 msgstr "Caminho de funil de exibição"
 
 #: inbound-pro/classes/admin/class.reporting.funnels.php:391
-#: inbound-pro/classes/admin/report-templates/content.events.php:370
+#: inbound-pro/classes/admin/report-templates/content.event.php:389
+#: inbound-pro/classes/admin/report-templates/content.events.php:401
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/landing_pages.php:37
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/landing_pages.php:99
 #: inbound-pro/core/landing-pages/classes/class.wp-list-table.templates.php:85
@@ -405,16 +411,18 @@ msgid "Datetime"
 msgstr "DateTime"
 
 #: inbound-pro/classes/admin/class.reporting.funnels.php:453
+#: inbound-pro/classes/admin/report-templates/content.event.php:238
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:249
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:323
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:249
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:324
 #: inbound-pro/core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:2391
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:881
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:915
 msgid "Source"
 msgstr "Fonte"
 
 #: inbound-pro/classes/admin/class.reporting.funnels.php:456
+#: inbound-pro/classes/admin/report-templates/content.event.php:232
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:326
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:413
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:330
@@ -448,6 +456,10 @@ msgstr "Identificador de contato"
 #: inbound-pro/classes/admin/class.reporting.templates.php:188
 msgid "source"
 msgstr "Fonte"
+
+#: inbound-pro/classes/admin/class.reporting.templates.php:195
+msgid "event"
+msgstr "evento"
 
 #: inbound-pro/classes/admin/class.settings.php:127
 msgid "api key"
@@ -904,52 +916,95 @@ msgid ""
 "href=\"%4$s\">update now</a>."
 msgstr "Existe uma nova versão do %1$s disponivel. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\"> Veja versões detalhadas em %3$s  <a> ou  <a href=\"%4$s\"> atualize agora </a>"
 
-#: inbound-pro/classes/admin/report-templates/content.events.php:177
+#: inbound-pro/classes/admin/report-templates/content.event.php:102
+#, php-format
+msgid "Actions past %s days"
+msgstr "Ações dos %s dias"
+
+#: inbound-pro/classes/admin/report-templates/content.event.php:103
+#, php-format
+msgid "Actions prior %s days"
+msgstr "Ações %s dias anteriores"
+
+#: inbound-pro/classes/admin/report-templates/content.event.php:172
+#: inbound-pro/classes/admin/report-templates/content.events.php:196
 msgid "Action Count"
 msgstr "Contagem de ações "
 
-#: inbound-pro/classes/admin/report-templates/content.events.php:239
+#: inbound-pro/classes/admin/report-templates/content.event.php:229
+msgid "Event Source"
+msgstr "Fonte do Evento"
+
+#: inbound-pro/classes/admin/report-templates/content.event.php:235
+msgid "Funnel Details"
+msgstr "Detalhes do Funil"
+
+#: inbound-pro/classes/admin/report-templates/content.event.php:244
+msgid "Event Date"
+msgstr "Data do Evento"
+
+#: inbound-pro/classes/admin/report-templates/content.event.php:258
+#: inbound-pro/classes/admin/report-templates/content.events.php:258
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:344
 #: inbound-pro/classes/admin/report-templates/content.visitor-events.php:37
 #: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:34
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:348
-#: inbound-pro/core/cta/shared/classes/class.events.php:538
+#: inbound-pro/core/cta/shared/classes/class.events.php:552
 #: inbound-pro/core/cta/shared/classes/class.shortcodes.email-template.php:69
-#: inbound-pro/core/landing-pages/shared/classes/class.events.php:538
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:552
 #: inbound-pro/core/landing-pages/shared/classes/class.shortcodes.email-template.php:69
 #: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:120
 #: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:127
-#: inbound-pro/core/shared/classes/class.events.php:538
+#: inbound-pro/core/shared/classes/class.events.php:552
 #: inbound-pro/core/shared/classes/class.shortcodes.email-template.php:69
 msgid "n/a"
 msgstr "n/a"
 
-#: inbound-pro/classes/admin/report-templates/content.events.php:287
-#: inbound-pro/classes/admin/report-templates/content.events.php:353
+#: inbound-pro/classes/admin/report-templates/content.event.php:306
+#: inbound-pro/classes/admin/report-templates/content.event.php:371
+#: inbound-pro/classes/admin/report-templates/content.events.php:306
+#: inbound-pro/classes/admin/report-templates/content.events.php:382
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:278
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:377
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:278
 #: inbound-pro/classes/admin/report-templates/content.visitors.php:398
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:979
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1013
 msgid "Direct Traffic"
 msgstr "Trafico direto"
 
-#: inbound-pro/classes/admin/report-templates/content.events.php:372
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1511
+#: inbound-pro/classes/admin/report-templates/content.event.php:357
+#: inbound-pro/classes/admin/report-templates/content.events.php:368
+msgid "Traffic Funnel"
+msgstr "Tráfico do Funil"
+
+#: inbound-pro/classes/admin/report-templates/content.event.php:391
+#: inbound-pro/classes/admin/report-templates/content.events.php:403
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1545
 msgid "Category Page"
 msgstr "Categoria da Pagina"
 
-#: inbound-pro/classes/admin/report-templates/content.events.php:377
+#: inbound-pro/classes/admin/report-templates/content.event.php:396
+#: inbound-pro/classes/admin/report-templates/content.events.php:408
 msgid "tag"
 msgstr "tag"
 
-#: inbound-pro/classes/admin/report-templates/content.events.php:385
+#: inbound-pro/classes/admin/report-templates/content.event.php:404
+#: inbound-pro/classes/admin/report-templates/content.events.php:416
 msgid "post"
 msgstr "Postagem"
 
-#: inbound-pro/classes/admin/report-templates/content.events.php:418
+#: inbound-pro/classes/admin/report-templates/content.event.php:437
+#: inbound-pro/classes/admin/report-templates/content.events.php:449
 msgid "converted!"
 msgstr "Convertido! "
+
+#: inbound-pro/classes/admin/report-templates/content.events.php:471
+msgid "List Added"
+msgstr "Lista Adicionada"
+
+#: inbound-pro/classes/admin/report-templates/content.events.php:492
+msgid "Message Details"
+msgstr "Detalhes da Mensagem"
 
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:102
 #: inbound-pro/classes/admin/report-templates/content.impressions.php:137
@@ -1113,9 +1168,9 @@ msgid "Action Rate:"
 msgstr "Taxa de ação."
 
 #: inbound-pro/classes/admin/report-templates/content.quick-view.php:323
-#: inbound-pro/classes/admin/report-templates/content.quick-view.php:364
-#: inbound-pro/classes/admin/report-templates/content.quick-view.php:377
-#: inbound-pro/classes/admin/report-templates/content.quick-view.php:380
+#: inbound-pro/classes/admin/report-templates/content.quick-view.php:366
+#: inbound-pro/classes/admin/report-templates/content.quick-view.php:381
+#: inbound-pro/classes/admin/report-templates/content.quick-view.php:384
 #, php-format
 msgid ""
 "%s action rate in the last %s days versus an %s action rate in the prior %s "
@@ -1139,35 +1194,31 @@ msgid "Total number of Inbound Form submissions originating from this page"
 msgstr "Número total de envios de formulário de entrada originados nesta página"
 
 #: inbound-pro/classes/admin/report-templates/content.quick-view.php:354
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1282
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1339
-msgid "Form Submissions"
-msgstr "Submissões de forma"
-
 #: inbound-pro/classes/admin/report-templates/content.quick-view.php:358
-msgid ""
-"Total number of form submissions performed within the given time period for "
-"this content."
-msgstr "Número total de envios de formulário realizados dentro do período de tempo especificado para esse conteúdo"
+#: inbound-pro/core/cta/shared/classes/class.events.php:940
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:940
+#: inbound-pro/core/shared/classes/class.events.php:940
+msgid "Inbound Form Submissions"
+msgstr "Envios de formulário de entrada"
 
-#: inbound-pro/classes/admin/report-templates/content.quick-view.php:361
-#: inbound-pro/classes/admin/report-templates/content.quick-view.php:377
+#: inbound-pro/classes/admin/report-templates/content.quick-view.php:363
+#: inbound-pro/classes/admin/report-templates/content.quick-view.php:381
 msgid "Rate of action events compared to impressions."
 msgstr "Eventos de taxa de ação comparados com impressões."
 
-#: inbound-pro/classes/admin/report-templates/content.quick-view.php:369
+#: inbound-pro/classes/admin/report-templates/content.quick-view.php:371
 msgid "Total number of clicked tracked links related to this page."
 msgstr "Numero total de links clicados relacionados a essa pagina."
 
-#: inbound-pro/classes/admin/report-templates/content.quick-view.php:370
-msgid "Tracked Click Events"
-msgstr "Eventos com rastreamento de cliques"
-
-#: inbound-pro/classes/admin/report-templates/content.quick-view.php:374
-msgid ""
-"Total number of actions performed within the given time period for this "
-"content."
-msgstr "Número total de ações realizadas dentro do período de tempo especificado para esse conteúdo."
+#: inbound-pro/classes/admin/report-templates/content.quick-view.php:372
+#: inbound-pro/classes/admin/report-templates/content.quick-view.php:376
+#: inbound-pro/core/cta/classes/class.extension.wp-lead.php:32
+#: inbound-pro/core/cta/classes/class.extension.wp-lead.php:117
+#: inbound-pro/core/cta/shared/classes/class.events.php:943
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:943
+#: inbound-pro/core/shared/classes/class.events.php:943
+msgid "CTA Clicks"
+msgstr "Cliques CTA"
 
 #: inbound-pro/classes/admin/report-templates/content.visitor-events.php:43
 #: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:40
@@ -1177,26 +1228,26 @@ msgstr "Este visitante não tem um perfil principal"
 #: inbound-pro/classes/admin/report-templates/content.visitor-events.php:90
 #: inbound-pro/classes/admin/report-templates/content.visitor-events.php:133
 #: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:84
-#: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:127
+#: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:129
 msgid "Page Visited"
 msgstr "Pagina visitada."
 
 #: inbound-pro/classes/admin/report-templates/content.visitor-events.php:93
 #: inbound-pro/classes/admin/report-templates/content.visitor-events.php:136
 #: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:87
-#: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:130
+#: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:132
 msgid "Datetime Visited"
 msgstr "Data visitada."
 
 #: inbound-pro/classes/admin/report-templates/content.visitor-events.php:96
 #: inbound-pro/classes/admin/report-templates/content.visitor-events.php:139
 #: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:90
-#: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:133
+#: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:135
 msgid "Origin"
 msgstr "Origem"
 
 #: inbound-pro/classes/admin/report-templates/content.visitor-events.php:108
-#: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:102
+#: inbound-pro/classes/admin/report-templates/content.visitor-pageviews.php:104
 msgid "Page does not exist"
 msgstr "Pagina não existe."
 
@@ -1227,32 +1278,32 @@ msgstr "Ultimo visitante"
 msgid "Calls to Action requires PHP version 5.3+ to run. Your version "
 msgstr "Chamadas para ação requer PHP versão 5.3 + para executar. Sua versão "
 
-#: inbound-pro/core/cta/classes/class.activation.database-routines.php:83
-#: inbound-pro/core/cta/classes/class.activation.database-routines.php:95
+#: inbound-pro/core/cta/classes/class.activation.database-routines.php:90
+#: inbound-pro/core/cta/classes/class.activation.database-routines.php:102
 msgid "A/B Testing Call To Action Example"
 msgstr "A / B teste chamada para ação exemplo"
 
-#: inbound-pro/core/cta/classes/class.activation.database-routines.php:108
+#: inbound-pro/core/cta/classes/class.activation.database-routines.php:115
 msgid "Snappy Headline"
 msgstr "Manchete mal-humorado"
 
-#: inbound-pro/core/cta/classes/class.activation.database-routines.php:109
+#: inbound-pro/core/cta/classes/class.activation.database-routines.php:116
 msgid "Awesome Subheadline Text Goes here"
 msgstr "Incrível submanchete texto vai aqui"
 
-#: inbound-pro/core/cta/classes/class.activation.database-routines.php:114
+#: inbound-pro/core/cta/classes/class.activation.database-routines.php:121
 msgid "Download Now"
 msgstr "Faça o download agora"
 
-#: inbound-pro/core/cta/classes/class.activation.database-routines.php:121
+#: inbound-pro/core/cta/classes/class.activation.database-routines.php:128
 msgid "Great Offer"
 msgstr "Grande oferta"
 
-#: inbound-pro/core/cta/classes/class.activation.database-routines.php:122
+#: inbound-pro/core/cta/classes/class.activation.database-routines.php:129
 msgid "Amazing Deals Await!<br> Click below to find<br> amazing deals"
 msgstr "Ofertas incríveis esperam por você! Clique abaixo para encontrar ofertas incríveis de <br>de <br>"
 
-#: inbound-pro/core/cta/classes/class.activation.database-routines.php:127
+#: inbound-pro/core/cta/classes/class.activation.database-routines.php:134
 msgid "Learn More"
 msgstr "Saiba Mais"
 
@@ -1595,14 +1646,6 @@ msgstr "Y"
 msgid "Z"
 msgstr "Z"
 
-#: inbound-pro/core/cta/classes/class.extension.wp-lead.php:32
-#: inbound-pro/core/cta/classes/class.extension.wp-lead.php:117
-#: inbound-pro/core/cta/shared/classes/class.events.php:901
-#: inbound-pro/core/landing-pages/shared/classes/class.events.php:901
-#: inbound-pro/core/shared/classes/class.events.php:901
-msgid "CTA Clicks"
-msgstr "Cliques CTA"
-
 #: inbound-pro/core/cta/classes/class.extension.wp-lead.php:43
 msgid "CTA's Clicked"
 msgstr "CTA clicado"
@@ -1610,19 +1653,19 @@ msgstr "CTA clicado"
 #: inbound-pro/core/cta/classes/class.extension.wp-lead.php:50
 #: inbound-pro/core/cta/classes/class.extension.wp-lead.php:52
 #: inbound-pro/core/cta/classes/class.extension.wp-lead.php:55
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:849
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:850
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:854
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:855
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1356
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1357
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:883
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:884
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:888
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:889
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1390
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1391
 msgid "undefined"
 msgstr "Não definido"
 
 #: inbound-pro/core/cta/classes/class.extension.wp-lead.php:71
-#: inbound-pro/core/cta/shared/classes/class.events.php:901
-#: inbound-pro/core/landing-pages/shared/classes/class.events.php:901
-#: inbound-pro/core/shared/classes/class.events.php:901
+#: inbound-pro/core/cta/shared/classes/class.events.php:943
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:943
+#: inbound-pro/core/shared/classes/class.events.php:943
 msgid "CTA Click"
 msgstr "Clique em CTA"
 
@@ -1659,7 +1702,7 @@ msgid "<span id='wpl-message-none'>No Call to Action Clicks found!</span>\""
 msgstr "<span id='wpl-message-none'> não há chamado de ação clica encontrado!</span> \""
 
 #: inbound-pro/core/cta/classes/class.load-extensions.php:226
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:192
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:196
 #: inbound-pro/core/landing-pages/classes/class.extend.php:48
 #: inbound-pro/core/landing-pages/classes/class.load-templates.php:36
 msgid "Select Template"
@@ -1958,7 +2001,7 @@ msgstr "Pesquisa chamada à ação"
 #: inbound-pro/core/cta/classes/class.post-type.wp-call-to-action.php:72
 #: inbound-pro/core/cta/shared/classes/class.post-type.wp-lead.php:48
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/forms.php:372
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:56
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:61
 #: inbound-pro/core/inbound-mailer/classes/class.post-type.inbound-email.php:89
 #: inbound-pro/core/landing-pages/classes/class.post-type.landing-page.php:79
 #: inbound-pro/core/landing-pages/shared/classes/class.post-type.wp-lead.php:48
@@ -1971,7 +2014,7 @@ msgstr "Nada foi encontrado"
 #: inbound-pro/core/cta/classes/class.post-type.wp-call-to-action.php:73
 #: inbound-pro/core/cta/shared/classes/class.post-type.wp-lead.php:49
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/forms.php:373
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:57
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:62
 #: inbound-pro/core/inbound-mailer/classes/class.post-type.inbound-email.php:90
 #: inbound-pro/core/landing-pages/classes/class.post-type.landing-page.php:80
 #: inbound-pro/core/landing-pages/shared/classes/class.post-type.wp-lead.php:49
@@ -2040,7 +2083,7 @@ msgid "Shortcode:"
 msgstr "Defeito:"
 
 #: inbound-pro/core/cta/classes/class.post-type.wp-call-to-action.php:242
-#: inbound-pro/core/inbound-mailer/classes/class.post-type.inbound-email.php:592
+#: inbound-pro/core/inbound-mailer/classes/class.post-type.inbound-email.php:593
 #: inbound-pro/core/landing-pages/classes/class.post-type.landing-page.php:492
 msgid "Show All "
 msgstr "Exibir Todos"
@@ -2269,41 +2312,47 @@ msgstr "Se várias chamadas à ação são verificadas, eles aleatoriamente irã
 msgid "Advanced Options"
 msgstr "Opções avançadas"
 
-#: inbound-pro/core/cta/shared/classes/class.events.php:898
-#: inbound-pro/core/landing-pages/shared/classes/class.events.php:898
-#: inbound-pro/core/shared/classes/class.events.php:898
-msgid "Inbound Form Submissions"
-msgstr "Envios de formulário de entrada"
-
-#: inbound-pro/core/cta/shared/classes/class.events.php:898
-#: inbound-pro/core/landing-pages/shared/classes/class.events.php:898
-#: inbound-pro/core/shared/classes/class.events.php:898
+#: inbound-pro/core/cta/shared/classes/class.events.php:940
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:940
+#: inbound-pro/core/shared/classes/class.events.php:940
 msgid "Inbound Form Submission"
 msgstr "Envios de formulário de entrada"
 
-#: inbound-pro/core/cta/shared/classes/class.events.php:904
-#: inbound-pro/core/landing-pages/shared/classes/class.events.php:904
-#: inbound-pro/core/shared/classes/class.events.php:904
+#: inbound-pro/core/cta/shared/classes/class.events.php:946
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:946
+#: inbound-pro/core/shared/classes/class.events.php:946
 msgid "Direct Messages"
 msgstr "Mensagem direta. "
 
-#: inbound-pro/core/cta/shared/classes/class.events.php:904
-#: inbound-pro/core/landing-pages/shared/classes/class.events.php:904
-#: inbound-pro/core/shared/classes/class.events.php:904
+#: inbound-pro/core/cta/shared/classes/class.events.php:946
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:946
+#: inbound-pro/core/shared/classes/class.events.php:946
 msgid "Direct Message"
 msgstr "Mensagem direta. "
 
-#: inbound-pro/core/cta/shared/classes/class.events.php:907
-#: inbound-pro/core/landing-pages/shared/classes/class.events.php:907
-#: inbound-pro/core/shared/classes/class.events.php:907
-msgid "CF7 Form Submissions"
-msgstr "Envio de formulário CF7"
+#: inbound-pro/core/cta/shared/classes/class.events.php:949
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:949
+#: inbound-pro/core/shared/classes/class.events.php:949
+msgid "Lead Added to Lists"
+msgstr "Lead adicionado a lista"
 
-#: inbound-pro/core/cta/shared/classes/class.events.php:907
-#: inbound-pro/core/landing-pages/shared/classes/class.events.php:907
-#: inbound-pro/core/shared/classes/class.events.php:907
-msgid "CTF7 Form Submission"
-msgstr "Envio de formulário CTF7"
+#: inbound-pro/core/cta/shared/classes/class.events.php:949
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:949
+#: inbound-pro/core/shared/classes/class.events.php:949
+msgid "Lead Added to List"
+msgstr "Lead adicionado a lista"
+
+#: inbound-pro/core/cta/shared/classes/class.events.php:952
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:952
+#: inbound-pro/core/shared/classes/class.events.php:952
+msgid "SparkPost Deliveries"
+msgstr "Recebimentos de SparkPost"
+
+#: inbound-pro/core/cta/shared/classes/class.events.php:952
+#: inbound-pro/core/landing-pages/shared/classes/class.events.php:952
+#: inbound-pro/core/shared/classes/class.events.php:952
+msgid "SparkPost Delivery"
+msgstr "Recebimentos de SparkPost"
 
 #: inbound-pro/core/cta/shared/classes/class.feedback.php:248
 #: inbound-pro/core/landing-pages/shared/classes/class.feedback.php:248
@@ -2584,7 +2633,7 @@ msgstr "AF"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1239
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1242
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1761
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1795
 #: inbound-pro/core/shared/classes/class.form.php:1242
 msgid "Afghanistan"
 msgstr "Afeganistão"
@@ -2609,7 +2658,7 @@ msgstr "AL"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1241
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1244
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1762
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1796
 #: inbound-pro/core/shared/classes/class.form.php:1244
 msgid "Albania"
 msgstr "Albânia"
@@ -2622,7 +2671,7 @@ msgstr "DZ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1242
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1245
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1763
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1797
 #: inbound-pro/core/shared/classes/class.form.php:1245
 msgid "Algeria"
 msgstr "Argélia"
@@ -2635,7 +2684,7 @@ msgstr "COMO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1243
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1246
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1764
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1798
 #: inbound-pro/core/shared/classes/class.form.php:1246
 msgid "American Samoa"
 msgstr "Samoa Americana"
@@ -2648,7 +2697,7 @@ msgstr "AD"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1244
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1247
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1765
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1799
 #: inbound-pro/core/shared/classes/class.form.php:1247
 msgid "Andorra"
 msgstr "Andorra"
@@ -2661,7 +2710,7 @@ msgstr "AO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1245
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1248
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1766
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1800
 #: inbound-pro/core/shared/classes/class.form.php:1248
 msgid "Angola"
 msgstr "Angola"
@@ -2674,7 +2723,7 @@ msgstr "AI"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1246
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1249
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1767
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1801
 #: inbound-pro/core/shared/classes/class.form.php:1249
 msgid "Anguilla"
 msgstr "Anguilla"
@@ -2711,7 +2760,7 @@ msgstr "AR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1249
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1252
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1769
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1803
 #: inbound-pro/core/shared/classes/class.form.php:1252
 msgid "Argentina"
 msgstr "Argentina"
@@ -2724,7 +2773,7 @@ msgstr "AM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1250
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1253
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1770
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1804
 #: inbound-pro/core/shared/classes/class.form.php:1253
 msgid "Armenia"
 msgstr "Armênia"
@@ -2737,7 +2786,7 @@ msgstr "AH"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1251
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1254
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1771
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1805
 #: inbound-pro/core/shared/classes/class.form.php:1254
 msgid "Aruba"
 msgstr "Aruba"
@@ -2750,7 +2799,7 @@ msgstr "AU"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1252
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1255
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1772
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1806
 #: inbound-pro/core/shared/classes/class.form.php:1255
 msgid "Australia"
 msgstr "Austrália"
@@ -2763,7 +2812,7 @@ msgstr "AT"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1253
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1256
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1773
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1807
 #: inbound-pro/core/shared/classes/class.form.php:1256
 msgid "Austria"
 msgstr "Áustria"
@@ -2776,7 +2825,7 @@ msgstr "AZ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1254
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1257
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1774
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1808
 #: inbound-pro/core/shared/classes/class.form.php:1257
 msgid "Azerbaijan"
 msgstr "Azerbaijão"
@@ -2789,7 +2838,7 @@ msgstr "BS"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1255
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1258
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1775
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1809
 #: inbound-pro/core/shared/classes/class.form.php:1258
 msgid "Bahamas"
 msgstr "Bahamas"
@@ -2802,7 +2851,7 @@ msgstr "BH"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1256
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1259
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1776
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1810
 #: inbound-pro/core/shared/classes/class.form.php:1259
 msgid "Bahrain"
 msgstr "Bahrein"
@@ -2815,7 +2864,7 @@ msgstr "BD"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1257
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1260
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1777
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1811
 #: inbound-pro/core/shared/classes/class.form.php:1260
 msgid "Bangladesh"
 msgstr "Bangladesh"
@@ -2828,7 +2877,7 @@ msgstr "BB"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1258
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1261
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1778
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1812
 #: inbound-pro/core/shared/classes/class.form.php:1261
 msgid "Barbados"
 msgstr "Barbados"
@@ -2841,7 +2890,7 @@ msgstr "POR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1259
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1262
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1779
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1813
 #: inbound-pro/core/shared/classes/class.form.php:1262
 msgid "Belarus"
 msgstr "Belarus"
@@ -2854,7 +2903,7 @@ msgstr "SER"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1260
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1263
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1780
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1814
 #: inbound-pro/core/shared/classes/class.form.php:1263
 msgid "Belgium"
 msgstr "Bélgica"
@@ -2867,7 +2916,7 @@ msgstr "BZ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1261
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1264
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1781
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1815
 #: inbound-pro/core/shared/classes/class.form.php:1264
 msgid "Belize"
 msgstr "Belize"
@@ -2880,7 +2929,7 @@ msgstr "BJ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1262
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1265
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1782
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1816
 #: inbound-pro/core/shared/classes/class.form.php:1265
 msgid "Benin"
 msgstr "Benin"
@@ -2893,7 +2942,7 @@ msgstr "BM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1263
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1266
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1783
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1817
 #: inbound-pro/core/shared/classes/class.form.php:1266
 msgid "Bermuda"
 msgstr "Bermuda"
@@ -2906,7 +2955,7 @@ msgstr "BT"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1264
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1267
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1784
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1818
 #: inbound-pro/core/shared/classes/class.form.php:1267
 msgid "Bhutan"
 msgstr "Butão"
@@ -2919,7 +2968,7 @@ msgstr "BO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1265
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1268
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1785
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1819
 #: inbound-pro/core/shared/classes/class.form.php:1268
 msgid "Bolivia"
 msgstr "Bolívia"
@@ -2944,7 +2993,7 @@ msgstr "BW"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1267
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1270
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1788
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1822
 #: inbound-pro/core/shared/classes/class.form.php:1270
 msgid "Botswana"
 msgstr "Botswana"
@@ -2969,7 +3018,7 @@ msgstr "BR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1269
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1272
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1789
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1823
 #: inbound-pro/core/shared/classes/class.form.php:1272
 msgid "Brazil"
 msgstr "Brasil"
@@ -3006,7 +3055,7 @@ msgstr "BG"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1272
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1275
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1792
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1826
 #: inbound-pro/core/shared/classes/class.form.php:1275
 msgid "Bulgaria"
 msgstr "Bulgária"
@@ -3019,7 +3068,7 @@ msgstr "BF"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1273
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1276
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1793
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1827
 #: inbound-pro/core/shared/classes/class.form.php:1276
 msgid "Burkina Faso"
 msgstr "Burkina Faso"
@@ -3032,7 +3081,7 @@ msgstr "BI"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1274
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1277
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1794
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1828
 #: inbound-pro/core/shared/classes/class.form.php:1277
 msgid "Burundi"
 msgstr "Burundi"
@@ -3045,7 +3094,7 @@ msgstr "KH"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1275
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1278
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1795
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1829
 #: inbound-pro/core/shared/classes/class.form.php:1278
 msgid "Cambodia"
 msgstr "Camboja"
@@ -3058,7 +3107,7 @@ msgstr "CM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1276
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1279
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1796
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1830
 #: inbound-pro/core/shared/classes/class.form.php:1279
 msgid "Cameroon"
 msgstr "República dos Camarões"
@@ -3071,7 +3120,7 @@ msgstr "CA"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1277
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1280
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1797
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1831
 #: inbound-pro/core/shared/classes/class.form.php:1280
 msgid "Canada"
 msgstr "Canadá"
@@ -3084,7 +3133,7 @@ msgstr "CV"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1278
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1281
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1799
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1833
 #: inbound-pro/core/shared/classes/class.form.php:1281
 msgid "Cape Verde"
 msgstr "Cabo Verde"
@@ -3109,7 +3158,7 @@ msgstr "KY"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1280
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1283
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1800
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1834
 #: inbound-pro/core/shared/classes/class.form.php:1283
 msgid "Cayman Islands"
 msgstr "Ilhas Cayman"
@@ -3122,7 +3171,7 @@ msgstr "CF"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1281
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1284
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1801
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1835
 #: inbound-pro/core/shared/classes/class.form.php:1284
 msgid "Central African Republic"
 msgstr "República Centro-Africana"
@@ -3135,7 +3184,7 @@ msgstr "TD"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1282
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1285
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1802
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1836
 #: inbound-pro/core/shared/classes/class.form.php:1285
 msgid "Chad"
 msgstr "Chade"
@@ -3148,7 +3197,7 @@ msgstr "CL"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1283
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1286
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1804
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1838
 #: inbound-pro/core/shared/classes/class.form.php:1286
 msgid "Chile"
 msgstr "Chile"
@@ -3161,7 +3210,7 @@ msgstr "CN"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1284
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1287
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1805
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1839
 #: inbound-pro/core/shared/classes/class.form.php:1287
 msgid "China"
 msgstr "China"
@@ -3174,7 +3223,7 @@ msgstr "CX"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1285
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1288
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1806
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1840
 #: inbound-pro/core/shared/classes/class.form.php:1288
 msgid "Christmas Island"
 msgstr "Ilha Christmas"
@@ -3199,7 +3248,7 @@ msgstr "CO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1287
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1290
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1808
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1842
 #: inbound-pro/core/shared/classes/class.form.php:1290
 msgid "Colombia"
 msgstr "Colômbia"
@@ -3212,7 +3261,7 @@ msgstr "KM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1288
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1291
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1809
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1843
 #: inbound-pro/core/shared/classes/class.form.php:1291
 msgid "Comoros"
 msgstr "Comores"
@@ -3225,7 +3274,7 @@ msgstr "CG"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1289
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1292
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1810
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1844
 #: inbound-pro/core/shared/classes/class.form.php:1292
 msgid "Congo"
 msgstr "Congo"
@@ -3250,7 +3299,7 @@ msgstr "CK"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1291
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1294
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1811
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1845
 #: inbound-pro/core/shared/classes/class.form.php:1294
 msgid "Cook Islands"
 msgstr "Ilhas Cook"
@@ -3263,7 +3312,7 @@ msgstr "CR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1292
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1295
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1812
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1846
 #: inbound-pro/core/shared/classes/class.form.php:1295
 msgid "Costa Rica"
 msgstr "Costa Rica"
@@ -3288,7 +3337,7 @@ msgstr "HR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1294
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1297
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1814
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1848
 #: inbound-pro/core/shared/classes/class.form.php:1297
 msgid "Croatia"
 msgstr "Croácia"
@@ -3301,7 +3350,7 @@ msgstr "CU"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1295
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1298
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1815
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1849
 #: inbound-pro/core/shared/classes/class.form.php:1298
 msgid "Cuba"
 msgstr "Cuba"
@@ -3314,7 +3363,7 @@ msgstr "CW"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1296
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1299
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1816
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1850
 #: inbound-pro/core/shared/classes/class.form.php:1299
 msgid "Curacao"
 msgstr "Curaçao"
@@ -3327,7 +3376,7 @@ msgstr "CY"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1297
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1300
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1817
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1851
 #: inbound-pro/core/shared/classes/class.form.php:1300
 msgid "Cyprus"
 msgstr "Chipre"
@@ -3340,7 +3389,7 @@ msgstr "CZ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1298
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1301
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1818
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1852
 #: inbound-pro/core/shared/classes/class.form.php:1301
 msgid "Czech Republic"
 msgstr "República Tcheca"
@@ -3353,7 +3402,7 @@ msgstr "DK"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1299
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1302
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1819
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1853
 #: inbound-pro/core/shared/classes/class.form.php:1302
 msgid "Denmark"
 msgstr "Dinamarca"
@@ -3366,7 +3415,7 @@ msgstr "DJ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1300
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1303
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1820
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1854
 #: inbound-pro/core/shared/classes/class.form.php:1303
 msgid "Djibouti"
 msgstr "Djibuti"
@@ -3379,7 +3428,7 @@ msgstr "DM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1301
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1304
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1821
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1855
 #: inbound-pro/core/shared/classes/class.form.php:1304
 msgid "Dominica"
 msgstr "Dominica"
@@ -3392,7 +3441,7 @@ msgstr "FAZER"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1302
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1305
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1822
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1856
 #: inbound-pro/core/shared/classes/class.form.php:1305
 msgid "Dominican Republic"
 msgstr "República Dominicana"
@@ -3405,7 +3454,7 @@ msgstr "CE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1303
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1306
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1824
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1858
 #: inbound-pro/core/shared/classes/class.form.php:1306
 msgid "Ecuador"
 msgstr "Equador"
@@ -3418,7 +3467,7 @@ msgstr "POR EXEMPLO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1304
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1307
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1825
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1859
 #: inbound-pro/core/shared/classes/class.form.php:1307
 msgid "Egypt"
 msgstr "Egito"
@@ -3431,7 +3480,7 @@ msgstr "SV"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1305
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1308
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1826
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1860
 #: inbound-pro/core/shared/classes/class.form.php:1308
 msgid "El Salvador"
 msgstr "El Salvador"
@@ -3444,7 +3493,7 @@ msgstr "GQ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1306
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1309
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1827
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1861
 #: inbound-pro/core/shared/classes/class.form.php:1309
 msgid "Equatorial Guinea"
 msgstr "Guiné Equatorial"
@@ -3457,7 +3506,7 @@ msgstr "PRONTO-SOCORRO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1307
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1310
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1828
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1862
 #: inbound-pro/core/shared/classes/class.form.php:1310
 msgid "Eritrea"
 msgstr "Eritreia"
@@ -3470,7 +3519,7 @@ msgstr "EE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1308
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1311
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1829
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1863
 #: inbound-pro/core/shared/classes/class.form.php:1311
 msgid "Estonia"
 msgstr "Estônia"
@@ -3483,7 +3532,7 @@ msgstr "ET"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1309
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1312
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1830
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1864
 #: inbound-pro/core/shared/classes/class.form.php:1312
 msgid "Ethiopia"
 msgstr "Etiópia"
@@ -3496,7 +3545,7 @@ msgstr "FK"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1310
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1313
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1831
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1865
 #: inbound-pro/core/shared/classes/class.form.php:1313
 msgid "Falkland Islands"
 msgstr "Libra de Ilhas Falkland"
@@ -3509,7 +3558,7 @@ msgstr "FO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1311
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1314
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1832
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1866
 #: inbound-pro/core/shared/classes/class.form.php:1314
 msgid "Faroe Islands"
 msgstr "Ilhas Faroés"
@@ -3522,7 +3571,7 @@ msgstr "FJ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1312
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1315
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1833
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1867
 #: inbound-pro/core/shared/classes/class.form.php:1315
 msgid "Fiji"
 msgstr "Fiji"
@@ -3535,7 +3584,7 @@ msgstr "FI"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1313
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1316
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1834
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1868
 #: inbound-pro/core/shared/classes/class.form.php:1316
 msgid "Finland"
 msgstr "Finlândia"
@@ -3548,7 +3597,7 @@ msgstr "FR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1314
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1317
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1835
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1869
 #: inbound-pro/core/shared/classes/class.form.php:1317
 msgid "France"
 msgstr "França"
@@ -3561,7 +3610,7 @@ msgstr "GF"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1315
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1318
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1836
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1870
 #: inbound-pro/core/shared/classes/class.form.php:1318
 msgid "French Guiana"
 msgstr "Guiana francesa"
@@ -3574,7 +3623,7 @@ msgstr "PF"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1316
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1319
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1837
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1871
 #: inbound-pro/core/shared/classes/class.form.php:1319
 msgid "French Polynesia"
 msgstr "Polinésia francesa"
@@ -3599,7 +3648,7 @@ msgstr "GA"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1318
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1321
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1839
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1873
 #: inbound-pro/core/shared/classes/class.form.php:1321
 msgid "Gabon"
 msgstr "Gabão"
@@ -3612,7 +3661,7 @@ msgstr "GM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1319
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1322
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1840
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1874
 #: inbound-pro/core/shared/classes/class.form.php:1322
 msgid "Gambia"
 msgstr "Gâmbia"
@@ -3625,7 +3674,7 @@ msgstr "GE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1320
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1323
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1841
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1875
 #: inbound-pro/core/shared/classes/class.form.php:1323
 msgid "Georgia"
 msgstr "Geórgia"
@@ -3638,7 +3687,7 @@ msgstr "DE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1321
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1324
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1842
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1876
 #: inbound-pro/core/shared/classes/class.form.php:1324
 msgid "Germany"
 msgstr "Alemanha"
@@ -3651,7 +3700,7 @@ msgstr "GH"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1322
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1325
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1843
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1877
 #: inbound-pro/core/shared/classes/class.form.php:1325
 msgid "Ghana"
 msgstr "Gana"
@@ -3664,7 +3713,7 @@ msgstr "GI"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1323
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1326
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1844
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1878
 #: inbound-pro/core/shared/classes/class.form.php:1326
 msgid "Gibraltar"
 msgstr "Gibraltar"
@@ -3677,7 +3726,7 @@ msgstr "GR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1324
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1327
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1846
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1880
 #: inbound-pro/core/shared/classes/class.form.php:1327
 msgid "Greece"
 msgstr "Grécia"
@@ -3690,7 +3739,7 @@ msgstr "GL"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1325
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1328
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1847
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1881
 #: inbound-pro/core/shared/classes/class.form.php:1328
 msgid "Greenland"
 msgstr "Gronelândia"
@@ -3703,7 +3752,7 @@ msgstr "GD"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1326
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1329
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1848
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1882
 #: inbound-pro/core/shared/classes/class.form.php:1329
 msgid "Grenada"
 msgstr "Grenada"
@@ -3716,7 +3765,7 @@ msgstr "GP"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1327
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1330
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1849
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1883
 #: inbound-pro/core/shared/classes/class.form.php:1330
 msgid "Guadeloupe"
 msgstr "Guadalupe"
@@ -3729,7 +3778,7 @@ msgstr "GU"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1328
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1331
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1850
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1884
 #: inbound-pro/core/shared/classes/class.form.php:1331
 msgid "Guam"
 msgstr "Guam"
@@ -3742,7 +3791,7 @@ msgstr "GT"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1329
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1332
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1851
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1885
 #: inbound-pro/core/shared/classes/class.form.php:1332
 msgid "Guatemala"
 msgstr "Guatemala"
@@ -3767,7 +3816,7 @@ msgstr "GN"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1331
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1334
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1852
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1886
 #: inbound-pro/core/shared/classes/class.form.php:1334
 msgid "Guinea"
 msgstr "Guiné"
@@ -3792,7 +3841,7 @@ msgstr "GY"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1333
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1336
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1853
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1887
 #: inbound-pro/core/shared/classes/class.form.php:1336
 msgid "Guyana"
 msgstr "Guiana"
@@ -3805,7 +3854,7 @@ msgstr "HT"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1334
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1337
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1854
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1888
 #: inbound-pro/core/shared/classes/class.form.php:1337
 msgid "Haiti"
 msgstr "Haiti"
@@ -3830,7 +3879,7 @@ msgstr "HN"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1336
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1339
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1856
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1890
 #: inbound-pro/core/shared/classes/class.form.php:1339
 msgid "Honduras"
 msgstr "Honduras"
@@ -3843,7 +3892,7 @@ msgstr "HK"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1337
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1340
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1857
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1891
 #: inbound-pro/core/shared/classes/class.form.php:1340
 msgid "Hong Kong"
 msgstr "Hong Kong"
@@ -3856,7 +3905,7 @@ msgstr "HU"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1338
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1341
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1858
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1892
 #: inbound-pro/core/shared/classes/class.form.php:1341
 msgid "Hungary"
 msgstr "Hungria"
@@ -3869,7 +3918,7 @@ msgstr "É"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1339
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1342
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1859
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1893
 #: inbound-pro/core/shared/classes/class.form.php:1342
 msgid "Iceland"
 msgstr "Islândia"
@@ -3882,7 +3931,7 @@ msgstr "EM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1340
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1343
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1860
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1894
 #: inbound-pro/core/shared/classes/class.form.php:1343
 msgid "India"
 msgstr "Índia"
@@ -3899,7 +3948,7 @@ msgstr "ID"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1341
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1344
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1861
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1895
 #: inbound-pro/core/shared/classes/class.form.php:1344
 msgid "Indonesia"
 msgstr "Indonésia"
@@ -3912,7 +3961,7 @@ msgstr "IV"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1342
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1345
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1862
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1896
 #: inbound-pro/core/shared/classes/class.form.php:1345
 msgid "Iran"
 msgstr "Irã"
@@ -3925,7 +3974,7 @@ msgstr "IQ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1343
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1346
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1863
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1897
 #: inbound-pro/core/shared/classes/class.form.php:1346
 msgid "Iraq"
 msgstr "Iraque"
@@ -3938,7 +3987,7 @@ msgstr "IE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1344
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1347
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1864
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1898
 #: inbound-pro/core/shared/classes/class.form.php:1347
 msgid "Ireland"
 msgstr "Irlanda"
@@ -3951,7 +4000,7 @@ msgstr "IM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1345
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1348
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1865
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1899
 #: inbound-pro/core/shared/classes/class.form.php:1348
 msgid "Isle of Man"
 msgstr "Ilha de Man"
@@ -3964,7 +4013,7 @@ msgstr "IL"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1346
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1349
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1866
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1900
 #: inbound-pro/core/shared/classes/class.form.php:1349
 msgid "Israel"
 msgstr "Israel"
@@ -3977,7 +4026,7 @@ msgstr "-"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1347
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1350
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1867
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1901
 #: inbound-pro/core/shared/classes/class.form.php:1350
 msgid "Italy"
 msgstr "Itália"
@@ -3990,7 +4039,7 @@ msgstr "JM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1348
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1351
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1868
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1902
 #: inbound-pro/core/shared/classes/class.form.php:1351
 msgid "Jamaica"
 msgstr "Jamaica"
@@ -4003,7 +4052,7 @@ msgstr "JP"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1349
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1352
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1869
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1903
 #: inbound-pro/core/shared/classes/class.form.php:1352
 msgid "Japan"
 msgstr "Japão"
@@ -4028,7 +4077,7 @@ msgstr "JO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1351
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1354
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1870
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1904
 #: inbound-pro/core/shared/classes/class.form.php:1354
 msgid "Jordan"
 msgstr "Jordânia"
@@ -4041,7 +4090,7 @@ msgstr "KZ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1352
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1355
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1871
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1905
 #: inbound-pro/core/shared/classes/class.form.php:1355
 msgid "Kazakhstan"
 msgstr "Cazaquistão"
@@ -4054,7 +4103,7 @@ msgstr "KE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1353
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1356
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1872
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1906
 #: inbound-pro/core/shared/classes/class.form.php:1356
 msgid "Kenya"
 msgstr "Quênia"
@@ -4067,7 +4116,7 @@ msgstr "KI"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1354
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1357
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1873
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1907
 #: inbound-pro/core/shared/classes/class.form.php:1357
 msgid "Kiribati"
 msgstr "Kiribati"
@@ -4080,7 +4129,7 @@ msgstr "KW"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1355
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1358
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1876
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1910
 #: inbound-pro/core/shared/classes/class.form.php:1358
 msgid "Kuwait"
 msgstr "Kuaite"
@@ -4093,7 +4142,7 @@ msgstr "KG"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1356
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1359
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1877
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1911
 #: inbound-pro/core/shared/classes/class.form.php:1359
 msgid "Kyrgyzstan"
 msgstr "Quirguistão"
@@ -4118,7 +4167,7 @@ msgstr "LV"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1358
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1361
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1879
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1913
 #: inbound-pro/core/shared/classes/class.form.php:1361
 msgid "Latvia"
 msgstr "Letônia"
@@ -4131,7 +4180,7 @@ msgstr "LB"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1359
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1362
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1880
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1914
 #: inbound-pro/core/shared/classes/class.form.php:1362
 msgid "Lebanon"
 msgstr "Líbano"
@@ -4144,7 +4193,7 @@ msgstr "LS"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1360
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1363
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1881
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1915
 #: inbound-pro/core/shared/classes/class.form.php:1363
 msgid "Lesotho"
 msgstr "Lesoto"
@@ -4157,7 +4206,7 @@ msgstr "LR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1361
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1364
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1882
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1916
 #: inbound-pro/core/shared/classes/class.form.php:1364
 msgid "Liberia"
 msgstr "Libéria"
@@ -4170,7 +4219,7 @@ msgstr "LY"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1362
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1365
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1883
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1917
 #: inbound-pro/core/shared/classes/class.form.php:1365
 msgid "Libya"
 msgstr "Líbia"
@@ -4183,7 +4232,7 @@ msgstr "LI"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1363
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1366
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1884
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1918
 #: inbound-pro/core/shared/classes/class.form.php:1366
 msgid "Liechtenstein"
 msgstr "Liechtenstein"
@@ -4196,7 +4245,7 @@ msgstr "LT"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1364
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1367
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1885
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1919
 #: inbound-pro/core/shared/classes/class.form.php:1367
 msgid "Lithuania"
 msgstr "Lituânia"
@@ -4209,7 +4258,7 @@ msgstr "LU"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1365
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1368
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1886
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1920
 #: inbound-pro/core/shared/classes/class.form.php:1368
 msgid "Luxembourg"
 msgstr "Luxemburgo"
@@ -4222,7 +4271,7 @@ msgstr "MO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1366
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1369
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1887
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1921
 #: inbound-pro/core/shared/classes/class.form.php:1369
 msgid "Macau"
 msgstr "Macau"
@@ -4235,7 +4284,7 @@ msgstr "MK"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1367
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1370
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1888
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1922
 #: inbound-pro/core/shared/classes/class.form.php:1370
 msgid "Macedonia"
 msgstr "Macedónia"
@@ -4248,7 +4297,7 @@ msgstr "MG"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1368
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1371
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1889
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1923
 #: inbound-pro/core/shared/classes/class.form.php:1371
 msgid "Madagascar"
 msgstr "Madagascar"
@@ -4261,7 +4310,7 @@ msgstr "MW"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1369
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1372
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1891
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1925
 #: inbound-pro/core/shared/classes/class.form.php:1372
 msgid "Malawi"
 msgstr "Malawi"
@@ -4274,7 +4323,7 @@ msgstr "MEU"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1370
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1373
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1890
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1924
 #: inbound-pro/core/shared/classes/class.form.php:1373
 msgid "Malaysia"
 msgstr "Malásia"
@@ -4287,7 +4336,7 @@ msgstr "MV"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1371
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1374
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1892
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1926
 #: inbound-pro/core/shared/classes/class.form.php:1374
 msgid "Maldives"
 msgstr "Maldives"
@@ -4300,7 +4349,7 @@ msgstr "ML"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1372
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1375
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1893
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1927
 #: inbound-pro/core/shared/classes/class.form.php:1375
 msgid "Mali"
 msgstr "Mali"
@@ -4313,7 +4362,7 @@ msgstr "MT"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1373
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1376
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1894
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1928
 #: inbound-pro/core/shared/classes/class.form.php:1376
 msgid "Malta"
 msgstr "Malta"
@@ -4327,7 +4376,7 @@ msgstr "MH"
 #: inbound-pro/core/cta/shared/classes/class.form.php:1374
 #: inbound-pro/core/inbound-mailer/classes/class.scheduling.php:357
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1377
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1895
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1929
 #: inbound-pro/core/shared/classes/class.form.php:1377
 msgid "Marshall Islands"
 msgstr "Ilhas Marshall"
@@ -4340,7 +4389,7 @@ msgstr "MQ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1375
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1378
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1896
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1930
 #: inbound-pro/core/shared/classes/class.form.php:1378
 msgid "Martinique"
 msgstr "Martinica"
@@ -4353,7 +4402,7 @@ msgstr "SENHOR DEPUTADO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1376
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1379
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1897
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1931
 #: inbound-pro/core/shared/classes/class.form.php:1379
 msgid "Mauritania"
 msgstr "Mauritânia"
@@ -4366,7 +4415,7 @@ msgstr "MU"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1377
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1380
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1898
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1932
 #: inbound-pro/core/shared/classes/class.form.php:1380
 msgid "Mauritius"
 msgstr "Maurícia"
@@ -4379,7 +4428,7 @@ msgstr "YT"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1378
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1381
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1899
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1933
 #: inbound-pro/core/shared/classes/class.form.php:1381
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -4392,7 +4441,7 @@ msgstr "MX"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1379
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1382
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1900
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1934
 #: inbound-pro/core/shared/classes/class.form.php:1382
 msgid "Mexico"
 msgstr "México"
@@ -4417,7 +4466,7 @@ msgstr "MD"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1381
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1384
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1902
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1936
 #: inbound-pro/core/shared/classes/class.form.php:1384
 msgid "Moldova"
 msgstr "Moldávia"
@@ -4430,7 +4479,7 @@ msgstr "MC"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1382
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1385
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1903
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1937
 #: inbound-pro/core/shared/classes/class.form.php:1385
 msgid "Monaco"
 msgstr "Monaco"
@@ -4443,7 +4492,7 @@ msgstr "MN"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1383
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1386
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1904
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1938
 #: inbound-pro/core/shared/classes/class.form.php:1386
 msgid "Mongolia"
 msgstr "Mongólia"
@@ -4468,7 +4517,7 @@ msgstr "MS"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1385
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1388
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1905
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1939
 #: inbound-pro/core/shared/classes/class.form.php:1388
 msgid "Montserrat"
 msgstr "Montserrat"
@@ -4481,7 +4530,7 @@ msgstr "MA"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1386
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1389
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1906
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1940
 #: inbound-pro/core/shared/classes/class.form.php:1389
 msgid "Morocco"
 msgstr "Marrocos"
@@ -4494,7 +4543,7 @@ msgstr "MZ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1387
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1390
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1907
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1941
 #: inbound-pro/core/shared/classes/class.form.php:1390
 msgid "Mozambique"
 msgstr "Moçambique"
@@ -4507,7 +4556,7 @@ msgstr "MM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1388
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1391
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1908
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1942
 #: inbound-pro/core/shared/classes/class.form.php:1391
 msgid "Myanmar"
 msgstr "Myanmar"
@@ -4532,7 +4581,7 @@ msgstr "NR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1390
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1393
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1910
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1944
 #: inbound-pro/core/shared/classes/class.form.php:1393
 msgid "Nauru"
 msgstr "Nauru"
@@ -4545,7 +4594,7 @@ msgstr "NP"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1391
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1394
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1911
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1945
 #: inbound-pro/core/shared/classes/class.form.php:1394
 msgid "Nepal"
 msgstr "Nepal"
@@ -4558,7 +4607,7 @@ msgstr "NC"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1392
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1395
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1915
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1949
 #: inbound-pro/core/shared/classes/class.form.php:1395
 msgid "New Caledonia"
 msgstr "Nova Caledônia"
@@ -4571,7 +4620,7 @@ msgstr "NZ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1393
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1396
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1916
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1950
 #: inbound-pro/core/shared/classes/class.form.php:1396
 msgid "New Zealand"
 msgstr "Nova Zelândia"
@@ -4584,7 +4633,7 @@ msgstr "NI"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1394
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1397
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1917
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1951
 #: inbound-pro/core/shared/classes/class.form.php:1397
 msgid "Nicaragua"
 msgstr "Nicarágua"
@@ -4597,7 +4646,7 @@ msgstr "NE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1395
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1398
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1918
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1952
 #: inbound-pro/core/shared/classes/class.form.php:1398
 msgid "Niger"
 msgstr "Níger"
@@ -4610,7 +4659,7 @@ msgstr "NG"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1396
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1399
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1919
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1953
 #: inbound-pro/core/shared/classes/class.form.php:1399
 msgid "Nigeria"
 msgstr "Nigéria"
@@ -4623,7 +4672,7 @@ msgstr "NU"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1397
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1400
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1920
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1954
 #: inbound-pro/core/shared/classes/class.form.php:1400
 msgid "Niue"
 msgstr "Niue"
@@ -4636,7 +4685,7 @@ msgstr "NF"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1398
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1401
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1921
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1955
 #: inbound-pro/core/shared/classes/class.form.php:1401
 msgid "Norfolk Island"
 msgstr "Ilha Norfolk"
@@ -4673,7 +4722,7 @@ msgstr "N"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1401
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1404
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1922
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1956
 #: inbound-pro/core/shared/classes/class.form.php:1404
 msgid "Norway"
 msgstr "Noruega"
@@ -4686,7 +4735,7 @@ msgstr "OM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1402
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1405
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1923
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1957
 #: inbound-pro/core/shared/classes/class.form.php:1405
 msgid "Oman"
 msgstr "Omã"
@@ -4699,7 +4748,7 @@ msgstr "PK"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1403
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1406
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1924
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1958
 #: inbound-pro/core/shared/classes/class.form.php:1406
 msgid "Pakistan"
 msgstr "Paquistão"
@@ -4736,7 +4785,7 @@ msgstr "PA"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1406
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1409
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1927
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1961
 #: inbound-pro/core/shared/classes/class.form.php:1409
 msgid "Panama"
 msgstr "Panamá"
@@ -4749,7 +4798,7 @@ msgstr "PG"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1407
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1410
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1928
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1962
 #: inbound-pro/core/shared/classes/class.form.php:1410
 msgid "Papua New Guinea"
 msgstr "Papua-Nova Guiné"
@@ -4762,7 +4811,7 @@ msgstr "PY"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1408
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1411
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1929
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1963
 #: inbound-pro/core/shared/classes/class.form.php:1411
 msgid "Paraguay"
 msgstr "Paraguai"
@@ -4775,7 +4824,7 @@ msgstr "PE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1409
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1412
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1930
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1964
 #: inbound-pro/core/shared/classes/class.form.php:1412
 msgid "Peru"
 msgstr "Peru"
@@ -4788,7 +4837,7 @@ msgstr "PH"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1410
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1413
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1931
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1965
 #: inbound-pro/core/shared/classes/class.form.php:1413
 msgid "Philippines"
 msgstr "Filipinas"
@@ -4813,7 +4862,7 @@ msgstr "PL"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1412
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1415
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1933
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1967
 #: inbound-pro/core/shared/classes/class.form.php:1415
 msgid "Poland"
 msgstr "Polônia"
@@ -4826,7 +4875,7 @@ msgstr "PT"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1413
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1416
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1934
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1968
 #: inbound-pro/core/shared/classes/class.form.php:1416
 msgid "Portugal"
 msgstr "Portugal"
@@ -4839,7 +4888,7 @@ msgstr "PR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1414
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1417
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1935
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1969
 #: inbound-pro/core/shared/classes/class.form.php:1417
 msgid "Puerto Rico"
 msgstr "Porto Rico"
@@ -4852,7 +4901,7 @@ msgstr "CONTROLE DE QUALIDADE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1415
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1418
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1936
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1970
 #: inbound-pro/core/shared/classes/class.form.php:1418
 msgid "Qatar"
 msgstr "Catar"
@@ -4865,7 +4914,7 @@ msgstr "RE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1416
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1419
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1939
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1973
 #: inbound-pro/core/shared/classes/class.form.php:1419
 msgid "Reunion"
 msgstr "Reunião"
@@ -4878,7 +4927,7 @@ msgstr "RO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1417
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1420
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1940
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1974
 #: inbound-pro/core/shared/classes/class.form.php:1420
 msgid "Romania"
 msgstr "Romênia"
@@ -4903,7 +4952,7 @@ msgstr "RW"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1419
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1422
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1942
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1976
 #: inbound-pro/core/shared/classes/class.form.php:1422
 msgid "Rwanda"
 msgstr "Ruanda"
@@ -5000,7 +5049,7 @@ msgstr "WS"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1427
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1430
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1952
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1986
 #: inbound-pro/core/shared/classes/class.form.php:1430
 msgid "Samoa"
 msgstr "Samoa"
@@ -5013,7 +5062,7 @@ msgstr "SM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1428
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1431
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1954
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1988
 #: inbound-pro/core/shared/classes/class.form.php:1431
 msgid "San Marino"
 msgstr "San Marino"
@@ -5038,7 +5087,7 @@ msgstr "SA"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1430
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1433
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1956
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1990
 #: inbound-pro/core/shared/classes/class.form.php:1433
 msgid "Saudi Arabia"
 msgstr "Arábia Saudita"
@@ -5051,7 +5100,7 @@ msgstr "SN"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1431
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1434
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1957
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1991
 #: inbound-pro/core/shared/classes/class.form.php:1434
 msgid "Senegal"
 msgstr "Senegal"
@@ -5076,7 +5125,7 @@ msgstr "SC"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1433
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1436
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1958
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1992
 #: inbound-pro/core/shared/classes/class.form.php:1436
 msgid "Seychelles"
 msgstr "Seychelles"
@@ -5089,7 +5138,7 @@ msgstr "SL"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1434
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1437
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1959
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1993
 #: inbound-pro/core/shared/classes/class.form.php:1437
 msgid "Sierra Leone"
 msgstr "Serra Leoa"
@@ -5102,7 +5151,7 @@ msgstr "SG"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1435
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1438
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1960
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1994
 #: inbound-pro/core/shared/classes/class.form.php:1438
 msgid "Singapore"
 msgstr "Cingapura"
@@ -5127,7 +5176,7 @@ msgstr "SI"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1437
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1440
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1962
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1996
 #: inbound-pro/core/shared/classes/class.form.php:1440
 msgid "Slovenia"
 msgstr "Eslovênia"
@@ -5140,7 +5189,7 @@ msgstr "SB"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1438
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1441
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1963
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1997
 #: inbound-pro/core/shared/classes/class.form.php:1441
 msgid "Solomon Islands"
 msgstr "Ilhas Salomão"
@@ -5153,7 +5202,7 @@ msgstr "ENTÃO"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1439
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1442
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1964
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1998
 #: inbound-pro/core/shared/classes/class.form.php:1442
 msgid "Somalia"
 msgstr "Somália"
@@ -5166,7 +5215,7 @@ msgstr "ZA"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1440
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1443
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1965
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1999
 #: inbound-pro/core/shared/classes/class.form.php:1443
 msgid "South Africa"
 msgstr "África do Sul"
@@ -5216,7 +5265,7 @@ msgstr "ES"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1444
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1447
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1966
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2000
 #: inbound-pro/core/shared/classes/class.form.php:1447
 msgid "Spain"
 msgstr "Espanha"
@@ -5229,7 +5278,7 @@ msgstr "LK"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1445
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1448
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1967
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2001
 #: inbound-pro/core/shared/classes/class.form.php:1448
 msgid "Sri Lanka"
 msgstr "Sri Lanka"
@@ -5254,7 +5303,7 @@ msgstr "SD"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1447
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1450
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1968
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2002
 #: inbound-pro/core/shared/classes/class.form.php:1450
 msgid "Sudan"
 msgstr "Sudão"
@@ -5267,7 +5316,7 @@ msgstr "SR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1448
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1451
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1969
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2003
 #: inbound-pro/core/shared/classes/class.form.php:1451
 msgid "Suriname"
 msgstr "Suriname"
@@ -5292,7 +5341,7 @@ msgstr "SZ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1450
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1453
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1970
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2004
 #: inbound-pro/core/shared/classes/class.form.php:1453
 msgid "Swaziland"
 msgstr "Suazilândia"
@@ -5305,7 +5354,7 @@ msgstr "SE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1451
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1454
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1971
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2005
 #: inbound-pro/core/shared/classes/class.form.php:1454
 msgid "Sweden"
 msgstr "Suécia"
@@ -5318,7 +5367,7 @@ msgstr "CH"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1452
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1455
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1972
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2006
 #: inbound-pro/core/shared/classes/class.form.php:1455
 msgid "Switzerland"
 msgstr "Suíça"
@@ -5331,7 +5380,7 @@ msgstr "SY"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1453
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1456
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1973
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2007
 #: inbound-pro/core/shared/classes/class.form.php:1456
 msgid "Syria"
 msgstr "Síria"
@@ -5344,7 +5393,7 @@ msgstr "TW"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1454
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1457
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1975
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2009
 #: inbound-pro/core/shared/classes/class.form.php:1457
 msgid "Taiwan"
 msgstr "Taiwan"
@@ -5357,7 +5406,7 @@ msgstr "TJ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1455
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1458
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1976
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2010
 #: inbound-pro/core/shared/classes/class.form.php:1458
 msgid "Tajikistan"
 msgstr "Tajiquistão"
@@ -5370,7 +5419,7 @@ msgstr "TZ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1456
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1459
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1977
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2011
 #: inbound-pro/core/shared/classes/class.form.php:1459
 msgid "Tanzania"
 msgstr "Tanzânia"
@@ -5383,7 +5432,7 @@ msgstr "TH"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1457
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1460
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1978
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2012
 #: inbound-pro/core/shared/classes/class.form.php:1460
 msgid "Thailand"
 msgstr "Tailândia"
@@ -5420,7 +5469,7 @@ msgstr "TG"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1460
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1463
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1979
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2013
 #: inbound-pro/core/shared/classes/class.form.php:1463
 msgid "Togo"
 msgstr "Togo"
@@ -5433,7 +5482,7 @@ msgstr "TK"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1461
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1464
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1980
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2014
 #: inbound-pro/core/shared/classes/class.form.php:1464
 msgid "Tokelau"
 msgstr "Tokelau"
@@ -5446,7 +5495,7 @@ msgstr "Para"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1462
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1465
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1981
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2015
 #: inbound-pro/core/shared/classes/class.form.php:1465
 msgid "Tonga"
 msgstr "Tonga"
@@ -5471,7 +5520,7 @@ msgstr "TN"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1464
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1467
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1983
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2017
 #: inbound-pro/core/shared/classes/class.form.php:1467
 msgid "Tunisia"
 msgstr "Tunísia"
@@ -5484,7 +5533,7 @@ msgstr "TR"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1465
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1468
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1984
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2018
 #: inbound-pro/core/shared/classes/class.form.php:1468
 msgid "Turkey"
 msgstr "Turquia"
@@ -5497,7 +5546,7 @@ msgstr "TM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1466
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1469
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1985
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2019
 #: inbound-pro/core/shared/classes/class.form.php:1469
 msgid "Turkmenistan"
 msgstr "Turcomenistão"
@@ -5522,7 +5571,7 @@ msgstr "TV"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1468
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1471
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1987
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2021
 #: inbound-pro/core/shared/classes/class.form.php:1471
 msgid "Tuvalu"
 msgstr "Tuvalu"
@@ -5535,7 +5584,7 @@ msgstr "UG"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1469
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1472
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1988
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2022
 #: inbound-pro/core/shared/classes/class.form.php:1472
 msgid "Uganda"
 msgstr "Uganda"
@@ -5548,7 +5597,7 @@ msgstr "UA"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1470
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1473
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1989
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2023
 #: inbound-pro/core/shared/classes/class.form.php:1473
 msgid "Ukraine"
 msgstr "Ucrânia"
@@ -5561,7 +5610,7 @@ msgstr "AE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1471
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1474
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1990
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2024
 #: inbound-pro/core/shared/classes/class.form.php:1474
 msgid "United Arab Emirates"
 msgstr "Emirados Árabes Unidos"
@@ -5574,7 +5623,7 @@ msgstr "GB"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1472
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1475
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1991
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2025
 #: inbound-pro/core/shared/classes/class.form.php:1475
 msgid "United Kingdom"
 msgstr "Reino Unido"
@@ -5611,7 +5660,7 @@ msgstr "UY"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1475
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1478
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1993
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2027
 #: inbound-pro/core/shared/classes/class.form.php:1478
 msgid "Uruguay"
 msgstr "Uruguai"
@@ -5624,7 +5673,7 @@ msgstr "UZ"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1476
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1479
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1994
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2028
 #: inbound-pro/core/shared/classes/class.form.php:1479
 msgid "Uzbekistan"
 msgstr "Uzbequistão"
@@ -5637,7 +5686,7 @@ msgstr "VU"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1477
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1480
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1995
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2029
 #: inbound-pro/core/shared/classes/class.form.php:1480
 msgid "Vanuatu"
 msgstr "Vanuatu"
@@ -5662,7 +5711,7 @@ msgstr "VE"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1479
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1482
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1997
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2031
 #: inbound-pro/core/shared/classes/class.form.php:1482
 msgid "Venezuela"
 msgstr "Venezuela"
@@ -5675,7 +5724,7 @@ msgstr "VN"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1480
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1483
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1998
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2032
 #: inbound-pro/core/shared/classes/class.form.php:1483
 msgid "Vietnam"
 msgstr "Vietname"
@@ -5736,7 +5785,7 @@ msgstr "VÓS"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1485
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1488
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2003
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2037
 #: inbound-pro/core/shared/classes/class.form.php:1488
 msgid "Yemen"
 msgstr "Iêmen"
@@ -5749,7 +5798,7 @@ msgstr "ZM"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1486
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1489
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2005
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2039
 #: inbound-pro/core/shared/classes/class.form.php:1489
 msgid "Zambia"
 msgstr "Zâmbia"
@@ -5762,7 +5811,7 @@ msgstr "ZW"
 
 #: inbound-pro/core/cta/shared/classes/class.form.php:1487
 #: inbound-pro/core/landing-pages/shared/classes/class.form.php:1490
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2006
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2040
 #: inbound-pro/core/shared/classes/class.form.php:1490
 msgid "Zimbabwe"
 msgstr "Zimbábue"
@@ -5775,8 +5824,8 @@ msgstr "Chave de API"
 
 #: inbound-pro/core/cta/shared/classes/class.inbound-api.api-keys-table.php:50
 #: inbound-pro/core/landing-pages/shared/classes/class.inbound-api.api-keys-table.php:50
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:630
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:631
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:651
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:652
 #: inbound-pro/core/leads/classes/class.settings.php:268
 #: inbound-pro/core/shared/classes/class.inbound-api.api-keys-table.php:50
 msgid "API Keys"
@@ -6413,7 +6462,7 @@ msgid "View All Rules"
 msgstr "Ver todas as regras"
 
 #: inbound-pro/core/cta/shared/classes/class.menus.adminbar.php:387
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:54
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:59
 #: inbound-pro/core/landing-pages/shared/classes/class.menus.adminbar.php:387
 #: inbound-pro/core/shared/classes/class.menus.adminbar.php:387
 msgid "View Rules"
@@ -6421,7 +6470,7 @@ msgstr "Regras de exibição"
 
 #: inbound-pro/core/cta/shared/classes/class.menus.adminbar.php:395
 #: inbound-pro/core/cta/shared/classes/class.menus.adminbar.php:397
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:51
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:56
 #: inbound-pro/core/landing-pages/shared/classes/class.menus.adminbar.php:395
 #: inbound-pro/core/landing-pages/shared/classes/class.menus.adminbar.php:397
 #: inbound-pro/core/shared/classes/class.menus.adminbar.php:395
@@ -7236,7 +7285,7 @@ msgid "Yellow"
 msgstr "Amarelo"
 
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/alert.php:25
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:183
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:187
 #: inbound-pro/core/landing-pages/shared/shortcodes/shortcodes/alert.php:25
 #: inbound-pro/core/shared/shortcodes/shortcodes/alert.php:25
 msgid "Message"
@@ -9368,7 +9417,7 @@ msgstr "Insira o texto de descrição do perfil."
 
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/profile.php:67
 #: inbound-pro/core/landing-pages/shared/shortcodes/shortcodes/profile.php:67
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:376
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:375
 #: inbound-pro/core/shared/shortcodes/shortcodes/profile.php:67
 msgid "Profile"
 msgstr "Perfil"
@@ -9969,7 +10018,9 @@ msgstr "Y-m-d H:i:s"
 #: inbound-pro/core/inbound-automation/classes/class.metaboxes.automation.php:158
 #: inbound-pro/core/inbound-automation/classes/class.metaboxes.automation.php:186
 #: inbound-pro/core/inbound-automation/classes/class.metaboxes.automation.php:187
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:388
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:81
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:139
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:162
 msgid "Logs"
 msgstr "Logs"
 
@@ -10075,34 +10126,44 @@ msgstr "Mover para baixo"
 msgid "Delete Action Block"
 msgstr "Excluir bloco de ação"
 
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:49
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:54
 msgid "Rule"
 msgstr "Regra de"
 
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:50
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:55
 msgid "New Rule"
 msgstr "Nova regra"
 
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:52
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:57
 msgid "Edit Rule"
 msgstr "Editar regra"
 
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:53
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:58
 msgid "New Rules"
 msgstr "Novas regras"
 
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:55
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:60
 msgid "Search Rules"
 msgstr "Regras de pesquisa"
 
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:89
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:94
 msgid "Automation Status"
 msgstr "Status de automação"
 
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:188
-#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:189
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:193
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:194
 msgid "Clear Queued Tasks"
 msgstr "Clara na fila de tarefas"
+
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:213
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:214
+msgid "Turn Off Rule"
+msgstr "Desabilitar Regra"
+
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:215
+#: inbound-pro/core/inbound-automation/classes/class.post-type.automation.php:216
+msgid "Turn On Rule"
+msgstr "Habilitar Regra"
 
 #: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:33
 msgid "Add/Remove from list"
@@ -10127,27 +10188,27 @@ msgid ""
 "be re-added manually by an administrator."
 msgstr "Se um usuário tem não inscrito em uma lista de automação será não Inscreva novamente-los. Eles terão de preencher um formulário de entrada adicionando-os à lista ou ser re-adicionados manualmente por um administrador."
 
-#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:104
+#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:103
 msgid "List Change - Fail"
 msgstr "Lista de mudança - Fail"
 
-#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:105
+#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:104
 msgid "Failed - bad lead id"
 msgstr "Falhou - mau leva identificação"
 
-#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:145
+#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:144
 msgid "List Change"
 msgstr "Lista de mudança"
 
-#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:146
+#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:145
 msgid "Addded to"
 msgstr "Addded para"
 
-#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:147
+#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:146
 msgid "Removed from"
 msgstr "Removido do"
 
-#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:148
+#: inbound-pro/core/inbound-automation/definitions/action.add-remove-list.php:147
 msgid "Skipped due to prior unsubscribe"
 msgstr "Ignorada devido à prévia unsubscribe"
 
@@ -10159,7 +10220,7 @@ msgstr "Criar o chumbo"
 msgid "Create a lead from user creation event."
 msgstr "Crie uma pista de evento de criação do usuário."
 
-#: inbound-pro/core/inbound-automation/definitions/action.create_lead.php:67
+#: inbound-pro/core/inbound-automation/definitions/action.create_lead.php:66
 msgid "Created Lead"
 msgstr "Criado de chumbo"
 
@@ -10215,7 +10276,7 @@ msgid "Select Email"
 msgstr "Selecione o E-mail"
 
 #: inbound-pro/core/inbound-automation/definitions/action.send_email.php:172
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:223
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:227
 #: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:1091
 msgid "Send Email"
 msgstr "Enviar E-mail"
@@ -10238,8 +10299,9 @@ msgid "Scheduling Next Action to Run at:"
 msgstr "Agendando a próxima ação a ser executado em:"
 
 #: inbound-pro/core/inbound-automation/definitions/query.lead_data.php:19
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1287
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1496
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:546
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1321
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1530
 #: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:82
 msgid "Page Views"
 msgstr "Visualizações de página"
@@ -10381,6 +10443,7 @@ msgstr "Cliques de e-mail"
 #: inbound-pro/core/inbound-mailer/classes/class.extension.wp-lead.php:52
 #: inbound-pro/core/inbound-mailer/classes/class.extension.wp-lead.php:124
 #: inbound-pro/core/inbound-mailer/classes/class.extension.wp-lead.php:231
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:737
 #: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:789
 #: inbound-pro/core/inbound-mailer/classes/class.post-type.inbound-email.php:236
 msgid "Unsubscribes"
@@ -10426,104 +10489,108 @@ msgstr "Selecione o modelo de E-mail de resposta"
 msgid "Do not use a premade email template"
 msgstr "Não use um modelo de email do premade"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:93
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:49
+msgid "Direct Email"
+msgstr "E-mail Direto"
+
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:97
 msgid "No Domains Detected"
 msgstr "Domínio não detectado "
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:117
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:121
 msgid "Type out full address"
 msgstr "Digite o endereço completo"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:134
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:138
 msgid "Use template?"
 msgstr "Usar modelo?"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:135
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:139
 msgid "Use this to choose whether to send a custom or a premade email"
 msgstr "Use isso para escolher se deseja enviar um e-mail personalizado ou pré-configurado"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:143
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:147
 #: inbound-pro/core/inbound-mailer/classes/class.load.email-settings.php:43
 msgid "Subject line of the email. This field is variation dependant!"
 msgstr "Linha de assunto do e-mail. Este campo é dependente de variação!"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:144
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:539
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:148
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:551
 msgid "Subject"
 msgstr "Assunto"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:151
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:543
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:155
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:555
 #: inbound-pro/core/inbound-mailer/classes/class.load.email-settings.php:53
 msgid "From Name"
 msgstr "Remetente"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:152
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:156
 #: inbound-pro/core/inbound-mailer/classes/class.load.email-settings.php:54
 msgid "The name of the sender. This field is variation dependant!"
 msgstr "O nome do remetente. Este campo é dependente de variação!"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:159
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:547
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:163
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:559
 #: inbound-pro/core/inbound-mailer/classes/class.load.email-settings.php:63
 msgid "From Email"
 msgstr "Email Remetente"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:160
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:164
 #: inbound-pro/core/inbound-mailer/classes/class.load.email-settings.php:64
 msgid "The email address of the sender. This field is variation dependant!"
 msgstr "O endereço de e-mail do remetente. Este campo é dependente de variação!"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:167
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:551
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:171
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:563
 #: inbound-pro/core/inbound-mailer/classes/class.load.email-settings.php:73
 msgid "Reply Email"
 msgstr "E-mail de resposta"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:168
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:172
 #: inbound-pro/core/inbound-mailer/classes/class.load.email-settings.php:74
 msgid ""
 "The email address recipients can reply to. This field is variation "
 "dependant!"
 msgstr "Os destinatários do endereço de e-mail podem responder a. Este campo é dependente de variação!"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:175
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:179
 #: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:655
 msgid "Recipient"
 msgstr "Destinatário"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:176
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:180
 msgid "The email address of the recipient."
 msgstr "O endereço de e-mail do destinatário."
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:184
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:188
 msgid "Use this editor to create a short custom email messages"
 msgstr "Utilize este editor para criar mensagens curtas de e-mail personalizadas"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:187
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:191
 msgid ""
 "Email content goes in here. You may want to send yourself one to see how it "
 "looks."
 msgstr "Conteúdo de e-mail entra aqui. Você pode querer enviar-se um para ver como ele fica."
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:193
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:197
 msgid "Use this to select which premade email to use."
 msgstr "Use isso para selecionar qual e-mail pré-configurado ira usar."
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:201
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:205
 msgid "Choose varation"
 msgstr "Escolha a variação"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:202
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:206
 msgid "Use this to select which variation of the premade email to use."
 msgstr "Use isso para selecionar qual variação do e-mail premade usar."
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:301
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:402
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:305
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:406
 msgid "Ajax not enabled"
 msgstr "Ajax não esta habilitado "
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:324
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:328
 #: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:2004
 #: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:2049
 #: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:2098
@@ -10537,99 +10604,99 @@ msgstr "Ajax não esta habilitado "
 msgid "Please wait"
 msgstr "Por favor aguarde"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:325
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:329
 msgid "We are sending a your email now."
 msgstr "Estamos enviando um e-mail agora"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:495
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:507
 msgid "The lead id was not supplied"
 msgstr "O identificador de contato não foi fornecido."
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:495
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:503
 #: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:507
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:595
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:599
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:515
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:519
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:607
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:611
 msgid "System Error:"
 msgstr "Erro no sistema:"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:499
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:511
 msgid "There's an error with the recipient email"
 msgstr "Ocorreu um erro com o e-mail do destinatário"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:499
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:579
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:584
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:589
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:511
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:591
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:596
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:601
 msgid "Field Error:"
 msgstr "Erro de campo:"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:503
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:515
 msgid "The email template id was not supplied"
 msgstr "O identificador de modelo de e-mail não foi fornecido."
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:507
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:519
 msgid "The variation id was not supplied"
 msgstr "O identificador de variação não foi fornecido."
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:527
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:539
 msgid "Your email has been sent!"
 msgstr "Seu e-mail foi enviado!"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:527
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:661
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:539
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:673
 msgid "SUCCESS!"
 msgstr "SUCESSO"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:555
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:567
 msgid "Recipeient Email"
 msgstr "E-mail do destinatário "
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:559
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:571
 msgid "Email Content"
 msgstr "Conteúdo do email"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:567
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:579
 msgid "Please fill in the "
 msgstr "Preencha o campo"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:567
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:579
 msgid "Empty field"
 msgstr "Campo vazio"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:579
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:591
 msgid "There's an error with the Recipient Email Address"
 msgstr "Ocorreu um erro com o endereço de e-mail do destinatário"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:584
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:596
 msgid "There's an error with the From Email"
 msgstr "Ocorreu um erro com o e-mail"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:589
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:601
 msgid "There's an error with the Reply Email"
 msgstr "Ocorreu um erro com o e-mail de resposta"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:595
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:607
 msgid "The post id was not supplied"
 msgstr "O identificador de postagem não foi fornecido."
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:599
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:611
 msgid "The user id was not supplied"
 msgstr "O identificador de usuário não foi fornecido."
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:613
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:625
 msgid "Direct email to "
 msgstr "Email direto para"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:613
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:625
 msgid " on "
 msgstr "em"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:661
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:673
 msgid "Your custom email has been sent!"
 msgstr "Seu e-mail personalizado foi enviado!"
 
-#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:695
+#: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:711
 msgid "Direct E-Mails"
 msgstr "E-mails diretos"
 
@@ -10992,6 +11059,10 @@ msgstr "Voltar"
 #: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:2418
 msgid "We are deleting the statistics and reloading the page."
 msgstr "Estamos excluindo as estatísticas e recarregar a página."
+
+#: inbound-pro/core/inbound-mailer/classes/class.notifications.php:73
+msgid "settings page"
+msgstr "página de configurações"
 
 #: inbound-pro/core/inbound-mailer/classes/class.notifications.php:106
 msgid ""
@@ -11935,10 +12006,8 @@ msgid ""
 msgstr "Esta mensagem será exibida depois que um leitor tiver clicado em cancelar a assinatura dentro de uma série automatizada de e-mail."
 
 #: inbound-pro/core/inbound-mailer/classes/class.settings.php:128
-msgid ""
-"You have unsubscribed! To unsubscribe to additional lists please use the "
-"form below."
-msgstr "Você cancelou a inscrição! Para cancelar a subscrição de listas adicionais, utilize o formulário abaixo."
+msgid "You have unsubscribed!<br>Additional options below."
+msgstr "Você se cancelou a sua inscrição!<br> Opções adicionais abaixo:"
 
 #: inbound-pro/core/inbound-mailer/classes/class.settings.php:133
 msgid "Comment Prompt"
@@ -11964,7 +12033,7 @@ msgid "This is a general header denoting the comment textarea below."
 msgstr "Este é um cabeçalho geral que indicam a área de texto de comentário abaixo."
 
 #: inbound-pro/core/inbound-mailer/classes/class.settings.php:143
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1292
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1326
 msgid "Comments"
 msgstr "Comentários"
 
@@ -12098,7 +12167,7 @@ msgid "Create an API Key"
 msgstr "Criar uma chave de API"
 
 #: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:672
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:738
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:741
 msgid "Maintenance"
 msgstr "Manutenção"
 
@@ -12106,75 +12175,75 @@ msgstr "Manutenção"
 msgid "Spam Complaints"
 msgstr "Denúncias de spam"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:743
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:746
 msgid "Rejected"
 msgstr "Rejeitado"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:818
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:821
 msgid "not created"
 msgstr "Não criado"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:823
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:840
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:826
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:843
 msgid "created"
 msgstr "criado"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:848
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:851
 msgid "API Key:"
 msgstr "Chave da API:"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:855
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:858
 msgid "active"
 msgstr "ativo"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:860
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:919
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:934
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:949
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:863
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:922
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:937
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:952
 msgid "invalid"
 msgstr "Inválido"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:876
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:879
 msgid "Sending Domains:"
 msgstr "Envio de domínios:"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:896
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:899
 msgid "ownership"
 msgstr "Propriedade"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:902
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:905
 msgid "confirmed"
 msgstr "confirmado"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:904
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:907
 msgid "not confirmed"
 msgstr "não confirmado"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:911
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:914
 msgid "spf"
 msgstr "SPF"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:917
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:932
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:947
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:920
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:935
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:950
 msgid "valid"
 msgstr "válido"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:926
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:929
 msgid "dkim"
 msgstr "DKIM"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:941
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:944
 msgid "compliance status"
 msgstr "status de conformidade"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:959
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:962
 msgid ""
 "No sending domains set. Please see https://app.sparkpost.com/account"
 "/sending-domains"
 msgstr "Nenhum conjunto de domínios de envio. Por favor, veja https://app.sparkpost.com/account/sending-domains"
 
-#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:972
+#: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:975
 msgid "Webhooks:"
 msgstr "WebHooks:"
 
@@ -12267,10 +12336,8 @@ msgid "Your email is being created in the background."
 msgstr "Seu e-mail está sendo criado em segundo plano."
 
 #: inbound-pro/core/inbound-mailer/classes/class.unsubscribe.php:34
-msgid ""
-"You have unsubscribed! Please see additional email subscription options "
-"below."
-msgstr "Você cancelou a inscrição! Veja abaixo as opções adicionais de assinatura de e-mail abaixo."
+msgid "You have unsubscribed!<br> Additional options below."
+msgstr "Você se cancelou a sua inscrição!<br> Opções adicionais abaixo:"
 
 #: inbound-pro/core/inbound-mailer/classes/class.unsubscribe.php:39
 msgid "Thank You!"
@@ -13864,6 +13931,10 @@ msgid "All done!"
 msgstr "Tudo feito!"
 
 #: inbound-pro/core/leads/classes/class.dashboard.php:1
+msgid "Lead Events"
+msgstr "Eventos do Lead"
+
+#: inbound-pro/core/leads/classes/class.dashboard.php:1
 msgid "Today"
 msgstr "Hoje"
 
@@ -14002,7 +14073,7 @@ msgstr "Tags atuais"
 #: inbound-pro/core/leads/classes/class.lead-management.php:415
 #: inbound-pro/core/leads/classes/class.lead-management.php:473
 #: inbound-pro/core/leads/classes/class.lead-management.php:1059
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:238
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:257
 msgid "View"
 msgstr "Modo de exibição"
 
@@ -14167,7 +14238,7 @@ msgid "ERROR: unknown action"
 msgstr "ERRO: ação desconhecida"
 
 #: inbound-pro/core/leads/classes/class.lead-management.php:892
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:205
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:224
 msgid "Lead Status"
 msgstr "Status de chumbo"
 
@@ -14251,384 +14322,393 @@ msgstr "Segundo"
 msgid "Activity"
 msgstr "Atividade"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:384
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:385
 msgid "Conversion Paths"
 msgstr "Caminhos de conversão"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:538
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:540
 msgid "Page Views "
 msgstr "Visualizações de página "
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:605
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:628
 msgid "Time Since Last Activity"
 msgstr "Tempo desde a última atividade"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:639
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:662
 msgid "Last conversion detected from localhost"
 msgstr "Última conversão detectado de localhost"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:653
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:699
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:676
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:722
 msgid "No Geo data collected"
 msgstr "Não há dados de Geo coletados"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:677
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:700
 msgid "City:"
 msgstr "Cidade:"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:680
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:703
 msgid "State:"
 msgstr "Estado:"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:683
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:706
 msgid "Area Code:"
 msgstr "Código de área:"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:686
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:709
 msgid "Country:"
 msgstr "País:"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:689
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:712
 msgid "IP Address:"
 msgstr "Endereço IP:"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:693
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:716
 msgid "View Map:"
 msgstr "Veja o mapa:"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:789
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:812
 msgid "Edit User Profile"
 msgstr "Editar perfil de usuário"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:798
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:821
 msgid "Show Empty Fields"
 msgstr "Mostrar campos vazios"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:848
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:882
 msgid "Call to Action Click"
 msgstr "Chamada para Action Click"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:853
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:887
 msgid "Form Submission"
 msgstr "Envio de formulario"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:988
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1022
 msgid "No Referral Data Detected."
 msgstr "Nenhum dado de referência detectado."
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1038
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1052
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1071
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1096
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1072
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1086
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1105
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1130
 msgid "Full Contact"
 msgstr "Contato completo"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1039
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1073
 msgid "Websites:"
 msgstr "Sites:"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1053
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1087
 msgid "Social Profiles:"
 msgstr "Perfis Sociais:"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1073
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1107
 msgid "Work:"
 msgstr "Trabalho:"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1088
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1122
 msgid "View past work"
 msgstr "Ver os últimos trabalhos"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1097
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1131
 msgid "Demographics"
 msgstr "Demografia"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1113
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1147
 msgid "Interests:"
 msgstr "Interesses:"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1140
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1174
 msgid "Consumed Tags:"
 msgstr "Tags consumidas: "
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1320
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1316
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1373
+msgid "Form Submissions"
+msgstr "Submissões de forma"
+
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1354
 msgid "Most Recent"
 msgstr "Mais recentes"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1322
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1356
 msgid "Oldest"
 msgstr "Mais antigo"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1343
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1377
 msgid "No submissions found!"
 msgstr "Sem submissões encontradas!"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1380
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1414
 msgid " Converted on page"
 msgstr " Convertido na página"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1385
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1419
 msgid "using the form "
 msgstr "usando o formulário "
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1386
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1420
 msgid "This is the form the user submitted their data through"
 msgstr "Esta é a forma que o usuário enviado seus dados através"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1386
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1420
 msgid ""
 "Submission was processed through a 3rd party form tool or event data is "
 "incomplete."
 msgstr "Apresentação foi processada através de uma ferramenta de formulário 3ª festa ou evento de dados é incompleto."
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1435
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1469
 msgid "View and respond to the comment"
 msgstr "Visualizar e responder ao comentário"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1452
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1486
 msgid "Lead Searches"
 msgstr "Conduzir pesquisas"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1500
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1534
 msgid "No Page View History Found"
 msgstr "Sem histórico de exibição página encontrado"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1516
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1550
 msgid "Tag Page"
 msgstr "Pagina da Tag"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1538
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1572
 msgid "Viewed page"
 msgstr "Página visualizada"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1586
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1620
 #, php-format
 msgid "Please %s enter your Full Contact API key %s for additional lead data."
 msgstr "Por favor, %s digite sua chave de API de Contato Completo %s para obter dados de contatos adicionais."
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1586
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1620
 msgid "Read more"
 msgstr "Leia mais"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1640
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1674
 msgid "Add New Link"
 msgstr "Adicionar novo Link"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1640
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1674
 msgid "add link"
 msgstr "Adicionar link"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1760
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1794
 msgid "Country..."
 msgstr "País..."
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1768
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1802
 msgid "Antigua &amp; Barbuda"
 msgstr "Antígua e Barbuda"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1786
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1820
 msgid "Bonaire"
 msgstr "Bonaire"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1787
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1821
 msgid "Bosnia &amp; Herzegovina"
 msgstr "Bósnia &amp; Herzegovina"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1790
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1824
 msgid "British Indian Ocean Ter"
 msgstr "British Indian Ocean Ter"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1791
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1825
 msgid "Brunei"
 msgstr "Brunei"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1798
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1832
 msgid "Canary Islands"
 msgstr "Ilhas Canárias"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1803
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1837
 msgid "Channel Islands"
 msgstr "Ilhas do canal"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1807
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1841
 msgid "Cocos Island"
 msgstr "Ilha de cocos"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1813
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1847
 msgid "Cote D'Ivoire"
 msgstr "Costa do Marfim"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1823
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1857
 msgid "East Timor"
 msgstr "Timor-Leste"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1838
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1872
 msgid "French Southern Ter"
 msgstr "Ter Sul francês"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1845
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1879
 msgid "Great Britain"
 msgstr "Grã-Bretanha"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1855
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1889
 msgid "Hawaii"
 msgstr "Havaí"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1874
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1908
 msgid "Korea North"
 msgstr "Coreia norte"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1875
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1909
 msgid "Korea South"
 msgstr "Coreia sul"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1878
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1912
 msgid "Laos"
 msgstr "Laos"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1901
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1935
 msgid "Midway Islands"
 msgstr "Ilhas Midway"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1909
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1943
 msgid "Nambia"
 msgstr "Namíbia"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1912
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1946
 msgid "Netherland Antilles"
 msgstr "Antilhas Holandesas"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1913
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1947
 msgid "Netherlands (Holland, Europe)"
 msgstr "Países Baixos (Holanda, Europa)"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1914
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1948
 msgid "Nevis"
 msgstr "Nevis"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1925
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1959
 msgid "Palau Island"
 msgstr "Palau ilha"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1926
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1960
 msgid "Palestine"
 msgstr "Palestina"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1932
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1966
 msgid "Pitcairn Island"
 msgstr "Ilha Pitcairn"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1937
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1971
 msgid "Republic of Montenegro"
 msgstr "República do Montenegro"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1938
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1972
 msgid "Republic of Serbia"
 msgstr "República da Sérvia"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1941
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1975
 msgid "Russia"
 msgstr "Rússia"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1943
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1977
 msgid "St Barthelemy"
 msgstr "St. Barthelemy"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1944
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1978
 msgid "St Eustatius"
 msgstr "St. Eustatius"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1945
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1979
 msgid "St Helena"
 msgstr "St. Helena"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1946
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1980
 msgid "St Kitts-Nevis"
 msgstr "São Cristóvão-Névis"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1947
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1981
 msgid "St Lucia"
 msgstr "St. Lucia"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1948
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1982
 msgid "St Maarten"
 msgstr "St. Maarten"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1949
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1983
 msgid "St Pierre &amp; Miquelon"
 msgstr "St Pierre &amp; Miquelon"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1950
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1984
 msgid "St Vincent &amp; Grenadines"
 msgstr "São Vicente e Granadinas"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1951
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1985
 msgid "Saipan"
 msgstr "Saipan"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1953
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1987
 msgid "Samoa American"
 msgstr "Samoa Americana"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1955
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1989
 msgid "Sao Tome &amp; Principe"
 msgstr "São Tomé e Príncipe"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1961
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1995
 msgid "Slovakia"
 msgstr "Eslováquia"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1974
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2008
 msgid "Tahiti"
 msgstr "Tahiti"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1982
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2016
 msgid "Trinidad &amp; Tobago"
 msgstr "Trinidad e Tobago"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1986
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2020
 msgid "Turks &amp; Caicos Is"
 msgstr "Turks &amp; Caicos é"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1992
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2026
 msgid "United States of America"
 msgstr "Estados Unidos da América"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1996
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2030
 msgid "Vatican City State"
 msgstr "Cidade do Vaticano"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:1999
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2033
 msgid "Virgin Islands (Brit)"
 msgstr "Ilhas Virgens (Brit)"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2000
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2034
 msgid "Virgin Islands (USA)"
 msgstr "Ilhas Virgens (EUA)"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2001
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2035
 msgid "Wake Island"
 msgstr "Ilha Wake"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2002
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2036
 msgid "Wallis &amp; Futana Is"
 msgstr "É Wallis &amp; Futana"
 
-#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2004
+#: inbound-pro/core/leads/classes/class.metaboxes.wp-lead.php:2038
 msgid "Zaire"
 msgstr "Zaire"
+
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:81
+msgid "Events"
+msgstr "Eventos"
 
 #: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:83
 msgid "Updated"
 msgstr "Atualizado"
 
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:399
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:400
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:420
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:421
 msgid "Add to Contact List"
 msgstr "Adicionar à lista de contatos"
 
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:599
-#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:600
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:620
+#: inbound-pro/core/leads/classes/class.post-type.wp-lead.php:621
 msgid "Bulk Actions"
 msgstr "Ações em massa"
 

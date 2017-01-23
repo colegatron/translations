@@ -1,18 +1,18 @@
 # Translators:
 # Translators:
 # Translators:
+# Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2017-01-19 19:19-0600\n"
-"PO-Revision-Date: 2017-01-19 19:26-0600\n"
+"PO-Revision-Date: 2017-01-20 09:57+0000\n"
 "Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
-"Language-Team: English (http://www.transifex.com/inboundnow/inbound-pro/"
-"language/en/)\n"
-"Language: en\n"
+"Language-Team: English (http://www.transifex.com/inboundnow/inbound-pro/language/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.11\n"
 "X-Poedit-Basepath: ../..\n"
@@ -52,7 +52,8 @@ msgstr ""
 #: inbound-pro/classes/admin/class.download-management.php:165
 #: inbound-pro/core/landing-pages/shared/classes/class.branching.php:212
 #: inbound-pro/core/shared/classes/class.branching.php:212
-msgid "You do not have sufficient permissions to delete plugins for this site."
+msgid ""
+"You do not have sufficient permissions to delete plugins for this site."
 msgstr ""
 
 #: inbound-pro/classes/admin/class.download-management.php:143
@@ -65,8 +66,8 @@ msgstr ""
 
 #: inbound-pro/classes/admin/class.download-management.php:517
 msgid ""
-"ATTENTION: open_basedir restriction in effect which will cause problems with "
-"installation."
+"ATTENTION: open_basedir restriction in effect which will cause problems with"
+" installation."
 msgstr ""
 
 #: inbound-pro/classes/admin/class.download-management.php:548
@@ -617,7 +618,8 @@ msgstr ""
 
 #: inbound-pro/classes/admin/class.settings.php:446
 #, php-format
-msgid "Click %shere%s to help improve the quality of Inbound Now translations."
+msgid ""
+"Click %shere%s to help improve the quality of Inbound Now translations."
 msgstr ""
 
 #: inbound-pro/classes/admin/class.settings.php:518
@@ -635,8 +637,8 @@ msgstr ""
 #: inbound-pro/classes/admin/class.settings.php:524
 #, php-format
 msgid ""
-"This plugin comes with Inbound Now's core plugins pre-installed. If you want "
-"to control which core components to load at startup you can do so in the "
+"This plugin comes with Inbound Now's core plugins pre-installed. If you want"
+" to control which core components to load at startup you can do so in the "
 "%score settings%s area."
 msgstr ""
 
@@ -887,8 +889,8 @@ msgstr ""
 #: inbound-pro/classes/admin/class.settings.php:1531
 #, php-format
 msgid ""
-"<strong>Error!</strong> The following directory could not be created: <code>"
-"%s</code>."
+"<strong>Error!</strong> The following directory could not be created: "
+"<code>%s</code>."
 msgstr ""
 
 #: inbound-pro/classes/admin/class.settings.php:1537
@@ -905,9 +907,9 @@ msgstr ""
 #: inbound-pro/classes/admin/class.updater.php:209
 #, php-format
 msgid ""
-"There is a new version of %1$s available. <a target=\"_blank\" class="
-"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
-"\">update now</a>."
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
 msgstr ""
 
 #: inbound-pro/classes/admin/report-templates/content.event.php:102
@@ -1120,8 +1122,8 @@ msgstr ""
 #: inbound-pro/classes/admin/report-templates/content.quick-view.php:280
 #, php-format
 msgid ""
-"%s impressions in the last %s days versus %s impressions in the prior %s day "
-"period)"
+"%s impressions in the last %s days versus %s impressions in the prior %s day"
+" period)"
 msgstr ""
 
 #: inbound-pro/classes/admin/report-templates/content.quick-view.php:285
@@ -1452,8 +1454,8 @@ msgstr ""
 #: inbound-pro/core/cta/classes/class.admin.notices.php:137
 msgid ""
 "They are free & available to be re-downloaded from our marketplace. If you "
-"are using one of the templates above you will need to download and reinstall "
-"it for your call to action to continue working."
+"are using one of the templates above you will need to download and reinstall"
+" it for your call to action to continue working."
 msgstr ""
 
 #: inbound-pro/core/cta/classes/class.admin.notices.php:139
@@ -1781,8 +1783,8 @@ msgstr ""
 msgid ""
 "This option will place the selected CTA templates into the dynamic sidebar "
 "widget on this page. Make sure you have added the dynamic Call to Action "
-"widget to the sidebar of this page for this option to work.</p><p>To add the "
-"dynamic sidebar widget to this page, go into appearance > widgets and add "
+"widget to the sidebar of this page for this option to work.</p><p>To add the"
+" dynamic sidebar widget to this page, go into appearance > widgets and add "
 "the widget to the sidebar of your choice"
 msgstr ""
 
@@ -1836,7 +1838,8 @@ msgid "Call to Action Template"
 msgstr ""
 
 #: inbound-pro/core/cta/classes/class.metaboxes.global.php:201
-msgid "Click the above select box to select call to action templates to insert"
+msgid ""
+"Click the above select box to select call to action templates to insert"
 msgstr ""
 
 #: inbound-pro/core/cta/classes/class.metaboxes.wp-call-to-action.php:88
@@ -1866,8 +1869,8 @@ msgstr ""
 msgid ""
 "<i>It looks like the template you are using is no longer available. Please "
 "check your uploads folder for your custom CTA template or visit our "
-"marketplace to download free CTA templates recently removed from this plugin."
-"</i>"
+"marketplace to download free CTA templates recently removed from this "
+"plugin.</i>"
 msgstr ""
 
 #: inbound-pro/core/cta/classes/class.metaboxes.wp-call-to-action.php:202
@@ -1954,8 +1957,8 @@ msgstr ""
 
 #: inbound-pro/core/cta/classes/class.metaboxes.wp-call-to-action.php:814
 msgid ""
-"Add Notes to your variation. Example: This version is testing a green submit "
-"button"
+"Add Notes to your variation. Example: This version is testing a green submit"
+" button"
 msgstr ""
 
 #: inbound-pro/core/cta/classes/class.metaboxes.wp-call-to-action.php:881
@@ -6970,7 +6973,8 @@ msgstr ""
 #: inbound-pro/core/shared/classes/class.promote.php:88
 #, php-format
 msgid ""
-"Help translate Inbound Now's marketing plugins to your %s native langauge %s!"
+"Help translate Inbound Now's marketing plugins to your %s native langauge "
+"%s!"
 msgstr ""
 
 #: inbound-pro/core/cta/shared/classes/class.promote.php:89
@@ -6997,8 +7001,8 @@ msgstr ""
 #: inbound-pro/core/landing-pages/shared/classes/class.promote.php:125
 #: inbound-pro/core/shared/classes/class.promote.php:125
 msgid ""
-"We noticed you are using a stand alone version of an Inbound Now plugin. Did "
-"you know we provide a more powerful free plugin that includes this one and "
+"We noticed you are using a stand alone version of an Inbound Now plugin. Did"
+" you know we provide a more powerful free plugin that includes this one and "
 "offers a lot more? "
 msgstr ""
 
@@ -7034,8 +7038,8 @@ msgstr ""
 #: inbound-pro/core/landing-pages/shared/classes/class.promote.php:162
 #: inbound-pro/core/shared/classes/class.promote.php:162
 msgid ""
-"You are collecting data, why not review it? Our Leads plugin helps you mange "
-"the data you collect with these forms. Leads plugin is available via the "
+"You are collecting data, why not review it? Our Leads plugin helps you mange"
+" the data you collect with these forms. Leads plugin is available via the "
 "WordPress plugin's directory as well as included in our free Inbound Pro "
 "plugin. We recommend Inbound Pro because it provides better settings "
 "management and additional free features. "
@@ -8067,8 +8071,8 @@ msgstr ""
 #: inbound-pro/core/landing-pages/shared/shortcodes/shortcodes/forms.php:148
 #: inbound-pro/core/shared/shortcodes/shortcodes/forms.php:148
 msgid ""
-"Enter the text you want to show on the submit button. (or a link to a custom "
-"submit button image)"
+"Enter the text you want to show on the submit button. (or a link to a custom"
+" submit button image)"
 msgstr ""
 
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/forms.php:154
@@ -8205,8 +8209,8 @@ msgstr ""
 #: inbound-pro/core/landing-pages/shared/shortcodes/shortcodes/forms.php:229
 #: inbound-pro/core/shared/shortcodes/shortcodes/forms.php:229
 msgid ""
-"Enter Your Dropdown Options. Separate by commas. You may also use label|"
-"value to have a different value than the label stored."
+"Enter Your Dropdown Options. Separate by commas. You may also use "
+"label|value to have a different value than the label stored."
 msgstr ""
 
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/forms.php:232
@@ -8242,8 +8246,8 @@ msgstr ""
 #: inbound-pro/core/landing-pages/shared/shortcodes/shortcodes/forms.php:245
 #: inbound-pro/core/shared/shortcodes/shortcodes/forms.php:245
 msgid ""
-"Enter Your Checkbox Options. Separate by commas. You may also use label|"
-"value to have a different value than the label stored."
+"Enter Your Checkbox Options. Separate by commas. You may also use "
+"label|value to have a different value than the label stored."
 msgstr ""
 
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/forms.php:253
@@ -8320,8 +8324,7 @@ msgstr ""
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/forms.php:291
 #: inbound-pro/core/landing-pages/shared/shortcodes/shortcodes/forms.php:291
 #: inbound-pro/core/shared/shortcodes/shortcodes/forms.php:291
-msgid ""
-"<span class=\"show-advanced-fields button\">Show advanced options</span>"
+msgid "<span class=\"show-advanced-fields button\">Show advanced options</span>"
 msgstr ""
 
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/forms.php:297
@@ -8372,7 +8375,8 @@ msgstr ""
 #: inbound-pro/core/landing-pages/shared/shortcodes/shortcodes/forms.php:327
 #: inbound-pro/core/shared/shortcodes/shortcodes/forms.php:327
 msgid ""
-"Field Container Classes <span class=\"small-optional-text\">(optional)</span>"
+"Field Container Classes <span class=\"small-optional-"
+"text\">(optional)</span>"
 msgstr ""
 
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/forms.php:328
@@ -8386,8 +8390,7 @@ msgstr ""
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/forms.php:334
 #: inbound-pro/core/landing-pages/shared/shortcodes/shortcodes/forms.php:334
 #: inbound-pro/core/shared/shortcodes/shortcodes/forms.php:334
-msgid ""
-"Field Input Classes <span class=\"small-optional-text\">(optional)</span>"
+msgid "Field Input Classes <span class=\"small-optional-text\">(optional)</span>"
 msgstr ""
 
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/forms.php:335
@@ -8468,8 +8471,8 @@ msgstr ""
 #: inbound-pro/core/landing-pages/shared/shortcodes/shortcodes/gmap.php:32
 #: inbound-pro/core/shared/shortcodes/shortcodes/gmap.php:32
 msgid ""
-"Enter your address here. ex: \"New York\" or \"New York, USA\" If you want a "
-"accurate position please fill the Latitude and Longitude fields"
+"Enter your address here. ex: \"New York\" or \"New York, USA\" If you want a"
+" accurate position please fill the Latitude and Longitude fields"
 msgstr ""
 
 #: inbound-pro/core/cta/shared/shortcodes/shortcodes/gmap.php:37
@@ -9829,9 +9832,9 @@ msgstr ""
 #: inbound-pro/core/landing-pages/shared/shortcodes/shortcodes/video.php:13
 #: inbound-pro/core/shared/shortcodes/shortcodes/video.php:13
 msgid ""
-"Paste the video URL here, click <a href=\"http://codex.wordpress.org/"
-"Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F\" target=\"_blank\">here</"
-"a> to see all available video hosts."
+"Paste the video URL here, click <a "
+"href=\"http://codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F\""
+" target=\"_blank\">here</a> to see all available video hosts."
 msgstr ""
 
 #: inbound-pro/core/cta/templates/blank-template/config.php:23
@@ -10543,7 +10546,8 @@ msgstr ""
 #: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:172
 #: inbound-pro/core/inbound-mailer/classes/class.load.email-settings.php:74
 msgid ""
-"The email address recipients can reply to. This field is variation dependant!"
+"The email address recipients can reply to. This field is variation "
+"dependant!"
 msgstr ""
 
 #: inbound-pro/core/inbound-mailer/classes/class.lead-profile.php:179
@@ -10973,8 +10977,8 @@ msgstr ""
 #: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:2120
 msgid ""
 "Are you sure you want to unschedule this email? Please not that emails 10 "
-"minutes or less away from being sent will not be able to be unscheduled from "
-"SparkPost."
+"minutes or less away from being sent will not be able to be unscheduled from"
+" SparkPost."
 msgstr ""
 
 #: inbound-pro/core/inbound-mailer/classes/class.metaboxes.inbound-email.php:2124
@@ -12065,8 +12069,8 @@ msgstr ""
 
 #: inbound-pro/core/inbound-mailer/classes/class.settings.php:162
 msgid ""
-"When readers are given the option to unsubscribe for 3 months, this label is "
-"displayed."
+"When readers are given the option to unsubscribe for 3 months, this label is"
+" displayed."
 msgstr ""
 
 #: inbound-pro/core/inbound-mailer/classes/class.settings.php:164
@@ -12079,8 +12083,8 @@ msgstr ""
 
 #: inbound-pro/core/inbound-mailer/classes/class.settings.php:169
 msgid ""
-"When readers are given the option to unsubscribe for 6 months, this label is "
-"displayed."
+"When readers are given the option to unsubscribe for 6 months, this label is"
+" displayed."
 msgstr ""
 
 #: inbound-pro/core/inbound-mailer/classes/class.settings.php:171
@@ -12113,9 +12117,9 @@ msgstr ""
 msgid ""
 "We will schedule/process this many emails to be sent to your email service "
 "every two minutes. If your server is having trouble handling 100 emails at "
-"once, please try reducing the number. Note that this will slow down the send "
-"process. To make up for delayed sends please schedule your email to be sent "
-"in the future. "
+"once, please try reducing the number. Note that this will slow down the send"
+" process. To make up for delayed sends please schedule your email to be sent"
+" in the future. "
 msgstr ""
 
 #: inbound-pro/core/inbound-mailer/classes/class.settings.php:197
@@ -12231,8 +12235,8 @@ msgstr ""
 
 #: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:962
 msgid ""
-"No sending domains set. Please see https://app.sparkpost.com/account/sending-"
-"domains"
+"No sending domains set. Please see https://app.sparkpost.com/account"
+"/sending-domains"
 msgstr ""
 
 #: inbound-pro/core/inbound-mailer/classes/class.statistics.sparkpost.php:975
@@ -12618,8 +12622,8 @@ msgstr ""
 
 #: inbound-pro/core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:3294
 msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
+"The installation and activation process is starting. This process may take a"
+" while on some hosts, so please be patient."
 msgstr ""
 
 #: inbound-pro/core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:3295
@@ -12728,9 +12732,9 @@ msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.admin-notices.php:301
 msgid ""
-"They are free & available to be re-downloaded via the link below. If you are "
-"using one of the templates above you will need to download and reinstall it "
-"for your landing page to continue working. We are doing this to reduce "
+"They are free & available to be re-downloaded via the link below. If you are"
+" using one of the templates above you will need to download and reinstall it"
+" for your landing page to continue working. We are doing this to reduce "
 "overall plugin size & load times. We are very sorry for any inconvenience "
 "this might cause you."
 msgstr ""
@@ -12779,11 +12783,11 @@ msgstr ""
 #: inbound-pro/core/landing-pages/classes/class.install.php:71
 msgid ""
 "<p>This is the first paragraph of your landing page where you want to draw "
-"the viewers in and quickly explain your value proposition.</p><p><strong>Use "
-"Bullet Points to:</strong><ul><li>Explain why they should fill out the form</"
-"li><li>What they will learn if they download</li><li>A problem this form "
-"will solve for them</li></ul></p><p>Short ending paragraph reiterating the "
-"value behind the form</p>"
+"the viewers in and quickly explain your value proposition.</p><p><strong>Use"
+" Bullet Points to:</strong><ul><li>Explain why they should fill out the "
+"form</li><li>What they will learn if they download</li><li>A problem this "
+"form will solve for them</li></ul></p><p>Short ending paragraph reiterating "
+"the value behind the form</p>"
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.install.php:68
@@ -12846,8 +12850,8 @@ msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.metaboxes.php:374
 msgid ""
-"Add Notes to your variation. Example: This version is testing a green submit "
-"button "
+"Add Notes to your variation. Example: This version is testing a green submit"
+" button "
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.metaboxes.php:377
@@ -12885,8 +12889,8 @@ msgstr ""
 #: inbound-pro/core/landing-pages/classes/class.metaboxes.php:700
 msgid ""
 "To help track conversions Landing Pages Plugin will automatically add a "
-"tracking class to forms. If you would like to track a link add this class to "
-"it"
+"tracking class to forms. If you would like to track a link add this class to"
+" it"
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.metaboxes.php:718
@@ -12896,8 +12900,8 @@ msgstr ""
 #: inbound-pro/core/landing-pages/classes/class.metaboxes.php:730
 #, php-format
 msgid ""
-"%sCustom CSS may be required to customize this landing page.%s%s %sFormat%s: "
-"#element-id { display:none !important; }%s"
+"%sCustom CSS may be required to customize this landing page.%s%s %sFormat%s:"
+" #element-id { display:none !important; }%s"
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.metaboxes.php:780
@@ -13001,9 +13005,9 @@ msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.settings.php:49
 msgid ""
-"The prefix for landing page URL permalink. Example: http://www.yoursite.com/"
-"PREFIX/landing-page. Inbound Now also provides an extension that will remove "
-"the prefix if desired in the extensions area."
+"The prefix for landing page URL permalink. Example: "
+"http://www.yoursite.com/PREFIX/landing-page. Inbound Now also provides an "
+"extension that will remove the prefix if desired in the extensions area."
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.settings.php:55
@@ -13013,9 +13017,9 @@ msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.settings.php:56
 msgid ""
-"With this setting enabled the landing pages plugin will prevent landing page "
-"version a/b rotation for a specific visitor that has viewed the page for 30 "
-"days."
+"With this setting enabled the landing pages plugin will prevent landing page"
+" version a/b rotation for a specific visitor that has viewed the page for 30"
+" days."
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.settings.php:63
@@ -13048,16 +13052,17 @@ msgstr ""
 msgid ""
 "Enter in the <span style='color:red;'>prefix</span> for landing page URLs "
 "(aka permalinks).<br><br>This is the URL Slug that will be in the landing "
-"page URL.<br><br> Example: http://www.yoursite.com/<span style='color:"
-"red;'>PREFIX</span>/landing-page .  Enter in a single word like 'go'"
+"page URL.<br><br> Example: http://www.yoursite.com/<span "
+"style='color:red;'>PREFIX</span>/landing-page .  Enter in a single word like"
+" 'go'"
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.settings.php:106
 msgid ""
-"With this setting enabled the landing pages plugin will prevent landing page "
-"version a/b rotation for a specific visitor that has viewed the page."
-"<br><br>This pause on the a/b rotation will automatically expire after 30 "
-"days."
+"With this setting enabled the landing pages plugin will prevent landing page"
+" version a/b rotation for a specific visitor that has viewed the "
+"page.<br><br>This pause on the a/b rotation will automatically expire after "
+"30 days."
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.settings.php:128
@@ -13162,8 +13167,8 @@ msgstr ""
 #: inbound-pro/core/landing-pages/classes/class.template-management.php:199
 msgid ""
 "We've detected that this is a landing page template, but the files need to "
-"be zipped inside the parent folder. Please restructure your zip file so that "
-"it's contents are inside a parent directory with your template's name."
+"be zipped inside the parent folder. Please restructure your zip file so that"
+" it's contents are inside a parent directory with your template's name."
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.template-management.php:202
@@ -13254,14 +13259,16 @@ msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.welcome.php:439
 msgid ""
-"WordPress Landing Pages is only one piece of Inbound Now's Marketing Platform"
+"WordPress Landing Pages is only one piece of Inbound Now's Marketing "
+"Platform"
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.welcome.php:444
 msgid ""
 "To have an effective marketing strategy for your site you need to "
 "incorporate a comprehensive conversion strategy to capture visitors "
-"attention, get them clicking, and convert them on a web form or landing page."
+"attention, get them clicking, and convert them on a web form or landing "
+"page."
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.welcome.php:449
@@ -13314,7 +13321,8 @@ msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.welcome.php:525
 msgid ""
-"Know everything a lead has seen and done on your site before you contact them"
+"Know everything a lead has seen and done on your site before you contact "
+"them"
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.welcome.php:566
@@ -13329,8 +13337,8 @@ msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.welcome.php:574
 msgid ""
-"Infuse your designs with powerful A/B testing functionality and give clients "
-"the ability to edit options on the backend with ease."
+"Infuse your designs with powerful A/B testing functionality and give clients"
+" the ability to edit options on the backend with ease."
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.widgets.php:17
@@ -13360,8 +13368,8 @@ msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.wp-list-table.templates.php:179
 msgid ""
-"No premium templates installed. Templates included in the Landing Pages core "
-"plugin will not be listed here."
+"No premium templates installed. Templates included in the Landing Pages core"
+" plugin will not be listed here."
 msgstr ""
 
 #: inbound-pro/core/landing-pages/classes/class.wp-list-table.templates.php:187
@@ -14137,8 +14145,8 @@ msgstr ""
 
 #: inbound-pro/core/leads/classes/class.lead-management.php:546
 msgid ""
-"Replace the selected leads's current tags with these ones. Warning this will "
-"delete current tags and replace them "
+"Replace the selected leads's current tags with these ones. Warning this will"
+" delete current tags and replace them "
 msgstr ""
 
 #: inbound-pro/core/leads/classes/class.lead-management.php:547
@@ -14715,8 +14723,8 @@ msgstr ""
 
 #: inbound-pro/core/leads/classes/class.settings.php:67
 msgid ""
-"Enter in a value found in a HTML form's id or class attribute to track it as "
-"a conversion as comma separated values. Example ID format: #Form_ID, #Form-"
+"Enter in a value found in a HTML form's id or class attribute to track it as"
+" a conversion as comma separated values. Example ID format: #Form_ID, #Form-"
 "ID-2. Example Class format: .Form_class, .form-class-2"
 msgstr ""
 
@@ -14740,9 +14748,9 @@ msgstr ""
 msgid ""
 "WordPress Leads automatically tracks page views of converted leads. This is "
 "extremely valuable lead intelligence and will help with your sales follow "
-"ups. However with great power comes great resposibility, this extra tracking "
-"can cause problems on high high traffic sites. You can turn off tracking if "
-"you see any issues."
+"ups. However with great power comes great resposibility, this extra tracking"
+" can cause problems on high high traffic sites. You can turn off tracking if"
+" you see any issues."
 msgstr ""
 
 #: inbound-pro/core/leads/classes/class.settings.php:90
@@ -14812,7 +14820,8 @@ msgstr ""
 #: inbound-pro/core/leads/classes/class.settings.php:132
 #: inbound-pro/core/leads/classes/class.settings.php:236
 msgid ""
-"Admin notification emails are sent after a visitor fills out an inbound form."
+"Admin notification emails are sent after a visitor fills out an inbound "
+"form."
 msgstr ""
 
 #: inbound-pro/core/leads/classes/class.settings.php:140
@@ -14823,17 +14832,17 @@ msgstr ""
 #: inbound-pro/core/leads/classes/class.settings.php:141
 #: inbound-pro/core/leads/classes/class.settings.php:245
 msgid ""
-"Enabling this option will tell Leads to run form submissions through akismet "
-"to prevent spam submissions."
+"Enabling this option will tell Leads to run form submissions through akismet"
+" to prevent spam submissions."
 msgstr ""
 
 #: inbound-pro/core/leads/classes/class.settings.php:171
 msgid ""
-"<p>Enter in a value found in a HTML form's id or class attribute to track it "
-"as a conversion as comma separated values</p><p><strong>Example ID format:</"
-"strong> #Form_ID, #Form-ID-2<br>Example Class format:</strong> .Form_class, ."
-"form-class-2</p><p>Gravity Forms, Contact Form 7, and Ninja Forms are "
-"automatically tracked (no need to add their IDs in here).</p>"
+"<p>Enter in a value found in a HTML form's id or class attribute to track it"
+" as a conversion as comma separated values</p><p><strong>Example ID "
+"format:</strong> #Form_ID, #Form-ID-2<br>Example Class format:</strong> "
+".Form_class, .form-class-2</p><p>Gravity Forms, Contact Form 7, and Ninja "
+"Forms are automatically tracked (no need to add their IDs in here).</p>"
 msgstr ""
 
 #: inbound-pro/core/leads/classes/class.settings.php:178
