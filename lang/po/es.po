@@ -2,6 +2,7 @@
 # Translators:
 # Translators:
 # Translators:
+# Translators:
 # Andres Felipe Nunez Londono <felipe@unobjetivo.com>, 2016
 # Hudson Atwell <atwell.publishing@gmail.com>, 2016
 # Sara Mendonça <ondigitalmediaoficial@gmail.com>, 2016
