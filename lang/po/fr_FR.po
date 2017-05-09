@@ -4,12 +4,13 @@
 # Translators:
 # Translators:
 # Hudson Atwell <atwell.publishing@gmail.com>, 2016
+# rafie <s.rafie@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2017-04-18 11:39-0500\n"
-"PO-Revision-Date: 2017-04-19 09:06+0000\n"
-"Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
+"PO-Revision-Date: 2017-05-03 21:16+0000\n"
+"Last-Translator: rafie <s.rafie@gmail.com>\n"
 "Language-Team: French (France) (http://www.transifex.com/inboundnow/inbound-pro/language/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,7 +156,7 @@ msgstr "Paramètres d’affichage"
 
 #: classes/admin/class.download-management.php:726
 msgid "Only available to subscribers."
-msgstr ""
+msgstr "Disponible uniquement pour les abonnés"
 
 #: classes/admin/class.download-management.php:843
 #: core/cta/classes/class.templates.manage.php:108
@@ -215,7 +216,7 @@ msgstr "Actions"
 #: core/leads/classes/class.post-type.wp-lead.php:164
 #, php-format
 msgid "past %s days"
-msgstr ""
+msgstr "les %s jours précédants"
 
 #: classes/admin/class.menus.adminmenu.php:34
 msgid "Inbound Pro"
@@ -266,7 +267,7 @@ msgstr "Templates::Refresh modèles disponibles"
 #: classes/admin/class.menus.adminmenu.php:78
 #: classes/admin/class.menus.adminmenu.php:85
 msgid "Refresh available template data from Inbound Now."
-msgstr ""
+msgstr "Rafraîchissez les données du template à partir d'Inbound Now"
 
 #: classes/admin/class.menus.adminmenu.php:83
 msgid "Extensions::Refresh Available Extensions"
@@ -274,25 +275,25 @@ msgstr "Extensions::Refresh Extensions disponibles"
 
 #: classes/admin/class.menus.adminmenu.php:90
 msgid "Turn Inbound Pro Off For This Page"
-msgstr ""
+msgstr "Fermer Inbound Pro Pour Cette Page"
 
 #: classes/admin/class.menus.adminmenu.php:92
 msgid "Tell WordPress not to load Inbound Pro on this page."
-msgstr ""
+msgstr "Indiquer à Wordpress de ne pas charger Inbound Pro sur cette page"
 
 #: classes/admin/class.notifications.php:77
 msgid "Inbound Pro has been installed!"
-msgstr ""
+msgstr "Inbound Pro a été installé!"
 
 #: classes/admin/class.notifications.php:78
 msgid ""
 "Inbound Pro requires an API Key to enable automatic updates and subscriber "
 "ready components."
-msgstr ""
+msgstr "Inbound Pro nécessite une Clé API pour autoriser les mises à jour automatiques et les composants valables pour les abonnés "
 
 #: classes/admin/class.notifications.php:79
 msgid "Setup API Key"
-msgstr ""
+msgstr "Installer une Clé API"
 
 #: classes/admin/class.notifications.php:80
 msgid "Do This Later"
@@ -444,27 +445,27 @@ msgstr ""
 #: classes/admin/class.reporting.templates.php:172
 #: core/inbound-mailer/classes/class.post-type.inbound-email.php:523
 msgid "days"
-msgstr ""
+msgstr "jours"
 
 #: classes/admin/class.reporting.templates.php:178
 msgid "page id"
-msgstr ""
+msgstr "id de la page"
 
 #: classes/admin/class.reporting.templates.php:185
 msgid "lead id"
-msgstr ""
+msgstr "id du prospect"
 
 #: classes/admin/class.reporting.templates.php:192
 msgid "lead uid"
-msgstr ""
+msgstr "uid du prospect"
 
 #: classes/admin/class.reporting.templates.php:199
 msgid "source"
-msgstr ""
+msgstr "source"
 
 #: classes/admin/class.reporting.templates.php:206
 msgid "event"
-msgstr ""
+msgstr "événement"
 
 #: classes/admin/class.reporting.templates.php:213
 msgid "list id"
@@ -582,7 +583,7 @@ msgstr "Ajax, vitesse, optimisation"
 
 #: classes/admin/class.settings.php:369
 msgid "Fast(er) Ajax"
-msgstr "Fast(er) Ajax"
+msgstr "Ajax rapide ou plus rapide"
 
 #: classes/admin/class.settings.php:381
 msgid "Enable Fast Ajax"
@@ -604,13 +605,13 @@ msgstr "Traductions"
 
 #: classes/admin/class.settings.php:411
 msgid "Enable Translations"
-msgstr ""
+msgstr "Activer les Traductions"
 
 #: classes/admin/class.settings.php:412
 msgid ""
 "Enabling this feature will tell Inbound Now to load translated strings if "
 "they are available."
-msgstr ""
+msgstr "L'activation de cette fonctionnalité indique à Inbound Now de charger les chaînes traduites si elles sont disponibles."
 
 #: classes/admin/class.settings.php:428
 msgid "Translation Update Notifications"
