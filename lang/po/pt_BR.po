@@ -5,6 +5,7 @@
 # Translators:
 # opiagile <francisco@opiagile.com>, 2017
 # Hudson Atwell <atwell.publishing@gmail.com>, 2016
+# Juliano Reynaud <julianoreynaud@gmail.com>, 2017
 # Mahmod Issa <comunica.muh@gmail.com>, 2017
 # Marcelo Silva <marcelferry@gmail.com>, 2016
 # Paulo Grande <paulo.grande@gmail.com>, 2016
@@ -12,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2017-04-18 11:39-0500\n"
-"PO-Revision-Date: 2017-04-19 09:06+0000\n"
-"Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
+"PO-Revision-Date: 2017-05-12 00:33+0000\n"
+"Last-Translator: Juliano Reynaud <julianoreynaud@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/inboundnow/inbound-pro/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -270,7 +271,7 @@ msgstr "Modelos disponíveis templates::Refresh"
 #: classes/admin/class.menus.adminmenu.php:78
 #: classes/admin/class.menus.adminmenu.php:85
 msgid "Refresh available template data from Inbound Now."
-msgstr ""
+msgstr "Recarregar os dados do modelo disponível do Inbound Now."
 
 #: classes/admin/class.menus.adminmenu.php:83
 msgid "Extensions::Refresh Available Extensions"
@@ -278,11 +279,11 @@ msgstr "Extensions::Refresh extensões disponíveis"
 
 #: classes/admin/class.menus.adminmenu.php:90
 msgid "Turn Inbound Pro Off For This Page"
-msgstr ""
+msgstr "Desative o Inbound Pro para esta página"
 
 #: classes/admin/class.menus.adminmenu.php:92
 msgid "Tell WordPress not to load Inbound Pro on this page."
-msgstr ""
+msgstr "Sinalize ao WordPress para não carregar o Inbound Pro nesta página."
 
 #: classes/admin/class.notifications.php:77
 msgid "Inbound Pro has been installed!"
