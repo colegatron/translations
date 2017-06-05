@@ -3,13 +3,14 @@
 # Translators:
 # Translators:
 # Translators:
+# Anand Opleidingen <rpbesems@gmail.com>, 2017
 # Hudson Atwell <atwell.publishing@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2017-04-18 11:39-0500\n"
-"PO-Revision-Date: 2017-04-19 09:06+0000\n"
-"Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
+"PO-Revision-Date: 2017-06-03 09:00+0000\n"
+"Last-Translator: Anand Opleidingen <rpbesems@gmail.com>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/inboundnow/inbound-pro/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +49,7 @@ msgstr " is verwijderd!"
 msgid ""
 "ATTENTION: open_basedir restriction in effect which will cause problems with"
 " installation."
-msgstr ""
+msgstr "Attentie: open_basedir beperking geëffectueeerd, wat problemen veroorzaakt met de installatie."
 
 #: classes/admin/class.download-management.php:548
 #: classes/admin/class.reporting.funnels.php:147
@@ -155,7 +156,7 @@ msgstr "Weergave-instellingen"
 
 #: classes/admin/class.download-management.php:726
 msgid "Only available to subscribers."
-msgstr ""
+msgstr "Alleen beschikbaar voor abonnees."
 
 #: classes/admin/class.download-management.php:843
 #: core/cta/classes/class.templates.manage.php:108
@@ -215,11 +216,11 @@ msgstr "Acties"
 #: core/leads/classes/class.post-type.wp-lead.php:164
 #, php-format
 msgid "past %s days"
-msgstr ""
+msgstr "Afgelopen %s dagen"
 
 #: classes/admin/class.menus.adminmenu.php:34
 msgid "Inbound Pro"
-msgstr ""
+msgstr "Inbound Pro"
 
 #: classes/admin/class.menus.adminmenu.php:48
 #: core/cta/classes/class.menus.php:33 core/cta/classes/class.menus.php:36
@@ -266,7 +267,7 @@ msgstr "Templates::Refresh beschikbare sjablonen"
 #: classes/admin/class.menus.adminmenu.php:78
 #: classes/admin/class.menus.adminmenu.php:85
 msgid "Refresh available template data from Inbound Now."
-msgstr ""
+msgstr "Vernieuw beschikbare sjabloongegevens van Inbound Now."
 
 #: classes/admin/class.menus.adminmenu.php:83
 msgid "Extensions::Refresh Available Extensions"
@@ -274,29 +275,29 @@ msgstr "Extensions::Refresh beschikbare uitbreidingen"
 
 #: classes/admin/class.menus.adminmenu.php:90
 msgid "Turn Inbound Pro Off For This Page"
-msgstr ""
+msgstr "Schakel Inbound Pro uit voor deze pagina"
 
 #: classes/admin/class.menus.adminmenu.php:92
 msgid "Tell WordPress not to load Inbound Pro on this page."
-msgstr ""
+msgstr "Vertel WordPress om Inbound Pro niet op deze pagina te laden."
 
 #: classes/admin/class.notifications.php:77
 msgid "Inbound Pro has been installed!"
-msgstr ""
+msgstr "Inbound Pro is geïnstalleerd!"
 
 #: classes/admin/class.notifications.php:78
 msgid ""
 "Inbound Pro requires an API Key to enable automatic updates and subscriber "
 "ready components."
-msgstr ""
+msgstr "Inkomende Pro heeft een API-sleutel nodig om de automatische updates en abonnee componenten klaar te maken."
 
 #: classes/admin/class.notifications.php:79
 msgid "Setup API Key"
-msgstr ""
+msgstr "Api Key Instellen"
 
 #: classes/admin/class.notifications.php:80
 msgid "Do This Later"
-msgstr ""
+msgstr "Doe dit later"
 
 #: classes/admin/class.reporting.funnels.php:65
 #: classes/admin/class.reporting.funnels.php:66
@@ -438,37 +439,37 @@ msgstr "Leiden"
 #: classes/admin/class.reporting.templates.php:55
 #: core/inbound-mailer/classes/class.post-type.inbound-email.php:516
 msgid "Reporting range in days"
-msgstr ""
+msgstr "Rapportage bereik in dagen"
 
 #: classes/admin/class.reporting.templates.php:62
 #: classes/admin/class.reporting.templates.php:172
 #: core/inbound-mailer/classes/class.post-type.inbound-email.php:523
 msgid "days"
-msgstr ""
+msgstr "dagen"
 
 #: classes/admin/class.reporting.templates.php:178
 msgid "page id"
-msgstr ""
+msgstr "pagina id"
 
 #: classes/admin/class.reporting.templates.php:185
 msgid "lead id"
-msgstr ""
+msgstr "lead id"
 
 #: classes/admin/class.reporting.templates.php:192
 msgid "lead uid"
-msgstr ""
+msgstr "lead uid"
 
 #: classes/admin/class.reporting.templates.php:199
 msgid "source"
-msgstr ""
+msgstr "bron"
 
 #: classes/admin/class.reporting.templates.php:206
 msgid "event"
-msgstr ""
+msgstr "gebeurtenis"
 
 #: classes/admin/class.reporting.templates.php:213
 msgid "list id"
-msgstr ""
+msgstr "lijst id"
 
 #: classes/admin/class.settings.php:127
 msgid "api key"
@@ -604,13 +605,13 @@ msgstr "Vertalingen"
 
 #: classes/admin/class.settings.php:411
 msgid "Enable Translations"
-msgstr ""
+msgstr "Vertalingen inschakelen"
 
 #: classes/admin/class.settings.php:412
 msgid ""
 "Enabling this feature will tell Inbound Now to load translated strings if "
 "they are available."
-msgstr ""
+msgstr "Als u deze functie inschakelt, wordt Inbound Now verteld om vertaalde strings te laden als ze beschikbaar zijn."
 
 #: classes/admin/class.settings.php:428
 msgid "Translation Update Notifications"
@@ -624,13 +625,13 @@ msgstr "Dit is een consmetic-functie waarmee klanten niet kunnen worden meegedee
 
 #: classes/admin/class.settings.php:445
 msgid "Help Inbound Now Translate"
-msgstr ""
+msgstr "Help Inbound Now vertalen"
 
 #: classes/admin/class.settings.php:446
 #, php-format
 msgid ""
 "Click %shere%s to help improve the quality of Inbound Now translations."
-msgstr ""
+msgstr "Klik %shier%s om de kwaliteit van Inbound Now vertalingen te verbeteren."
 
 #: classes/admin/class.settings.php:518
 msgid "Getting Started"
@@ -650,7 +651,7 @@ msgid ""
 "This plugin comes with Inbound Now's core plugins pre-installed. If you want"
 " to control which core components to load at startup you can do so in the "
 "%score settings%s area."
-msgstr ""
+msgstr "Deze plugin wordt geleverd met Inbound Now's core plugins vooraf geïnstalleerd. Als u wilt controleren welke kerncomponenten bij het opstarten moeten worden geladen, kunt u dit doen in het %skern instellingen%s gedeelte."
 
 #: classes/admin/class.settings.php:613
 msgid "Export Inbound Now Settings"
@@ -1045,7 +1046,7 @@ msgstr "Verwerpt"
 #: core/inbound-mailer/classes/class.metaboxes.inbound-email.php:819
 #: core/inbound-mailer/classes/class.post-type.inbound-email.php:255
 msgid "Unsubscribes"
-msgstr "Uitschrijft"
+msgstr "Uitschrijvingen"
 
 #: classes/admin/report-templates/report.email-stats.php:869
 #: core/inbound-mailer/classes/class.metaboxes.inbound-email.php:829
@@ -10650,7 +10651,7 @@ msgid ""
 "If a user has unsubscribed from a list then automation will not resubscribe "
 "them. They will have to fill out an inbound form adding them to the list or "
 "be re-added manually by an administrator."
-msgstr "Als een gebruiker heeft uitgeschreven uit een lijst dan automatisering zal niet opnieuw abonneren ' hen. Zij zullen hebben om een binnenkomende formulier toe te voegen aan de lijst in te vullen of opnieuw handmatig door een beheerder worden toegevoegd."
+msgstr "Als een gebruiker uit een lijst is uitgeschreven, wordt deze door de Marketing Automation Plugin niet opnieuw aangemeld. De gebruiker moet een inbound pro formulier invullen om opnieuw aan de lijst te worden toegevoegd of de gebruiker moet handmatig worden toegevoegd door een beheerder."
 
 #: core/inbound-automation/definitions/action.add_remove_list.php:103
 msgid "List Change - Fail"
@@ -10677,7 +10678,7 @@ msgstr "Verwijderd uit"
 
 #: core/inbound-automation/definitions/action.add_remove_list.php:147
 msgid "Skipped due to prior unsubscribe"
-msgstr "Overgeslagen als gevolg van de voorafgaande uitschrijven"
+msgstr "Overgeslagen als gevolg van een voorafgaande uitschrijving"
 
 #: core/inbound-automation/definitions/action.add_remove_tag.php:33
 msgid "Add/Remove Lead Tag"
@@ -11362,7 +11363,7 @@ msgstr "Gedempt voor "
 
 #: core/inbound-mailer/classes/class.metaboxes.inbound-email.php:1233
 msgid "Lead has unsubscribed"
-msgstr "Lood heeft afgemeld"
+msgstr "Lead heeft zichzelf uitgeschreven"
 
 #: core/inbound-mailer/classes/class.metaboxes.inbound-email.php:1396
 msgid "Select Date"
@@ -12397,7 +12398,7 @@ msgstr "Uitschrijven van pagina"
 msgid ""
 "This shortcode can be used to produce an unsubscribe form. Inbound Now "
 "automatically creates an Unsubscribe page with this shortcode on activation."
-msgstr "Deze shortcode kan worden gebruikt voor de productie van een formulier uitschrijven. Inkomende nu automatisch een Unsubscribe pagina met deze shortcode op activering."
+msgstr "Deze shortcode kan gebruikt worden om een uitschrijfformulier te maken. Inbound Now maakt automatisch een uitschrijvingspagina met deze shortcode bij activatie."
 
 #: core/inbound-mailer/classes/class.settings.php:68
 msgid "Unsubscribe Location"
@@ -12408,7 +12409,7 @@ msgid ""
 "Where to send readers to unsubscribe. We auto create an unsubscribe page on "
 "activation, but you can use our shortcode on any page [inbound-email-"
 "unsubscribe]. "
-msgstr "Waar te sturen van de lezers af te melden. Wij auto maken een unsubscribe pagina op activering, maar u kunt onze shortcode op elke pagina [binnenkomende-e-uitschrijven]. "
+msgstr "Waar lezers heen te sturen om uit te schrijven. We maken automatisch een uitschrijvingspagina bij activatie, maar u kunt onze shortcode gebruiken op elke pagina [inbound-email-unsubscribe]."
 
 #: core/inbound-mailer/classes/class.settings.php:76
 msgid "Show Lists"
@@ -12418,11 +12419,11 @@ msgstr "Lijsten weergeven"
 msgid ""
 "Leave this set to on to give the reader the option to unsubscribe from "
 "individual lists."
-msgstr "Laat deze set om aan geven de lezer de mogelijkheid om een abonnement op afzonderlijke lijsten."
+msgstr "Laat deze instelling op aan staan om de lezer de mogelijkheid te bieden om uit te schrijven van individuele lijsten."
 
 #: core/inbound-mailer/classes/class.settings.php:88
 msgid "Unsubscribe Labels"
-msgstr "Uitschrijven van etiketten"
+msgstr "Uitschrijven van Labels"
 
 #: core/inbound-mailer/classes/class.settings.php:93
 msgid "Unsubscribe Header"
@@ -12436,11 +12437,11 @@ msgstr "Deze tekst wordt weergegeven in de knop abonnement opzeggen"
 #: core/inbound-mailer/classes/class.settings.php:96
 #: core/inbound-mailer/classes/class.unsubscribe.php:35
 msgid "Unsubscribe:"
-msgstr "Abonnement opzeggen:"
+msgstr "Uitschrijven:"
 
 #: core/inbound-mailer/classes/class.settings.php:101
 msgid "Unsubscribe Button"
-msgstr "Afmelden knop"
+msgstr "Knop om af te melden"
 
 #: core/inbound-mailer/classes/class.settings.php:109
 msgid "Mute Section Header"
@@ -12471,7 +12472,7 @@ msgstr "Commentaar Prompt"
 msgid ""
 "This message is meant to encourage the reader to leave an unsubscribe "
 "comments."
-msgstr "Dit bericht is bedoeld om de lezer een abonnement opzeggen om commentaar te verlaten."
+msgstr "Dit bericht is bedoeld om de lezer aan te moedigen om een reactie achter te laten waarom hij/zij zich uitschrijft."
 
 #: core/inbound-mailer/classes/class.settings.php:137
 #: core/inbound-mailer/classes/class.unsubscribe.php:40
@@ -12499,7 +12500,7 @@ msgstr "\"Alle lijsten\" etiket"
 msgid ""
 "When readers are given the option to unsubscribe from all lists, this label "
 "is displayed."
-msgstr "Wanneer lezers de mogelijkheid krijgen om een abonnement op alle lijsten, wordt dit label weergegeven."
+msgstr "Wanneer de lezers de mogelijkheid krijgen om zich uit te schrijven van alle lijsten, wordt dit label weergegeven."
 
 #: core/inbound-mailer/classes/class.settings.php:151
 #: core/inbound-mailer/classes/class.unsubscribe.php:42
@@ -12514,7 +12515,7 @@ msgstr "1 maand Label"
 msgid ""
 "When readers are given the option to unsubscribe for 1 month, this label is "
 "displayed."
-msgstr "Als lezers worden gegeven de optie om af te melden voor 1 maand, wordt dit label weergegeven."
+msgstr "Als lezers de optie wordt gegeven om af te melden voor 1 maand, wordt dit label weergegeven."
 
 #: core/inbound-mailer/classes/class.settings.php:158
 #: core/inbound-mailer/classes/class.unsubscribe.php:43
@@ -12529,7 +12530,7 @@ msgstr "3 maanden Label"
 msgid ""
 "When readers are given the option to unsubscribe for 3 months, this label is"
 " displayed."
-msgstr "Als lezers worden gegeven de optie om af te melden voor 3 maanden, wordt dit label weergegeven."
+msgstr "Als lezers de optie wordt gegeven om af te melden voor 3 maanden, wordt dit label weergegeven."
 
 #: core/inbound-mailer/classes/class.settings.php:165
 msgid "3 Months"
@@ -12543,7 +12544,7 @@ msgstr "6 maanden Label"
 msgid ""
 "When readers are given the option to unsubscribe for 6 months, this label is"
 " displayed."
-msgstr "Als lezers worden gegeven de optie om af te melden voor 6 maanden, wordt dit label weergegeven."
+msgstr "Als lezers de optie wordt gegeven om af te melden voor 6 maanden, wordt dit label weergegeven."
 
 #: core/inbound-mailer/classes/class.settings.php:172
 msgid "6 Months"
@@ -12557,7 +12558,7 @@ msgstr "12 maanden Label"
 msgid ""
 "When readers are given the option to unsubscribe for 12 months, this label "
 "is displayed."
-msgstr "Als lezers worden gegeven de optie om af te melden voor 12 maanden, wordt dit label weergegeven."
+msgstr "Als lezers de optie wordt gegeven om af te melden voor 12 maanden, wordt dit label weergegeven."
 
 #: core/inbound-mailer/classes/class.settings.php:179
 msgid "12 Months"
@@ -12786,15 +12787,15 @@ msgstr "Commentaar:"
 
 #: core/inbound-mailer/classes/class.unsubscribe.php:44
 msgid "3 Month"
-msgstr "3 maand"
+msgstr "3 maanden"
 
 #: core/inbound-mailer/classes/class.unsubscribe.php:45
 msgid "6 Month"
-msgstr "6 maand"
+msgstr "6 maanden"
 
 #: core/inbound-mailer/classes/class.unsubscribe.php:46
 msgid "12 Month"
-msgstr "12 maand"
+msgstr "12 maanden"
 
 #: core/inbound-mailer/classes/class.unsubscribe.php:57
 msgid "Invalid token"
@@ -12806,7 +12807,7 @@ msgstr "Oeps. Er is iets mis met de uitschrijflink. Bent u ingelogd?"
 
 #: core/inbound-mailer/classes/class.unsubscribe.php:158
 msgid "#unsubscribe-not-available-in-online-mode"
-msgstr "#unsubscribe-not-available-in-online-mode"
+msgstr "#uitschrijven-niet-beschikbaar-in-online-modus"
 
 #: core/inbound-mailer/inbound-mailer.php:49
 msgid ""
@@ -12893,7 +12894,7 @@ msgstr ""
 
 #: core/inbound-mailer/templates/simple-responsive/index.php:182
 msgid "Unsubscribe from this list"
-msgstr "Afmelden voor deze lijst"
+msgstr "Uitschrijven voor deze lijst"
 
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:301
 msgid "Install Required Plugins"
@@ -12948,7 +12949,7 @@ msgstr ""
 
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:372
 msgid "Dismiss this notice"
-msgstr "Ontslaan van deze mededeling"
+msgstr "Deze mededeling negeren"
 
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:373
 msgid "Please contact the administrator of this site for help."
