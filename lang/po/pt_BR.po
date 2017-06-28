@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2017-06-07 17:05-0500\n"
-"PO-Revision-Date: 2017-06-12 10:51+0000\n"
+"PO-Revision-Date: 2017-06-13 11:57+0000\n"
 "Last-Translator: ALEXANDRE SILVA <alexandre.alves@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/inboundnow/inbound-pro/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -571,7 +571,7 @@ msgid ""
 "not affect impression recording for CTAs, Landing Pages, or Emails. Will "
 "affect lead visit statistics. This should not be turned off unless your "
 "server is experiencing resource shortage issues."
-msgstr ""
+msgstr "Se desligar, vai desabilitar o motor de rastreamento de opiniões dos visitantes. Não irá desabilitar a gravação de opiniões para CTAs, Páginas de Captura ou E-mails, mas terá efeitos sobre as estatísticas de Interessados. Não deve ser desligado, exceto se o servidor estive sem recursos disponíveis."
 
 #: classes/admin/class.settings.php:314
 msgid "Admin Tracking"
@@ -952,26 +952,26 @@ msgstr "Relatório de Estatísticas de E-mail "
 #: classes/admin/report-templates/report.email-stats.php:98
 #, php-format
 msgid "%s past %s days"
-msgstr ""
+msgstr "%s passado %s dias"
 
 #: classes/admin/report-templates/report.email-stats.php:133
 #, php-format
 msgid "%s over the past %s days"
-msgstr ""
+msgstr "%s além do limite máximo de %s dias"
 
 #: classes/admin/report-templates/report.email-stats.php:160
 #, php-format
 msgid "No %s Logged For This Email"
-msgstr ""
+msgstr "Nenhum %s Registrado Para Este E-mail"
 
 #: classes/admin/report-templates/report.email-stats.php:174
 msgid "Email Variation"
-msgstr ""
+msgstr "Variação de E-mail"
 
 #: classes/admin/report-templates/report.email-stats.php:177
 #, php-format
 msgid "Total %s For This Variation"
-msgstr ""
+msgstr "Total %s Para Esta Variação"
 
 #: classes/admin/report-templates/report.email-stats.php:247
 #: classes/admin/report-templates/report.email-stats.php:389
@@ -981,7 +981,7 @@ msgstr ""
 #: classes/admin/report-templates/report.email-stats.php:249
 #: classes/admin/report-templates/report.email-stats.php:391
 msgid "Lead Name"
-msgstr ""
+msgstr "Nome do Interessado"
 
 #: classes/admin/report-templates/report.email-stats.php:255
 #: classes/admin/report-templates/report.email-stats.php:397
@@ -1006,17 +1006,17 @@ msgstr "Mensagem"
 #: classes/admin/report-templates/report.email-stats.php:420
 #, php-format
 msgid "Email Variation %s"
-msgstr ""
+msgstr "E-mail de Variação %s"
 
 #: classes/admin/report-templates/report.email-stats.php:282
 #: classes/admin/report-templates/report.email-stats.php:423
 #, php-format
 msgid "Email %s On"
-msgstr ""
+msgstr "E-mail %s está disponível"
 
 #: classes/admin/report-templates/report.email-stats.php:310
 msgid "Lead Deleted"
-msgstr ""
+msgstr "Interessado Apagado"
 
 #: classes/admin/report-templates/report.email-stats.php:330
 #: core/inbound-mailer/classes/class.activation.database-routines.php:17
@@ -1030,11 +1030,11 @@ msgstr "Cancelar subscrição"
 #: classes/admin/report-templates/report.email-stats.php:336
 #, php-format
 msgid "No URL for token %s"
-msgstr ""
+msgstr "Sem URL para toke %s"
 
 #: classes/admin/report-templates/report.email-stats.php:360
 msgid "no reason supplied"
-msgstr ""
+msgstr "sem recursos disponíveis"
 
 #: classes/admin/report-templates/report.email-stats.php:371
 msgid "..."
@@ -1061,7 +1061,7 @@ msgstr "Abertos"
 
 #: classes/admin/report-templates/report.email-stats.php:899
 msgid "Unopened Emails"
-msgstr ""
+msgstr "E-mails não abertos"
 
 #: classes/admin/report-templates/report.email-stats.php:900
 #: core/inbound-mailer/classes/class.metaboxes.inbound-email.php:799
@@ -1102,7 +1102,7 @@ msgstr "Enviado"
 
 #: classes/admin/report-templates/report.email-stats.php:907
 msgid "Opened"
-msgstr ""
+msgstr "Abertos"
 
 #: classes/admin/report-templates/report.email-stats.php:908
 #: core/inbound-mailer/classes/class.metaboxes.inbound-email.php:809
@@ -1111,7 +1111,7 @@ msgstr "Sem abrir"
 
 #: classes/admin/report-templates/report.email-stats.php:909
 msgid "Clicked"
-msgstr ""
+msgstr "Clicado"
 
 #: classes/admin/report-templates/report.email-stats.php:910
 msgid "Bounced"
@@ -1135,19 +1135,19 @@ msgstr "Silenciado"
 
 #: classes/admin/report-templates/report.email-stats.php:916
 msgid "been sent an"
-msgstr ""
+msgstr "foi enviado um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:917
 msgid "opened an"
-msgstr ""
+msgstr "foi aberto um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:918
 msgid "not opened an"
-msgstr ""
+msgstr "não aberto um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:919
 msgid "clicked an"
-msgstr ""
+msgstr "clicado um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:920
 msgid "bounced an"
@@ -13673,7 +13673,7 @@ msgstr "Seleção de modelo"
 
 #: core/landing-pages/classes/class.metaboxes.php:138
 msgid "Variation Notes"
-msgstr ""
+msgstr "Anotações de variação"
 
 #: core/landing-pages/classes/class.metaboxes.php:192
 msgid "Additional Resources"
@@ -13697,7 +13697,7 @@ msgstr "Digite a descrição da página de aterragem"
 
 #: core/landing-pages/classes/class.metaboxes.php:372
 msgid "Enter Headline"
-msgstr ""
+msgstr "Digite o cabeçalho"
 
 #: core/landing-pages/classes/class.metaboxes.php:438
 msgid "Version "
