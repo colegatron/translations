@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
-"POT-Creation-Date: 2017-08-04 12:50-0500\n"
-"PO-Revision-Date: 2017-08-05 07:44+0000\n"
+"POT-Creation-Date: 2017-09-20 15:46-0500\n"
+"PO-Revision-Date: 2017-09-22 21:19+0000\n"
 "Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
 "Language-Team: Spanish (Latin America) (http://www.transifex.com/inboundnow/inbound-pro/language/es_419/)\n"
 "MIME-Version: 1.0\n"
@@ -66,8 +66,8 @@ msgstr "Páginas de aterrizaje"
 
 #: classes/admin/class.download-management.php:551
 #: classes/admin/class.settings.php:181 classes/admin/class.settings.php:544
-#: core/cta/classes/class.post-type.wp-call-to-action.php:68
-#: core/cta/classes/class.post-type.wp-call-to-action.php:69
+#: core/cta/classes/class.post-type.wp-call-to-action.php:72
+#: core/cta/classes/class.post-type.wp-call-to-action.php:73
 msgid "Calls to Action"
 msgstr "Llamadas a la acción"
 
@@ -89,8 +89,8 @@ msgstr "Automatización"
 #: classes/admin/class.download-management.php:562
 #: classes/admin/class.download-management.php:659
 #: classes/admin/class.download-management.php:665
-#: classes/admin/report-templates/report.event.php:262
-#: classes/admin/report-templates/report.event.php:463
+#: classes/admin/report-templates/report.event.php:279
+#: classes/admin/report-templates/report.event.php:517
 #: core/landing-pages/templates/demo/config.php:139
 #: core/leads/classes/class.lead-management.php:412
 #: core/leads/classes/class.post-type.wp-lead.php:92
@@ -164,6 +164,7 @@ msgstr "Gestionar extensiones"
 #: classes/admin/class.inbound-analytics.php:152
 #: classes/admin/class.inbound-analytics.php:182
 #: classes/admin/class.settings.php:285 classes/admin/class.settings.php:542
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:166
 msgid "Inbound Analytics"
 msgstr "Entrada analítica"
 
@@ -180,30 +181,30 @@ msgid "days"
 msgstr ""
 
 #: classes/admin/class.inbound-analytics.php:262
-#: classes/admin/report-templates/report.impressions.php:68
-#: classes/admin/report-templates/report.impressions.php:182
-#: classes/admin/report-templates/report.impressions.php:257
-#: classes/admin/report-templates/report.visitors.php:183
-#: classes/admin/report-templates/report.visitors.php:258
-#: classes/admin/report-templates/report.visitors.php:330
-#: classes/admin/report-templates/report.visitors.php:428
+#: classes/admin/report-templates/report.impressions.php:69
+#: classes/admin/report-templates/report.impressions.php:183
+#: classes/admin/report-templates/report.impressions.php:258
+#: classes/admin/report-templates/report.visitors.php:196
+#: classes/admin/report-templates/report.visitors.php:271
+#: classes/admin/report-templates/report.visitors.php:343
+#: classes/admin/report-templates/report.visitors.php:441
 #: core/landing-pages/classes/class.post-type.landing-page.php:471
-#: core/landing-pages/classes/class.statistics.php:107
+#: core/landing-pages/classes/class.split-testing-stats.php:111
 msgid "Impressions"
 msgstr "Impresiones"
 
 #: classes/admin/class.inbound-analytics.php:263
-#: classes/admin/report-templates/report.impressions.php:254
-#: classes/admin/report-templates/report.visitors.php:68
-#: classes/admin/report-templates/report.visitors.php:255
+#: classes/admin/report-templates/report.impressions.php:255
+#: classes/admin/report-templates/report.visitors.php:81
+#: classes/admin/report-templates/report.visitors.php:268
 msgid "Visitors"
 msgstr "Visitantes"
 
 #: classes/admin/class.inbound-analytics.php:264
 #: classes/admin/report-templates/report.event.php:58
-#: classes/admin/report-templates/report.event.php:169
-#: classes/admin/report-templates/report.events.php:57
-#: classes/admin/report-templates/report.events.php:191
+#: classes/admin/report-templates/report.event.php:176
+#: classes/admin/report-templates/report.events.php:58
+#: classes/admin/report-templates/report.events.php:198
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:50
 #: core/automation/classes/class.metaboxes.automation.php:147
 #: core/mailer/classes/class.metaboxes.inbound-email.php:111
@@ -350,8 +351,8 @@ msgid "Pages in Funnel"
 msgstr "Páginas en embudo"
 
 #: classes/admin/class.reporting.funnels.php:240
-#: classes/admin/report-templates/report.event.php:174
-#: classes/admin/report-templates/report.events.php:196
+#: classes/admin/report-templates/report.event.php:181
+#: classes/admin/report-templates/report.events.php:203
 msgid "Event Name"
 msgstr "Nombre del evento"
 
@@ -378,8 +379,8 @@ msgid "View Funnel Path"
 msgstr "Ver ruta de embudo"
 
 #: classes/admin/class.reporting.funnels.php:396
-#: classes/admin/report-templates/report.event.php:547
-#: classes/admin/report-templates/report.events.php:424
+#: classes/admin/report-templates/report.event.php:617
+#: classes/admin/report-templates/report.events.php:431
 #: core/landing-pages/classes/class.wp-list-table.templates.php:92
 #: core/shared/shortcodes/shortcodes/landing_pages.php:37
 #: core/shared/shortcodes/shortcodes/landing_pages.php:99
@@ -405,55 +406,54 @@ msgid "Datetime"
 msgstr "Fecha y hora"
 
 #: classes/admin/class.reporting.funnels.php:458
-#: classes/admin/report-templates/report.event.php:271
-#: classes/admin/report-templates/report.event.php:472
-#: classes/admin/report-templates/report.impressions.php:251
-#: classes/admin/report-templates/report.impressions.php:325
-#: classes/admin/report-templates/report.visitors.php:252
-#: classes/admin/report-templates/report.visitors.php:327
+#: classes/admin/class.reporting.templates.php:130
+#: classes/admin/report-templates/report.event.php:294
+#: classes/admin/report-templates/report.event.php:542
+#: classes/admin/report-templates/report.impressions.php:252
+#: classes/admin/report-templates/report.impressions.php:326
+#: classes/admin/report-templates/report.visitors.php:265
+#: classes/admin/report-templates/report.visitors.php:340
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:2391
 #: core/leads/classes/class.metaboxes.wp-lead.php:1056
 msgid "Source"
 msgstr "Fuente"
 
 #: classes/admin/class.reporting.funnels.php:461
-#: classes/admin/report-templates/report.event.php:238
-#: classes/admin/report-templates/report.event.php:439
-#: classes/admin/report-templates/report.impressions.php:328
-#: classes/admin/report-templates/report.impressions.php:418
-#: classes/admin/report-templates/report.visitors.php:333
-#: classes/admin/report-templates/report.visitors.php:431
+#: classes/admin/report-templates/report.event.php:245
+#: classes/admin/report-templates/report.event.php:493
+#: classes/admin/report-templates/report.impressions.php:329
+#: classes/admin/report-templates/report.impressions.php:419
+#: classes/admin/report-templates/report.visitors.php:346
+#: classes/admin/report-templates/report.visitors.php:444
 #: core/automation/definitions/action.send_email.php:51
 #: core/leads/classes/class.post-type.wp-lead.php:89
 msgid "Lead"
 msgstr "Plomo"
 
 #: classes/admin/class.reporting.templates.php:109
-msgid "page id"
+msgid "Page Id"
 msgstr ""
 
 #: classes/admin/class.reporting.templates.php:116
-msgid "lead id"
+msgid "Lead Id"
 msgstr ""
 
 #: classes/admin/class.reporting.templates.php:123
-msgid "lead uid"
-msgstr ""
-
-#: classes/admin/class.reporting.templates.php:130
-msgid "source"
+msgid "Lead UID"
 msgstr ""
 
 #: classes/admin/class.reporting.templates.php:137
-msgid "event"
+#: classes/admin/report-templates/report.event.php:242
+#: classes/admin/report-templates/report.event.php:490
+msgid "Event"
 msgstr ""
 
 #: classes/admin/class.reporting.templates.php:144
-msgid "list id"
+msgid "List Id"
 msgstr ""
 
 #: classes/admin/class.reporting.templates.php:151
-msgid "job id"
+msgid "Job Id"
 msgstr ""
 
 #: classes/admin/class.settings.php:127
@@ -695,7 +695,7 @@ msgid "Inbound Now"
 msgstr "Ahora entrante"
 
 #: classes/admin/class.settings.php:731
-#: core/mailer/templates/simple-basic/index.php:352
+#: core/mailer/templates/simple-basic/index.php:365
 #: core/shared/shortcodes/shortcodes/social-share.php:43
 #: core/shared/shortcodes/shortcodes/social.php:18
 msgid "Twitter"
@@ -772,7 +772,7 @@ msgid "Order"
 msgstr ""
 
 #: classes/admin/class.settings.php:1099
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:341
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:357
 #: core/landing-pages/classes/class.metaboxes.php:575
 #: core/landing-pages/classes/class.wp-list-table.templates.php:201
 msgid "Delete"
@@ -898,6 +898,188 @@ msgid ""
 "href=\"%4$s\">update now</a>."
 msgstr ""
 
+#: classes/admin/report-templates/report.cta.quick-view.php:245
+#: classes/admin/report-templates/report.quick-view.php:250
+msgid "Past 24 hours"
+msgstr "Más allá de 24 horas"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:248
+#: classes/admin/report-templates/report.quick-view.php:253
+msgid "Past 7 days"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:251
+#: classes/admin/report-templates/report.quick-view.php:256
+msgid "Past 30 days"
+msgstr "Últimos 30 días"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:254
+#: classes/admin/report-templates/report.quick-view.php:259
+msgid "Past 90 days"
+msgstr "Últimos 90 días"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:257
+#: classes/admin/report-templates/report.quick-view.php:262
+msgid "Past 365 days"
+msgstr "Últimos 365 días"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:284
+#: classes/admin/report-templates/report.quick-view.php:290
+msgid "Statistic"
+msgstr "Estadística"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:287
+#: classes/admin/report-templates/report.cta.quick-view.php:396
+#: classes/admin/report-templates/report.cta.quick-view.php:455
+#: classes/admin/report-templates/report.quick-view.php:378
+#: core/leads/classes/class.metaboxes.wp-lead.php:694
+msgid "Count"
+msgstr "Conde"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:290
+#: classes/admin/report-templates/report.cta.quick-view.php:458
+#: classes/admin/report-templates/report.quick-view.php:381
+msgid "Rate"
+msgstr "Tasa de"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:293
+#: classes/admin/report-templates/report.cta.quick-view.php:402
+#: classes/admin/report-templates/report.cta.quick-view.php:461
+#: classes/admin/report-templates/report.quick-view.php:300
+#: classes/admin/report-templates/report.quick-view.php:384
+msgid "Change"
+msgstr "Cambio"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:298
+#: classes/admin/report-templates/report.quick-view.php:306
+msgid "Total number of visits to this page"
+msgstr "Número total de visitas a esta página"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:299
+#: classes/admin/report-templates/report.quick-view.php:307
+msgid "Impressions:"
+msgstr "Impresiones:"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:309
+#: classes/admin/report-templates/report.quick-view.php:315
+#, php-format
+msgid ""
+"%s impressions in the last %s days versus %s impressions in the prior %s day"
+" period)"
+msgstr "%s impresiones en los últimos días versus impresiones previo %s %s %s días)"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:314
+#: classes/admin/report-templates/report.quick-view.php:320
+msgid "Total number of visitors"
+msgstr "Número total de visitantes"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:315
+#: classes/admin/report-templates/report.quick-view.php:321
+msgid "Visitors:"
+msgstr "Visitantes:"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:328
+#: classes/admin/report-templates/report.quick-view.php:331
+#, php-format
+msgid ""
+"%s visitors in the last %s days versus %s visitors in the prior %s day "
+"period)"
+msgstr "%s visitantes en los últimos días frente a los visitantes %s en la previa %s %s días)"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:334
+#: classes/admin/report-templates/report.quick-view.php:389
+msgid "Total number of Inbound Form submissions originating from this page"
+msgstr "Número total de envíos de forma entrantes procedentes de esta página"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:335
+#: core/shared/classes/class.events.php:1132
+msgid "Inbound Form Submission"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:339
+#: classes/admin/report-templates/report.quick-view.php:389
+#: classes/admin/report-templates/report.quick-view.php:393
+#: core/shared/classes/class.events.php:1132
+msgid "Inbound Form Submissions"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:344
+#: classes/admin/report-templates/report.cta.quick-view.php:362
+#: classes/admin/report-templates/report.cta.quick-view.php:477
+#: classes/admin/report-templates/report.quick-view.php:398
+#: classes/admin/report-templates/report.quick-view.php:416
+#: classes/admin/report-templates/report.quick-view.php:434
+msgid "Rate of action events compared to impressions."
+msgstr "Tasa de eventos de acción, en comparación con impresiones."
+
+#: classes/admin/report-templates/report.cta.quick-view.php:347
+#: classes/admin/report-templates/report.cta.quick-view.php:362
+#: classes/admin/report-templates/report.cta.quick-view.php:365
+#: classes/admin/report-templates/report.cta.quick-view.php:480
+#, php-format
+msgid ""
+"%s action rate in the last %s days versus a %s action rate in the prior %s "
+"day period)"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:352
+#: classes/admin/report-templates/report.quick-view.php:406
+msgid ""
+"Total number of clicked tracked call to action links related to this page."
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:353
+msgid "CTA Click:"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:357
+#: classes/admin/report-templates/report.quick-view.php:407
+#: classes/admin/report-templates/report.quick-view.php:411
+#: core/cta/classes/class.extension.wp-lead.php:37
+#: core/shared/classes/class.events.php:1135
+msgid "CTA Clicks"
+msgstr "CTA clics"
+
+#: classes/admin/report-templates/report.cta.quick-view.php:393
+msgid "Converting Post"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:414
+#, php-format
+msgid "CTA Conversion events generated by this post in the last %d days"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:419
+#, php-format
+msgid "%s Conversions"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:425
+#, php-format
+msgid ""
+"There were %s conversions in the last %s days on this post, versus %s "
+"conversions in the prior %s day period"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:452
+msgid "Converting Variation"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:469
+#, php-format
+msgid "Clicks generated by variation %s of this CTA in %d days"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:469
+#, php-format
+msgid "Variation: %s"
+msgstr ""
+
+#: classes/admin/report-templates/report.cta.quick-view.php:472
+#, php-format
+msgid "%s: Variation &quot;%s&quot; Conversions"
+msgstr ""
+
 #: classes/admin/report-templates/report.email-stats.php:61
 msgid "Email Report Stats"
 msgstr ""
@@ -954,8 +1136,8 @@ msgstr ""
 
 #: classes/admin/report-templates/report.email-stats.php:267
 #: classes/admin/report-templates/report.email-stats.php:408
-#: classes/admin/report-templates/report.event.php:244
-#: classes/admin/report-templates/report.event.php:445
+#: classes/admin/report-templates/report.event.php:251
+#: classes/admin/report-templates/report.event.php:499
 #: core/mailer/classes/class.lead-profile.php:200
 #: core/shared/shortcodes/shortcodes/alert.php:25
 msgid "Message"
@@ -978,19 +1160,19 @@ msgid "Lead Deleted"
 msgstr ""
 
 #: classes/admin/report-templates/report.email-stats.php:324
-#: classes/admin/report-templates/report.event.php:355
+#: classes/admin/report-templates/report.event.php:379
 #: core/mailer/classes/class.activation.database-routines.php:17
 #: core/mailer/classes/class.settings.php:103
 #: core/mailer/classes/class.unsubscribe.php:41
 #: core/mailer/classes/class.unsubscribe.php:219
 #: core/mailer/templates/simple-basic/config.php:318
 #: core/mailer/templates/simple-responsive/config.php:80
-#: core/mailer/templates/simple-responsive/index.php:21
+#: core/mailer/templates/simple-responsive/index.php:22
 msgid "Unsubscribe"
 msgstr "Darse de baja"
 
 #: classes/admin/report-templates/report.email-stats.php:330
-#: classes/admin/report-templates/report.event.php:361
+#: classes/admin/report-templates/report.event.php:385
 #, php-format
 msgid "No URL for token %s"
 msgstr ""
@@ -1130,164 +1312,176 @@ msgstr ""
 msgid "muted an"
 msgstr ""
 
-#: classes/admin/report-templates/report.event.php:107
+#: classes/admin/report-templates/report.event.php:114
 #, php-format
 msgid "Actions past %s days"
 msgstr ""
 
-#: classes/admin/report-templates/report.event.php:108
+#: classes/admin/report-templates/report.event.php:115
 #, php-format
 msgid "Actions prior %s days"
 msgstr ""
 
-#: classes/admin/report-templates/report.event.php:177
-#: classes/admin/report-templates/report.events.php:199
+#: classes/admin/report-templates/report.event.php:184
+#: classes/admin/report-templates/report.events.php:206
 msgid "Action Count"
 msgstr ""
 
-#: classes/admin/report-templates/report.event.php:235
-#: classes/admin/report-templates/report.event.php:436
-msgid "Event"
-msgstr ""
-
-#: classes/admin/report-templates/report.event.php:253
-#: classes/admin/report-templates/report.event.php:454
-msgid "Target"
-msgstr ""
-
-#: classes/admin/report-templates/report.event.php:268
-#: classes/admin/report-templates/report.event.php:469
+#: classes/admin/report-templates/report.event.php:260
+#: classes/admin/report-templates/report.event.php:535
 msgid "Funnel Details"
 msgstr ""
 
-#: classes/admin/report-templates/report.event.php:278
-#: classes/admin/report-templates/report.event.php:479
+#: classes/admin/report-templates/report.event.php:270
+#: classes/admin/report-templates/report.event.php:508
+msgid "Target"
+msgstr ""
+
+#: classes/admin/report-templates/report.event.php:288
+#: classes/admin/report-templates/report.event.php:526
+msgid "Origin Post"
+msgstr ""
+
+#: classes/admin/report-templates/report.event.php:301
+#: classes/admin/report-templates/report.event.php:549
 msgid "Event Date"
 msgstr ""
 
-#: classes/admin/report-templates/report.event.php:295
-#: classes/admin/report-templates/report.events.php:261
-#: classes/admin/report-templates/report.impressions.php:347
+#: classes/admin/report-templates/report.event.php:318
+#: classes/admin/report-templates/report.events.php:268
+#: classes/admin/report-templates/report.impressions.php:348
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:229
 #: classes/admin/report-templates/report.visitor-events.php:42
 #: classes/admin/report-templates/report.visitor-pageviews.php:39
-#: classes/admin/report-templates/report.visitors.php:353
+#: classes/admin/report-templates/report.visitors.php:366
 #: core/leads/classes/class.post-type.wp-lead.php:133
 #: core/leads/classes/class.post-type.wp-lead.php:140
-#: core/shared/classes/class.events.php:664
+#: core/shared/classes/class.events.php:666
 msgid "n/a"
 msgstr "n / a"
 
-#: classes/admin/report-templates/report.event.php:412
-#: classes/admin/report-templates/report.event.php:533
-#: classes/admin/report-templates/report.events.php:323
-#: classes/admin/report-templates/report.events.php:391
-#: classes/admin/report-templates/report.impressions.php:280
-#: classes/admin/report-templates/report.impressions.php:381
-#: classes/admin/report-templates/report.visitors.php:281
-#: classes/admin/report-templates/report.visitors.php:387
+#: classes/admin/report-templates/report.event.php:431
+msgid "The conversion occured on a deleted post..."
+msgstr ""
+
+#: classes/admin/report-templates/report.event.php:466
+#: classes/admin/report-templates/report.event.php:603
+#: classes/admin/report-templates/report.events.php:330
+#: classes/admin/report-templates/report.events.php:398
+#: classes/admin/report-templates/report.impressions.php:281
+#: classes/admin/report-templates/report.impressions.php:382
+#: classes/admin/report-templates/report.visitors.php:294
+#: classes/admin/report-templates/report.visitors.php:400
 #: core/leads/classes/class.metaboxes.wp-lead.php:1153
 msgid "Direct Traffic"
 msgstr "Dirigir el tráfico"
 
-#: classes/admin/report-templates/report.event.php:519
-#: classes/admin/report-templates/report.events.php:377
+#: classes/admin/report-templates/report.event.php:589
+#: classes/admin/report-templates/report.events.php:384
 msgid "Traffic Funnel"
 msgstr ""
 
-#: classes/admin/report-templates/report.event.php:549
-#: classes/admin/report-templates/report.events.php:426
+#: classes/admin/report-templates/report.event.php:619
+#: classes/admin/report-templates/report.events.php:433
 #: core/leads/classes/class.metaboxes.wp-lead.php:1810
 msgid "Category Page"
 msgstr "Página de la categoría"
 
-#: classes/admin/report-templates/report.event.php:554
-#: classes/admin/report-templates/report.events.php:431
+#: classes/admin/report-templates/report.event.php:624
+#: classes/admin/report-templates/report.events.php:438
 msgid "tag"
 msgstr ""
 
-#: classes/admin/report-templates/report.event.php:568
-#: classes/admin/report-templates/report.events.php:445
+#: classes/admin/report-templates/report.event.php:638
+#: classes/admin/report-templates/report.events.php:452
 msgid "post"
 msgstr ""
 
-#: classes/admin/report-templates/report.event.php:601
-#: classes/admin/report-templates/report.events.php:478
+#: classes/admin/report-templates/report.event.php:671
+#: classes/admin/report-templates/report.events.php:485
 msgid "converted!"
 msgstr ""
 
-#: classes/admin/report-templates/report.events.php:407
+#: classes/admin/report-templates/report.event.php:696
+msgid "Direct Email Content"
+msgstr ""
+
+#: classes/admin/report-templates/report.event.php:705
+msgid "There was an error, the direct email content could not be displayed."
+msgstr ""
+
+#: classes/admin/report-templates/report.events.php:414
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:451
 msgid "no data"
 msgstr ""
 
-#: classes/admin/report-templates/report.events.php:500
+#: classes/admin/report-templates/report.events.php:507
 msgid "List Added"
 msgstr ""
 
-#: classes/admin/report-templates/report.events.php:521
+#: classes/admin/report-templates/report.events.php:528
 msgid "Message Details"
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:104
-#: classes/admin/report-templates/report.impressions.php:139
+#: classes/admin/report-templates/report.impressions.php:105
+#: classes/admin/report-templates/report.impressions.php:140
 #, php-format
 msgid "Impressions past %s days"
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:105
-#: classes/admin/report-templates/report.impressions.php:147
+#: classes/admin/report-templates/report.impressions.php:106
+#: classes/admin/report-templates/report.impressions.php:148
 #, php-format
 msgid "Impressions prior %s days"
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:171
-#: classes/admin/report-templates/report.visitors.php:172
+#: classes/admin/report-templates/report.impressions.php:172
+#: classes/admin/report-templates/report.visitors.php:185
 msgid "Top Visitors"
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:179
+#: classes/admin/report-templates/report.impressions.php:180
 msgid "Viewer"
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:200
-#: classes/admin/report-templates/report.visitors.php:201
+#: classes/admin/report-templates/report.impressions.php:201
+#: classes/admin/report-templates/report.visitors.php:214
 msgid "Anonymous"
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:242
-#: classes/admin/report-templates/report.visitors.php:243
+#: classes/admin/report-templates/report.impressions.php:243
+#: classes/admin/report-templates/report.visitors.php:256
 msgid "Top Sources"
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:315
-#: classes/admin/report-templates/report.visitors.php:316
+#: classes/admin/report-templates/report.impressions.php:316
+#: classes/admin/report-templates/report.visitors.php:329
 msgid "Stream"
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:322
-#: classes/admin/report-templates/report.impressions.php:412
+#: classes/admin/report-templates/report.impressions.php:323
+#: classes/admin/report-templates/report.impressions.php:413
 #: core/shared/classes/class.post-type.wp-lead.php:198
 msgid "Name"
 msgstr "Nombre"
 
-#: classes/admin/report-templates/report.impressions.php:331
-#: classes/admin/report-templates/report.impressions.php:422
+#: classes/admin/report-templates/report.impressions.php:332
+#: classes/admin/report-templates/report.impressions.php:423
 msgid "Impression Date"
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:388
-#: classes/admin/report-templates/report.visitors.php:399
+#: classes/admin/report-templates/report.impressions.php:389
+#: classes/admin/report-templates/report.visitors.php:412
 msgid "Lead exists. Click to view."
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:388
-#: classes/admin/report-templates/report.visitors.php:399
+#: classes/admin/report-templates/report.impressions.php:389
+#: classes/admin/report-templates/report.visitors.php:412
 msgid "Lead does not exist in database yet."
 msgstr ""
 
-#: classes/admin/report-templates/report.impressions.php:415
-#: classes/admin/report-templates/report.visitors.php:425
+#: classes/admin/report-templates/report.impressions.php:416
+#: classes/admin/report-templates/report.visitors.php:438
 msgid "Last Source"
 msgstr ""
 
@@ -1342,33 +1536,9 @@ msgid ""
 "No search saved. The search was made, but it wasn't logged for some reason."
 msgstr ""
 
-#: classes/admin/report-templates/report.quick-view.php:250
-msgid "Past 24 hours"
-msgstr "Más allá de 24 horas"
-
-#: classes/admin/report-templates/report.quick-view.php:253
-msgid "Past 7 hours"
-msgstr "Pasado 7 horas"
-
-#: classes/admin/report-templates/report.quick-view.php:256
-msgid "Past 30 days"
-msgstr "Últimos 30 días"
-
-#: classes/admin/report-templates/report.quick-view.php:259
-msgid "Past 90 days"
-msgstr "Últimos 90 días"
-
-#: classes/admin/report-templates/report.quick-view.php:262
-msgid "Past 365 days"
-msgstr "Últimos 365 días"
-
 #: classes/admin/report-templates/report.quick-view.php:289
 msgid "Type fo statistic."
 msgstr "Estadística de tipo fo."
-
-#: classes/admin/report-templates/report.quick-view.php:290
-msgid "Statistic"
-msgstr "Estadística"
 
 #: classes/admin/report-templates/report.quick-view.php:294
 msgid "Statistic value for given time period"
@@ -1381,41 +1551,6 @@ msgstr "Valor"
 #: classes/admin/report-templates/report.quick-view.php:298
 msgid "Change in growth compared to corresponding previous timeperiod."
 msgstr "El cambio en crecimiento comparado con timeperiod anterior correspondiente."
-
-#: classes/admin/report-templates/report.quick-view.php:300
-#: classes/admin/report-templates/report.quick-view.php:384
-msgid "Change"
-msgstr "Cambio"
-
-#: classes/admin/report-templates/report.quick-view.php:306
-msgid "Total number of visits to this page"
-msgstr "Número total de visitas a esta página"
-
-#: classes/admin/report-templates/report.quick-view.php:307
-msgid "Impressions:"
-msgstr "Impresiones:"
-
-#: classes/admin/report-templates/report.quick-view.php:315
-#, php-format
-msgid ""
-"%s impressions in the last %s days versus %s impressions in the prior %s day"
-" period)"
-msgstr "%s impresiones en los últimos días versus impresiones previo %s %s %s días)"
-
-#: classes/admin/report-templates/report.quick-view.php:320
-msgid "Total number of visitors"
-msgstr "Número total de visitantes"
-
-#: classes/admin/report-templates/report.quick-view.php:321
-msgid "Visitors:"
-msgstr "Visitantes:"
-
-#: classes/admin/report-templates/report.quick-view.php:331
-#, php-format
-msgid ""
-"%s visitors in the last %s days versus %s visitors in the prior %s day "
-"period)"
-msgstr "%s visitantes en los últimos días frente a los visitantes %s en la previa %s %s días)"
 
 #: classes/admin/report-templates/report.quick-view.php:336
 msgid "Total number of event actions originating from this page."
@@ -1456,50 +1591,13 @@ msgstr "%s ritmo de acción en los últimos días frente a un ritmo de acción d
 msgid "Action Breakdown"
 msgstr "Desglose de la acción"
 
-#: classes/admin/report-templates/report.quick-view.php:378
-#: core/leads/classes/class.metaboxes.wp-lead.php:694
-msgid "Count"
-msgstr "Conde"
-
-#: classes/admin/report-templates/report.quick-view.php:381
-msgid "Rate"
-msgstr "Tasa de"
-
-#: classes/admin/report-templates/report.quick-view.php:389
-msgid "Total number of Inbound Form submissions originating from this page"
-msgstr "Número total de envíos de forma entrantes procedentes de esta página"
-
-#: classes/admin/report-templates/report.quick-view.php:389
-#: classes/admin/report-templates/report.quick-view.php:393
-#: core/shared/classes/class.events.php:1060
-msgid "Inbound Form Submissions"
-msgstr ""
-
-#: classes/admin/report-templates/report.quick-view.php:398
-#: classes/admin/report-templates/report.quick-view.php:416
-#: classes/admin/report-templates/report.quick-view.php:434
-msgid "Rate of action events compared to impressions."
-msgstr "Tasa de eventos de acción, en comparación con impresiones."
-
-#: classes/admin/report-templates/report.quick-view.php:406
-msgid ""
-"Total number of clicked tracked call to action links related to this page."
-msgstr ""
-
-#: classes/admin/report-templates/report.quick-view.php:407
-#: classes/admin/report-templates/report.quick-view.php:411
-#: core/cta/classes/class.extension.wp-lead.php:37
-#: core/shared/classes/class.events.php:1063
-msgid "CTA Clicks"
-msgstr "CTA clics"
-
 #: classes/admin/report-templates/report.quick-view.php:424
 msgid "Total number of clicked tracked content links related to this page."
 msgstr ""
 
 #: classes/admin/report-templates/report.quick-view.php:425
 #: classes/admin/report-templates/report.quick-view.php:429
-#: classes/class.tracking.php:241 core/shared/classes/class.events.php:1066
+#: classes/class.tracking.php:241 core/shared/classes/class.events.php:1138
 msgid "Content Clicks"
 msgstr ""
 
@@ -1534,30 +1632,30 @@ msgstr ""
 msgid "Page does not exist"
 msgstr ""
 
-#: classes/admin/report-templates/report.visitors.php:105
-#: classes/admin/report-templates/report.visitors.php:140
+#: classes/admin/report-templates/report.visitors.php:118
+#: classes/admin/report-templates/report.visitors.php:153
 #, php-format
 msgid "Visitors past %s days"
 msgstr ""
 
-#: classes/admin/report-templates/report.visitors.php:106
-#: classes/admin/report-templates/report.visitors.php:148
+#: classes/admin/report-templates/report.visitors.php:119
+#: classes/admin/report-templates/report.visitors.php:161
 #, php-format
 msgid "Visitors prior %s days"
 msgstr ""
 
-#: classes/admin/report-templates/report.visitors.php:180
-#: classes/admin/report-templates/report.visitors.php:324
-#: classes/admin/report-templates/report.visitors.php:422
+#: classes/admin/report-templates/report.visitors.php:193
+#: classes/admin/report-templates/report.visitors.php:337
+#: classes/admin/report-templates/report.visitors.php:435
 msgid "Visitor"
 msgstr ""
 
-#: classes/admin/report-templates/report.visitors.php:336
-#: classes/admin/report-templates/report.visitors.php:434
+#: classes/admin/report-templates/report.visitors.php:349
+#: classes/admin/report-templates/report.visitors.php:447
 msgid "Last Visit"
 msgstr ""
 
-#: classes/class.cron.php:60
+#: classes/class.cron.php:59
 msgid "Every Two Minutes"
 msgstr "Cada dos minutos"
 
@@ -1957,7 +2055,7 @@ msgid "Search Rules"
 msgstr "Reglas de búsqueda"
 
 #: core/automation/classes/class.post-type.automation.php:64
-#: core/cta/classes/class.post-type.wp-call-to-action.php:76
+#: core/cta/classes/class.post-type.wp-call-to-action.php:80
 #: core/landing-pages/classes/class.post-type.landing-page.php:91
 #: core/mailer/classes/class.post-type.inbound-email.php:127
 #: core/shared/classes/class.post-type.wp-lead.php:56
@@ -1966,7 +2064,7 @@ msgid "Nothing found"
 msgstr "Nada encontrado"
 
 #: core/automation/classes/class.post-type.automation.php:65
-#: core/cta/classes/class.post-type.wp-call-to-action.php:77
+#: core/cta/classes/class.post-type.wp-call-to-action.php:81
 #: core/landing-pages/classes/class.post-type.landing-page.php:92
 #: core/mailer/classes/class.post-type.inbound-email.php:128
 #: core/shared/classes/class.post-type.wp-lead.php:57
@@ -2186,7 +2284,7 @@ msgstr ""
 
 #: core/automation/definitions/action.send_email.php:31
 #: core/mailer/classes/class.inbound-forms.php:37
-#: core/mailer/classes/class.token-engine.php:557
+#: core/mailer/classes/class.token-engine.php:559
 msgid "No Automation emails detected. Please create an automated email first."
 msgstr "No hay mensajes de automatización detectados. Cree primero un email automatizado."
 
@@ -2311,14 +2409,17 @@ msgid "User Role"
 msgstr "Rol de usuario"
 
 #: core/automation/definitions/trigger.draft_to_publish.php:32
+#: core/automation/definitions/trigger.save_post.php:32
 msgid "Post Object"
 msgstr ""
 
 #: core/automation/definitions/trigger.draft_to_publish.php:50
+#: core/automation/definitions/trigger.save_post.php:50
 msgid "On draft to publish event"
 msgstr ""
 
 #: core/automation/definitions/trigger.draft_to_publish.php:51
+#: core/automation/definitions/trigger.save_post.php:51
 msgid "This trigger fires whenever a post is published."
 msgstr ""
 
@@ -2379,7 +2480,7 @@ msgid "Post ID"
 msgstr "Post ID"
 
 #: core/automation/definitions/trigger.set_object_terms.php:37
-#: core/mailer/templates/simple-basic/index.php:413
+#: core/mailer/templates/simple-basic/index.php:426
 msgid "Terms"
 msgstr "Términos"
 
@@ -2494,7 +2595,7 @@ msgid "Clone this item"
 msgstr "Este artículo de la copia"
 
 #: core/cta/classes/class.clone-post.php:43
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:336
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:352
 #: core/landing-pages/classes/class.metaboxes.php:568
 #: core/landing-pages/classes/class.row-actions.php:46
 #: core/mailer/classes/class.clone-post.php:42
@@ -2507,157 +2608,157 @@ msgstr "Clon"
 msgid "Copy creation failed, could not find original:"
 msgstr "Copia de creación no se pudo, no pudo encontrar original:"
 
-#: core/cta/classes/class.cta.variations.php:544
+#: core/cta/classes/class.cta.variations.php:539
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:486
 msgid "A"
 msgstr "A"
 
-#: core/cta/classes/class.cta.variations.php:545
+#: core/cta/classes/class.cta.variations.php:540
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:487
 msgid "B"
 msgstr "B"
 
-#: core/cta/classes/class.cta.variations.php:546
+#: core/cta/classes/class.cta.variations.php:541
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:488
 msgid "C"
 msgstr "C"
 
-#: core/cta/classes/class.cta.variations.php:547
+#: core/cta/classes/class.cta.variations.php:542
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:489
 msgid "D"
 msgstr "D"
 
-#: core/cta/classes/class.cta.variations.php:548
+#: core/cta/classes/class.cta.variations.php:543
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:490
 msgid "E"
 msgstr "E"
 
-#: core/cta/classes/class.cta.variations.php:549
+#: core/cta/classes/class.cta.variations.php:544
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:491
 msgid "F"
 msgstr "F"
 
-#: core/cta/classes/class.cta.variations.php:550
+#: core/cta/classes/class.cta.variations.php:545
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:492
 msgid "G"
 msgstr "G"
 
-#: core/cta/classes/class.cta.variations.php:551
+#: core/cta/classes/class.cta.variations.php:546
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:493
 msgid "H"
 msgstr "H"
 
-#: core/cta/classes/class.cta.variations.php:552
+#: core/cta/classes/class.cta.variations.php:547
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:494
 msgid "I"
 msgstr "Me"
 
-#: core/cta/classes/class.cta.variations.php:553
+#: core/cta/classes/class.cta.variations.php:548
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:495
 msgid "J"
 msgstr "J"
 
-#: core/cta/classes/class.cta.variations.php:554
+#: core/cta/classes/class.cta.variations.php:549
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:496
 msgid "K"
 msgstr "K"
 
-#: core/cta/classes/class.cta.variations.php:555
+#: core/cta/classes/class.cta.variations.php:550
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:497
 msgid "L"
 msgstr "L"
 
-#: core/cta/classes/class.cta.variations.php:556
+#: core/cta/classes/class.cta.variations.php:551
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:498
 msgid "M"
 msgstr "M"
 
-#: core/cta/classes/class.cta.variations.php:557
+#: core/cta/classes/class.cta.variations.php:552
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:499
 msgid "N"
 msgstr "N"
 
-#: core/cta/classes/class.cta.variations.php:558
+#: core/cta/classes/class.cta.variations.php:553
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:500
 msgid "O"
 msgstr "O"
 
-#: core/cta/classes/class.cta.variations.php:559
+#: core/cta/classes/class.cta.variations.php:554
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:501
 msgid "P"
 msgstr "P"
 
-#: core/cta/classes/class.cta.variations.php:560
+#: core/cta/classes/class.cta.variations.php:555
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:502
 msgid "Q"
 msgstr "Q"
 
-#: core/cta/classes/class.cta.variations.php:561
+#: core/cta/classes/class.cta.variations.php:556
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:503
 msgid "R"
 msgstr "R"
 
-#: core/cta/classes/class.cta.variations.php:562
+#: core/cta/classes/class.cta.variations.php:557
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:504
 msgid "S"
 msgstr "S"
 
-#: core/cta/classes/class.cta.variations.php:563
+#: core/cta/classes/class.cta.variations.php:558
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:505
 msgid "T"
 msgstr "T"
 
-#: core/cta/classes/class.cta.variations.php:564
+#: core/cta/classes/class.cta.variations.php:559
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:506
 msgid "U"
 msgstr "U"
 
-#: core/cta/classes/class.cta.variations.php:565
+#: core/cta/classes/class.cta.variations.php:560
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:507
 msgid "V"
 msgstr "V"
 
-#: core/cta/classes/class.cta.variations.php:566
+#: core/cta/classes/class.cta.variations.php:561
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:508
 msgid "W"
 msgstr "W"
 
-#: core/cta/classes/class.cta.variations.php:567
+#: core/cta/classes/class.cta.variations.php:562
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:509
 msgid "X"
 msgstr "X"
 
-#: core/cta/classes/class.cta.variations.php:568
+#: core/cta/classes/class.cta.variations.php:563
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:510
 msgid "Y"
 msgstr "Y"
 
-#: core/cta/classes/class.cta.variations.php:569
+#: core/cta/classes/class.cta.variations.php:564
 #: core/landing-pages/classes/class.variations.php:765
 #: core/mailer/classes/class.variations.php:511
 msgid "Z"
@@ -2680,7 +2781,7 @@ msgid "undefined"
 msgstr "undefined"
 
 #: core/cta/classes/class.extension.wp-lead.php:76
-#: core/shared/classes/class.events.php:1063
+#: core/shared/classes/class.events.php:1135
 msgid "CTA Click"
 msgstr "Haga clic en CTA"
 
@@ -2882,11 +2983,10 @@ msgid "Custom JS"
 msgstr "Custom JS"
 
 #: core/cta/classes/class.metaboxes.wp-call-to-action.php:155
-#: core/landing-pages/classes/class.metaboxes.php:153
-msgid "A/B Testing"
-msgstr "A la prueba B"
+msgid "Split Testing"
+msgstr ""
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:176
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:188
 msgid ""
 "<i>It looks like the template you are using is no longer available. Please "
 "check your uploads folder for your custom CTA template or visit our "
@@ -2894,32 +2994,32 @@ msgid ""
 "plugin.</i>"
 msgstr "<i>Parece que la plantilla que está utilizando no está disponible. Por favor revise su carpeta de uploads para su plantilla personalizada de CTA o visitar nuestro marketplace para descargar plantillas gratis de CTA quitadas recientemente de este plugin.</i>"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:198
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:210
 #: core/landing-pages/classes/class.metaboxes.php:464
 #: core/mailer/classes/class.metaboxes.inbound-email.php:1218
 #: core/shared/classes/class.inbound-customizer.php:149
 msgid "Launch Visual Editor"
 msgstr "Iniciar el Editor de Visual"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:202
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:214
 #: core/landing-pages/classes/class.metaboxes.php:403
 msgid "Choose Another Template"
 msgstr "Elegir otra plantilla"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:303
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:319
 #: core/landing-pages/classes/class.metaboxes.php:541
 msgid "Paused"
 msgstr "Hizo una pausa"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:326
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:342
 #: core/landing-pages/classes/class.metaboxes.php:554
 msgid "Edit"
 msgstr "Editar"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:331
-#: core/cta/classes/class.post-type.wp-call-to-action.php:152
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:347
+#: core/cta/classes/class.post-type.wp-call-to-action.php:156
 #: core/landing-pages/classes/class.metaboxes.php:561
-#: core/landing-pages/classes/class.metaboxes.php:862
+#: core/landing-pages/classes/class.metaboxes.php:863
 #: core/landing-pages/classes/class.post-type.landing-page.php:173
 #: core/mailer/classes/class.metaboxes.inbound-email.php:1065
 #: core/mailer/classes/class.metaboxes.inbound-email.php:1161
@@ -2927,174 +3027,173 @@ msgstr "Editar"
 msgid "Preview"
 msgstr "Vista previa"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:353
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:369
 #: core/landing-pages/classes/class.metaboxes.php:591
 msgid "Pause this variation"
 msgstr "Hacer una pausa en esta variación"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:358
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:374
 #: core/landing-pages/classes/class.metaboxes.php:598
 msgid "Turn this variation on"
 msgstr "Encienda esta variación"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:359
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:375
 msgid "This variation is behavioral."
 msgstr ""
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:372
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:388
 #: core/landing-pages/classes/class.metaboxes.php:608
 msgid "Views"
 msgstr "Vistas"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:377
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:393
 #: core/landing-pages/classes/class.metaboxes.php:612
 #: core/landing-pages/classes/class.post-type.landing-page.php:471
-#: core/landing-pages/classes/class.statistics.php:108
+#: core/landing-pages/classes/class.split-testing-stats.php:112
 msgid "Conversions"
 msgstr "Conversiones"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:382
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:398
 #: core/landing-pages/classes/class.metaboxes.php:616
-#: core/landing-pages/classes/class.statistics.php:109
+#: core/landing-pages/classes/class.split-testing-stats.php:113
 msgid "Conversion Rate"
 msgstr "Tasa de conversión"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:605
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:634
 msgid "Select Your Call to Action Template!"
 msgstr "¡Seleccione la llamada a la plantilla de acción!"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:752
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:781
 msgid "Variation Shortcode"
 msgstr "Código corto de variación"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:753
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:782
 msgid ""
 "You can copy and paste this shortcode into any page or post to render this "
 "call to action. You can also insert CTAs from the WordPress editor on any "
 "given page. To enable variation rotation remove the vid= attribute."
 msgstr "Usted puede copiar y pegar este código en cualquier página o post para hacer este llamado a la acción. También puede insertar CTAs desde el editor de WordPress en cualquier página. Para permitir la variación de rotación Retire el vid = atributo."
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:794
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:823
 msgid "Enter Call to Action Description"
 msgstr "Entrar la llamada a la acción Descripción"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:811
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:840
 msgid "Notes:"
 msgstr "Notas:"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:811
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:840
 msgid ""
 "Add Notes to your variation. Example: This version is testing a green submit"
 " button"
 msgstr "Añadir notas a su variación. Ejemplo: Esta versión está probando un botón Enviar verde"
 
-#: core/cta/classes/class.metaboxes.wp-call-to-action.php:878
+#: core/cta/classes/class.metaboxes.wp-call-to-action.php:910
 msgid "Calculate height/width"
 msgstr "Calcular la altura/anchura"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:70
+#: core/cta/classes/class.post-type.wp-call-to-action.php:74
 #: core/landing-pages/classes/class.post-type.landing-page.php:85
 #: core/mailer/classes/class.post-type.inbound-email.php:121
 msgid "Add New"
 msgstr "Agregar nuevo"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:71
+#: core/cta/classes/class.post-type.wp-call-to-action.php:75
 #: core/shared/classes/class.menus.adminbar.php:241
 msgid "Add New Call to Action"
 msgstr "Agregue la nueva llamada a la acción"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:72
+#: core/cta/classes/class.post-type.wp-call-to-action.php:76
 msgid "Edit Call to Action"
 msgstr "Llamado a la acción de editar"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:73
+#: core/cta/classes/class.post-type.wp-call-to-action.php:77
 msgid "New Call to Action"
 msgstr "Nueva llamada a la acción"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:74
+#: core/cta/classes/class.post-type.wp-call-to-action.php:78
 msgid "View Call to Action"
 msgstr "Ver llamado a la acción"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:75
+#: core/cta/classes/class.post-type.wp-call-to-action.php:79
 msgid "Search Call to Action"
 msgstr "Búsqueda de llamada a la acción"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:137
+#: core/cta/classes/class.post-type.wp-call-to-action.php:141
 #: core/landing-pages/classes/class.post-type.landing-page.php:151
 #: core/shared/classes/class.menus.adminbar.php:249
 #: core/shared/classes/class.menus.adminbar.php:307
 msgid "Categories"
 msgstr "Categorías"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:138
+#: core/cta/classes/class.post-type.wp-call-to-action.php:142
 msgid "Call to Action Category"
 msgstr "Llame a la categoría de acción"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:153
+#: core/cta/classes/class.post-type.wp-call-to-action.php:157
 msgid "Call to Action Title"
 msgstr "Llamar a título de acción"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:154
+#: core/cta/classes/class.post-type.wp-call-to-action.php:158
 #: core/landing-pages/classes/class.post-type.landing-page.php:175
-msgid "Variation Testing Stats"
-msgstr "Estadísticas de pruebas de variación"
+msgid "Split Testing Results"
+msgstr ""
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:155
-msgid "Total<br>Impressions"
-msgstr "Total <br>impresiones"
+#: core/cta/classes/class.post-type.wp-call-to-action.php:159
+msgid "Overall<br>Impressions"
+msgstr ""
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:156
-#: core/landing-pages/classes/class.post-type.landing-page.php:177
-msgid "Total<br>Conversions"
-msgstr "Conversiones de <br>total"
+#: core/cta/classes/class.post-type.wp-call-to-action.php:160
+msgid "Oversall<br>Conversions"
+msgstr ""
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:157
-msgid "Total<br>Click Through Rate"
-msgstr "Total <br>clic a través de la tasa de"
+#: core/cta/classes/class.post-type.wp-call-to-action.php:161
+msgid "Overall<br>Conversion Rate"
+msgstr ""
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:187
+#: core/cta/classes/class.post-type.wp-call-to-action.php:191
 #: core/mailer/classes/class.post-type.inbound-email.php:222
 #: core/mailer/classes/class.post-type.inbound-email.php:223
 msgid "Click to Preview"
 msgstr "Haga clic en vista previa"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:221
+#: core/cta/classes/class.post-type.wp-call-to-action.php:258
 #: core/landing-pages/classes/class.post-type.landing-page.php:311
 msgid "Clear impression and conversion records"
 msgstr "Clara impresión y conversión de registros"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:222
+#: core/cta/classes/class.post-type.wp-call-to-action.php:259
 #: core/landing-pages/classes/class.post-type.landing-page.php:312
 msgid "Clear All Stats"
 msgstr "Borrar todas las estadísticas"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:225
+#: core/cta/classes/class.post-type.wp-call-to-action.php:262
 #: core/landing-pages/classes/class.post-type.landing-page.php:315
 #: core/mailer/classes/class.settings.php:59
 msgid "Shortcode:"
 msgstr "Código:"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:246
+#: core/cta/classes/class.post-type.wp-call-to-action.php:283
 #: core/landing-pages/classes/class.post-type.landing-page.php:504
 #: core/mailer/classes/class.post-type.inbound-email.php:740
 msgid "Show All "
 msgstr "Mostrar todos "
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:274
+#: core/cta/classes/class.post-type.wp-call-to-action.php:311
 #: core/landing-pages/classes/class.metaboxes.php:187
 msgid "Short Description"
 msgstr "Breve descripción"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:289
+#: core/cta/classes/class.post-type.wp-call-to-action.php:326
 #: core/landing-pages/classes/class.post-type.landing-page.php:444
 msgid "Show Variation Stats"
 msgstr "Mostrar las estadísticas de la variación"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:327
+#: core/cta/classes/class.post-type.wp-call-to-action.php:366
 msgid "(Paused)"
 msgstr "(En pausa)"
 
-#: core/cta/classes/class.post-type.wp-call-to-action.php:361
+#: core/cta/classes/class.post-type.wp-call-to-action.php:400
 msgid "No A/B Tests running for this landing page."
 msgstr "No A / B pruebas de funcionamiento de esta página de inicio."
 
@@ -3424,7 +3523,7 @@ msgid "Installed But Not Activated"
 msgstr "Instalado pero no activado"
 
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:2169
-#: core/shared/classes/class.post-type.wp-lead.php:546
+#: core/shared/classes/class.post-type.wp-lead.php:547
 msgid "Active"
 msgstr "Activo"
 
@@ -3684,27 +3783,31 @@ msgstr "Selección de plantilla"
 msgid "Variation Notes"
 msgstr ""
 
+#: core/landing-pages/classes/class.metaboxes.php:153
+msgid "A/B Testing"
+msgstr "A la prueba B"
+
 #: core/landing-pages/classes/class.metaboxes.php:197
 msgid "Additional Resources"
 msgstr "Recursos adicionales"
 
 #: core/landing-pages/classes/class.metaboxes.php:299
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2055
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2149
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2182
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2243
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2289
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2323
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2056
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2150
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2183
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2244
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2290
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2324
 msgid "Are you sure?"
 msgstr "¿Estás seguro?"
 
 #: core/landing-pages/classes/class.metaboxes.php:300
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2355
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2356
 msgid "Are you sure you want to select this template?"
 msgstr "¿Está seguro que desea seleccionar esta plantilla?"
 
 #: core/landing-pages/classes/class.metaboxes.php:301
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2359
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2360
 msgid "Yes"
 msgstr "Sí"
 
@@ -3718,16 +3821,16 @@ msgstr "Se ha eliminado el archivo imaginario."
 
 #: core/landing-pages/classes/class.metaboxes.php:304
 #: core/mailer/classes/class.lead-profile.php:341
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2066
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2111
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2160
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2193
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2254
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2300
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2334
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2365
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2483
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2521
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2067
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2112
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2161
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2194
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2255
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2301
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2335
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2366
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2484
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2522
 msgid "Please wait"
 msgstr "Espera"
 
@@ -3810,37 +3913,37 @@ msgstr "Cancelar cambio de plantilla"
 msgid "Theme"
 msgstr "Tema"
 
-#: core/landing-pages/classes/class.metaboxes.php:860
+#: core/landing-pages/classes/class.metaboxes.php:861
 #: core/landing-pages/templates/demo/config.php:241
 msgid "Select"
 msgstr "Seleccione"
 
-#: core/landing-pages/classes/class.metaboxes.php:871
+#: core/landing-pages/classes/class.metaboxes.php:872
 msgid "This is Currently Selected"
 msgstr "Esto es seleccionado"
 
-#: core/landing-pages/classes/class.metaboxes.php:961
+#: core/landing-pages/classes/class.metaboxes.php:962
 msgid "Conversion Shortcode"
 msgstr "Código de conversión"
 
-#: core/landing-pages/classes/class.metaboxes.php:965
+#: core/landing-pages/classes/class.metaboxes.php:966
 msgid ""
 "Instead of depending on Inbound Forms or tracked clicks for conversion "
 "tracking, enter this shortcode into your final destination page to manually "
 "increment this variation's conversion count"
 msgstr "En lugar de depender de formas entrantes o clics seguidos para el rastreo de conversión, introduzca este código en tu página de destino final para incrementar manualmente la cuenta de esta variación conversión"
 
-#: core/landing-pages/classes/class.metaboxes.php:970
+#: core/landing-pages/classes/class.metaboxes.php:971
 msgid "Conversion Callback URL"
 msgstr "URL de devolución de llamada de conversión"
 
-#: core/landing-pages/classes/class.metaboxes.php:974
+#: core/landing-pages/classes/class.metaboxes.php:975
 msgid ""
 "If you would like to use a thrid party event to record a conversion you can "
 "use this cusomized callback URL."
 msgstr "Si desea utilizar una tercera parte grabar una conversión puede utilizar esta dirección URL de devolución de llamada de velocidad."
 
-#: core/landing-pages/classes/class.metaboxes.php:1077
+#: core/landing-pages/classes/class.metaboxes.php:1078
 #: core/landing-pages/classes/class.settings.php:781
 msgid "Upload Image"
 msgstr "Subir imagen"
@@ -3877,6 +3980,10 @@ msgstr "Título de la página de aterrizaje"
 #: core/landing-pages/classes/class.post-type.landing-page.php:176
 msgid "Total<br>Visits"
 msgstr "Total visitas <br>"
+
+#: core/landing-pages/classes/class.post-type.landing-page.php:177
+msgid "Total<br>Conversions"
+msgstr "Conversiones de <br>total"
 
 #: core/landing-pages/classes/class.post-type.landing-page.php:178
 msgid "Total<br>Conversion Rate"
@@ -4500,12 +4607,12 @@ msgid "Select to reveal or to hide social media share buttons."
 msgstr "Seleccione para revelar u ocultar botones de compartir los medios de comunicación social."
 
 #: core/landing-pages/templates/simple-two-column/config.php:114
-#: core/shared/classes/class.post-type.wp-lead.php:227
+#: core/shared/classes/class.post-type.wp-lead.php:228
 msgid "on"
 msgstr "en"
 
 #: core/landing-pages/templates/simple-two-column/config.php:115
-#: core/shared/classes/class.post-type.wp-lead.php:229
+#: core/shared/classes/class.post-type.wp-lead.php:230
 msgid "off"
 msgstr "de"
 
@@ -4974,7 +5081,7 @@ msgid "View"
 msgstr "Ver"
 
 #: core/leads/classes/class.lead-management.php:416
-#: core/shared/classes/class.form.php:1438
+#: core/shared/classes/class.form.php:1442
 #: core/shared/classes/class.post-type.wp-lead.php:196
 msgid "ID"
 msgstr "ID"
@@ -5169,8 +5276,8 @@ msgid "Most Used"
 msgstr ""
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:206
-#: core/shared/classes/class.post-type.wp-lead.php:567
-#: core/shared/classes/class.post-type.wp-lead.php:738
+#: core/shared/classes/class.post-type.wp-lead.php:568
+#: core/shared/classes/class.post-type.wp-lead.php:739
 msgid "Unconfirmed"
 msgstr ""
 
@@ -5428,37 +5535,37 @@ msgid "Country..."
 msgstr "País..."
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2060
-#: core/shared/classes/class.form.php:1336
+#: core/shared/classes/class.form.php:1340
 msgid "Afghanistan"
 msgstr "Afganistán"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2061
-#: core/shared/classes/class.form.php:1338
+#: core/shared/classes/class.form.php:1342
 msgid "Albania"
 msgstr "Albania"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2062
-#: core/shared/classes/class.form.php:1339
+#: core/shared/classes/class.form.php:1343
 msgid "Algeria"
 msgstr "Argelia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2063
-#: core/shared/classes/class.form.php:1340
+#: core/shared/classes/class.form.php:1344
 msgid "American Samoa"
 msgstr "Samoa Americana"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2064
-#: core/shared/classes/class.form.php:1341
+#: core/shared/classes/class.form.php:1345
 msgid "Andorra"
 msgstr "Andorra"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2065
-#: core/shared/classes/class.form.php:1342
+#: core/shared/classes/class.form.php:1346
 msgid "Angola"
 msgstr "Angola"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2066
-#: core/shared/classes/class.form.php:1343
+#: core/shared/classes/class.form.php:1347
 msgid "Anguilla"
 msgstr "Anguila"
 
@@ -5467,87 +5574,87 @@ msgid "Antigua &amp; Barbuda"
 msgstr "Antigua y Barbuda"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2068
-#: core/shared/classes/class.form.php:1346
+#: core/shared/classes/class.form.php:1350
 msgid "Argentina"
 msgstr "Argentina"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2069
-#: core/shared/classes/class.form.php:1347
+#: core/shared/classes/class.form.php:1351
 msgid "Armenia"
 msgstr "Armenia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2070
-#: core/shared/classes/class.form.php:1348
+#: core/shared/classes/class.form.php:1352
 msgid "Aruba"
 msgstr "Aruba"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2071
-#: core/shared/classes/class.form.php:1349
+#: core/shared/classes/class.form.php:1353
 msgid "Australia"
 msgstr "Australia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2072
-#: core/shared/classes/class.form.php:1350
+#: core/shared/classes/class.form.php:1354
 msgid "Austria"
 msgstr "Austria"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2073
-#: core/shared/classes/class.form.php:1351
+#: core/shared/classes/class.form.php:1355
 msgid "Azerbaijan"
 msgstr "Azerbaiyán"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2074
-#: core/shared/classes/class.form.php:1352
+#: core/shared/classes/class.form.php:1356
 msgid "Bahamas"
 msgstr "Bahamas"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2075
-#: core/shared/classes/class.form.php:1353
+#: core/shared/classes/class.form.php:1357
 msgid "Bahrain"
 msgstr "Bahrein"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2076
-#: core/shared/classes/class.form.php:1354
+#: core/shared/classes/class.form.php:1358
 msgid "Bangladesh"
 msgstr "Bangladesh"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2077
-#: core/shared/classes/class.form.php:1355
+#: core/shared/classes/class.form.php:1359
 msgid "Barbados"
 msgstr "Barbados"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2078
-#: core/shared/classes/class.form.php:1356
+#: core/shared/classes/class.form.php:1360
 msgid "Belarus"
 msgstr "Bielorrusia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2079
-#: core/shared/classes/class.form.php:1357
+#: core/shared/classes/class.form.php:1361
 msgid "Belgium"
 msgstr "Bélgica"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2080
-#: core/shared/classes/class.form.php:1358
+#: core/shared/classes/class.form.php:1362
 msgid "Belize"
 msgstr "Belice"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2081
-#: core/shared/classes/class.form.php:1359
+#: core/shared/classes/class.form.php:1363
 msgid "Benin"
 msgstr "Benin"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2082
-#: core/shared/classes/class.form.php:1360
+#: core/shared/classes/class.form.php:1364
 msgid "Bermuda"
 msgstr "Bermudas"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2083
-#: core/shared/classes/class.form.php:1361
+#: core/shared/classes/class.form.php:1365
 msgid "Bhutan"
 msgstr "Bután"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2084
-#: core/shared/classes/class.form.php:1362
+#: core/shared/classes/class.form.php:1366
 msgid "Bolivia"
 msgstr "Bolivia"
 
@@ -5560,12 +5667,12 @@ msgid "Bosnia &amp; Herzegovina"
 msgstr "Bosnia y Herzegovina"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2087
-#: core/shared/classes/class.form.php:1364
+#: core/shared/classes/class.form.php:1368
 msgid "Botswana"
 msgstr "Botswana"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2088
-#: core/shared/classes/class.form.php:1366
+#: core/shared/classes/class.form.php:1370
 msgid "Brazil"
 msgstr "Brasil"
 
@@ -5578,32 +5685,32 @@ msgid "Brunei"
 msgstr "Brunei"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2091
-#: core/shared/classes/class.form.php:1369
+#: core/shared/classes/class.form.php:1373
 msgid "Bulgaria"
 msgstr "Bulgaria"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2092
-#: core/shared/classes/class.form.php:1370
+#: core/shared/classes/class.form.php:1374
 msgid "Burkina Faso"
 msgstr "Burkina Faso"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2093
-#: core/shared/classes/class.form.php:1371
+#: core/shared/classes/class.form.php:1375
 msgid "Burundi"
 msgstr "Burundi"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2094
-#: core/shared/classes/class.form.php:1372
+#: core/shared/classes/class.form.php:1376
 msgid "Cambodia"
 msgstr "Camboya"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2095
-#: core/shared/classes/class.form.php:1373
+#: core/shared/classes/class.form.php:1377
 msgid "Cameroon"
 msgstr "Camerún"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2096
-#: core/shared/classes/class.form.php:1374
+#: core/shared/classes/class.form.php:1378
 msgid "Canada"
 msgstr "Canadá"
 
@@ -5612,22 +5719,22 @@ msgid "Canary Islands"
 msgstr "Islas Canarias"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2098
-#: core/shared/classes/class.form.php:1375
+#: core/shared/classes/class.form.php:1379
 msgid "Cape Verde"
 msgstr "Cabo Verde"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2099
-#: core/shared/classes/class.form.php:1377
+#: core/shared/classes/class.form.php:1381
 msgid "Cayman Islands"
 msgstr "Islas Caimán"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2100
-#: core/shared/classes/class.form.php:1378
+#: core/shared/classes/class.form.php:1382
 msgid "Central African Republic"
 msgstr "República Centroafricana"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2101
-#: core/shared/classes/class.form.php:1379
+#: core/shared/classes/class.form.php:1383
 msgid "Chad"
 msgstr "Chad"
 
@@ -5636,17 +5743,17 @@ msgid "Channel Islands"
 msgstr "Islas del canal"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2103
-#: core/shared/classes/class.form.php:1380
+#: core/shared/classes/class.form.php:1384
 msgid "Chile"
 msgstr "Chile"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2104
-#: core/shared/classes/class.form.php:1381
+#: core/shared/classes/class.form.php:1385
 msgid "China"
 msgstr "China"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2105
-#: core/shared/classes/class.form.php:1382
+#: core/shared/classes/class.form.php:1386
 msgid "Christmas Island"
 msgstr "Isla de Navidad"
 
@@ -5655,27 +5762,27 @@ msgid "Cocos Island"
 msgstr "Isla del coco"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2107
-#: core/shared/classes/class.form.php:1384
+#: core/shared/classes/class.form.php:1388
 msgid "Colombia"
 msgstr "Colombia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2108
-#: core/shared/classes/class.form.php:1385
+#: core/shared/classes/class.form.php:1389
 msgid "Comoros"
 msgstr "Comoras"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2109
-#: core/shared/classes/class.form.php:1386
+#: core/shared/classes/class.form.php:1390
 msgid "Congo"
 msgstr "Congo"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2110
-#: core/shared/classes/class.form.php:1388
+#: core/shared/classes/class.form.php:1392
 msgid "Cook Islands"
 msgstr "Islas Cook"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2111
-#: core/shared/classes/class.form.php:1389
+#: core/shared/classes/class.form.php:1393
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
@@ -5684,47 +5791,47 @@ msgid "Cote D'Ivoire"
 msgstr "Costa de Marfil"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2113
-#: core/shared/classes/class.form.php:1391
+#: core/shared/classes/class.form.php:1395
 msgid "Croatia"
 msgstr "Croacia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2114
-#: core/shared/classes/class.form.php:1392
+#: core/shared/classes/class.form.php:1396
 msgid "Cuba"
 msgstr "Cuba"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2115
-#: core/shared/classes/class.form.php:1393
+#: core/shared/classes/class.form.php:1397
 msgid "Curacao"
 msgstr "Curacao"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2116
-#: core/shared/classes/class.form.php:1394
+#: core/shared/classes/class.form.php:1398
 msgid "Cyprus"
 msgstr "Chipre"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2117
-#: core/shared/classes/class.form.php:1395
+#: core/shared/classes/class.form.php:1399
 msgid "Czech Republic"
 msgstr "República Checa"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2118
-#: core/shared/classes/class.form.php:1396
+#: core/shared/classes/class.form.php:1400
 msgid "Denmark"
 msgstr "Dinamarca"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2119
-#: core/shared/classes/class.form.php:1397
+#: core/shared/classes/class.form.php:1401
 msgid "Djibouti"
 msgstr "Yibuti"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2120
-#: core/shared/classes/class.form.php:1398
+#: core/shared/classes/class.form.php:1402
 msgid "Dominica"
 msgstr "Dominica"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2121
-#: core/shared/classes/class.form.php:1399
+#: core/shared/classes/class.form.php:1403
 msgid "Dominican Republic"
 msgstr "República Dominicana"
 
@@ -5733,72 +5840,72 @@ msgid "East Timor"
 msgstr "Timor Oriental"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2123
-#: core/shared/classes/class.form.php:1400
+#: core/shared/classes/class.form.php:1404
 msgid "Ecuador"
 msgstr "Ecuador"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2124
-#: core/shared/classes/class.form.php:1401
+#: core/shared/classes/class.form.php:1405
 msgid "Egypt"
 msgstr "Egipto"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2125
-#: core/shared/classes/class.form.php:1402
+#: core/shared/classes/class.form.php:1406
 msgid "El Salvador"
 msgstr "El Salvador"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2126
-#: core/shared/classes/class.form.php:1403
+#: core/shared/classes/class.form.php:1407
 msgid "Equatorial Guinea"
 msgstr "Guinea Ecuatorial"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2127
-#: core/shared/classes/class.form.php:1404
+#: core/shared/classes/class.form.php:1408
 msgid "Eritrea"
 msgstr "Eritrea"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2128
-#: core/shared/classes/class.form.php:1405
+#: core/shared/classes/class.form.php:1409
 msgid "Estonia"
 msgstr "Estonia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2129
-#: core/shared/classes/class.form.php:1406
+#: core/shared/classes/class.form.php:1410
 msgid "Ethiopia"
 msgstr "Etiopía"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2130
-#: core/shared/classes/class.form.php:1407
+#: core/shared/classes/class.form.php:1411
 msgid "Falkland Islands"
 msgstr "Las Islas Malvinas"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2131
-#: core/shared/classes/class.form.php:1408
+#: core/shared/classes/class.form.php:1412
 msgid "Faroe Islands"
 msgstr "Islas Faroe"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2132
-#: core/shared/classes/class.form.php:1409
+#: core/shared/classes/class.form.php:1413
 msgid "Fiji"
 msgstr "Fiji"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2133
-#: core/shared/classes/class.form.php:1410
+#: core/shared/classes/class.form.php:1414
 msgid "Finland"
 msgstr "Finlandia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2134
-#: core/shared/classes/class.form.php:1411
+#: core/shared/classes/class.form.php:1415
 msgid "France"
 msgstr "Francia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2135
-#: core/shared/classes/class.form.php:1412
+#: core/shared/classes/class.form.php:1416
 msgid "French Guiana"
 msgstr "Guayana francesa"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2136
-#: core/shared/classes/class.form.php:1413
+#: core/shared/classes/class.form.php:1417
 msgid "French Polynesia"
 msgstr "Polinesia francesa"
 
@@ -5807,32 +5914,32 @@ msgid "French Southern Ter"
 msgstr "Ter meridional francés"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2138
-#: core/shared/classes/class.form.php:1415
+#: core/shared/classes/class.form.php:1419
 msgid "Gabon"
 msgstr "Gabón"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2139
-#: core/shared/classes/class.form.php:1416
+#: core/shared/classes/class.form.php:1420
 msgid "Gambia"
 msgstr "Gambia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2140
-#: core/shared/classes/class.form.php:1417
+#: core/shared/classes/class.form.php:1421
 msgid "Georgia"
 msgstr "Georgia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2141
-#: core/shared/classes/class.form.php:1418
+#: core/shared/classes/class.form.php:1422
 msgid "Germany"
 msgstr "Alemania"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2142
-#: core/shared/classes/class.form.php:1419
+#: core/shared/classes/class.form.php:1423
 msgid "Ghana"
 msgstr "Ghana"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2143
-#: core/shared/classes/class.form.php:1420
+#: core/shared/classes/class.form.php:1424
 msgid "Gibraltar"
 msgstr "Gibraltar"
 
@@ -5841,47 +5948,47 @@ msgid "Great Britain"
 msgstr "Gran Bretaña"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2145
-#: core/shared/classes/class.form.php:1421
+#: core/shared/classes/class.form.php:1425
 msgid "Greece"
 msgstr "Grecia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2146
-#: core/shared/classes/class.form.php:1422
+#: core/shared/classes/class.form.php:1426
 msgid "Greenland"
 msgstr "Groenlandia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2147
-#: core/shared/classes/class.form.php:1423
+#: core/shared/classes/class.form.php:1427
 msgid "Grenada"
 msgstr "Granada"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2148
-#: core/shared/classes/class.form.php:1424
+#: core/shared/classes/class.form.php:1428
 msgid "Guadeloupe"
 msgstr "Guadalupe"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2149
-#: core/shared/classes/class.form.php:1425
+#: core/shared/classes/class.form.php:1429
 msgid "Guam"
 msgstr "Guam"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2150
-#: core/shared/classes/class.form.php:1426
+#: core/shared/classes/class.form.php:1430
 msgid "Guatemala"
 msgstr "Guatemala"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2151
-#: core/shared/classes/class.form.php:1428
+#: core/shared/classes/class.form.php:1432
 msgid "Guinea"
 msgstr "Guinea"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2152
-#: core/shared/classes/class.form.php:1430
+#: core/shared/classes/class.form.php:1434
 msgid "Guyana"
 msgstr "Guyana"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2153
-#: core/shared/classes/class.form.php:1431
+#: core/shared/classes/class.form.php:1435
 msgid "Haiti"
 msgstr "Haití"
 
@@ -5890,92 +5997,92 @@ msgid "Hawaii"
 msgstr "Hawaii"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2155
-#: core/shared/classes/class.form.php:1433
+#: core/shared/classes/class.form.php:1437
 msgid "Honduras"
 msgstr "Honduras"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2156
-#: core/shared/classes/class.form.php:1434
+#: core/shared/classes/class.form.php:1438
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2157
-#: core/shared/classes/class.form.php:1435
+#: core/shared/classes/class.form.php:1439
 msgid "Hungary"
 msgstr "Hungría"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2158
-#: core/shared/classes/class.form.php:1436
+#: core/shared/classes/class.form.php:1440
 msgid "Iceland"
 msgstr "Islandia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2159
-#: core/shared/classes/class.form.php:1437
+#: core/shared/classes/class.form.php:1441
 msgid "India"
 msgstr "India"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2160
-#: core/shared/classes/class.form.php:1438
+#: core/shared/classes/class.form.php:1442
 msgid "Indonesia"
 msgstr "Indonesia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2161
-#: core/shared/classes/class.form.php:1439
+#: core/shared/classes/class.form.php:1443
 msgid "Iran"
 msgstr "Irán"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2162
-#: core/shared/classes/class.form.php:1440
+#: core/shared/classes/class.form.php:1444
 msgid "Iraq"
 msgstr "Irak"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2163
-#: core/shared/classes/class.form.php:1441
+#: core/shared/classes/class.form.php:1445
 msgid "Ireland"
 msgstr "Irlanda"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2164
-#: core/shared/classes/class.form.php:1442
+#: core/shared/classes/class.form.php:1446
 msgid "Isle of Man"
 msgstr "Isla de Man"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2165
-#: core/shared/classes/class.form.php:1443
+#: core/shared/classes/class.form.php:1447
 msgid "Israel"
 msgstr "Israel"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2166
-#: core/shared/classes/class.form.php:1444
+#: core/shared/classes/class.form.php:1448
 msgid "Italy"
 msgstr "Italia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2167
-#: core/shared/classes/class.form.php:1445
+#: core/shared/classes/class.form.php:1449
 msgid "Jamaica"
 msgstr "Jamaica"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2168
-#: core/shared/classes/class.form.php:1446
+#: core/shared/classes/class.form.php:1450
 msgid "Japan"
 msgstr "Japón"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2169
-#: core/shared/classes/class.form.php:1448
+#: core/shared/classes/class.form.php:1452
 msgid "Jordan"
 msgstr "Jordania"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2170
-#: core/shared/classes/class.form.php:1449
+#: core/shared/classes/class.form.php:1453
 msgid "Kazakhstan"
 msgstr "Kazajstán"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2171
-#: core/shared/classes/class.form.php:1450
+#: core/shared/classes/class.form.php:1454
 msgid "Kenya"
 msgstr "Kenia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2172
-#: core/shared/classes/class.form.php:1451
+#: core/shared/classes/class.form.php:1455
 msgid "Kiribati"
 msgstr "Kiribati"
 
@@ -5988,12 +6095,12 @@ msgid "Korea South"
 msgstr "Corea sur"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2175
-#: core/shared/classes/class.form.php:1452
+#: core/shared/classes/class.form.php:1456
 msgid "Kuwait"
 msgstr "Kuwait"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2176
-#: core/shared/classes/class.form.php:1453
+#: core/shared/classes/class.form.php:1457
 msgid "Kyrgyzstan"
 msgstr "Kirguizistán"
 
@@ -6002,113 +6109,113 @@ msgid "Laos"
 msgstr "Laos"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2178
-#: core/shared/classes/class.form.php:1455
+#: core/shared/classes/class.form.php:1459
 msgid "Latvia"
 msgstr "Letonia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2179
-#: core/shared/classes/class.form.php:1456
+#: core/shared/classes/class.form.php:1460
 msgid "Lebanon"
 msgstr "Líbano"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2180
-#: core/shared/classes/class.form.php:1457
+#: core/shared/classes/class.form.php:1461
 msgid "Lesotho"
 msgstr "Lesotho"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2181
-#: core/shared/classes/class.form.php:1458
+#: core/shared/classes/class.form.php:1462
 msgid "Liberia"
 msgstr "Liberia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2182
-#: core/shared/classes/class.form.php:1459
+#: core/shared/classes/class.form.php:1463
 msgid "Libya"
 msgstr "Libia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2183
-#: core/shared/classes/class.form.php:1460
+#: core/shared/classes/class.form.php:1464
 msgid "Liechtenstein"
 msgstr "Liechtenstein"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2184
-#: core/shared/classes/class.form.php:1461
+#: core/shared/classes/class.form.php:1465
 msgid "Lithuania"
 msgstr "Lituania"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2185
-#: core/shared/classes/class.form.php:1462
+#: core/shared/classes/class.form.php:1466
 msgid "Luxembourg"
 msgstr "Luxemburgo"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2186
-#: core/shared/classes/class.form.php:1463
+#: core/shared/classes/class.form.php:1467
 msgid "Macau"
 msgstr "Macau"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2187
-#: core/shared/classes/class.form.php:1464
+#: core/shared/classes/class.form.php:1468
 msgid "Macedonia"
 msgstr "Macedonia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2188
-#: core/shared/classes/class.form.php:1465
+#: core/shared/classes/class.form.php:1469
 msgid "Madagascar"
 msgstr "Madagascar"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2189
-#: core/shared/classes/class.form.php:1467
+#: core/shared/classes/class.form.php:1471
 msgid "Malaysia"
 msgstr "Malasia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2190
-#: core/shared/classes/class.form.php:1466
+#: core/shared/classes/class.form.php:1470
 msgid "Malawi"
 msgstr "Malawi"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2191
-#: core/shared/classes/class.form.php:1468
+#: core/shared/classes/class.form.php:1472
 msgid "Maldives"
 msgstr "Maldivas"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2192
-#: core/shared/classes/class.form.php:1469
+#: core/shared/classes/class.form.php:1473
 msgid "Mali"
 msgstr "Malí"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2193
-#: core/shared/classes/class.form.php:1470
+#: core/shared/classes/class.form.php:1474
 msgid "Malta"
 msgstr "Malta"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2194
 #: core/mailer/classes/class.scheduling.php:379
-#: core/shared/classes/class.form.php:1471
+#: core/shared/classes/class.form.php:1475
 msgid "Marshall Islands"
 msgstr "Islas Marshall"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2195
-#: core/shared/classes/class.form.php:1472
+#: core/shared/classes/class.form.php:1476
 msgid "Martinique"
 msgstr "Martinica"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2196
-#: core/shared/classes/class.form.php:1473
+#: core/shared/classes/class.form.php:1477
 msgid "Mauritania"
 msgstr "Mauritania"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2197
-#: core/shared/classes/class.form.php:1474
+#: core/shared/classes/class.form.php:1478
 msgid "Mauritius"
 msgstr "Mauricio"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2198
-#: core/shared/classes/class.form.php:1475
+#: core/shared/classes/class.form.php:1479
 msgid "Mayotte"
 msgstr "Mayotte"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2199
-#: core/shared/classes/class.form.php:1476
+#: core/shared/classes/class.form.php:1480
 msgid "Mexico"
 msgstr "México"
 
@@ -6117,37 +6224,37 @@ msgid "Midway Islands"
 msgstr "Islas Midway"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2201
-#: core/shared/classes/class.form.php:1478
+#: core/shared/classes/class.form.php:1482
 msgid "Moldova"
 msgstr "Moldova"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2202
-#: core/shared/classes/class.form.php:1479
+#: core/shared/classes/class.form.php:1483
 msgid "Monaco"
 msgstr "Mónaco"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2203
-#: core/shared/classes/class.form.php:1480
+#: core/shared/classes/class.form.php:1484
 msgid "Mongolia"
 msgstr "Mongolia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2204
-#: core/shared/classes/class.form.php:1482
+#: core/shared/classes/class.form.php:1486
 msgid "Montserrat"
 msgstr "Montserrat"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2205
-#: core/shared/classes/class.form.php:1483
+#: core/shared/classes/class.form.php:1487
 msgid "Morocco"
 msgstr "Marruecos"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2206
-#: core/shared/classes/class.form.php:1484
+#: core/shared/classes/class.form.php:1488
 msgid "Mozambique"
 msgstr "Mozambique"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2207
-#: core/shared/classes/class.form.php:1485
+#: core/shared/classes/class.form.php:1489
 msgid "Myanmar"
 msgstr "Myanmar"
 
@@ -6156,12 +6263,12 @@ msgid "Nambia"
 msgstr "Nambia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2209
-#: core/shared/classes/class.form.php:1487
+#: core/shared/classes/class.form.php:1491
 msgid "Nauru"
 msgstr "Nauru"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2210
-#: core/shared/classes/class.form.php:1488
+#: core/shared/classes/class.form.php:1492
 msgid "Nepal"
 msgstr "Nepal"
 
@@ -6178,52 +6285,52 @@ msgid "Nevis"
 msgstr "Nevis"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2214
-#: core/shared/classes/class.form.php:1489
+#: core/shared/classes/class.form.php:1493
 msgid "New Caledonia"
 msgstr "Nueva Caledonia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2215
-#: core/shared/classes/class.form.php:1490
+#: core/shared/classes/class.form.php:1494
 msgid "New Zealand"
 msgstr "Nueva Zelanda"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2216
-#: core/shared/classes/class.form.php:1491
+#: core/shared/classes/class.form.php:1495
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2217
-#: core/shared/classes/class.form.php:1492
+#: core/shared/classes/class.form.php:1496
 msgid "Niger"
 msgstr "Níger"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2218
-#: core/shared/classes/class.form.php:1493
+#: core/shared/classes/class.form.php:1497
 msgid "Nigeria"
 msgstr "Nigeria"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2219
-#: core/shared/classes/class.form.php:1494
+#: core/shared/classes/class.form.php:1498
 msgid "Niue"
 msgstr "Niue"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2220
-#: core/shared/classes/class.form.php:1495
+#: core/shared/classes/class.form.php:1499
 msgid "Norfolk Island"
 msgstr "Isla de Norfolk"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2221
-#: core/shared/classes/class.form.php:1498
+#: core/shared/classes/class.form.php:1502
 msgid "Norway"
 msgstr "Noruega"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2222
-#: core/shared/classes/class.form.php:1499
+#: core/shared/classes/class.form.php:1503
 msgid "Oman"
 msgstr "Omán"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2223
-#: core/shared/classes/class.form.php:1500
+#: core/shared/classes/class.form.php:1504
 msgid "Pakistan"
 msgstr "Pakistán"
 
@@ -6236,27 +6343,27 @@ msgid "Palestine"
 msgstr "Palestina"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2226
-#: core/shared/classes/class.form.php:1503
+#: core/shared/classes/class.form.php:1507
 msgid "Panama"
 msgstr "Panamá"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2227
-#: core/shared/classes/class.form.php:1504
+#: core/shared/classes/class.form.php:1508
 msgid "Papua New Guinea"
 msgstr "Papua Nueva Guinea"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2228
-#: core/shared/classes/class.form.php:1505
+#: core/shared/classes/class.form.php:1509
 msgid "Paraguay"
 msgstr "Paraguay"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2229
-#: core/shared/classes/class.form.php:1506
+#: core/shared/classes/class.form.php:1510
 msgid "Peru"
 msgstr "Perú"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2230
-#: core/shared/classes/class.form.php:1507
+#: core/shared/classes/class.form.php:1511
 msgid "Philippines"
 msgstr "Filipinas"
 
@@ -6265,22 +6372,22 @@ msgid "Pitcairn Island"
 msgstr "Isla Pitcairn"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2232
-#: core/shared/classes/class.form.php:1509
+#: core/shared/classes/class.form.php:1513
 msgid "Poland"
 msgstr "Polonia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2233
-#: core/shared/classes/class.form.php:1510
+#: core/shared/classes/class.form.php:1514
 msgid "Portugal"
 msgstr "Portugal"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2234
-#: core/shared/classes/class.form.php:1511
+#: core/shared/classes/class.form.php:1515
 msgid "Puerto Rico"
 msgstr "Puerto Rico"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2235
-#: core/shared/classes/class.form.php:1512
+#: core/shared/classes/class.form.php:1516
 msgid "Qatar"
 msgstr "Qatar"
 
@@ -6293,12 +6400,12 @@ msgid "Republic of Serbia"
 msgstr "República de Serbia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2238
-#: core/shared/classes/class.form.php:1513
+#: core/shared/classes/class.form.php:1517
 msgid "Reunion"
 msgstr "Reunión"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2239
-#: core/shared/classes/class.form.php:1514
+#: core/shared/classes/class.form.php:1518
 msgid "Romania"
 msgstr "Rumania"
 
@@ -6307,7 +6414,7 @@ msgid "Russia"
 msgstr "Rusia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2241
-#: core/shared/classes/class.form.php:1516
+#: core/shared/classes/class.form.php:1520
 msgid "Rwanda"
 msgstr "Rwanda"
 
@@ -6348,7 +6455,7 @@ msgid "Saipan"
 msgstr "Saipan"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2251
-#: core/shared/classes/class.form.php:1524
+#: core/shared/classes/class.form.php:1528
 msgid "Samoa"
 msgstr "Samoa"
 
@@ -6357,7 +6464,7 @@ msgid "Samoa American"
 msgstr "Samoa Americana"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2253
-#: core/shared/classes/class.form.php:1525
+#: core/shared/classes/class.form.php:1529
 msgid "San Marino"
 msgstr "San Marino"
 
@@ -6366,27 +6473,27 @@ msgid "Sao Tome &amp; Principe"
 msgstr "Santo Tomé &amp; Principe"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2255
-#: core/shared/classes/class.form.php:1527
+#: core/shared/classes/class.form.php:1531
 msgid "Saudi Arabia"
 msgstr "Arabia Saudí"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2256
-#: core/shared/classes/class.form.php:1528
+#: core/shared/classes/class.form.php:1532
 msgid "Senegal"
 msgstr "Senegal"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2257
-#: core/shared/classes/class.form.php:1530
+#: core/shared/classes/class.form.php:1534
 msgid "Seychelles"
 msgstr "Seychelles"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2258
-#: core/shared/classes/class.form.php:1531
+#: core/shared/classes/class.form.php:1535
 msgid "Sierra Leone"
 msgstr "Sierra Leona"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2259
-#: core/shared/classes/class.form.php:1532
+#: core/shared/classes/class.form.php:1536
 msgid "Singapore"
 msgstr "Singapur"
 
@@ -6395,62 +6502,62 @@ msgid "Slovakia"
 msgstr "Eslovaquia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2261
-#: core/shared/classes/class.form.php:1534
+#: core/shared/classes/class.form.php:1538
 msgid "Slovenia"
 msgstr "Eslovenia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2262
-#: core/shared/classes/class.form.php:1535
+#: core/shared/classes/class.form.php:1539
 msgid "Solomon Islands"
 msgstr "Islas Salomón"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2263
-#: core/shared/classes/class.form.php:1536
+#: core/shared/classes/class.form.php:1540
 msgid "Somalia"
 msgstr "Somalia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2264
-#: core/shared/classes/class.form.php:1537
+#: core/shared/classes/class.form.php:1541
 msgid "South Africa"
 msgstr "Sudáfrica"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2265
-#: core/shared/classes/class.form.php:1541
+#: core/shared/classes/class.form.php:1545
 msgid "Spain"
 msgstr "España"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2266
-#: core/shared/classes/class.form.php:1542
+#: core/shared/classes/class.form.php:1546
 msgid "Sri Lanka"
 msgstr "Sri Lanka"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2267
-#: core/shared/classes/class.form.php:1544
+#: core/shared/classes/class.form.php:1548
 msgid "Sudan"
 msgstr "Sudán"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2268
-#: core/shared/classes/class.form.php:1545
+#: core/shared/classes/class.form.php:1549
 msgid "Suriname"
 msgstr "Suriname"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2269
-#: core/shared/classes/class.form.php:1547
+#: core/shared/classes/class.form.php:1551
 msgid "Swaziland"
 msgstr "Swazilandia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2270
-#: core/shared/classes/class.form.php:1548
+#: core/shared/classes/class.form.php:1552
 msgid "Sweden"
 msgstr "Suecia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2271
-#: core/shared/classes/class.form.php:1549
+#: core/shared/classes/class.form.php:1553
 msgid "Switzerland"
 msgstr "Suiza"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2272
-#: core/shared/classes/class.form.php:1550
+#: core/shared/classes/class.form.php:1554
 msgid "Syria"
 msgstr "Siria"
 
@@ -6459,37 +6566,37 @@ msgid "Tahiti"
 msgstr "Tahití"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2274
-#: core/shared/classes/class.form.php:1551
+#: core/shared/classes/class.form.php:1555
 msgid "Taiwan"
 msgstr "Taiwán"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2275
-#: core/shared/classes/class.form.php:1552
+#: core/shared/classes/class.form.php:1556
 msgid "Tajikistan"
 msgstr "Tayikistán"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2276
-#: core/shared/classes/class.form.php:1553
+#: core/shared/classes/class.form.php:1557
 msgid "Tanzania"
 msgstr "Tanzania"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2277
-#: core/shared/classes/class.form.php:1554
+#: core/shared/classes/class.form.php:1558
 msgid "Thailand"
 msgstr "Tailandia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2278
-#: core/shared/classes/class.form.php:1557
+#: core/shared/classes/class.form.php:1561
 msgid "Togo"
 msgstr "Togo"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2279
-#: core/shared/classes/class.form.php:1558
+#: core/shared/classes/class.form.php:1562
 msgid "Tokelau"
 msgstr "Tokelau"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2280
-#: core/shared/classes/class.form.php:1559
+#: core/shared/classes/class.form.php:1563
 msgid "Tonga"
 msgstr "Tonga"
 
@@ -6498,17 +6605,17 @@ msgid "Trinidad &amp; Tobago"
 msgstr "Trinidad y Tobago"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2282
-#: core/shared/classes/class.form.php:1561
+#: core/shared/classes/class.form.php:1565
 msgid "Tunisia"
 msgstr "Túnez"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2283
-#: core/shared/classes/class.form.php:1562
+#: core/shared/classes/class.form.php:1566
 msgid "Turkey"
 msgstr "Turquía"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2284
-#: core/shared/classes/class.form.php:1563
+#: core/shared/classes/class.form.php:1567
 msgid "Turkmenistan"
 msgstr "Turkmenistán"
 
@@ -6517,27 +6624,27 @@ msgid "Turks &amp; Caicos Is"
 msgstr "Turks &amp; Caicos es"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2286
-#: core/shared/classes/class.form.php:1565
+#: core/shared/classes/class.form.php:1569
 msgid "Tuvalu"
 msgstr "Tuvalu"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2287
-#: core/shared/classes/class.form.php:1566
+#: core/shared/classes/class.form.php:1570
 msgid "Uganda"
 msgstr "Uganda"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2288
-#: core/shared/classes/class.form.php:1567
+#: core/shared/classes/class.form.php:1571
 msgid "Ukraine"
 msgstr "Ucrania"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2289
-#: core/shared/classes/class.form.php:1568
+#: core/shared/classes/class.form.php:1572
 msgid "United Arab Emirates"
 msgstr "Emiratos Árabes Unidos"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2290
-#: core/shared/classes/class.form.php:1569
+#: core/shared/classes/class.form.php:1573
 msgid "United Kingdom"
 msgstr "Reino Unido"
 
@@ -6546,17 +6653,17 @@ msgid "United States of America"
 msgstr "Estados Unidos de América"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2292
-#: core/shared/classes/class.form.php:1572
+#: core/shared/classes/class.form.php:1576
 msgid "Uruguay"
 msgstr "Uruguay"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2293
-#: core/shared/classes/class.form.php:1573
+#: core/shared/classes/class.form.php:1577
 msgid "Uzbekistan"
 msgstr "Uzbekistán"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2294
-#: core/shared/classes/class.form.php:1574
+#: core/shared/classes/class.form.php:1578
 msgid "Vanuatu"
 msgstr "Vanuatu"
 
@@ -6565,12 +6672,12 @@ msgid "Vatican City State"
 msgstr "Ciudad del Vaticano"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2296
-#: core/shared/classes/class.form.php:1576
+#: core/shared/classes/class.form.php:1580
 msgid "Venezuela"
 msgstr "Venezuela"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2297
-#: core/shared/classes/class.form.php:1577
+#: core/shared/classes/class.form.php:1581
 msgid "Vietnam"
 msgstr "Vietnam"
 
@@ -6591,7 +6698,7 @@ msgid "Wallis &amp; Futana Is"
 msgstr "Wallis y Futana es"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2302
-#: core/shared/classes/class.form.php:1582
+#: core/shared/classes/class.form.php:1586
 msgid "Yemen"
 msgstr "Yemen"
 
@@ -6600,12 +6707,12 @@ msgid "Zaire"
 msgstr "Zaire"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2304
-#: core/shared/classes/class.form.php:1583
+#: core/shared/classes/class.form.php:1587
 msgid "Zambia"
 msgstr "Zambia"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2305
-#: core/shared/classes/class.form.php:1584
+#: core/shared/classes/class.form.php:1588
 msgid "Zimbabwe"
 msgstr "Zimbabue"
 
@@ -7093,7 +7200,7 @@ msgid "Select the date and time you would like this message to send."
 msgstr "Seleccione la fecha y hora que quieres que este mensaje para enviar."
 
 #: core/mailer/classes/class.maintenance-lists.php:36
-#: core/shared/classes/class.post-type.wp-lead.php:733
+#: core/shared/classes/class.post-type.wp-lead.php:734
 msgid "Maintenance"
 msgstr "Mantenimiento"
 
@@ -7200,7 +7307,7 @@ msgstr "Cancelar enviar"
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:1178
 #: core/mailer/classes/class.metaboxes.inbound-email.php:1179
-#: core/mailer/classes/class.metaboxes.inbound-email.php:1754
+#: core/mailer/classes/class.metaboxes.inbound-email.php:1755
 msgid "Save"
 msgstr "Guardar"
 
@@ -7247,139 +7354,139 @@ msgstr ""
 msgid "Enter Email Description"
 msgstr "Introduzca correo electrónico Descripción"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:1984
+#: core/mailer/classes/class.metaboxes.inbound-email.php:1985
 msgid "Time until send:"
 msgstr "Tiempo hasta enviar:"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2021
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2022
 msgid "Email requires subject to send."
 msgstr "Correo electrónico requiere sujeto a enviar."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2025
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2026
 msgid "Email requires from name to send."
 msgstr "Correo electrónico requiere de nombre para enviar."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2029
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2030
 msgid "Email requires from email address to send."
 msgstr "Correo electrónico requiere de dirección de correo electrónico para enviar."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2044
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2045
 msgid "Please set email recipients."
 msgstr "Por favor seleccione destinatarios de correo electrónico."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2056
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2057
 msgid "Are you sure you want to clone this email?"
 msgstr "¿Está seguro que desea clonar este correo electrónico?"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2060
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2061
 msgid "Yes, clone it!"
 msgstr "Sí, clonarlo!"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2067
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2068
 msgid "We are cloning your email now."
 msgstr "Estamos clonación tu email ahora."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2092
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2093
 msgid "Send Test Email"
 msgstr "Enviar correo electrónico de prueba"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2097
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2098
 msgid "Send test email!"
 msgstr "¡Enviar correo electrónico de prueba!"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2100
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2101
 msgid "Enter target e-mail address."
 msgstr "Introduzca dirección de correo electrónico de destino."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2112
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2113
 msgid "We are sending a test email now."
 msgstr "Estamos enviando un correo electrónico de prueba ahora."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2150
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2151
 msgid "Are you sure you want to begin sending this email?"
 msgstr "¿Está seguro que desea comenzar a enviar este correo electrónico?"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2154
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2155
 msgid "Yes, send it!"
 msgstr "Sí, enviar!"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2161
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2162
 msgid "We are scheduling your email now."
 msgstr "Estamos programación tu email ahora."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2183
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2184
 msgid ""
 "Are you sure you want to unschedule this email? Please not that emails 10 "
 "minutes or less away from being sent will not be able to be unscheduled from"
 " SparkPost."
 msgstr "¿Está seguro que desea desprogramar este correo electrónico? Por favor no correos 10 minutos o menos de envío no podrá ser no programado de SparkPost."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2187
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2188
 msgid "Yes, unschedule it!"
 msgstr "Sí, desprogramarlo!"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2194
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2195
 msgid "We are unscheduling your email now."
 msgstr "Estamos declasificación tu email ahora."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2244
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2245
 msgid ""
 "Cancelling this email will remove all unsent emails from our send queue. "
 "Cancel now to stop sending."
 msgstr "Cancelar este correo electrónico se eliminará todos los correos electrónicos no enviados de nuestra cola de envío. Cancelar ahora para dejar de enviar."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2248
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2249
 msgid "Yes, cancel it now!"
 msgstr "Sí, cancelar ahora!"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2255
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2256
 msgid "We are cancelling your email now."
 msgstr "Estamos cancelando tu email ahora."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2290
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2291
 msgid ""
 "Trashing this email will remove all unsent emails from our send queue. And "
 "set it's status to 'trash'."
 msgstr "Traste con este correo electrónico eliminará todos los correos electrónicos no enviados de nuestra cola de envío. Y su estado de 'basura'."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2294
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2328
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2295
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2329
 msgid "Yes, trash it now!"
 msgstr "Sí, basura ahora!"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2301
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2302
 msgid "We are trashing your email now."
 msgstr "Estamos zurra tu email ahora."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2324
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2325
 msgid "Trashing this variation will delete all it's content."
 msgstr "Desconfiar de esta variación se borrar todo es contenido."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2335
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2336
 msgid "We are trashing your variation now."
 msgstr "Estamos desconfiar ahora su variación."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2366
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2367
 msgid "We are setting up your email now."
 msgstr "Creamos tu email ahora."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2460
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2461
 msgid "Are you sure you want to clear all stats related to this email?"
 msgstr "¿Está seguro que desea borrar todas las estadísticas relacionadas a este correo electrónico?"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2464
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2465
 msgid "Clear them now"
 msgstr "Limpiar ahora"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2465
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2466
 msgid "Go back"
 msgstr "Volver"
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2484
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2485
 msgid "We are deleting the statistics and reloading the page."
 msgstr "Estamos borrando las estadísticas y volver a cargar la página."
 
-#: core/mailer/classes/class.metaboxes.inbound-email.php:2522
+#: core/mailer/classes/class.metaboxes.inbound-email.php:2523
 msgid "A new report is being loaded."
 msgstr ""
 
@@ -7721,7 +7828,7 @@ msgid "Fernando de Noronha Time"
 msgstr "Tiempo de Fernando de Noronha"
 
 #: core/mailer/classes/class.scheduling.php:253
-#: core/shared/classes/class.form.php:1538
+#: core/shared/classes/class.form.php:1542
 msgid "South Georgia and the South Sandwich Islands"
 msgstr "Georgia del sur y las islas Sandwich del sur"
 
@@ -8349,8 +8456,8 @@ msgid "This message will show after a reader has unsubscribed."
 msgstr "Este mensaje se mostrará después de que un lector ha cancelado la suscripción."
 
 #: core/mailer/classes/class.settings.php:119
-#: core/shared/classes/class.form.php:1049
-#: core/shared/classes/class.post-type.wp-lead.php:701
+#: core/shared/classes/class.form.php:1053
+#: core/shared/classes/class.post-type.wp-lead.php:702
 msgid "Thank you!"
 msgstr "¡Gracias!"
 
@@ -8532,71 +8639,71 @@ msgstr "Instrucciones de configuración:"
 msgid "Create an API Key"
 msgstr "Crear una clave de API"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:825
+#: core/mailer/classes/class.statistics.sparkpost.php:824
 msgid "not created"
 msgstr "no creado"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:830
-#: core/mailer/classes/class.statistics.sparkpost.php:847
+#: core/mailer/classes/class.statistics.sparkpost.php:829
+#: core/mailer/classes/class.statistics.sparkpost.php:846
 msgid "created"
 msgstr "creado"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:855
+#: core/mailer/classes/class.statistics.sparkpost.php:854
 msgid "API Key:"
 msgstr "API Key:"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:862
+#: core/mailer/classes/class.statistics.sparkpost.php:861
 msgid "active"
 msgstr "activo"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:867
-#: core/mailer/classes/class.statistics.sparkpost.php:930
-#: core/mailer/classes/class.statistics.sparkpost.php:945
+#: core/mailer/classes/class.statistics.sparkpost.php:866
+#: core/mailer/classes/class.statistics.sparkpost.php:929
+#: core/mailer/classes/class.statistics.sparkpost.php:944
 msgid "invalid"
 msgstr "No válido"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:871
+#: core/mailer/classes/class.statistics.sparkpost.php:870
 msgid ""
 "API Key does not have correct permissions checked. Try creating a new key "
 "and checking all the available permissions."
 msgstr ""
 
-#: core/mailer/classes/class.statistics.sparkpost.php:887
+#: core/mailer/classes/class.statistics.sparkpost.php:886
 msgid "Sending Domains:"
 msgstr "Envío de dominios:"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:907
+#: core/mailer/classes/class.statistics.sparkpost.php:906
 msgid "ownership"
 msgstr "propiedad"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:913
+#: core/mailer/classes/class.statistics.sparkpost.php:912
 msgid "confirmed"
 msgstr "confirmado"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:915
+#: core/mailer/classes/class.statistics.sparkpost.php:914
 msgid "not confirmed"
 msgstr "no confirmado"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:922
+#: core/mailer/classes/class.statistics.sparkpost.php:921
 msgid "dkim"
 msgstr "DKIM"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:928
-#: core/mailer/classes/class.statistics.sparkpost.php:943
+#: core/mailer/classes/class.statistics.sparkpost.php:927
+#: core/mailer/classes/class.statistics.sparkpost.php:942
 msgid "valid"
 msgstr "válido"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:937
+#: core/mailer/classes/class.statistics.sparkpost.php:936
 msgid "compliance status"
 msgstr "Estado de cumplimiento"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:955
+#: core/mailer/classes/class.statistics.sparkpost.php:954
 msgid ""
 "No sending domains set. Please see https://app.sparkpost.com/account"
 "/sending-domains"
 msgstr "No envío conjunto de dominios. Ver https://app.sparkpost.com/account/sending-domains"
 
-#: core/mailer/classes/class.statistics.sparkpost.php:968
+#: core/mailer/classes/class.statistics.sparkpost.php:967
 msgid "Webhooks:"
 msgstr "Webhooks:"
 
@@ -8635,24 +8742,24 @@ msgstr "Ajuste por defecto"
 msgid "Insert Shortcode"
 msgstr "Insertar el Shortcode"
 
-#: core/mailer/classes/class.token-engine.php:523
+#: core/mailer/classes/class.token-engine.php:525
 msgid "Email Setup"
 msgstr "Configuración de correo electrónico"
 
-#: core/mailer/classes/class.token-engine.php:577
+#: core/mailer/classes/class.token-engine.php:579
 #, php-format
 msgid "Use these tokens inside email an automated email: %s"
 msgstr ""
 
-#: core/mailer/classes/class.token-engine.php:578
+#: core/mailer/classes/class.token-engine.php:580
 msgid "Post Tokens"
 msgstr ""
 
-#: core/mailer/classes/class.token-engine.php:585
+#: core/mailer/classes/class.token-engine.php:587
 msgid "Locked"
 msgstr ""
 
-#: core/mailer/classes/class.token-engine.php:586
+#: core/mailer/classes/class.token-engine.php:588
 msgid ""
 "If our Marketing Automation component sends this post as an email to a lead "
 "list then this checkbox will enable automatically. Enabling this checkbox "
@@ -8660,19 +8767,19 @@ msgid ""
 "prevents accidental double sending"
 msgstr ""
 
-#: core/mailer/classes/class.token-engine.php:594
+#: core/mailer/classes/class.token-engine.php:596
 msgid "Preview as Email"
 msgstr ""
 
-#: core/mailer/classes/class.token-engine.php:624
+#: core/mailer/classes/class.token-engine.php:626
 msgid "Preview Email Version"
 msgstr ""
 
-#: core/mailer/classes/class.token-engine.php:629
+#: core/mailer/classes/class.token-engine.php:631
 msgid "Get Preview Link"
 msgstr ""
 
-#: core/mailer/classes/class.token-engine.php:632
+#: core/mailer/classes/class.token-engine.php:634
 msgid "Select Automated Email Template."
 msgstr "Seleccione la plantilla de correo electrónico automatizado."
 
@@ -9083,7 +9190,7 @@ msgid "Use this to change the color of the text inside the button"
 msgstr ""
 
 #: core/mailer/templates/simple-basic/assets/index-non-inlined.php:304
-#: core/mailer/templates/simple-basic/index.php:298
+#: core/mailer/templates/simple-basic/index.php:308
 msgid "online"
 msgstr "en línea"
 
@@ -9241,31 +9348,41 @@ msgstr ""
 msgid "Enter the URL of your privacy page here"
 msgstr ""
 
-#: core/mailer/templates/simple-basic/index.php:298
+#: core/mailer/templates/simple-basic/config.php:370
+#: core/mailer/templates/simple-responsive/config.php:90
+msgid "Hide 'Show this email in browser' link"
+msgstr ""
+
+#: core/mailer/templates/simple-basic/config.php:373
+#: core/mailer/templates/simple-responsive/config.php:93
+msgid "Hide/Reveal the link to the online version of the email."
+msgstr ""
+
+#: core/mailer/templates/simple-basic/index.php:305
 msgid "Trouble viewing? Read this"
 msgstr "¿Visualización de problemas? Leer esto"
 
-#: core/mailer/templates/simple-basic/index.php:346
+#: core/mailer/templates/simple-basic/index.php:359
 msgid "Connect with Us:"
 msgstr "Conéctese con nosotros:"
 
-#: core/mailer/templates/simple-basic/index.php:349
+#: core/mailer/templates/simple-basic/index.php:362
 #: core/shared/shortcodes/shortcodes/social-share.php:37
 #: core/shared/shortcodes/shortcodes/social.php:12
 msgid "Facebook"
 msgstr "Facebook"
 
-#: core/mailer/templates/simple-basic/index.php:355
+#: core/mailer/templates/simple-basic/index.php:368
 #: core/shared/shortcodes/shortcodes/social-share.php:49
 #: core/shared/shortcodes/shortcodes/social.php:24
 msgid "Google+"
 msgstr "Google +"
 
-#: core/mailer/templates/simple-basic/index.php:369
+#: core/mailer/templates/simple-basic/index.php:382
 msgid "Contact Info"
 msgstr "Información de contacto"
 
-#: core/mailer/templates/simple-basic/index.php:414
+#: core/mailer/templates/simple-basic/index.php:427
 msgid "Privacy"
 msgstr "Privacidad"
 
@@ -9281,7 +9398,11 @@ msgstr "Plantilla de correo electrónico sensible."
 msgid "The content of your email should go here. "
 msgstr "El contenido de su correo electrónico debe ir aquí. "
 
-#: core/mailer/templates/simple-responsive/index.php:153
+#: core/mailer/templates/simple-responsive/config.php:102
+msgid "hide"
+msgstr ""
+
+#: core/mailer/templates/simple-responsive/index.php:159
 #, php-format
 msgid "Trouble viewing? Read this %sonline%s"
 msgstr ""
@@ -9291,1366 +9412,1362 @@ msgid "#confirm-not-available-in-online-mode"
 msgstr ""
 
 #: core/shared/classes/class.confirm-double-optin.php:116
-#: core/shared/classes/class.post-type.wp-lead.php:685
+#: core/shared/classes/class.post-type.wp-lead.php:686
 msgid "Confirm Subscription"
 msgstr ""
 
-#: core/shared/classes/class.events.php:1060
-msgid "Inbound Form Submission"
-msgstr ""
-
-#: core/shared/classes/class.events.php:1066
+#: core/shared/classes/class.events.php:1138
 msgid "Content Click"
 msgstr ""
 
-#: core/shared/classes/class.events.php:1069
+#: core/shared/classes/class.events.php:1141
 msgid "Direct Messages"
 msgstr "Mensajes directos"
 
-#: core/shared/classes/class.events.php:1069
+#: core/shared/classes/class.events.php:1141
 msgid "Direct Message"
 msgstr ""
 
-#: core/shared/classes/class.events.php:1072
+#: core/shared/classes/class.events.php:1144
 msgid "Lead Added to Lists"
 msgstr ""
 
-#: core/shared/classes/class.events.php:1072
+#: core/shared/classes/class.events.php:1144
 msgid "Lead Added to List"
 msgstr ""
 
-#: core/shared/classes/class.events.php:1075
+#: core/shared/classes/class.events.php:1147
 msgid "SparkPost Deliveries"
 msgstr ""
 
-#: core/shared/classes/class.events.php:1075
+#: core/shared/classes/class.events.php:1147
 msgid "SparkPost Delivery"
 msgstr ""
 
-#: core/shared/classes/class.events.php:1078
+#: core/shared/classes/class.events.php:1150
 msgid "Searches Made"
 msgstr ""
 
-#: core/shared/classes/class.events.php:1078
+#: core/shared/classes/class.events.php:1150
 msgid "Search Made"
 msgstr ""
 
-#: core/shared/classes/class.events.php:1081
+#: core/shared/classes/class.events.php:1153
 msgid "Comments Made"
 msgstr ""
 
-#: core/shared/classes/class.events.php:1081
+#: core/shared/classes/class.events.php:1153
 msgid "Comment Made"
 msgstr ""
 
-#: core/shared/classes/class.form.php:654
-#: core/shared/classes/class.form.php:655
-#: core/shared/classes/class.form.php:662
-#: core/shared/classes/class.form.php:663
+#: core/shared/classes/class.form.php:656
+#: core/shared/classes/class.form.php:657
+#: core/shared/classes/class.form.php:664
+#: core/shared/classes/class.form.php:665
 msgid "Oops! Looks like you have not filled out all of the required fields!"
 msgstr "¡Uy! Parece que usted no ha llenado todos los campos requeridos!"
 
-#: core/shared/classes/class.form.php:1108
+#: core/shared/classes/class.form.php:1112
 msgid "<b>Leads</b> from Inbound Now"
 msgstr "<b>Conduce</b> a partir de ahora entrante"
 
-#: core/shared/classes/class.form.php:1149
+#: core/shared/classes/class.form.php:1153
 msgid "New Lead on {{form-name}}"
 msgstr "Nuevo cable de {{-nombre del formulario}}"
 
-#: core/shared/classes/class.form.php:1150
+#: core/shared/classes/class.form.php:1154
 msgid ""
 "There is a new lead that just converted on <strong>{{date-time}}</strong> "
 "from page: <a href=\"{{source}}\">{{source}}</a> {{redirect-message}}"
 msgstr "Hay un nuevo plomo que acaba convertida en <strong>{{fecha}}</strong> de la página: <a href=\"{{source}}\"> {{fuente}}</a> {{mensaje redirect}}"
 
-#: core/shared/classes/class.form.php:1162
+#: core/shared/classes/class.form.php:1166
 msgid "Lead Information"
 msgstr "Conducen información"
 
-#: core/shared/classes/class.form.php:1169
-#: core/shared/classes/class.form.php:1214
+#: core/shared/classes/class.form.php:1173
+#: core/shared/classes/class.form.php:1218
 msgid "View Lead"
 msgstr "Ver plomo"
 
-#: core/shared/classes/class.form.php:1194
+#: core/shared/classes/class.form.php:1198
 msgid "View Lead Activity"
 msgstr "Actividad principal de vista"
 
-#: core/shared/classes/class.form.php:1198
+#: core/shared/classes/class.form.php:1202
 msgid "Pages Viewed"
 msgstr "Páginas vistas"
 
-#: core/shared/classes/class.form.php:1202
+#: core/shared/classes/class.form.php:1206
 msgid "View Form Data"
 msgstr "Obtener información de forma"
 
-#: core/shared/classes/class.form.php:1217
+#: core/shared/classes/class.form.php:1221
 msgid "View the full Lead details in WordPress"
 msgstr "Ver detalles de la iniciativa completa en WordPress"
 
-#: core/shared/classes/class.form.php:1217
+#: core/shared/classes/class.form.php:1221
 msgid "View Full Lead Details"
 msgstr "Ver detalles de plomo completo"
 
-#: core/shared/classes/class.form.php:1223
+#: core/shared/classes/class.form.php:1227
 msgid "Thanks for filling out our form."
 msgstr "Gracias por rellenar nuestro formulario."
 
-#: core/shared/classes/class.form.php:1225
-#: core/shared/classes/class.form.php:1228
+#: core/shared/classes/class.form.php:1229
+#: core/shared/classes/class.form.php:1232
 msgid "Reply to Lead Now"
 msgstr "Respuesta a conducir ahora"
 
-#: core/shared/classes/class.form.php:1227
+#: core/shared/classes/class.form.php:1231
 msgid "Thanks for filling out our form on {{current-page-url}}"
 msgstr "Gracias por rellenar nuestro formulario en {{actual-página-url}}"
 
-#: core/shared/classes/class.form.php:1228
+#: core/shared/classes/class.form.php:1232
 msgid "Email This Lead now"
 msgstr "Correo electrónico conducir esta ahora"
 
-#: core/shared/classes/class.form.php:1295
+#: core/shared/classes/class.form.php:1299
 msgid "Jan"
 msgstr "Jan"
 
-#: core/shared/classes/class.form.php:1296
+#: core/shared/classes/class.form.php:1300
 msgid "Feb"
 msgstr "Feb"
 
-#: core/shared/classes/class.form.php:1297
+#: core/shared/classes/class.form.php:1301
 msgid "Mar"
 msgstr "Mar"
 
-#: core/shared/classes/class.form.php:1298
+#: core/shared/classes/class.form.php:1302
 msgid "Apr"
 msgstr "Apr"
 
-#: core/shared/classes/class.form.php:1299
+#: core/shared/classes/class.form.php:1303
 msgid "May"
 msgstr "Mayo"
 
-#: core/shared/classes/class.form.php:1300
+#: core/shared/classes/class.form.php:1304
 msgid "Jun"
 msgstr "Jun"
 
-#: core/shared/classes/class.form.php:1301
+#: core/shared/classes/class.form.php:1305
 msgid "Jul"
 msgstr "Julio"
 
-#: core/shared/classes/class.form.php:1302
+#: core/shared/classes/class.form.php:1306
 msgid "Aug"
 msgstr "Aug"
 
-#: core/shared/classes/class.form.php:1303
+#: core/shared/classes/class.form.php:1307
 msgid "Sep"
 msgstr "Sep"
 
-#: core/shared/classes/class.form.php:1304
+#: core/shared/classes/class.form.php:1308
 msgid "Oct"
 msgstr "Oct"
 
-#: core/shared/classes/class.form.php:1305
+#: core/shared/classes/class.form.php:1309
 msgid "Nov"
 msgstr "Noviembre"
 
-#: core/shared/classes/class.form.php:1306
+#: core/shared/classes/class.form.php:1310
 msgid "Dec"
 msgstr "Dec"
 
-#: core/shared/classes/class.form.php:1336
+#: core/shared/classes/class.form.php:1340
 msgid "AF"
 msgstr "AF"
 
-#: core/shared/classes/class.form.php:1337
+#: core/shared/classes/class.form.php:1341
 msgid "AX"
 msgstr "AX"
 
-#: core/shared/classes/class.form.php:1337
+#: core/shared/classes/class.form.php:1341
 msgid "Aland Islands"
 msgstr "Islas Aland"
 
-#: core/shared/classes/class.form.php:1338
+#: core/shared/classes/class.form.php:1342
 msgid "AL"
 msgstr "AL"
 
-#: core/shared/classes/class.form.php:1339
+#: core/shared/classes/class.form.php:1343
 msgid "DZ"
 msgstr "DZ"
 
-#: core/shared/classes/class.form.php:1340
+#: core/shared/classes/class.form.php:1344
 msgid "AS"
 msgstr "COMO"
 
-#: core/shared/classes/class.form.php:1341
+#: core/shared/classes/class.form.php:1345
 msgid "AD"
 msgstr "ANUNCIO"
 
-#: core/shared/classes/class.form.php:1342
+#: core/shared/classes/class.form.php:1346
 msgid "AO"
 msgstr "AO"
 
-#: core/shared/classes/class.form.php:1343
+#: core/shared/classes/class.form.php:1347
 msgid "AI"
 msgstr "AI"
 
-#: core/shared/classes/class.form.php:1344
+#: core/shared/classes/class.form.php:1348
 msgid "AQ"
 msgstr "AQ"
 
-#: core/shared/classes/class.form.php:1344
+#: core/shared/classes/class.form.php:1348
 msgid "Antarctica"
 msgstr "Antártida"
 
-#: core/shared/classes/class.form.php:1345
+#: core/shared/classes/class.form.php:1349
 msgid "AG"
 msgstr "AG"
 
-#: core/shared/classes/class.form.php:1345
+#: core/shared/classes/class.form.php:1349
 msgid "Antigua and Barbuda"
 msgstr "Antigua y Barbuda"
 
-#: core/shared/classes/class.form.php:1346
+#: core/shared/classes/class.form.php:1350
 msgid "AR"
 msgstr "AR"
 
-#: core/shared/classes/class.form.php:1347
+#: core/shared/classes/class.form.php:1351
 msgid "AM"
 msgstr "AM"
 
-#: core/shared/classes/class.form.php:1348
+#: core/shared/classes/class.form.php:1352
 msgid "AW"
 msgstr "AW"
 
-#: core/shared/classes/class.form.php:1349
+#: core/shared/classes/class.form.php:1353
 msgid "AU"
 msgstr "AU"
 
-#: core/shared/classes/class.form.php:1350
+#: core/shared/classes/class.form.php:1354
 msgid "AT"
 msgstr "EN"
 
-#: core/shared/classes/class.form.php:1351
+#: core/shared/classes/class.form.php:1355
 msgid "AZ"
 msgstr "AZ"
 
-#: core/shared/classes/class.form.php:1352
+#: core/shared/classes/class.form.php:1356
 msgid "BS"
 msgstr "BS"
 
-#: core/shared/classes/class.form.php:1353
+#: core/shared/classes/class.form.php:1357
 msgid "BH"
 msgstr "BH"
 
-#: core/shared/classes/class.form.php:1354
+#: core/shared/classes/class.form.php:1358
 msgid "BD"
 msgstr "BD"
 
-#: core/shared/classes/class.form.php:1355
+#: core/shared/classes/class.form.php:1359
 msgid "BB"
 msgstr "BB"
 
-#: core/shared/classes/class.form.php:1356
+#: core/shared/classes/class.form.php:1360
 msgid "BY"
 msgstr "POR"
 
-#: core/shared/classes/class.form.php:1357
+#: core/shared/classes/class.form.php:1361
 msgid "BE"
 msgstr "SER"
 
-#: core/shared/classes/class.form.php:1358
+#: core/shared/classes/class.form.php:1362
 msgid "BZ"
 msgstr "BZ"
 
-#: core/shared/classes/class.form.php:1359
+#: core/shared/classes/class.form.php:1363
 msgid "BJ"
 msgstr "BJ"
 
-#: core/shared/classes/class.form.php:1360
+#: core/shared/classes/class.form.php:1364
 msgid "BM"
 msgstr "BM"
 
-#: core/shared/classes/class.form.php:1361
+#: core/shared/classes/class.form.php:1365
 msgid "BT"
 msgstr "BT"
 
-#: core/shared/classes/class.form.php:1362
+#: core/shared/classes/class.form.php:1366
 msgid "BO"
 msgstr "BO"
 
-#: core/shared/classes/class.form.php:1363
+#: core/shared/classes/class.form.php:1367
 msgid "BA"
 msgstr "BA"
 
-#: core/shared/classes/class.form.php:1363
+#: core/shared/classes/class.form.php:1367
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnia-Herzegovina"
 
-#: core/shared/classes/class.form.php:1364
+#: core/shared/classes/class.form.php:1368
 msgid "BW"
 msgstr "BW"
 
-#: core/shared/classes/class.form.php:1365
+#: core/shared/classes/class.form.php:1369
 msgid "BV"
 msgstr "BV"
 
-#: core/shared/classes/class.form.php:1365
+#: core/shared/classes/class.form.php:1369
 msgid "Bouvet Island"
 msgstr "Isla Bouvet"
 
-#: core/shared/classes/class.form.php:1366
+#: core/shared/classes/class.form.php:1370
 msgid "BR"
 msgstr "BR"
 
-#: core/shared/classes/class.form.php:1367
+#: core/shared/classes/class.form.php:1371
 msgid "IO"
 msgstr "IO"
 
-#: core/shared/classes/class.form.php:1367
+#: core/shared/classes/class.form.php:1371
 msgid "British Indian Ocean Territory"
 msgstr "Territorio británico del océano Índico"
 
-#: core/shared/classes/class.form.php:1368
+#: core/shared/classes/class.form.php:1372
 msgid "BN"
 msgstr "BN"
 
-#: core/shared/classes/class.form.php:1368
+#: core/shared/classes/class.form.php:1372
 msgid "Brunei Darussalam"
 msgstr "Brunei Darussalam"
 
-#: core/shared/classes/class.form.php:1369
+#: core/shared/classes/class.form.php:1373
 msgid "BG"
 msgstr "BG"
 
-#: core/shared/classes/class.form.php:1370
+#: core/shared/classes/class.form.php:1374
 msgid "BF"
 msgstr "BF"
 
-#: core/shared/classes/class.form.php:1371
+#: core/shared/classes/class.form.php:1375
 msgid "BI"
 msgstr "BI"
 
-#: core/shared/classes/class.form.php:1372
+#: core/shared/classes/class.form.php:1376
 msgid "KH"
 msgstr "KH"
 
-#: core/shared/classes/class.form.php:1373
+#: core/shared/classes/class.form.php:1377
 msgid "CM"
 msgstr "CM"
 
-#: core/shared/classes/class.form.php:1374
+#: core/shared/classes/class.form.php:1378
 msgid "CA"
 msgstr "CA"
 
-#: core/shared/classes/class.form.php:1375
+#: core/shared/classes/class.form.php:1379
 msgid "CV"
 msgstr "CV"
 
-#: core/shared/classes/class.form.php:1376
+#: core/shared/classes/class.form.php:1380
 msgid "BQ"
 msgstr "BQ"
 
-#: core/shared/classes/class.form.php:1376
+#: core/shared/classes/class.form.php:1380
 msgid "Caribbean Netherlands "
 msgstr "Caribe Países Bajos "
 
-#: core/shared/classes/class.form.php:1377
+#: core/shared/classes/class.form.php:1381
 msgid "KY"
 msgstr "KY"
 
-#: core/shared/classes/class.form.php:1378
+#: core/shared/classes/class.form.php:1382
 msgid "CF"
 msgstr "CF"
 
-#: core/shared/classes/class.form.php:1379
+#: core/shared/classes/class.form.php:1383
 msgid "TD"
 msgstr "TD"
 
-#: core/shared/classes/class.form.php:1380
+#: core/shared/classes/class.form.php:1384
 msgid "CL"
 msgstr "CL"
 
-#: core/shared/classes/class.form.php:1381
+#: core/shared/classes/class.form.php:1385
 msgid "CN"
 msgstr "NC"
 
-#: core/shared/classes/class.form.php:1382
+#: core/shared/classes/class.form.php:1386
 msgid "CX"
 msgstr "CX"
 
-#: core/shared/classes/class.form.php:1383
+#: core/shared/classes/class.form.php:1387
 msgid "CC"
 msgstr "CC"
 
-#: core/shared/classes/class.form.php:1383
+#: core/shared/classes/class.form.php:1387
 msgid "Cocos (Keeling) Islands"
 msgstr "Islas Cocos (Keeling)"
 
-#: core/shared/classes/class.form.php:1384
+#: core/shared/classes/class.form.php:1388
 msgid "CO"
 msgstr "CO"
 
-#: core/shared/classes/class.form.php:1385
+#: core/shared/classes/class.form.php:1389
 msgid "KM"
 msgstr "KM"
 
-#: core/shared/classes/class.form.php:1386
+#: core/shared/classes/class.form.php:1390
 msgid "CG"
 msgstr "CG"
 
-#: core/shared/classes/class.form.php:1387
+#: core/shared/classes/class.form.php:1391
 msgid "CD"
 msgstr "CD"
 
-#: core/shared/classes/class.form.php:1387
+#: core/shared/classes/class.form.php:1391
 msgid "Congo, Democratic Republic of"
 msgstr "Congo, República Democrática del"
 
-#: core/shared/classes/class.form.php:1388
+#: core/shared/classes/class.form.php:1392
 msgid "CK"
 msgstr "CK"
 
-#: core/shared/classes/class.form.php:1389
+#: core/shared/classes/class.form.php:1393
 msgid "CR"
 msgstr "CR"
 
-#: core/shared/classes/class.form.php:1390
+#: core/shared/classes/class.form.php:1394
 msgid "CI"
 msgstr "IC:"
 
-#: core/shared/classes/class.form.php:1390
+#: core/shared/classes/class.form.php:1394
 msgid "Cote d'Ivoire"
 msgstr "Costa de Marfil"
 
-#: core/shared/classes/class.form.php:1391
+#: core/shared/classes/class.form.php:1395
 msgid "HR"
 msgstr "RECURSOS HUMANOS"
 
-#: core/shared/classes/class.form.php:1392
+#: core/shared/classes/class.form.php:1396
 msgid "CU"
 msgstr "CU"
 
-#: core/shared/classes/class.form.php:1393
+#: core/shared/classes/class.form.php:1397
 msgid "CW"
 msgstr "CW"
 
-#: core/shared/classes/class.form.php:1394
+#: core/shared/classes/class.form.php:1398
 msgid "CY"
 msgstr "CY"
 
-#: core/shared/classes/class.form.php:1395
+#: core/shared/classes/class.form.php:1399
 msgid "CZ"
 msgstr "CZ"
 
-#: core/shared/classes/class.form.php:1396
+#: core/shared/classes/class.form.php:1400
 msgid "DK"
 msgstr "DK"
 
-#: core/shared/classes/class.form.php:1397
+#: core/shared/classes/class.form.php:1401
 msgid "DJ"
 msgstr "DJ"
 
-#: core/shared/classes/class.form.php:1398
+#: core/shared/classes/class.form.php:1402
 msgid "DM"
 msgstr "DM"
 
-#: core/shared/classes/class.form.php:1399
+#: core/shared/classes/class.form.php:1403
 msgid "DO"
 msgstr "HACER"
 
-#: core/shared/classes/class.form.php:1400
+#: core/shared/classes/class.form.php:1404
 msgid "EC"
 msgstr "CE"
 
-#: core/shared/classes/class.form.php:1401
+#: core/shared/classes/class.form.php:1405
 msgid "EG"
 msgstr "POR EJEMPLO"
 
-#: core/shared/classes/class.form.php:1402
+#: core/shared/classes/class.form.php:1406
 msgid "SV"
 msgstr "SV"
 
-#: core/shared/classes/class.form.php:1403
+#: core/shared/classes/class.form.php:1407
 msgid "GQ"
 msgstr "GQ"
 
-#: core/shared/classes/class.form.php:1404
+#: core/shared/classes/class.form.php:1408
 msgid "ER"
 msgstr "ER"
 
-#: core/shared/classes/class.form.php:1405
+#: core/shared/classes/class.form.php:1409
 msgid "EE"
 msgstr "EE"
 
-#: core/shared/classes/class.form.php:1406
+#: core/shared/classes/class.form.php:1410
 msgid "ET"
 msgstr "ET"
 
-#: core/shared/classes/class.form.php:1407
+#: core/shared/classes/class.form.php:1411
 msgid "FK"
 msgstr "FK"
 
-#: core/shared/classes/class.form.php:1408
+#: core/shared/classes/class.form.php:1412
 msgid "FO"
 msgstr "FO"
 
-#: core/shared/classes/class.form.php:1409
+#: core/shared/classes/class.form.php:1413
 msgid "FJ"
 msgstr "FJ"
 
-#: core/shared/classes/class.form.php:1410
+#: core/shared/classes/class.form.php:1414
 msgid "FI"
 msgstr "FI"
 
-#: core/shared/classes/class.form.php:1411
+#: core/shared/classes/class.form.php:1415
 msgid "FR"
 msgstr "FR"
 
-#: core/shared/classes/class.form.php:1412
+#: core/shared/classes/class.form.php:1416
 msgid "GF"
 msgstr "GF"
 
-#: core/shared/classes/class.form.php:1413
+#: core/shared/classes/class.form.php:1417
 msgid "PF"
 msgstr "PF"
 
-#: core/shared/classes/class.form.php:1414
+#: core/shared/classes/class.form.php:1418
 msgid "TF"
 msgstr "TF"
 
-#: core/shared/classes/class.form.php:1414
+#: core/shared/classes/class.form.php:1418
 msgid "French Southern Territories"
 msgstr "Territorios franceses del sur"
 
-#: core/shared/classes/class.form.php:1415
+#: core/shared/classes/class.form.php:1419
 msgid "GA"
 msgstr "GA"
 
-#: core/shared/classes/class.form.php:1416
+#: core/shared/classes/class.form.php:1420
 msgid "GM"
 msgstr "GM"
 
-#: core/shared/classes/class.form.php:1417
+#: core/shared/classes/class.form.php:1421
 msgid "GE"
 msgstr "GE"
 
-#: core/shared/classes/class.form.php:1418
+#: core/shared/classes/class.form.php:1422
 msgid "DE"
 msgstr "DE"
 
-#: core/shared/classes/class.form.php:1419
+#: core/shared/classes/class.form.php:1423
 msgid "GH"
 msgstr "GH"
 
-#: core/shared/classes/class.form.php:1420
+#: core/shared/classes/class.form.php:1424
 msgid "GI"
 msgstr "GI"
 
-#: core/shared/classes/class.form.php:1421
+#: core/shared/classes/class.form.php:1425
 msgid "GR"
 msgstr "GR"
 
-#: core/shared/classes/class.form.php:1422
+#: core/shared/classes/class.form.php:1426
 msgid "GL"
 msgstr "GL"
 
-#: core/shared/classes/class.form.php:1423
+#: core/shared/classes/class.form.php:1427
 msgid "GD"
 msgstr "GD"
 
-#: core/shared/classes/class.form.php:1424
+#: core/shared/classes/class.form.php:1428
 msgid "GP"
 msgstr "GP"
 
-#: core/shared/classes/class.form.php:1425
+#: core/shared/classes/class.form.php:1429
 msgid "GU"
 msgstr "GU"
 
-#: core/shared/classes/class.form.php:1426
+#: core/shared/classes/class.form.php:1430
 msgid "GT"
 msgstr "GT"
 
-#: core/shared/classes/class.form.php:1427
+#: core/shared/classes/class.form.php:1431
 msgid "GG"
 msgstr "GG"
 
-#: core/shared/classes/class.form.php:1427
+#: core/shared/classes/class.form.php:1431
 msgid "Guernsey"
 msgstr "Guernsey"
 
-#: core/shared/classes/class.form.php:1428
+#: core/shared/classes/class.form.php:1432
 msgid "GN"
 msgstr "GN"
 
-#: core/shared/classes/class.form.php:1429
+#: core/shared/classes/class.form.php:1433
 msgid "GW"
 msgstr "GW"
 
-#: core/shared/classes/class.form.php:1429
+#: core/shared/classes/class.form.php:1433
 msgid "Guinea-Bissau"
 msgstr "Guinea Bissau"
 
-#: core/shared/classes/class.form.php:1430
+#: core/shared/classes/class.form.php:1434
 msgid "GY"
 msgstr "GY"
 
-#: core/shared/classes/class.form.php:1431
+#: core/shared/classes/class.form.php:1435
 msgid "HT"
 msgstr "HT"
 
-#: core/shared/classes/class.form.php:1432
+#: core/shared/classes/class.form.php:1436
 msgid "HM"
 msgstr "HM"
 
-#: core/shared/classes/class.form.php:1432
+#: core/shared/classes/class.form.php:1436
 msgid "Heard and McDonald Islands"
 msgstr "Oído e islas de McDonald"
 
-#: core/shared/classes/class.form.php:1433
+#: core/shared/classes/class.form.php:1437
 msgid "HN"
 msgstr "HN"
 
-#: core/shared/classes/class.form.php:1434
+#: core/shared/classes/class.form.php:1438
 msgid "HK"
 msgstr "HK"
 
-#: core/shared/classes/class.form.php:1435
+#: core/shared/classes/class.form.php:1439
 msgid "HU"
 msgstr "HU"
 
-#: core/shared/classes/class.form.php:1436
+#: core/shared/classes/class.form.php:1440
 msgid "IS"
 msgstr "ES"
 
-#: core/shared/classes/class.form.php:1437
+#: core/shared/classes/class.form.php:1441
 msgid "IN"
 msgstr "EN"
 
-#: core/shared/classes/class.form.php:1439
+#: core/shared/classes/class.form.php:1443
 msgid "IR"
 msgstr "IR"
 
-#: core/shared/classes/class.form.php:1440
+#: core/shared/classes/class.form.php:1444
 msgid "IQ"
 msgstr "IQ"
 
-#: core/shared/classes/class.form.php:1441
+#: core/shared/classes/class.form.php:1445
 msgid "IE"
 msgstr "IE"
 
-#: core/shared/classes/class.form.php:1442
+#: core/shared/classes/class.form.php:1446
 msgid "IM"
 msgstr "IM"
 
-#: core/shared/classes/class.form.php:1443
+#: core/shared/classes/class.form.php:1447
 msgid "IL"
 msgstr "IL"
 
-#: core/shared/classes/class.form.php:1444
+#: core/shared/classes/class.form.php:1448
 msgid "IT"
 msgstr "SE"
 
-#: core/shared/classes/class.form.php:1445
+#: core/shared/classes/class.form.php:1449
 msgid "JM"
 msgstr "JM"
 
-#: core/shared/classes/class.form.php:1446
+#: core/shared/classes/class.form.php:1450
 msgid "JP"
 msgstr "JP"
 
-#: core/shared/classes/class.form.php:1447
+#: core/shared/classes/class.form.php:1451
 msgid "JE"
 msgstr "JE"
 
-#: core/shared/classes/class.form.php:1447
+#: core/shared/classes/class.form.php:1451
 msgid "Jersey"
 msgstr "Jersey"
 
-#: core/shared/classes/class.form.php:1448
+#: core/shared/classes/class.form.php:1452
 msgid "JO"
 msgstr "JO"
 
-#: core/shared/classes/class.form.php:1449
+#: core/shared/classes/class.form.php:1453
 msgid "KZ"
 msgstr "KZ"
 
-#: core/shared/classes/class.form.php:1450
+#: core/shared/classes/class.form.php:1454
 msgid "KE"
 msgstr "KE"
 
-#: core/shared/classes/class.form.php:1451
+#: core/shared/classes/class.form.php:1455
 msgid "KI"
 msgstr "KI"
 
-#: core/shared/classes/class.form.php:1452
+#: core/shared/classes/class.form.php:1456
 msgid "KW"
 msgstr "KW"
 
-#: core/shared/classes/class.form.php:1453
+#: core/shared/classes/class.form.php:1457
 msgid "KG"
 msgstr "KG"
 
-#: core/shared/classes/class.form.php:1454
+#: core/shared/classes/class.form.php:1458
 msgid "LA"
 msgstr "LA"
 
-#: core/shared/classes/class.form.php:1454
+#: core/shared/classes/class.form.php:1458
 msgid "Lao People's Democratic Republic"
 msgstr "República Democrática Popular Lao"
 
-#: core/shared/classes/class.form.php:1455
+#: core/shared/classes/class.form.php:1459
 msgid "LV"
 msgstr "LV"
 
-#: core/shared/classes/class.form.php:1456
+#: core/shared/classes/class.form.php:1460
 msgid "LB"
 msgstr "LB"
 
-#: core/shared/classes/class.form.php:1457
+#: core/shared/classes/class.form.php:1461
 msgid "LS"
 msgstr "LS"
 
-#: core/shared/classes/class.form.php:1458
+#: core/shared/classes/class.form.php:1462
 msgid "LR"
 msgstr "LR"
 
-#: core/shared/classes/class.form.php:1459
+#: core/shared/classes/class.form.php:1463
 msgid "LY"
 msgstr "LY"
 
-#: core/shared/classes/class.form.php:1460
+#: core/shared/classes/class.form.php:1464
 msgid "LI"
 msgstr "LI"
 
-#: core/shared/classes/class.form.php:1461
+#: core/shared/classes/class.form.php:1465
 msgid "LT"
 msgstr "LT"
 
-#: core/shared/classes/class.form.php:1462
+#: core/shared/classes/class.form.php:1466
 msgid "LU"
 msgstr "LU"
 
-#: core/shared/classes/class.form.php:1463
+#: core/shared/classes/class.form.php:1467
 msgid "MO"
 msgstr "MO"
 
-#: core/shared/classes/class.form.php:1464
+#: core/shared/classes/class.form.php:1468
 msgid "MK"
 msgstr "MK"
 
-#: core/shared/classes/class.form.php:1465
+#: core/shared/classes/class.form.php:1469
 msgid "MG"
 msgstr "MG"
 
-#: core/shared/classes/class.form.php:1466
+#: core/shared/classes/class.form.php:1470
 msgid "MW"
 msgstr "MW"
 
-#: core/shared/classes/class.form.php:1467
+#: core/shared/classes/class.form.php:1471
 msgid "MY"
 msgstr "MI"
 
-#: core/shared/classes/class.form.php:1468
+#: core/shared/classes/class.form.php:1472
 msgid "MV"
 msgstr "MV"
 
-#: core/shared/classes/class.form.php:1469
+#: core/shared/classes/class.form.php:1473
 msgid "ML"
 msgstr "ML"
 
-#: core/shared/classes/class.form.php:1470
+#: core/shared/classes/class.form.php:1474
 msgid "MT"
 msgstr "MT"
 
-#: core/shared/classes/class.form.php:1471
+#: core/shared/classes/class.form.php:1475
 msgid "MH"
 msgstr "MH"
 
-#: core/shared/classes/class.form.php:1472
+#: core/shared/classes/class.form.php:1476
 msgid "MQ"
 msgstr "MQ"
 
-#: core/shared/classes/class.form.php:1473
+#: core/shared/classes/class.form.php:1477
 msgid "MR"
 msgstr "SEÑOR"
 
-#: core/shared/classes/class.form.php:1474
+#: core/shared/classes/class.form.php:1478
 msgid "MU"
 msgstr "MU"
 
-#: core/shared/classes/class.form.php:1475
+#: core/shared/classes/class.form.php:1479
 msgid "YT"
 msgstr "YT"
 
-#: core/shared/classes/class.form.php:1476
+#: core/shared/classes/class.form.php:1480
 msgid "MX"
 msgstr "MX"
 
-#: core/shared/classes/class.form.php:1477
+#: core/shared/classes/class.form.php:1481
 msgid "FM"
 msgstr "FM"
 
-#: core/shared/classes/class.form.php:1477
+#: core/shared/classes/class.form.php:1481
 msgid "Micronesia, Federated States of"
 msgstr "Micronesia, Estados federados de"
 
-#: core/shared/classes/class.form.php:1478
+#: core/shared/classes/class.form.php:1482
 msgid "MD"
 msgstr "MD"
 
-#: core/shared/classes/class.form.php:1479
+#: core/shared/classes/class.form.php:1483
 msgid "MC"
 msgstr "MC"
 
-#: core/shared/classes/class.form.php:1480
+#: core/shared/classes/class.form.php:1484
 msgid "MN"
 msgstr "MN"
 
-#: core/shared/classes/class.form.php:1481
+#: core/shared/classes/class.form.php:1485
 msgid "ME"
 msgstr "ME"
 
-#: core/shared/classes/class.form.php:1481
+#: core/shared/classes/class.form.php:1485
 msgid "Montenegro"
 msgstr "Montenegro"
 
-#: core/shared/classes/class.form.php:1482
+#: core/shared/classes/class.form.php:1486
 msgid "MS"
 msgstr "MS"
 
-#: core/shared/classes/class.form.php:1483
+#: core/shared/classes/class.form.php:1487
 msgid "MA"
 msgstr "MA"
 
-#: core/shared/classes/class.form.php:1484
+#: core/shared/classes/class.form.php:1488
 msgid "MZ"
 msgstr "MZ"
 
-#: core/shared/classes/class.form.php:1485
+#: core/shared/classes/class.form.php:1489
 msgid "MM"
 msgstr "MM"
 
-#: core/shared/classes/class.form.php:1486
+#: core/shared/classes/class.form.php:1490
 msgid "NA"
 msgstr "NA"
 
-#: core/shared/classes/class.form.php:1486
+#: core/shared/classes/class.form.php:1490
 msgid "Namibia"
 msgstr "Namibia"
 
-#: core/shared/classes/class.form.php:1487
+#: core/shared/classes/class.form.php:1491
 msgid "NR"
 msgstr "Nº"
 
-#: core/shared/classes/class.form.php:1488
+#: core/shared/classes/class.form.php:1492
 msgid "NP"
 msgstr "NP"
 
-#: core/shared/classes/class.form.php:1489
+#: core/shared/classes/class.form.php:1493
 msgid "NC"
 msgstr "NC"
 
-#: core/shared/classes/class.form.php:1490
+#: core/shared/classes/class.form.php:1494
 msgid "NZ"
 msgstr "NUEVA ZELANDA"
 
-#: core/shared/classes/class.form.php:1491
+#: core/shared/classes/class.form.php:1495
 msgid "NI"
 msgstr "NI"
 
-#: core/shared/classes/class.form.php:1492
+#: core/shared/classes/class.form.php:1496
 msgid "NE"
 msgstr "NE"
 
-#: core/shared/classes/class.form.php:1493
+#: core/shared/classes/class.form.php:1497
 msgid "NG"
 msgstr "NG"
 
-#: core/shared/classes/class.form.php:1494
+#: core/shared/classes/class.form.php:1498
 msgid "NU"
 msgstr "NU"
 
-#: core/shared/classes/class.form.php:1495
+#: core/shared/classes/class.form.php:1499
 msgid "NF"
 msgstr "NF"
 
-#: core/shared/classes/class.form.php:1496
+#: core/shared/classes/class.form.php:1500
 msgid "KP"
 msgstr "KP"
 
-#: core/shared/classes/class.form.php:1496
+#: core/shared/classes/class.form.php:1500
 msgid "North Korea"
 msgstr "Corea del norte"
 
-#: core/shared/classes/class.form.php:1497
+#: core/shared/classes/class.form.php:1501
 msgid "MP"
 msgstr "MP"
 
-#: core/shared/classes/class.form.php:1497
+#: core/shared/classes/class.form.php:1501
 msgid "Northern Mariana Islands"
 msgstr "Islas Marianas del norte"
 
-#: core/shared/classes/class.form.php:1498
+#: core/shared/classes/class.form.php:1502
 msgid "NO"
 msgstr "No"
 
-#: core/shared/classes/class.form.php:1499
+#: core/shared/classes/class.form.php:1503
 msgid "OM"
 msgstr "OM"
 
-#: core/shared/classes/class.form.php:1500
+#: core/shared/classes/class.form.php:1504
 msgid "PK"
 msgstr "PK"
 
-#: core/shared/classes/class.form.php:1501
+#: core/shared/classes/class.form.php:1505
 msgid "PW"
 msgstr "PW"
 
-#: core/shared/classes/class.form.php:1501
+#: core/shared/classes/class.form.php:1505
 msgid "Palau"
 msgstr "Palau"
 
-#: core/shared/classes/class.form.php:1502
+#: core/shared/classes/class.form.php:1506
 msgid "PS"
 msgstr "PS"
 
-#: core/shared/classes/class.form.php:1502
+#: core/shared/classes/class.form.php:1506
 msgid "Palestinian Territory, Occupied"
 msgstr "Territorio palestino, ocupado"
 
-#: core/shared/classes/class.form.php:1503
+#: core/shared/classes/class.form.php:1507
 msgid "PA"
 msgstr "PA"
 
-#: core/shared/classes/class.form.php:1504
+#: core/shared/classes/class.form.php:1508
 msgid "PG"
 msgstr "PG"
 
-#: core/shared/classes/class.form.php:1505
+#: core/shared/classes/class.form.php:1509
 msgid "PY"
 msgstr "PY"
 
-#: core/shared/classes/class.form.php:1506
+#: core/shared/classes/class.form.php:1510
 msgid "PE"
 msgstr "PE"
 
-#: core/shared/classes/class.form.php:1507
+#: core/shared/classes/class.form.php:1511
 msgid "PH"
 msgstr "PH"
 
-#: core/shared/classes/class.form.php:1508
+#: core/shared/classes/class.form.php:1512
 msgid "PN"
 msgstr "PN"
 
-#: core/shared/classes/class.form.php:1508
+#: core/shared/classes/class.form.php:1512
 msgid "Pitcairn"
 msgstr "Pitcairn"
 
-#: core/shared/classes/class.form.php:1509
+#: core/shared/classes/class.form.php:1513
 msgid "PL"
 msgstr "PL"
 
-#: core/shared/classes/class.form.php:1510
+#: core/shared/classes/class.form.php:1514
 msgid "PT"
 msgstr "PINTA"
 
-#: core/shared/classes/class.form.php:1511
+#: core/shared/classes/class.form.php:1515
 msgid "PR"
 msgstr "PR"
 
-#: core/shared/classes/class.form.php:1512
+#: core/shared/classes/class.form.php:1516
 msgid "QA"
 msgstr "CONTROL DE CALIDAD"
 
-#: core/shared/classes/class.form.php:1513
+#: core/shared/classes/class.form.php:1517
 msgid "RE"
 msgstr "RE"
 
-#: core/shared/classes/class.form.php:1514
+#: core/shared/classes/class.form.php:1518
 msgid "RO"
 msgstr "RO"
 
-#: core/shared/classes/class.form.php:1515
+#: core/shared/classes/class.form.php:1519
 msgid "RU"
 msgstr "RU"
 
-#: core/shared/classes/class.form.php:1515
+#: core/shared/classes/class.form.php:1519
 msgid "Russian Federation"
 msgstr "Federación de Rusia"
 
-#: core/shared/classes/class.form.php:1516
+#: core/shared/classes/class.form.php:1520
 msgid "RW"
 msgstr "RW"
 
-#: core/shared/classes/class.form.php:1517
+#: core/shared/classes/class.form.php:1521
 msgid "BL"
 msgstr "BL"
 
-#: core/shared/classes/class.form.php:1517
+#: core/shared/classes/class.form.php:1521
 msgid "Saint Barthelemy"
 msgstr "Saint Barthelemy"
 
-#: core/shared/classes/class.form.php:1518
+#: core/shared/classes/class.form.php:1522
 msgid "SH"
 msgstr "SH"
 
-#: core/shared/classes/class.form.php:1518
+#: core/shared/classes/class.form.php:1522
 msgid "Saint Helena"
 msgstr "Santa Elena"
 
-#: core/shared/classes/class.form.php:1519
+#: core/shared/classes/class.form.php:1523
 msgid "KN"
 msgstr "KN"
 
-#: core/shared/classes/class.form.php:1519
+#: core/shared/classes/class.form.php:1523
 msgid "Saint Kitts and Nevis"
 msgstr "Saint Kitts y Nevis"
 
-#: core/shared/classes/class.form.php:1520
+#: core/shared/classes/class.form.php:1524
 msgid "LC"
 msgstr "LC"
 
-#: core/shared/classes/class.form.php:1520
+#: core/shared/classes/class.form.php:1524
 msgid "Saint Lucia"
 msgstr "Santa Lucía"
 
-#: core/shared/classes/class.form.php:1521
+#: core/shared/classes/class.form.php:1525
 msgid "VC"
 msgstr "VC"
 
-#: core/shared/classes/class.form.php:1521
+#: core/shared/classes/class.form.php:1525
 msgid "Saint Vincent and the Grenadines"
 msgstr "San Vicente y las Granadinas"
 
-#: core/shared/classes/class.form.php:1522
+#: core/shared/classes/class.form.php:1526
 msgid "MF"
 msgstr "MF"
 
-#: core/shared/classes/class.form.php:1522
+#: core/shared/classes/class.form.php:1526
 msgid "Saint-Martin (France)"
 msgstr "Saint-Martin (Francia)"
 
-#: core/shared/classes/class.form.php:1523
+#: core/shared/classes/class.form.php:1527
 msgid "SX"
 msgstr "SX"
 
-#: core/shared/classes/class.form.php:1523
+#: core/shared/classes/class.form.php:1527
 msgid "Saint-Martin (Pays-Bas)"
 msgstr "Saint-Martin (Pays-Bas)"
 
-#: core/shared/classes/class.form.php:1524
+#: core/shared/classes/class.form.php:1528
 msgid "WS"
 msgstr "WS"
 
-#: core/shared/classes/class.form.php:1525
+#: core/shared/classes/class.form.php:1529
 msgid "SM"
 msgstr "SM"
 
-#: core/shared/classes/class.form.php:1526
+#: core/shared/classes/class.form.php:1530
 msgid "ST"
 msgstr "ST"
 
-#: core/shared/classes/class.form.php:1526
+#: core/shared/classes/class.form.php:1530
 msgid "Sao Tome and Principe"
 msgstr "Santo Tomé y Príncipe"
 
-#: core/shared/classes/class.form.php:1527
+#: core/shared/classes/class.form.php:1531
 msgid "SA"
 msgstr "SA"
 
-#: core/shared/classes/class.form.php:1528
+#: core/shared/classes/class.form.php:1532
 msgid "SN"
 msgstr "SN"
 
-#: core/shared/classes/class.form.php:1529
+#: core/shared/classes/class.form.php:1533
 msgid "RS"
 msgstr "RS"
 
-#: core/shared/classes/class.form.php:1529
+#: core/shared/classes/class.form.php:1533
 msgid "Serbia"
 msgstr "Serbia"
 
-#: core/shared/classes/class.form.php:1530
+#: core/shared/classes/class.form.php:1534
 msgid "SC"
 msgstr "SC"
 
-#: core/shared/classes/class.form.php:1531
+#: core/shared/classes/class.form.php:1535
 msgid "SL"
 msgstr "SL"
 
-#: core/shared/classes/class.form.php:1532
+#: core/shared/classes/class.form.php:1536
 msgid "SG"
 msgstr "SG"
 
-#: core/shared/classes/class.form.php:1533
+#: core/shared/classes/class.form.php:1537
 msgid "SK"
 msgstr "SK"
 
-#: core/shared/classes/class.form.php:1533
+#: core/shared/classes/class.form.php:1537
 msgid "Slovakia (Slovak Republic)"
 msgstr "Eslovaquia (República Eslovaca)"
 
-#: core/shared/classes/class.form.php:1534
+#: core/shared/classes/class.form.php:1538
 msgid "SI"
 msgstr "SI"
 
-#: core/shared/classes/class.form.php:1535
+#: core/shared/classes/class.form.php:1539
 msgid "SB"
 msgstr "SB"
 
-#: core/shared/classes/class.form.php:1536
+#: core/shared/classes/class.form.php:1540
 msgid "SO"
 msgstr "POR LO TANTO"
 
-#: core/shared/classes/class.form.php:1537
+#: core/shared/classes/class.form.php:1541
 msgid "ZA"
 msgstr "ZA"
 
-#: core/shared/classes/class.form.php:1538
+#: core/shared/classes/class.form.php:1542
 msgid "GS"
 msgstr "GS"
 
-#: core/shared/classes/class.form.php:1539
+#: core/shared/classes/class.form.php:1543
 msgid "KR"
 msgstr "KR"
 
-#: core/shared/classes/class.form.php:1539
+#: core/shared/classes/class.form.php:1543
 msgid "South Korea"
 msgstr "Corea del sur"
 
-#: core/shared/classes/class.form.php:1540
+#: core/shared/classes/class.form.php:1544
 msgid "SS"
 msgstr "SS"
 
-#: core/shared/classes/class.form.php:1540
+#: core/shared/classes/class.form.php:1544
 msgid "South Sudan"
 msgstr "Sudán del sur"
 
-#: core/shared/classes/class.form.php:1541
+#: core/shared/classes/class.form.php:1545
 msgid "ES"
 msgstr "ES"
 
-#: core/shared/classes/class.form.php:1542
+#: core/shared/classes/class.form.php:1546
 msgid "LK"
 msgstr "LK"
 
-#: core/shared/classes/class.form.php:1543
+#: core/shared/classes/class.form.php:1547
 msgid "PM"
 msgstr "PM"
 
-#: core/shared/classes/class.form.php:1543
+#: core/shared/classes/class.form.php:1547
 msgid "St. Pierre and Miquelon"
 msgstr "San Pedro y Miquelón"
 
-#: core/shared/classes/class.form.php:1544
+#: core/shared/classes/class.form.php:1548
 msgid "SD"
 msgstr "SD"
 
-#: core/shared/classes/class.form.php:1545
+#: core/shared/classes/class.form.php:1549
 msgid "SR"
 msgstr "SR"
 
-#: core/shared/classes/class.form.php:1546
+#: core/shared/classes/class.form.php:1550
 msgid "SJ"
 msgstr "SJ"
 
-#: core/shared/classes/class.form.php:1546
+#: core/shared/classes/class.form.php:1550
 msgid "Svalbard and Jan Mayen Islands"
 msgstr "Svalbard y Jan Mayen islas"
 
-#: core/shared/classes/class.form.php:1547
+#: core/shared/classes/class.form.php:1551
 msgid "SZ"
 msgstr "SZ"
 
-#: core/shared/classes/class.form.php:1548
+#: core/shared/classes/class.form.php:1552
 msgid "SE"
 msgstr "SE"
 
-#: core/shared/classes/class.form.php:1549
+#: core/shared/classes/class.form.php:1553
 msgid "CH"
 msgstr "CH"
 
-#: core/shared/classes/class.form.php:1550
+#: core/shared/classes/class.form.php:1554
 msgid "SY"
 msgstr "SY"
 
-#: core/shared/classes/class.form.php:1551
+#: core/shared/classes/class.form.php:1555
 msgid "TW"
 msgstr "TW"
 
-#: core/shared/classes/class.form.php:1552
+#: core/shared/classes/class.form.php:1556
 msgid "TJ"
 msgstr "TJ"
 
-#: core/shared/classes/class.form.php:1553
+#: core/shared/classes/class.form.php:1557
 msgid "TZ"
 msgstr "TZ"
 
-#: core/shared/classes/class.form.php:1554
+#: core/shared/classes/class.form.php:1558
 msgid "TH"
 msgstr "TH"
 
-#: core/shared/classes/class.form.php:1555
+#: core/shared/classes/class.form.php:1559
 msgid "NL"
 msgstr "NL"
 
-#: core/shared/classes/class.form.php:1555
+#: core/shared/classes/class.form.php:1559
 msgid "The Netherlands"
 msgstr "Los países bajos"
 
-#: core/shared/classes/class.form.php:1556
+#: core/shared/classes/class.form.php:1560
 msgid "TL"
 msgstr "TL"
 
-#: core/shared/classes/class.form.php:1556
+#: core/shared/classes/class.form.php:1560
 msgid "Timor-Leste"
 msgstr "Timor-Leste"
 
-#: core/shared/classes/class.form.php:1557
+#: core/shared/classes/class.form.php:1561
 msgid "TG"
 msgstr "TG"
 
-#: core/shared/classes/class.form.php:1558
+#: core/shared/classes/class.form.php:1562
 msgid "TK"
 msgstr "CONOCIMIENTOS TRADICIONALES"
 
-#: core/shared/classes/class.form.php:1559
+#: core/shared/classes/class.form.php:1563
 msgid "TO"
 msgstr "Para"
 
-#: core/shared/classes/class.form.php:1560
+#: core/shared/classes/class.form.php:1564
 msgid "TT"
 msgstr "TT"
 
-#: core/shared/classes/class.form.php:1560
+#: core/shared/classes/class.form.php:1564
 msgid "Trinidad and Tobago"
 msgstr "Trinidad y Tobago"
 
-#: core/shared/classes/class.form.php:1561
+#: core/shared/classes/class.form.php:1565
 msgid "TN"
 msgstr "TN"
 
-#: core/shared/classes/class.form.php:1562
+#: core/shared/classes/class.form.php:1566
 msgid "TR"
 msgstr "TR"
 
-#: core/shared/classes/class.form.php:1563
+#: core/shared/classes/class.form.php:1567
 msgid "TM"
 msgstr "TM"
 
-#: core/shared/classes/class.form.php:1564
+#: core/shared/classes/class.form.php:1568
 msgid "TC"
 msgstr "TC"
 
-#: core/shared/classes/class.form.php:1564
+#: core/shared/classes/class.form.php:1568
 msgid "Turks and Caicos Islands"
 msgstr "Islas Turcas y Caicos"
 
-#: core/shared/classes/class.form.php:1565
+#: core/shared/classes/class.form.php:1569
 msgid "TV"
 msgstr "TV"
 
-#: core/shared/classes/class.form.php:1566
+#: core/shared/classes/class.form.php:1570
 msgid "UG"
 msgstr "UG"
 
-#: core/shared/classes/class.form.php:1567
+#: core/shared/classes/class.form.php:1571
 msgid "UA"
 msgstr "UA"
 
-#: core/shared/classes/class.form.php:1568
+#: core/shared/classes/class.form.php:1572
 msgid "AE"
 msgstr "AE"
 
-#: core/shared/classes/class.form.php:1569
+#: core/shared/classes/class.form.php:1573
 msgid "GB"
 msgstr "GB"
 
-#: core/shared/classes/class.form.php:1570
+#: core/shared/classes/class.form.php:1574
 msgid "US"
 msgstr "NOS"
 
-#: core/shared/classes/class.form.php:1570
+#: core/shared/classes/class.form.php:1574
 msgid "United States"
 msgstr "Estados Unidos"
 
-#: core/shared/classes/class.form.php:1571
+#: core/shared/classes/class.form.php:1575
 msgid "UM"
 msgstr "UMM"
 
-#: core/shared/classes/class.form.php:1571
+#: core/shared/classes/class.form.php:1575
 msgid "United States Minor Outlying Islands"
 msgstr "Islas ultramarinas de Estados Unidos"
 
-#: core/shared/classes/class.form.php:1572
+#: core/shared/classes/class.form.php:1576
 msgid "UY"
 msgstr "UY"
 
-#: core/shared/classes/class.form.php:1573
+#: core/shared/classes/class.form.php:1577
 msgid "UZ"
 msgstr "UZ"
 
-#: core/shared/classes/class.form.php:1574
+#: core/shared/classes/class.form.php:1578
 msgid "VU"
 msgstr "VU"
 
-#: core/shared/classes/class.form.php:1575
+#: core/shared/classes/class.form.php:1579
 msgid "VA"
 msgstr "VA"
 
-#: core/shared/classes/class.form.php:1575
+#: core/shared/classes/class.form.php:1579
 msgid "Vatican"
 msgstr "Vaticano"
 
-#: core/shared/classes/class.form.php:1576
+#: core/shared/classes/class.form.php:1580
 msgid "VE"
 msgstr "VE"
 
-#: core/shared/classes/class.form.php:1577
+#: core/shared/classes/class.form.php:1581
 msgid "VN"
 msgstr "VN"
 
-#: core/shared/classes/class.form.php:1578
+#: core/shared/classes/class.form.php:1582
 msgid "VG"
 msgstr "VG"
 
-#: core/shared/classes/class.form.php:1578
+#: core/shared/classes/class.form.php:1582
 msgid "Virgin Islands (British)"
 msgstr "Islas Vírgenes (británicas)"
 
-#: core/shared/classes/class.form.php:1579
+#: core/shared/classes/class.form.php:1583
 msgid "VI"
 msgstr "VI"
 
-#: core/shared/classes/class.form.php:1579
+#: core/shared/classes/class.form.php:1583
 msgid "Virgin Islands (U.S.)"
 msgstr "Islas Vírgenes (EEUU)"
 
-#: core/shared/classes/class.form.php:1580
+#: core/shared/classes/class.form.php:1584
 msgid "WF"
 msgstr "WF"
 
-#: core/shared/classes/class.form.php:1580
+#: core/shared/classes/class.form.php:1584
 msgid "Wallis and Futuna Islands"
 msgstr "Islas Wallis y Futuna"
 
-#: core/shared/classes/class.form.php:1581
+#: core/shared/classes/class.form.php:1585
 msgid "EH"
 msgstr "EH"
 
-#: core/shared/classes/class.form.php:1581
+#: core/shared/classes/class.form.php:1585
 msgid "Western Sahara"
 msgstr "Sáhara Occidental"
 
-#: core/shared/classes/class.form.php:1582
+#: core/shared/classes/class.form.php:1586
 msgid "YE"
 msgstr "OS"
 
-#: core/shared/classes/class.form.php:1583
+#: core/shared/classes/class.form.php:1587
 msgid "ZM"
 msgstr "ZM"
 
-#: core/shared/classes/class.form.php:1584
+#: core/shared/classes/class.form.php:1588
 msgid "ZW"
 msgstr "ZW"
 
@@ -11474,45 +11591,45 @@ msgstr "Slug"
 msgid "Posts"
 msgstr "Mensajes"
 
-#: core/shared/classes/class.post-type.wp-lead.php:405
+#: core/shared/classes/class.post-type.wp-lead.php:406
 msgid "must include an id parameter"
 msgstr "debe incluir un parámetro id"
 
-#: core/shared/classes/class.post-type.wp-lead.php:410
+#: core/shared/classes/class.post-type.wp-lead.php:411
 msgid "lead list deleted"
 msgstr "lista de plomo eliminado"
 
-#: core/shared/classes/class.post-type.wp-lead.php:518
+#: core/shared/classes/class.post-type.wp-lead.php:519
 msgid "New Lead"
 msgstr "Nuevo plomo"
 
-#: core/shared/classes/class.post-type.wp-lead.php:525
+#: core/shared/classes/class.post-type.wp-lead.php:526
 msgid "Read"
 msgstr "Leer"
 
-#: core/shared/classes/class.post-type.wp-lead.php:532
+#: core/shared/classes/class.post-type.wp-lead.php:533
 msgid "Needs Attention"
 msgstr "Necesita atención"
 
-#: core/shared/classes/class.post-type.wp-lead.php:539
+#: core/shared/classes/class.post-type.wp-lead.php:540
 msgid "Lost"
 msgstr "Perdido"
 
-#: core/shared/classes/class.post-type.wp-lead.php:553
+#: core/shared/classes/class.post-type.wp-lead.php:554
 msgid "Customer"
 msgstr "Cliente"
 
-#: core/shared/classes/class.post-type.wp-lead.php:560
+#: core/shared/classes/class.post-type.wp-lead.php:561
 msgid "Archive"
 msgstr "Archivo"
 
-#: core/shared/classes/class.post-type.wp-lead.php:630
+#: core/shared/classes/class.post-type.wp-lead.php:631
 msgid ""
 "WordPress Leads is not currently installed/activated to view and manage "
 "leads please turn it on."
 msgstr "No lleva WordPress es actualmente instalado/activado para ver y administrar conduce por favor enciéndalo."
 
-#: core/shared/classes/class.post-type.wp-lead.php:657
+#: core/shared/classes/class.post-type.wp-lead.php:658
 #, php-format
 msgid "%d leads"
 msgstr "%d conduce"
