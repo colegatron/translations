@@ -4,18 +4,20 @@
 # Translators:
 # Translators:
 # ALEXANDRE SILVA <alexandre.alves@gmail.com>, 2017
+# Dionizio Bonfim Bach <translations@djio.com.br>, 2018
 # opiagile <francisco@opiagile.com>, 2017
 # Hudson Atwell <atwell.publishing@gmail.com>, 2016
 # Juliano Reynaud <julianoreynaud@gmail.com>, 2017
 # Mahmod Issa <comunica.muh@gmail.com>, 2017
 # Marcelo Silva <marcelferry@gmail.com>, 2016
+# opiagile <francisco@opiagile.com>, 2017
 # Paulo Grande <paulo.grande@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2017-09-20 15:46-0500\n"
-"PO-Revision-Date: 2017-09-23 22:20+0000\n"
-"Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
+"PO-Revision-Date: 2018-02-03 21:00+0000\n"
+"Last-Translator: Dionizio Bonfim Bach <translations@djio.com.br>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/inboundnow/inbound-pro/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,21 +42,21 @@ msgstr "Inbound Marketer"
 #: classes/admin/class.download-management.php:166
 msgid ""
 "You do not have sufficient permissions to delete plugins for this site."
-msgstr "Você não possui permissões suficientes para excluir os plugins deste site"
+msgstr "Você não possui permissões suficientes para excluir os plugins deste site."
 
 #: classes/admin/class.download-management.php:144
 msgid " has been installed!"
-msgstr "foi instalado!"
+msgstr " foi instalado!"
 
 #: classes/admin/class.download-management.php:190
 msgid " has been uninstalled!"
-msgstr "foi desinstalado!"
+msgstr " foi desinstalado!"
 
 #: classes/admin/class.download-management.php:518
 msgid ""
 "ATTENTION: open_basedir restriction in effect which will cause problems with"
 " installation."
-msgstr "Atenção: restrição de open_basedir ira causar problemas na instalação"
+msgstr "Atenção: Existem restrições de open_basedir que causarão problemas na instalação."
 
 #: classes/admin/class.download-management.php:549
 #: classes/admin/class.reporting.funnels.php:149
@@ -83,7 +85,7 @@ msgstr "Calls to Action"
 #: core/leads/classes/class.dashboard.php:1
 #: core/shared/classes/class.menus.adminbar.php:163
 msgid "Leads"
-msgstr "Contato"
+msgstr "Leads"
 
 #: classes/admin/class.download-management.php:557
 #: core/automation/classes/class.post-type.automation.php:56
@@ -103,11 +105,11 @@ msgstr "Automação"
 #: core/shared/classes/class.lead-fields.php:34
 #: core/shared/classes/class.menus.adminbar.php:340
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: classes/admin/class.download-management.php:570
 msgid " Search... "
-msgstr "Buscar..."
+msgstr " Pesquisar... "
 
 #: classes/admin/class.download-management.php:573
 msgid "Uninstalled"
@@ -161,7 +163,7 @@ msgstr "Disponível apenas para assinantes."
 #: core/mailer/classes/class.templates.manage.php:403
 #: core/shared/classes/class.menus.adminbar.php:458
 msgid "Manage Templates"
-msgstr "Gerenciar Templates"
+msgstr "Gerenciar modelos"
 
 #: classes/admin/class.download-management.php:855
 msgid "Manage Extensions"
@@ -184,7 +186,7 @@ msgstr "Relatório com intervalos em dias"
 #: core/mailer/classes/class.metaboxes.inbound-email.php:910
 #: core/mailer/classes/class.post-type.inbound-email.php:561
 msgid "days"
-msgstr "Dias"
+msgstr "dias"
 
 #: classes/admin/class.inbound-analytics.php:262
 #: classes/admin/report-templates/report.impressions.php:69
@@ -282,17 +284,17 @@ msgstr "Desative o Inbound Pro para esta página"
 
 #: classes/admin/class.menus.adminmenu.php:94
 msgid "Tell WordPress not to load Inbound Pro on this page."
-msgstr "Sinalize ao WordPress para não carregar o Inbound Pro nesta página."
+msgstr "Avise o WordPress para não carregar o Inbound Pro nesta página."
 
 #: classes/admin/class.notifications.php:79
 msgid "Inbound Pro has been installed!"
-msgstr "Inbound Pro instalado!"
+msgstr "O Inbound Pro foi instalado!"
 
 #: classes/admin/class.notifications.php:80
 msgid ""
 "Inbound Pro requires an API Key to enable automatic updates and subscriber "
 "ready components."
-msgstr "O Inbound Pro requer uma Chave de API para permitir atualizações automáticas e componentes disponíveis para o assinante."
+msgstr "O Inbound Pro requer uma chave de API para permitir atualizações automáticas e componentes prontos para os assinantes."
 
 #: classes/admin/class.notifications.php:81
 msgid "Setup API Key"
@@ -438,15 +440,15 @@ msgstr "Lead"
 
 #: classes/admin/class.reporting.templates.php:109
 msgid "Page Id"
-msgstr ""
+msgstr "ID da página"
 
 #: classes/admin/class.reporting.templates.php:116
 msgid "Lead Id"
-msgstr ""
+msgstr "ID do lead"
 
 #: classes/admin/class.reporting.templates.php:123
 msgid "Lead UID"
-msgstr ""
+msgstr "UID do lead"
 
 #: classes/admin/class.reporting.templates.php:137
 #: classes/admin/report-templates/report.event.php:242
@@ -456,11 +458,11 @@ msgstr "Evento"
 
 #: classes/admin/class.reporting.templates.php:144
 msgid "List Id"
-msgstr ""
+msgstr "ID da lista"
 
 #: classes/admin/class.reporting.templates.php:151
 msgid "Job Id"
-msgstr ""
+msgstr "ID da tarefa"
 
 #: classes/admin/class.settings.php:127
 msgid "api key"
@@ -512,7 +514,7 @@ msgstr "Desligue para parar de carregar o componente de Call to Action."
 
 #: classes/admin/class.settings.php:200
 msgid "Toggle this off to stop loading Leads component."
-msgstr "Desligue para parar de carregar o componente de Leads."
+msgstr "Desligue isso para parar de carregar o componente leads."
 
 #: classes/admin/class.settings.php:217
 msgid "Mailer & Automation"
@@ -526,11 +528,11 @@ msgstr "Desligue para parar de carregar o componente de automação de Marketing
 
 #: classes/admin/class.settings.php:236
 msgid "leads, field mapping, custom fields"
-msgstr "contatos, campos para mapeamento, campos customizados "
+msgstr "leads, field mapping, custom fields"
 
 #: classes/admin/class.settings.php:241
 msgid "Lead Field Management"
-msgstr "Gerenciamento do campo de Lead"
+msgstr "Gerenciamento do campos do lead"
 
 #: classes/admin/class.settings.php:261
 msgid "labels,status,tags,fields"
@@ -538,7 +540,7 @@ msgstr "rótulos, etiquetas, estatuto, campos"
 
 #: classes/admin/class.settings.php:280
 msgid "analytics,tracking,ipaddress,ip address,admin tracking"
-msgstr "Acompanhamento do Google Analytics, endereço IP, endereço ip, admin de rastreamento"
+msgstr "analytics,tracking,ipaddress,ip address,rastreio"
 
 #: classes/admin/class.settings.php:297
 msgid "Page Tracking"
@@ -582,7 +584,7 @@ msgstr "Se esta opção for mostrado para você, então o ACF5 está sendo carre
 
 #: classes/admin/class.settings.php:381
 msgid "ajax,speed,optimization"
-msgstr "Ajax, velocidade, otimização"
+msgstr "ajax,velocidade,otimização"
 
 #: classes/admin/class.settings.php:386
 msgid "Fast(er) Ajax"
@@ -600,7 +602,7 @@ msgstr "Ativar esse recurso instalará um mu-plugin que o Inbound Now usará par
 
 #: classes/admin/class.settings.php:417
 msgid "translations,enable,disable,notifications"
-msgstr "Tradutor, habilitar , desabilitar notificações  "
+msgstr "traduções,ativar,desativarm,notificações"
 
 #: classes/admin/class.settings.php:422 classes/admin/class.settings.php:735
 msgid "Translations"
@@ -608,7 +610,7 @@ msgstr "Traduções"
 
 #: classes/admin/class.settings.php:428
 msgid "Enable Translations"
-msgstr "habilitar tradutor"
+msgstr "Ativar traduções"
 
 #: classes/admin/class.settings.php:429
 msgid ""
@@ -618,7 +620,7 @@ msgstr "A ativação deste recurso indicará ao Inbound Now para carregar seqü�
 
 #: classes/admin/class.settings.php:445
 msgid "Translation Update Notifications"
-msgstr "Notificações de atualizações do tradutor "
+msgstr "Notificações de atualização na tradução"
 
 #: classes/admin/class.settings.php:446
 msgid ""
@@ -628,17 +630,17 @@ msgstr "Este é um recurso de interface que permite que os clientes não sejam n
 
 #: classes/admin/class.settings.php:462
 msgid "Help Inbound Now Translate"
-msgstr "Ajudar a traduzir  Inbound Now "
+msgstr "Ajudar a traduzir o Inbound Now"
 
 #: classes/admin/class.settings.php:463
 #, php-format
 msgid ""
 "Click %shere%s to help improve the quality of Inbound Now translations."
-msgstr "Clique %s aqui %s para ajudar a melhorar a qualidade das traduções do Inbound Now"
+msgstr "Clique %saqui%s para melhorar a qualidade das traduções do Inbound Now."
 
 #: classes/admin/class.settings.php:535
 msgid "Welcome to Inbound Pro "
-msgstr "Bem vindo ao Inbound Pro"
+msgstr "Bem-vindo ao Inbound Pro "
 
 #: classes/admin/class.settings.php:537
 msgid ""
@@ -648,7 +650,7 @@ msgstr "É a sua primeira vez? Favor revisar as seções abaixo antes de iniciar
 
 #: classes/admin/class.settings.php:546
 msgid "Double Optin"
-msgstr "Opções duplas"
+msgstr "Confirmação dupla"
 
 #: classes/admin/class.settings.php:547
 msgid "Email Component"
@@ -679,7 +681,7 @@ msgstr "Importar configurações Inbound Now"
 
 #: classes/admin/class.settings.php:624
 msgid "Your settings have been imported!."
-msgstr "Suas configurações foram importadas!"
+msgstr "Suas configurações foram importadas!."
 
 #: classes/admin/class.settings.php:628
 msgid ""
@@ -786,7 +788,7 @@ msgstr "Excluir"
 
 #: classes/admin/class.settings.php:1102
 msgid "Enable"
-msgstr "Habilitar "
+msgstr "Ativar"
 
 #: classes/admin/class.settings.php:1105
 msgid "Field Key"
@@ -812,7 +814,7 @@ msgstr "Este campo não pode ser excluido"
 
 #: classes/admin/class.settings.php:1146
 msgid "This field cannot be disbled."
-msgstr "Este campo não pode ser desabilitado "
+msgstr "Este campo não pode ser desabilitado."
 
 #: classes/admin/class.settings.php:1178
 msgid "Enter field key here"
@@ -828,7 +830,7 @@ msgstr "Criar novo campo"
 
 #: classes/admin/class.settings.php:1204
 msgid "Manage Lead Statuses:"
-msgstr "Gerencie o status de chumbo:"
+msgstr "Gerenciar os status do lead:"
 
 #: classes/admin/class.settings.php:1211
 msgid "Label"
@@ -864,15 +866,15 @@ msgstr "Digite o endereço IP "
 
 #: classes/admin/class.settings.php:1324
 msgid "add new ip address"
-msgstr "Adicione o novo endereço ip"
+msgstr "adicionar novo endereço ip"
 
 #: classes/admin/class.settings.php:1484
 msgid "Error: This is not an Inbound Now Settings .json file."
-msgstr "Erro: este não é um arquivo .json file de configuração Inbound Now"
+msgstr "Erro: Este não é um arquivo json de configurações do Inbound Now."
 
 #: classes/admin/class.settings.php:1491
 msgid "Error: json file is corrupt."
-msgstr "Erro: o arquivo .json esta corrompido "
+msgstr "Erro: o arquivo json está corrompido."
 
 #: classes/admin/class.settings.php:1520
 msgid "<strong>Error!</strong> Could not remove the mu plugin."
@@ -890,11 +892,11 @@ msgstr "<strong>Erro!</strong> Não foi possível criar o seguinte diretório: <
 msgid ""
 "<strong>Error!</strong> Could not copy Nelio's performance MU-Plugin from "
 "<code>%1$s</code> to <code>%2$s</code>."
-msgstr "<strong>Erro! </strong> Não foi possível copiar o desempenho MU-Plugin do Nelio's  de <code> %1$s </code> para <code> %2$s</code>"
+msgstr "<strong>Erro! </strong> Não foi possível copiar plugin de desempenho MU-Plugin do Nelio's de <code>%1$s</code> para <code>%2$s</code>."
 
 #: classes/admin/class.translations.php:46
 msgid "Please click to download (this may take a moment). "
-msgstr "Clique para fazer o download (pode demorar um pouco)."
+msgstr "Clique para fazer o download (pode demorar um pouco). "
 
 #: classes/admin/class.updater.php:212
 #, php-format
@@ -902,7 +904,7 @@ msgid ""
 "There is a new version of %1$s available. <a target=\"_blank\" "
 "class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
 "href=\"%4$s\">update now</a>."
-msgstr "Existe uma nova versão do %1$s disponivel. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\"> Veja versões detalhadas em %3$s  <a> ou  <a href=\"%4$s\"> atualize agora </a>"
+msgstr "Existe uma nova versão do %1$s disponível. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Veja os detalhes da versão %3$s<a> ou <a href=\"%4$s\">atualize agora</a>."
 
 #: classes/admin/report-templates/report.cta.quick-view.php:245
 #: classes/admin/report-templates/report.quick-view.php:250
@@ -912,27 +914,27 @@ msgstr "Últimas 24 horas"
 #: classes/admin/report-templates/report.cta.quick-view.php:248
 #: classes/admin/report-templates/report.quick-view.php:253
 msgid "Past 7 days"
-msgstr ""
+msgstr "Últimos 7 dias"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:251
 #: classes/admin/report-templates/report.quick-view.php:256
 msgid "Past 30 days"
-msgstr "Últimos 30 dias."
+msgstr "Últimos 30 dias"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:254
 #: classes/admin/report-templates/report.quick-view.php:259
 msgid "Past 90 days"
-msgstr "Últimos 90 dias "
+msgstr "Últimos 90 dias"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:257
 #: classes/admin/report-templates/report.quick-view.php:262
 msgid "Past 365 days"
-msgstr "Últimos 365 dias."
+msgstr "Últimos 365 dias"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:284
 #: classes/admin/report-templates/report.quick-view.php:290
 msgid "Statistic"
-msgstr "Estatística."
+msgstr "Estatísticas"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:287
 #: classes/admin/report-templates/report.cta.quick-view.php:396
@@ -946,7 +948,7 @@ msgstr "Contagem"
 #: classes/admin/report-templates/report.cta.quick-view.php:458
 #: classes/admin/report-templates/report.quick-view.php:381
 msgid "Rate"
-msgstr "Taxa."
+msgstr "Taxa"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:293
 #: classes/admin/report-templates/report.cta.quick-view.php:402
@@ -954,17 +956,17 @@ msgstr "Taxa."
 #: classes/admin/report-templates/report.quick-view.php:300
 #: classes/admin/report-templates/report.quick-view.php:384
 msgid "Change"
-msgstr "Alterar "
+msgstr "Alterar"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:298
 #: classes/admin/report-templates/report.quick-view.php:306
 msgid "Total number of visits to this page"
-msgstr "Total de visitantes da página."
+msgstr "Total de visitantes da página"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:299
 #: classes/admin/report-templates/report.quick-view.php:307
 msgid "Impressions:"
-msgstr "Impressões."
+msgstr "Impressões:"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:309
 #: classes/admin/report-templates/report.quick-view.php:315
@@ -982,7 +984,7 @@ msgstr "Número total de visitantes"
 #: classes/admin/report-templates/report.cta.quick-view.php:315
 #: classes/admin/report-templates/report.quick-view.php:321
 msgid "Visitors:"
-msgstr "Visitantes."
+msgstr "Visitantes:"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:328
 #: classes/admin/report-templates/report.quick-view.php:331
@@ -1026,7 +1028,7 @@ msgstr "Eventos de taxa de ação comparados com impressões."
 msgid ""
 "%s action rate in the last %s days versus a %s action rate in the prior %s "
 "day period)"
-msgstr ""
+msgstr "%s de taxa de ações nos últimos %s dias versus %s de taxa de ações no período anterior de %s dias)"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:352
 #: classes/admin/report-templates/report.quick-view.php:406
@@ -1036,7 +1038,7 @@ msgstr "Número total de links de Calls to Action rastreados com clicks relacion
 
 #: classes/admin/report-templates/report.cta.quick-view.php:353
 msgid "CTA Click:"
-msgstr ""
+msgstr "Clique na CTA:"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:357
 #: classes/admin/report-templates/report.quick-view.php:407
@@ -1048,52 +1050,52 @@ msgstr "Cliques CTA"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:393
 msgid "Converting Post"
-msgstr ""
+msgstr "Post de conversão"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:414
 #, php-format
 msgid "CTA Conversion events generated by this post in the last %d days"
-msgstr ""
+msgstr "Eventos de conversão de CTA gerados por este post nos últimos %d dias"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:419
 #, php-format
 msgid "%s Conversions"
-msgstr ""
+msgstr "%s conversões"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:425
 #, php-format
 msgid ""
 "There were %s conversions in the last %s days on this post, versus %s "
 "conversions in the prior %s day period"
-msgstr ""
+msgstr "Haviam %s conversões nos últimos %s dias neste post, contra %s conversões período anterior de %s dias"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:452
 msgid "Converting Variation"
-msgstr ""
+msgstr "Variação de conversão"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:469
 #, php-format
 msgid "Clicks generated by variation %s of this CTA in %d days"
-msgstr ""
+msgstr "Cliques gerados pela variação %s desta CTA em %d dias"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:469
 #, php-format
 msgid "Variation: %s"
-msgstr ""
+msgstr "Variação: %s"
 
 #: classes/admin/report-templates/report.cta.quick-view.php:472
 #, php-format
 msgid "%s: Variation &quot;%s&quot; Conversions"
-msgstr ""
+msgstr "%s: Conversões da variação &quot;%s&quot;"
 
 #: classes/admin/report-templates/report.email-stats.php:61
 msgid "Email Report Stats"
-msgstr "Relatório de Estatísticas de E-mail "
+msgstr "Estatísticas do relatório de e-mails"
 
 #: classes/admin/report-templates/report.email-stats.php:92
 #, php-format
 msgid "%s past %s days"
-msgstr "%s passado %s dias"
+msgstr "%s passado(s) de %s dias"
 
 #: classes/admin/report-templates/report.email-stats.php:127
 #, php-format
@@ -1119,14 +1121,14 @@ msgstr "Total %s Para Esta Variação"
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:197
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:303
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: classes/admin/report-templates/report.email-stats.php:243
 #: classes/admin/report-templates/report.email-stats.php:385
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:199
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:305
 msgid "Lead Name"
-msgstr "Nome do Interessado"
+msgstr "Nome do lead"
 
 #: classes/admin/report-templates/report.email-stats.php:249
 #: classes/admin/report-templates/report.email-stats.php:391
@@ -1159,11 +1161,11 @@ msgstr "E-mail de Variação %s"
 #: classes/admin/report-templates/report.email-stats.php:417
 #, php-format
 msgid "Email %s On"
-msgstr "E-mail %s está disponível"
+msgstr "E-mail %s em"
 
 #: classes/admin/report-templates/report.email-stats.php:304
 msgid "Lead Deleted"
-msgstr "Interessado Apagado"
+msgstr "O lead foi excluído"
 
 #: classes/admin/report-templates/report.email-stats.php:324
 #: classes/admin/report-templates/report.event.php:379
@@ -1175,7 +1177,7 @@ msgstr "Interessado Apagado"
 #: core/mailer/templates/simple-responsive/config.php:80
 #: core/mailer/templates/simple-responsive/index.php:22
 msgid "Unsubscribe"
-msgstr "Cancelar subscrição"
+msgstr "Cancelar assinatura"
 
 #: classes/admin/report-templates/report.email-stats.php:330
 #: classes/admin/report-templates/report.event.php:385
@@ -1228,7 +1230,7 @@ msgstr "Cliques"
 #: core/mailer/classes/class.maintenance-lists.php:62
 #: core/mailer/classes/class.metaboxes.inbound-email.php:817
 msgid "Bounces"
-msgstr "Salta"
+msgstr "Devolvidos"
 
 #: classes/admin/report-templates/report.email-stats.php:898
 #: core/mailer/classes/class.metaboxes.inbound-email.php:827
@@ -1240,13 +1242,13 @@ msgstr "Rejeitados"
 #: core/mailer/classes/class.metaboxes.inbound-email.php:837
 #: core/mailer/classes/class.post-type.inbound-email.php:297
 msgid "Unsubscribes"
-msgstr "Cancela a inscrição"
+msgstr "Cancelamentos"
 
 #: classes/admin/report-templates/report.email-stats.php:900
 #: core/mailer/classes/class.metaboxes.inbound-email.php:847
 #: core/mailer/classes/class.post-type.inbound-email.php:311
 msgid "Mutes"
-msgstr "Surdinas"
+msgstr "Silencia"
 
 #: classes/admin/report-templates/report.email-stats.php:902
 #: core/mailer/classes/class.metaboxes.inbound-email.php:777
@@ -1257,7 +1259,7 @@ msgstr "Enviado"
 
 #: classes/admin/report-templates/report.email-stats.php:903
 msgid "Opened"
-msgstr "Abertos"
+msgstr "Aberto"
 
 #: classes/admin/report-templates/report.email-stats.php:904
 #: core/mailer/classes/class.metaboxes.inbound-email.php:807
@@ -1270,7 +1272,7 @@ msgstr "Clicado"
 
 #: classes/admin/report-templates/report.email-stats.php:906
 msgid "Bounced"
-msgstr ""
+msgstr "Rejeitado"
 
 #: classes/admin/report-templates/report.email-stats.php:907
 #: core/mailer/classes/class.maintenance-lists.php:44
@@ -1279,7 +1281,7 @@ msgstr "Rejeitado"
 
 #: classes/admin/report-templates/report.email-stats.php:908
 msgid "Unsubscribed"
-msgstr ""
+msgstr "Assinatura cancelada"
 
 #: classes/admin/report-templates/report.email-stats.php:909
 #: core/shared/shortcodes/shortcodes/icon.php:36
@@ -1288,15 +1290,15 @@ msgstr "Silenciado"
 
 #: classes/admin/report-templates/report.email-stats.php:912
 msgid "been sent an"
-msgstr "foi enviado um/uma"
+msgstr "recebeu um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:913
 msgid "opened an"
-msgstr "foi aberto um/uma"
+msgstr "abriu um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:914
 msgid "not opened an"
-msgstr "não aberto um/uma"
+msgstr "não abriu um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:915
 msgid "clicked an"
@@ -1304,19 +1306,19 @@ msgstr "clicado um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:916
 msgid "bounced an"
-msgstr ""
+msgstr "rejeitou um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:917
 msgid "rejected an"
-msgstr ""
+msgstr "rejeitou um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:918
 msgid "unsubscribed from an"
-msgstr ""
+msgstr "cancelou a assinatura de um/uma"
 
 #: classes/admin/report-templates/report.email-stats.php:919
 msgid "muted an"
-msgstr ""
+msgstr "silenciou um/uma"
 
 #: classes/admin/report-templates/report.event.php:114
 #, php-format
@@ -1331,7 +1333,7 @@ msgstr "Ações %s dias anteriores"
 #: classes/admin/report-templates/report.event.php:184
 #: classes/admin/report-templates/report.events.php:206
 msgid "Action Count"
-msgstr "Contagem de ações "
+msgstr "Contagem de ações"
 
 #: classes/admin/report-templates/report.event.php:260
 #: classes/admin/report-templates/report.event.php:535
@@ -1341,12 +1343,12 @@ msgstr "Detalhes do Funil"
 #: classes/admin/report-templates/report.event.php:270
 #: classes/admin/report-templates/report.event.php:508
 msgid "Target"
-msgstr ""
+msgstr "Alvo"
 
 #: classes/admin/report-templates/report.event.php:288
 #: classes/admin/report-templates/report.event.php:526
 msgid "Origin Post"
-msgstr ""
+msgstr "Post de origem"
 
 #: classes/admin/report-templates/report.event.php:301
 #: classes/admin/report-templates/report.event.php:549
@@ -1368,7 +1370,7 @@ msgstr "n/a"
 
 #: classes/admin/report-templates/report.event.php:431
 msgid "The conversion occured on a deleted post..."
-msgstr ""
+msgstr "A conversão ocorreu em um post excluído..."
 
 #: classes/admin/report-templates/report.event.php:466
 #: classes/admin/report-templates/report.event.php:603
@@ -1401,20 +1403,20 @@ msgstr "tag"
 #: classes/admin/report-templates/report.event.php:638
 #: classes/admin/report-templates/report.events.php:452
 msgid "post"
-msgstr "Postagem"
+msgstr "post"
 
 #: classes/admin/report-templates/report.event.php:671
 #: classes/admin/report-templates/report.events.php:485
 msgid "converted!"
-msgstr "Convertido! "
+msgstr "convertido!"
 
 #: classes/admin/report-templates/report.event.php:696
 msgid "Direct Email Content"
-msgstr ""
+msgstr "Conteúdo de e-mail direto"
 
 #: classes/admin/report-templates/report.event.php:705
 msgid "There was an error, the direct email content could not be displayed."
-msgstr ""
+msgstr "Houve um erro, não foi possível exibir o conteúdo direto do e-mail."
 
 #: classes/admin/report-templates/report.events.php:414
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:451
@@ -1444,16 +1446,16 @@ msgstr "Impressões dos primeiros %s dias"
 #: classes/admin/report-templates/report.impressions.php:172
 #: classes/admin/report-templates/report.visitors.php:185
 msgid "Top Visitors"
-msgstr "Principais visitantes "
+msgstr "Principais visitantes"
 
 #: classes/admin/report-templates/report.impressions.php:180
 msgid "Viewer"
-msgstr "Visualizador "
+msgstr "Visualizador"
 
 #: classes/admin/report-templates/report.impressions.php:201
 #: classes/admin/report-templates/report.visitors.php:214
 msgid "Anonymous"
-msgstr "Anônimo  "
+msgstr "Anônimo"
 
 #: classes/admin/report-templates/report.impressions.php:243
 #: classes/admin/report-templates/report.visitors.php:256
@@ -1494,24 +1496,24 @@ msgstr "Última fonte"
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:104
 #, php-format
 msgid "%s over the past %d days"
-msgstr ""
+msgstr "%s nos últimos %d dias"
 
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:185
 #, php-format
 msgid "It looks like the lead hasn't made any %s yet."
-msgstr ""
+msgstr "Parece que o lead ainda não fez qualquer %s."
 
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:204
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:310
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:411
 msgid "Search Details"
-msgstr ""
+msgstr "Detalhes da pesquisa"
 
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:206
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:312
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:413
 msgid "Comment Details"
-msgstr ""
+msgstr "Detalhes do comentários"
 
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:214
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:320
@@ -1523,24 +1525,24 @@ msgstr "Data"
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:433
 #: core/leads/classes/class.metaboxes.wp-lead.php:1719
 msgid "On a deleted post"
-msgstr ""
+msgstr "Em um post excluído"
 
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:286
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:437
 msgid "On The Search Page"
-msgstr ""
+msgstr "Na página de pesquisa"
 
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:485
 #, php-format
 msgid "Search Query:  %s"
-msgstr ""
+msgstr "Consulta da pesquisa:  %s"
 
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:487
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:490
 #: core/leads/classes/class.metaboxes.wp-lead.php:1732
 msgid ""
 "No search saved. The search was made, but it wasn't logged for some reason."
-msgstr ""
+msgstr "Nenhuma pesquisa salva. A pesquisa foi feita, mas ela não foi registrada por algum motivo."
 
 #: classes/admin/report-templates/report.quick-view.php:289
 msgid "Type fo statistic."
@@ -1564,7 +1566,7 @@ msgstr "Número total de ações de evento originadas nesta página."
 
 #: classes/admin/report-templates/report.quick-view.php:337
 msgid "Actions:"
-msgstr "Ações."
+msgstr "Ações:"
 
 #: classes/admin/report-templates/report.quick-view.php:344
 #, php-format
@@ -1574,11 +1576,11 @@ msgstr "%s últimas ações %s dias versus %s ações anteriores %s período de 
 
 #: classes/admin/report-templates/report.quick-view.php:350
 msgid "Total percentage of actions to impressions."
-msgstr "Percentual total de ações para impressões"
+msgstr "Percentual total de ações para impressões."
 
 #: classes/admin/report-templates/report.quick-view.php:351
 msgid "Action Rate:"
-msgstr "Taxa de ação."
+msgstr "Taxa de ação:"
 
 #: classes/admin/report-templates/report.quick-view.php:358
 #: classes/admin/report-templates/report.quick-view.php:401
@@ -1617,14 +1619,14 @@ msgstr "Este visitante não tem um perfil principal"
 #: classes/admin/report-templates/report.visitor-pageviews.php:89
 #: classes/admin/report-templates/report.visitor-pageviews.php:135
 msgid "Page Visited"
-msgstr "Pagina visitada."
+msgstr "Página visitada"
 
 #: classes/admin/report-templates/report.visitor-events.php:98
 #: classes/admin/report-templates/report.visitor-events.php:146
 #: classes/admin/report-templates/report.visitor-pageviews.php:92
 #: classes/admin/report-templates/report.visitor-pageviews.php:138
 msgid "Datetime Visited"
-msgstr "Data hora da visita."
+msgstr "Data/hora da visita"
 
 #: classes/admin/report-templates/report.visitor-events.php:103
 #: classes/admin/report-templates/report.visitor-events.php:151
@@ -1636,7 +1638,7 @@ msgstr "Origem"
 #: classes/admin/report-templates/report.visitor-events.php:116
 #: classes/admin/report-templates/report.visitor-pageviews.php:109
 msgid "Page does not exist"
-msgstr "Página não existe."
+msgstr "A página não existe"
 
 #: classes/admin/report-templates/report.visitors.php:118
 #: classes/admin/report-templates/report.visitors.php:153
@@ -1760,20 +1762,20 @@ msgstr "Por favor atualize Call to Action para versão %s ou superior."
 #: core/cta/classes/class.activation.php:245
 #: core/landing-pages/classes/class.activation.php:240
 msgid "Leads Version"
-msgstr "Lead versão"
+msgstr "Versão do leads"
 
 #: core/automation/classes/class.activation.php:236
 #: core/cta/classes/class.activation.php:246
 #: core/landing-pages/classes/class.activation.php:241
 msgid "Required Leads Version"
-msgstr "Versão do Leads necessárias"
+msgstr "Versão necessária do leads"
 
 #: core/automation/classes/class.activation.php:238
 #: core/cta/classes/class.activation.php:248
 #: core/landing-pages/classes/class.activation.php:243
 #, php-format
 msgid "Please update Leads to version %s or greater."
-msgstr "Por favor atualize a versão do lead %s ."
+msgstr "Atualize o leads para a versão %s ou superior."
 
 #: core/automation/classes/class.adminbar.php:33
 msgid "View Automation Rule Queue"
@@ -1857,7 +1859,7 @@ msgstr "É igual a"
 
 #: core/automation/classes/class.definitions.loader.php:416
 msgid "notset"
-msgstr "NotSet"
+msgstr "notset"
 
 #: core/automation/classes/class.definitions.loader.php:473
 msgid "Blocked"
@@ -1908,11 +1910,11 @@ msgstr "Agendamento de trabalho"
 
 #: core/automation/classes/class.lead-profile.php:43
 msgid "Inbound Automation"
-msgstr "Inbound automação "
+msgstr "Automação inbound"
 
 #: core/automation/classes/class.lead-profile.php:55
 msgid "Mute all automation emails"
-msgstr "Desativar todos os e-mails de automação"
+msgstr "Silenciar todos os e-mails automatizados"
 
 #: core/automation/classes/class.logs.php:30
 msgid "Y-m-d H:i:s"
@@ -2111,7 +2113,7 @@ msgstr "Retire estas listas:"
 
 #: core/automation/definitions/action.add_remove_list.php:42
 msgid "Remove lead from lists in this input."
-msgstr ""
+msgstr "Remova o lead de listas neste campo."
 
 #: core/automation/definitions/action.add_remove_list.php:49
 msgid "Add to these lists:"
@@ -2119,18 +2121,18 @@ msgstr "Adicione para esta lista:"
 
 #: core/automation/definitions/action.add_remove_list.php:50
 msgid "Add lead to the lists in this input."
-msgstr ""
+msgstr "Adicione o lead às listas neste campo."
 
 #: core/automation/definitions/action.add_remove_list.php:60
 msgid "Notice to admin"
-msgstr ""
+msgstr "Aviso ao administrador"
 
 #: core/automation/definitions/action.add_remove_list.php:61
 msgid ""
 "If a user has unsubscribed from a list then automation will not resubscribe "
 "them. They will have to fill out an inbound form adding them to the list or "
 "be re-added manually by an administrator."
-msgstr "Se um usuário tem inscrição em uma lista de automação não será Inscreva novamente-los. Eles terão de preencher um formulário de entrada adicionando-os à lista ou ser re-adicionados manualmente por um administrador."
+msgstr "Se um usuário cancelou a assinatura de uma lista então a automação não o inscreverá novamente. Ele terá que preencher um formulário de inscrição adicionando-o à lista ou ser re-adicionado manualmente por um administrador."
 
 #: core/automation/definitions/action.add_remove_list.php:109
 msgid "List Change - Fail"
@@ -2157,15 +2159,15 @@ msgstr "Removido do"
 
 #: core/automation/definitions/action.add_remove_list.php:153
 msgid "Skipped due to prior unsubscribe"
-msgstr "Ignorada devido à prévia unsubscribe"
+msgstr "Ignorado devido à um cancelamento anterior"
 
 #: core/automation/definitions/action.add_remove_tag.php:36
 msgid "Add/Remove Lead Tag"
-msgstr "Adicionar/remover a tag Lead"
+msgstr "Adicionar/remover tag do lead"
 
 #: core/automation/definitions/action.add_remove_tag.php:37
 msgid "Action to add or remove a tag from a Lead."
-msgstr "Ação para adicionar ou remover tag de um Lead."
+msgstr "Ação para adicionar ou remover uma tag no lead."
 
 #: core/automation/definitions/action.add_remove_tag.php:41
 msgid "Remove these tags:"
@@ -2173,7 +2175,7 @@ msgstr "Remover estas tags:"
 
 #: core/automation/definitions/action.add_remove_tag.php:43
 msgid "Remove these lead tags from lead"
-msgstr ""
+msgstr "Remover estas tags do lead"
 
 #: core/automation/definitions/action.add_remove_tag.php:49
 msgid "Add these tags:"
@@ -2181,7 +2183,7 @@ msgstr "Adicionar estas tags:"
 
 #: core/automation/definitions/action.add_remove_tag.php:50
 msgid "Add these lead tags to a lead"
-msgstr ""
+msgstr "Adicionar essas tag para um lead"
 
 #: core/automation/definitions/action.add_remove_tag.php:101
 msgid "Tag Change - Fail"
@@ -2205,13 +2207,13 @@ msgstr "Lead criado"
 
 #: core/automation/definitions/action.kill_lead_tasks.php:31
 msgid "Terminate Email Series for Lead"
-msgstr "Finalaziar e-mail em série para o Lead"
+msgstr "Finalizar a série de e-mails para o lead"
 
 #: core/automation/definitions/action.kill_lead_tasks.php:32
 msgid ""
 "If this action fires we will look for all email series tasks targeting a "
 "lead email and cancel them."
-msgstr ""
+msgstr "Se essa ação for disparada nós procuraremos em todas as séries de e-mail por tarefas visando o e-mail do lead as cancelaremos."
 
 #: core/automation/definitions/action.kill_lead_tasks.php:36
 msgid "Cancel Options"
@@ -2221,15 +2223,15 @@ msgstr "Cancelar opções"
 msgid ""
 "Select whether to terminate automation jobs related to this lead for all "
 "current running jobs or pertaining to a specific rule id"
-msgstr ""
+msgstr "Selecione se deseja finalizar os trabalhos automatizados relacionados a este lead para todos os trabalhos atuais em execução ou referentes especificamente a um ID de regra"
 
 #: core/automation/definitions/action.kill_lead_tasks.php:40
 msgid "All jobs targeting this lead."
-msgstr ""
+msgstr "Todos os trabalhos visando esse lead."
 
 #: core/automation/definitions/action.kill_lead_tasks.php:41
 msgid "Jobs targeting this lead belonging to a specific rule"
-msgstr ""
+msgstr "Tarefas visando este lead pertencentes a uma regra específica"
 
 #: core/automation/definitions/action.kill_lead_tasks.php:46
 msgid "Rule:"
@@ -2237,7 +2239,7 @@ msgstr "Regra:"
 
 #: core/automation/definitions/action.kill_lead_tasks.php:49
 msgid "Select the rule we want to terminate jobs related to this lead."
-msgstr ""
+msgstr "Selecione a regra que usaremos para encerrar os trabalhos relacionados a esse lead."
 
 #: core/automation/definitions/action.kill_lead_tasks.php:91
 msgid "Terminate Email Series"
@@ -2266,7 +2268,7 @@ msgstr "Envie dados interceptados por gatilho extenal URL usando métodos POST o
 #: core/automation/definitions/action.relay_data.php:36
 msgid ""
 "Select which protocol we want to use when sending data to a remote location."
-msgstr ""
+msgstr "Selecione qual protocolo que deseja usar ao enviar dados para um local remoto."
 
 #: core/automation/definitions/action.relay_data.php:38
 msgid "POST (post variables directly to URL)"
@@ -2286,7 +2288,7 @@ msgstr "URL de destino:"
 
 #: core/automation/definitions/action.relay_data.php:47
 msgid "Input the remote API or remote webhook here. "
-msgstr ""
+msgstr "Informe a API remota ou webhook remoto aqui. "
 
 #: core/automation/definitions/action.send_email.php:31
 #: core/mailer/classes/class.inbound-forms.php:37
@@ -2296,7 +2298,7 @@ msgstr "Sem e-mails de automação detectados. Primeiro crie um e-mail automáti
 
 #: core/automation/definitions/action.send_email.php:43
 msgid "Send an email using available filter data."
-msgstr ""
+msgstr "Envie um e-mail usando os dados de filtro disponíveis."
 
 #: core/automation/definitions/action.send_email.php:47
 msgid "Send Email To"
@@ -2304,7 +2306,7 @@ msgstr "Envie um E-mail para"
 
 #: core/automation/definitions/action.send_email.php:48
 msgid "Choose where to send the email"
-msgstr ""
+msgstr "Escolha para onde enviar o email"
 
 #: core/automation/definitions/action.send_email.php:52
 msgid "Custom Email Address"
@@ -2314,7 +2316,7 @@ msgstr "Endereço de E-mail personalizado"
 #: core/leads/classes/class.dashboard.php:1
 #: core/shared/classes/class.post-type.wp-lead.php:124
 msgid "Lead List"
-msgstr "Listar Leads"
+msgstr "Lista de leads"
 
 #: core/automation/definitions/action.send_email.php:58
 msgid "Enter Email Address"
@@ -2322,17 +2324,17 @@ msgstr "Digite o endereço de E-mail"
 
 #: core/automation/definitions/action.send_email.php:59
 msgid "Input email address here."
-msgstr ""
+msgstr "informe o endereço de e-mail aqui."
 
 #: core/automation/definitions/action.send_email.php:69
 msgid "Select Lead List"
-msgstr "Selecione a lista de lead"
+msgstr "Selecione a lista de leads"
 
 #: core/automation/definitions/action.send_email.php:70
 msgid ""
 "Select the lead list to send an email to. This action could take awhile for "
 "large lists. "
-msgstr ""
+msgstr "Selecione a lista de leads para enviar um e-mail. Esta ação pode demorar um pouco para listas grandes. "
 
 #: core/automation/definitions/action.send_email.php:81
 msgid "Select Email"
@@ -2340,7 +2342,7 @@ msgstr "Selecione o E-mail"
 
 #: core/automation/definitions/action.send_email.php:82
 msgid "Select the Email to send to. "
-msgstr ""
+msgstr "Selecione o e-mail de destino. "
 
 #: core/automation/definitions/action.send_email.php:110
 msgid "Email Blocked - Post Locked"
@@ -2364,15 +2366,15 @@ msgstr "Resposta do servidor de e-mail"
 
 #: core/automation/definitions/action.wait.php:29
 msgid "Wait an amount of time before firing the next event."
-msgstr ""
+msgstr "Espere algum tempo antes de disparar o próximo evento."
 
 #: core/automation/definitions/action.wait.php:34
 msgid "Here you can set wait time in hours."
-msgstr ""
+msgstr "Aqui você pode definir o tempo de espera em horas."
 
 #: core/automation/definitions/action.wait.php:41
 msgid "Here you can set wait time in minute."
-msgstr ""
+msgstr "Aqui você pode definir o tempo de espera em minutos."
 
 #: core/automation/definitions/action.wait.php:72
 msgid "Wait"
@@ -2384,31 +2386,31 @@ msgstr "Agendando a próxima ação a ser executado em:"
 
 #: core/automation/definitions/query.lead_data.php:24
 msgid "Page view count"
-msgstr ""
+msgstr "Contagem de acessos da página"
 
 #: core/automation/definitions/query.lead_data.php:25
 msgid "Form submission count"
-msgstr ""
+msgstr "Contagem de envio do formulário"
 
 #: core/automation/definitions/query.lead_data.php:26
 msgid "Email open count"
-msgstr ""
+msgstr "Contagem de abertura do e-mail"
 
 #: core/automation/definitions/query.lead_data.php:27
 msgid "Email click count"
-msgstr ""
+msgstr "Contagem de cliques do e-mail"
 
 #: core/automation/definitions/query.lead_data.php:28
 msgid "Lead has viewed this content (Page/Post ID)"
-msgstr ""
+msgstr "Lead visualizou esse conteúdo (ID da página/post)"
 
 #: core/automation/definitions/query.lead_data.php:29
 msgid "Lead has opening this email (Email ID)"
-msgstr ""
+msgstr "Lead abriu esse e-mail ( ID do e-mail)"
 
 #: core/automation/definitions/query.lead_data.php:30
 msgid "Lead has clicked this CTA (CTA ID)"
-msgstr ""
+msgstr "Lead clicou nessa CTA (ID da CTA)"
 
 #: core/automation/definitions/query.user_data.php:23
 msgid "User Role"
@@ -2436,50 +2438,50 @@ msgstr "Dados de lead"
 
 #: core/automation/definitions/trigger.inbound_double_optin_confirm.php:47
 msgid "Query Lead Data"
-msgstr ""
+msgstr "Consulta dados do lead"
 
 #: core/automation/definitions/trigger.inbound_double_optin_confirm.php:63
 msgid "On double-optin confirmation"
-msgstr ""
+msgstr "Na confirmação dupla de assinatura"
 
 #: core/automation/definitions/trigger.inbound_double_optin_confirm.php:64
 msgid ""
 "This trigger fires whenever a lead confirms their email address using our "
 "double optin feature"
-msgstr ""
+msgstr "O gatilho será acionado sempre que um lead confirma o seu endereço de e-mail usando o nosso recurso de confirmação dupla"
 
 #: core/automation/definitions/trigger.inbound_store_lead_post.php:90
 #: core/automation/definitions/trigger.page_tracking_event.php:40
 msgid "Validate Lead Data"
-msgstr "Validar dados de lead"
+msgstr "Validar dados do lead"
 
 #: core/automation/definitions/trigger.inbound_store_lead_post.php:106
 msgid "On add/update lead"
-msgstr "adicionar/atualizar Lead"
+msgstr "Ao adicionar/atualizar um lead"
 
 #: core/automation/definitions/trigger.inbound_store_lead_post.php:107
 msgid "This trigger fires whenever a lead added into the Leads database."
-msgstr "O gatilho será acionado sempre que um lead for adicionado na base de dados de contatos."
+msgstr "Esse gatilho será acionado sempre que um lead for adicionado à base de leads."
 
 #: core/automation/definitions/trigger.inbound_track_link.php:34
 msgid "Clicked link data"
-msgstr ""
+msgstr "Dados do link clicado"
 
 #: core/automation/definitions/trigger.inbound_track_link.php:45
 msgid "Lead lookup"
-msgstr ""
+msgstr "Pesquisa de leads"
 
 #: core/automation/definitions/trigger.inbound_track_link.php:61
 msgid "On tracked link click"
-msgstr ""
+msgstr "No clique do link rastreado"
 
 #: core/automation/definitions/trigger.inbound_track_link.php:62
 msgid "This trigger fires whenever a link tracked by Inbound Pro is clicked."
-msgstr ""
+msgstr "Esse gatilho será acionado sempre que um link controlado pelo Inbound Pro é clicado."
 
 #: core/automation/definitions/trigger.inbound_track_link.php:103
 msgid "Special Tracking ID"
-msgstr ""
+msgstr "ID de rastreamento especial"
 
 #: core/automation/definitions/trigger.set_object_terms.php:33
 msgid "Post ID"
@@ -2543,11 +2545,11 @@ msgstr "A / B teste exemplo de Call to Action"
 
 #: core/cta/classes/class.activation.database-routines.php:118
 msgid "Snappy Headline"
-msgstr "Título rápido"
+msgstr "Chamada instigante"
 
 #: core/cta/classes/class.activation.database-routines.php:119
 msgid "Awesome Subheadline Text Goes here"
-msgstr "O subtítulo para impressionar vai aqui"
+msgstr "O texto da chamada impressionte vai aqui"
 
 #: core/cta/classes/class.activation.database-routines.php:124
 msgid "Download Now"
@@ -2784,7 +2786,7 @@ msgstr "CTA´s clicados"
 #: core/leads/classes/class.metaboxes.wp-lead.php:1553
 #: core/leads/classes/class.metaboxes.wp-lead.php:1554
 msgid "undefined"
-msgstr "Não definido"
+msgstr "não definido"
 
 #: core/cta/classes/class.extension.wp-lead.php:76
 #: core/shared/classes/class.events.php:1135
@@ -2793,7 +2795,7 @@ msgstr "Clique em CTA"
 
 #: core/cta/classes/class.extension.wp-lead.php:80
 msgid " Clicked on page"
-msgstr "Páginas clicadas"
+msgstr " Clicado na página"
 
 #: core/cta/classes/class.extension.wp-lead.php:83
 msgid "This is the page the call to action was placed on."
@@ -2805,7 +2807,7 @@ msgstr "Dados do evento incompletos. "
 
 #: core/cta/classes/class.extension.wp-lead.php:85
 msgid "through the call to action "
-msgstr "por meio da Call to Action"
+msgstr "por meio da Call to Action "
 
 #: core/cta/classes/class.extension.wp-lead.php:86
 msgid "This is the call to action the user clicked a link on."
@@ -2897,7 +2899,7 @@ msgstr "Acima de conteúdo"
 
 #: core/cta/classes/class.load-extensions.php:280
 msgid "Use Dynamic Sidebar Widget"
-msgstr "Use um Widget Dinâmico na Barra Lateral "
+msgstr "Use um widget dinâmico"
 
 #: core/cta/classes/class.load-extensions.php:280
 msgid "Popup"
@@ -2990,7 +2992,7 @@ msgstr "JS Customizado"
 
 #: core/cta/classes/class.metaboxes.wp-call-to-action.php:155
 msgid "Split Testing"
-msgstr ""
+msgstr "Teste dividido"
 
 #: core/cta/classes/class.metaboxes.wp-call-to-action.php:188
 msgid ""
@@ -3143,19 +3145,19 @@ msgstr "Título Call To Action"
 #: core/cta/classes/class.post-type.wp-call-to-action.php:158
 #: core/landing-pages/classes/class.post-type.landing-page.php:175
 msgid "Split Testing Results"
-msgstr ""
+msgstr "Resultados do teste dividido"
 
 #: core/cta/classes/class.post-type.wp-call-to-action.php:159
 msgid "Overall<br>Impressions"
-msgstr ""
+msgstr "Geral<br>Impressões"
 
 #: core/cta/classes/class.post-type.wp-call-to-action.php:160
 msgid "Oversall<br>Conversions"
-msgstr ""
+msgstr "Geral<br>Conversões"
 
 #: core/cta/classes/class.post-type.wp-call-to-action.php:161
 msgid "Overall<br>Conversion Rate"
-msgstr ""
+msgstr "Geral<br>Taxa de conversão"
 
 #: core/cta/classes/class.post-type.wp-call-to-action.php:191
 #: core/mailer/classes/class.post-type.inbound-email.php:222
@@ -3183,7 +3185,7 @@ msgstr "Shortcode:"
 #: core/landing-pages/classes/class.post-type.landing-page.php:504
 #: core/mailer/classes/class.post-type.inbound-email.php:740
 msgid "Show All "
-msgstr "Exibir Todos"
+msgstr "Mostrar tudo "
 
 #: core/cta/classes/class.post-type.wp-call-to-action.php:311
 #: core/landing-pages/classes/class.metaboxes.php:187
@@ -3205,7 +3207,7 @@ msgstr "Sem A / B testes executando para esta Landing Page."
 
 #: core/cta/classes/class.settings.php:56
 msgid "cta,call to action,calls to action"
-msgstr "CTA, Call To Action, chamada da ação"
+msgstr "cta,call to action,calls to action"
 
 #: core/cta/classes/class.settings.php:61
 msgid "Call To Action Settings"
@@ -3214,32 +3216,32 @@ msgstr "Call To Action configurações"
 #: core/cta/classes/class.settings.php:66
 #: core/cta/classes/class.settings.php:103
 msgid "Split Testing."
-msgstr ""
+msgstr "Teste dividido."
 
 #: core/cta/classes/class.settings.php:67
 msgid ""
 "Enabling this setting may improve server performance at the loss of split "
 "testing. Only version A( id 0) will be displayed for every CTA when split "
 "testing is disabled."
-msgstr ""
+msgstr "Ativar essa configuração pode melhorar o desempenho do servidor pela perda dos testes divididos. Apenas a versão A (id 0) será exibida para cada CTA quando o teste dividido estiver desativado."
 
 #: core/cta/classes/class.settings.php:74
 #: core/cta/classes/class.settings.php:112
 msgid "Sticky CTAs."
-msgstr ""
+msgstr "CTAs fixas."
 
 #: core/cta/classes/class.settings.php:75
 #: core/cta/classes/class.settings.php:113
 msgid ""
 "Disabling this will cause call to actions to rotate variations on every page"
 " load for the same user."
-msgstr ""
+msgstr "Desabilitar isso fará com que as CTAs mudem as variações a cada carregamento de página para o mesmo usuário."
 
 #: core/cta/classes/class.settings.php:104
 msgid ""
 "Turning this off may improve server performance. Only version A will be "
 "displayed for every CTA."
-msgstr ""
+msgstr "Desligar isso pode melhorar o desempenho do servidor. Apenas a versão A será exibida para cada CTA."
 
 #: core/cta/classes/class.settings.php:125
 #: core/shared/classes/class.master-license.php:42
@@ -3490,7 +3492,7 @@ msgstr "Plugin não está ativado. Uma versão superior do %s é necessário par
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:371
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
-msgstr "Todos Plugins instalados e ativados com exito. %1$s"
+msgstr "Todos os plugins foram instados e ativados. %1$s"
 
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:372
 msgid "Dismiss this notice"
@@ -3625,7 +3627,7 @@ msgstr "Um erro ocorreu ao instalar %1$s: <strong>%2$s</strong>."
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:3290
 #, php-format
 msgid "The installation of %1$s failed."
-msgstr "A instalação de %1$s falhou "
+msgstr "A instalação de %1$s falhou."
 
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:3294
 msgid ""
@@ -3732,7 +3734,7 @@ msgid ""
 "subscription%s or the  %sInbound Premium Template Support Extension%s to "
 "operate. Please download the best available option and activate it as a "
 "plugin to continue working with this template."
-msgstr "Este modelo de página de destino requer %s Inbound Pro Plugin + assinatura ativa %s ou a extensão de suporte %s Inbound Template %s para operar. Faça o download da melhor opção disponível e ative-a como um plug-in para continuar trabalhando com esse modelo."
+msgstr "Este modelo de página de destino requer o %splugin Inbound Pro + assinatura ativa%s ou a %sInbound Premium Template Support Extension%s para funcionar. Faça o download da melhor opção disponível e ative-a como um plugin para continuar trabalhando com esse modelo."
 
 #: core/landing-pages/classes/class.install.php:66
 msgid "A/B Testing Landing Page Example"
@@ -3751,15 +3753,15 @@ msgstr "<p>Este é o primeiro parágrafo da sua página de destino onde você qu
 
 #: core/landing-pages/classes/class.install.php:74
 msgid "Main Catchy Headline (A)"
-msgstr "Principal manchete no ouvido (A)"
+msgstr "Chamada principal cativante (A)"
 
 #: core/landing-pages/classes/class.install.php:76
 msgid "Form a"
-msgstr "Forma um"
+msgstr "Formulário A"
 
 #: core/landing-pages/classes/class.install.php:80
 msgid "Main Catchy Headline Two (B)"
-msgstr "Atrativo principal manchete dois (B)"
+msgstr "Chamada principal cativante dois (B)"
 
 #: core/landing-pages/classes/class.install.php:82
 msgid "Form B"
@@ -3771,7 +3773,7 @@ msgstr "sucesso"
 
 #: core/landing-pages/classes/class.load-templates.php:42
 msgid "Set Main Headline"
-msgstr "Manchete principal conjunto"
+msgstr "Definir a chamada principal"
 
 #: core/landing-pages/classes/class.metaboxes.php:66
 msgid "Template Preview"
@@ -3779,7 +3781,7 @@ msgstr "Visualização do modelo"
 
 #: core/landing-pages/classes/class.metaboxes.php:78
 msgid "Insert Form / Conversion Content"
-msgstr ""
+msgstr "Inserir o conteúdo do formulário / conversão"
 
 #: core/landing-pages/classes/class.metaboxes.php:88
 msgid "Template Selection"
@@ -3850,7 +3852,7 @@ msgstr "Digite a descrição da página de aterragem"
 
 #: core/landing-pages/classes/class.metaboxes.php:377
 msgid "Enter Headline"
-msgstr "Digite o cabeçalho"
+msgstr "Digite a chamada"
 
 #: core/landing-pages/classes/class.metaboxes.php:443
 msgid "Version "
@@ -4051,14 +4053,14 @@ msgstr "Isso desativará o AB testar a funcionalidade de suas páginas de aterri
 #: core/landing-pages/classes/class.settings.php:77
 #: core/landing-pages/classes/class.settings.php:135
 msgid "Enable Featured Images"
-msgstr ""
+msgstr "Ativar imagens destacadas"
 
 #: core/landing-pages/classes/class.settings.php:78
 #: core/landing-pages/classes/class.settings.php:136
 msgid ""
 "Enable this setting if you plan to include the landing-page post type in any"
 " frontend post archives that leverages the featured image system."
-msgstr ""
+msgstr "Ative essa configuração se você pretende incluir o tipo de post landing-page em qualquer página de arquivos de posts no site que depende o sistema de imagem destacadas."
 
 #: core/landing-pages/classes/class.settings.php:99
 msgid "Global Settings"
@@ -4266,7 +4268,7 @@ msgstr "Ir para o WordPress, configurações de páginas de aterragem"
 
 #: core/landing-pages/classes/class.welcome.php:337
 msgid "Manage Your Landing Page Templates"
-msgstr "Gerenciar seus modelos de página de aterrissagem"
+msgstr "Gerenciar seus modelos de Landing Page"
 
 #: core/landing-pages/classes/class.welcome.php:340
 msgid "Create New Landing Page"
@@ -4402,7 +4404,7 @@ msgstr "Nenhum modelo premium instalado. Modelos incluídos no núcleo plugin p�
 
 #: core/landing-pages/classes/class.wp-list-table.templates.php:194
 msgid "See Inbound Pro -> Templates for template options. "
-msgstr "Consulte entrada Pro-> modelos para opções de modelo. "
+msgstr "Consulte Inbound Pro -> Modelos para as opções de modelo. "
 
 #: core/landing-pages/classes/class.wp-list-table.templates.php:201
 #: core/shared/classes/class.notifications.php:141
@@ -4419,7 +4421,7 @@ msgstr "Ver detalhes do modelo"
 
 #: core/landing-pages/classes/class.wp-list-table.templates.php:226
 msgid "update now"
-msgstr "Atualizar agora"
+msgstr "atualizar agora"
 
 #: core/landing-pages/landing-pages.php:160
 msgid "Landing Pages requires PHP version 5.3+ to run. Your version "
@@ -4576,15 +4578,15 @@ msgstr "Este é um modelo gratuito fornecido pela entrada agora"
 #: core/landing-pages/templates/svtle/config.php:31
 #: core/landing-pages/templates/three-column-lander/config.php:29
 msgid "Main Headline"
-msgstr "Manchete principal"
+msgstr "Chamada principal"
 
 #: core/landing-pages/templates/simple-solid-lite/config.php:35
 msgid "Insert the main template headline here."
-msgstr "Inserir a manchete principal modelo aqui."
+msgstr "Inserir a chamada principal do modelo aqui."
 
 #: core/landing-pages/templates/simple-two-column/config.php:36
 msgid "This input holds the template's main headline"
-msgstr "Esta entrada detém a principal manchete do modelo"
+msgstr "Esse campo contém a chamada principal do modelo"
 
 #: core/landing-pages/templates/simple-two-column/config.php:54
 #: core/landing-pages/templates/svtle/config.php:52
@@ -4695,7 +4697,7 @@ msgstr "Design limpo e minimalista para uma página de conversão para a frente.
 
 #: core/landing-pages/templates/svtle/config.php:34
 msgid "Insert the main headline here."
-msgstr "Inserir a manchete principal aqui."
+msgstr "Inserir a chamada principal aqui."
 
 #: core/landing-pages/templates/svtle/config.php:83
 #: core/landing-pages/templates/three-column-lander/config.php:111
@@ -4777,7 +4779,7 @@ msgstr "Este alternar para processar o formulário abaixo o conteúdo no modo de
 
 #: core/landing-pages/templates/three-column-lander/config.php:32
 msgid "Insert main headline here."
-msgstr "Inserir manchete principal aqui."
+msgstr "Inserir a chamada principal aqui."
 
 #: core/landing-pages/templates/three-column-lander/config.php:50
 msgid "Middle Content"
@@ -4869,13 +4871,13 @@ msgstr "Cor do texto certo conteúdo."
 
 #: core/leads/classes/class.activation.php:123
 msgid "Leads plugin could not be installed"
-msgstr "Plugin de pistas não pôde ser instalado"
+msgstr "O plugin leads não pôde ser instalado"
 
 #: core/leads/classes/class.activation.php:137
 msgid ""
 "Leads plugin requires a database upgrade. Please note that this could take "
 "awhile. "
-msgstr "Plugin de pistas requer uma atualização de banco de dados. Por favor, note que isto pode levar algum tempo. "
+msgstr "O plugin leads requer uma atualização do banco de dados. Note que isto pode levar algum tempo. "
 
 #: core/leads/classes/class.admin-notices.php:35
 msgid "User ID provided does not exist."
@@ -4919,11 +4921,11 @@ msgstr "Tudo feito!"
 
 #: core/leads/classes/class.dashboard.php:1
 msgid "Lead Performance"
-msgstr "Desempenho Lead"
+msgstr "Desempenho do lead"
 
 #: core/leads/classes/class.dashboard.php:1
 msgid "Latest Leads"
-msgstr "Últimos Leads"
+msgstr "Últimos leads"
 
 #: core/leads/classes/class.dashboard.php:1
 msgid "List Performance"
@@ -4933,11 +4935,11 @@ msgstr "Listar desempenho"
 #: core/leads/classes/class.lead-management.php:296
 #: core/shared/classes/class.post-type.wp-lead.php:55
 msgid "Search Leads"
-msgstr "Buscar Leads"
+msgstr "Pesquisar leads"
 
 #: core/leads/classes/class.dashboard.php:1
 msgid "Refresh page to enable. "
-msgstr "Atualizar página para ativar."
+msgstr "Atualize a página para ativar. "
 
 #: core/leads/classes/class.dashboard.php:1
 msgid "Today"
@@ -4949,7 +4951,7 @@ msgstr "Este mês"
 
 #: core/leads/classes/class.dashboard.php:1
 msgid "All Time"
-msgstr "Todos os tempos"
+msgstr "Sempre"
 
 #: core/leads/classes/class.dashboard.php:1
 msgid "Since Last Month"
@@ -4973,7 +4975,7 @@ msgstr "Data da última modificada"
 
 #: core/leads/classes/class.lead-management.php:85
 msgid "Alphabetical Sort"
-msgstr "Classificar em ordem alfabética"
+msgstr "Ordem alfabética"
 
 #: core/leads/classes/class.lead-management.php:178
 #, php-format
@@ -4988,7 +4990,7 @@ msgstr "Removido %d mensagens da lista '%s''."
 #: core/leads/classes/class.lead-management.php:184
 #, php-format
 msgid "Tagged %d posts with &ldquo; %s &rdquo;"
-msgstr "As mensagens de %d marcados com \"%s\""
+msgstr "Marcados %d posts com &ldquo; %s &rdquo;"
 
 #: core/leads/classes/class.lead-management.php:187
 #, php-format
@@ -5002,7 +5004,7 @@ msgstr "%d leva permanentemente excluídos"
 
 #: core/leads/classes/class.lead-management.php:208
 msgid "Lead Bulk Management"
-msgstr "Gestão de chumbo em massa"
+msgstr "Gestão de leads em massa"
 
 #: core/leads/classes/class.lead-management.php:214
 msgid ""
@@ -5036,7 +5038,7 @@ msgstr "Palavra-chave:"
 #: core/leads/classes/class.lead-management.php:286
 #, php-format
 msgid "Use % for wildcards."
-msgstr "Use % f para curingas. "
+msgstr "Use % para curingas."
 
 #: core/leads/classes/class.lead-management.php:291
 msgid "Tag:"
@@ -5057,7 +5059,7 @@ msgstr "Sem posts correspondem a critérios, desculpe! Tente novamente com algo 
 
 #: core/leads/classes/class.lead-management.php:369
 msgid "search returned "
-msgstr "Pesquisar retornado "
+msgstr "pesquisa retornada "
 
 #: core/leads/classes/class.lead-management.php:369
 msgid "results"
@@ -5065,7 +5067,7 @@ msgstr "resultados"
 
 #: core/leads/classes/class.lead-management.php:373
 msgid "Grabbing Matching Leads"
-msgstr "Agarrando a correspondência de pistas"
+msgstr "Coletando os leads correspondentes"
 
 #: core/leads/classes/class.lead-management.php:376
 msgid "Filter Results Below"
@@ -5207,12 +5209,12 @@ msgstr "Remova esses valores meta os posts selecionados."
 
 #: core/leads/classes/class.lead-management.php:560
 msgid "Delete Selected Leads (Warning! There is no UNDO):"
-msgstr "Excluir selecionados leva (aviso! Não há nenhum UNDO):"
+msgstr "Excluir leads selecionados (Aviso! Isso é irreversível):"
 
 #: core/leads/classes/class.lead-management.php:562
 #: core/leads/classes/class.lead-management.php:609
 msgid "Permanently Delete Selected Leads"
-msgstr "Permanentemente apagar selecionado leva"
+msgstr "Excluir permanentemente os leads selecionados"
 
 #: core/leads/classes/class.lead-management.php:562
 msgid ""
@@ -5225,15 +5227,15 @@ msgstr "Escolher a ação para aplicar a pista selecionada"
 
 #: core/leads/classes/class.lead-management.php:606
 msgid "Export Selected Leads as CSV"
-msgstr "Exportar contatos selecionados como CSV"
+msgstr "Exportar leads selecionados como CSV"
 
 #: core/leads/classes/class.lead-management.php:607
 msgid "Add or Remove Selected Leads from Lists"
-msgstr "Adicionar ou remover contatos selecionados de listas"
+msgstr "Adicionar ou remover leads selecionados das listas"
 
 #: core/leads/classes/class.lead-management.php:608
 msgid "Add or Remove Tags to Selected Leads"
-msgstr "Adicionar ou remover Tags para contatos selecionados"
+msgstr "Adicionar ou remover tags dos leads selecionados"
 
 #: core/leads/classes/class.lead-management.php:727
 #: core/leads/classes/class.lead-management.php:764
@@ -5267,15 +5269,15 @@ msgstr "Data de criação"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:119
 msgid "Lead Stats"
-msgstr "Estatísticas de lead"
+msgstr "Estatísticas do lead"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:123
 msgid "Lead Overview"
-msgstr "Visão geral de lead"
+msgstr "Visão geral do lead"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:131
 msgid "Source of Lead"
-msgstr "Fonte de lead"
+msgstr "Origem do lead"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:204
 msgid "Most Used"
@@ -5410,7 +5412,7 @@ msgstr "Trabalho:"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1261
 msgid "View past work"
-msgstr "Ver os últimos trabalhos"
+msgstr "Ver os trabalhos anteriores"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1270
 msgid "Demographics"
@@ -5422,7 +5424,7 @@ msgstr "Interesses:"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1313
 msgid "Consumed Tags:"
-msgstr "Tags consumidas: "
+msgstr "Tags consumidas:"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1474
 #: core/leads/classes/class.metaboxes.wp-lead.php:1536
@@ -5436,7 +5438,7 @@ msgstr "Comentários"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1489
 msgid "Searches"
-msgstr ""
+msgstr "Pesquisas"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1517
 msgid "Most Recent"
@@ -5471,7 +5473,7 @@ msgstr "Apresentação foi processada através de uma ferramenta de formulário 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1625
 #, php-format
 msgid "Commented as: %s"
-msgstr ""
+msgstr "Comentou como: %s"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1654
 msgid "View and respond to the comment"
@@ -5479,33 +5481,33 @@ msgstr "Visualizar e responder ao comentário"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1671
 msgid "Lead Searches"
-msgstr "Conduzir pesquisas"
+msgstr "Pesquisas de leads"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1674
 msgid "No searches found!"
-msgstr ""
+msgstr "Nenhuma pesquisa foi encontrada!"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1702
 msgid "On the homepage"
-msgstr ""
+msgstr "Na página inicial"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1710
 #, php-format
 msgid "On: %s"
-msgstr ""
+msgstr "Em: %s"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1723
 msgid "On the search page"
-msgstr ""
+msgstr "Na páginas de pesquisa"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1765
 msgid "Lead searched for: "
-msgstr ""
+msgstr "Lead pesquisou por: "
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1781
 #, php-format
 msgid "There were %d searches that were empty or had an error."
-msgstr ""
+msgstr "Haviam %d pesquisas que estavam vazias ou tinham um erro."
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1799
 msgid "No Page View History Found"
@@ -5530,11 +5532,11 @@ msgstr "Leia mais"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1939
 msgid "Add New Link"
-msgstr "Adicionar novo Link"
+msgstr "Adicionar novo link"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1939
 msgid "add link"
-msgstr "Adicionar link"
+msgstr "adicionar link"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:2059
 msgid "Country..."
@@ -6759,11 +6761,11 @@ msgstr "Chaves de API"
 
 #: core/leads/classes/class.settings.php:65
 msgid "leads"
-msgstr "leva"
+msgstr "leads"
 
 #: core/leads/classes/class.settings.php:70
 msgid "Leads Core Settings"
-msgstr "Leva as configurações de núcleo"
+msgstr "Configurações básicas de leads"
 
 #: core/leads/classes/class.settings.php:75
 #: core/leads/classes/class.settings.php:177
@@ -6775,7 +6777,7 @@ msgstr "Consulta de pesquisa de rastreamento"
 msgid ""
 "WordPress Leads records searches made by leads and appends them to their "
 "lead record. Disabling this will turn this feature off."
-msgstr "WordPress conduz pesquisas de registros feitas por leva e acrescenta-lhes seu registro de chumbo. Desabilitar isto irá desligar esse recurso."
+msgstr "O plugin leads para WordPress registra as pesquisas feitas pelo lead e as acrescenta no histórico do lead. Desabilitar isto irá desligar esse recurso."
 
 #: core/leads/classes/class.settings.php:83
 #: core/leads/classes/class.settings.php:185
@@ -6787,12 +6789,12 @@ msgstr "Comentário de rastreamento"
 msgid ""
 "WordPress Leads records comments made by leads and appends them to their "
 "lead record. Disabling this will turn this feature off."
-msgstr "Leva o WordPress comentários de registros feitos por leva e acrescenta-lhes seu registro de chumbo. Desabilitar isto irá desligar esse recurso."
+msgstr "O plugin leads para WordPress registra os comentários feitos por leads e os acrescenta no histórico do lead. Desabilitar isto irá desligar esse recurso."
 
 #: core/leads/classes/class.settings.php:91
 #: core/leads/classes/class.settings.php:193
 msgid "Show Lead/List Data in Dashboard"
-msgstr "Mostrar dados de chumbo/lista no painel de controle"
+msgstr "Mostrar dados do lead/Lista no Painel"
 
 #: core/leads/classes/class.settings.php:92
 #: core/leads/classes/class.settings.php:194
@@ -6846,7 +6848,7 @@ msgstr "Execute submissões de forma através do Akismet akismet é habilitado."
 msgid ""
 "Enabling this option will tell Leads to run form submissions through akismet"
 " to prevent spam submissions."
-msgstr "Ativar esta opção irá dizer leva a executar os envios do formulário através do akismet para impedir submissões de spam."
+msgstr "Ativar esta opção irá dizer ao plugin leads para executar os envios do formulário através do akismet para impedir envio de spam."
 
 #: core/leads/classes/class.settings.php:134
 msgid "Double Opt In Options"
@@ -6875,7 +6877,7 @@ msgid ""
 "Where to send readers to confirm being added to a list. We auto create a "
 "confirmation page on activation, but you can use our shortcode on any page "
 "[inbound-list-confirm-double-optin]. "
-msgstr "Onde enviar leitores para confirmar a adição a uma lista. Criamos automaticamente uma página de confirmação na ativação, mas você pode usar nosso código curto em qualquer página [inbound-list-confirm-double-optin]."
+msgstr "Onde enviar os leitores para confirmar a inscrissão numa lista. Criamos automaticamente uma página de confirmação na ativação, mas você pode usar nosso shortcode em qualquer página [inbound-list-confirm-double-optin]. "
 
 #: core/leads/classes/class.settings.php:210
 #, php-format
@@ -6910,7 +6912,7 @@ msgstr "Não permitido"
 
 #: core/leads/classes/class.tracking.php:426
 msgid "Searches successfully stored!"
-msgstr ""
+msgstr "As pesquisas foram armazenadas!"
 
 #: core/leads/classes/class.user-profile.php:31
 msgid "Lead Profile"
@@ -6922,16 +6924,16 @@ msgstr "Perfil de lead ainda não existe para este usuário."
 
 #: core/leads/classes/class.user-profile.php:39
 msgid "View Lead Profile"
-msgstr "Ver Perfil de Lead"
+msgstr "Ver o perfil do lead"
 
 #: core/leads/classes/class.user-profile.php:41
 #: core/shared/classes/class.post-type.wp-lead.php:138
 msgid "Lead Lists"
-msgstr "Listas de lead"
+msgstr "Listas de leads"
 
 #: core/leads/leads.php:126
 msgid "Leads requires PHP version 5.3+ to run. Your version "
-msgstr "Leva requer PHP versão 5.3 + para executar. Sua versão "
+msgstr "Leads requer o PHP versão 5.3 ou superior para executar. Sua versão é "
 
 #: core/mailer/classes/class.acf-integration.php:264
 msgid "Saving"
@@ -6947,11 +6949,11 @@ msgstr "Aqui estão os resultados de envio:"
 
 #: core/mailer/classes/class.clone-post.php:46
 msgid "Preview the email"
-msgstr ""
+msgstr "Visualização do e-mail"
 
 #: core/mailer/classes/class.clone-post.php:47
 msgid "Preview Email"
-msgstr ""
+msgstr "Prévia do e-mail"
 
 #: core/mailer/classes/class.clone-post.php:123
 msgid "Copy of "
@@ -6971,7 +6973,7 @@ msgstr "E-mail Direto"
 
 #: core/mailer/classes/class.lead-profile.php:110
 msgid "No Domains Detected"
-msgstr "Domínio não detectado "
+msgstr "Nenhum domínio foi detectado"
 
 #: core/mailer/classes/class.lead-profile.php:134
 msgid "Type out full address"
@@ -7064,15 +7066,15 @@ msgstr "Use isso para selecionar qual variação do e-mail premade usar."
 #: core/mailer/classes/class.lead-profile.php:318
 #: core/mailer/classes/class.lead-profile.php:419
 msgid "Ajax not enabled"
-msgstr "Ajax não esta habilitado "
+msgstr "Ajax não esta habilitado"
 
 #: core/mailer/classes/class.lead-profile.php:342
 msgid "We are sending a your email now."
-msgstr "Estamos enviando um e-mail agora"
+msgstr "Estamos enviando um e-mail agora."
 
 #: core/mailer/classes/class.lead-profile.php:520
 msgid "The lead id was not supplied"
-msgstr "O identificador de contato não foi fornecido."
+msgstr "O ID do lead não foi fornecido"
 
 #: core/mailer/classes/class.lead-profile.php:520
 #: core/mailer/classes/class.lead-profile.php:528
@@ -7095,11 +7097,11 @@ msgstr "Erro de campo:"
 
 #: core/mailer/classes/class.lead-profile.php:528
 msgid "The email template id was not supplied"
-msgstr "O identificador de modelo de e-mail não foi fornecido."
+msgstr "O ID do modelo de e-mail não foi fornecido"
 
 #: core/mailer/classes/class.lead-profile.php:532
 msgid "The variation id was not supplied"
-msgstr "O identificador de variação não foi fornecido."
+msgstr "O ID da variação não foi fornecido"
 
 #: core/mailer/classes/class.lead-profile.php:552
 msgid "Your email has been sent!"
@@ -7108,11 +7110,11 @@ msgstr "Seu e-mail foi enviado!"
 #: core/mailer/classes/class.lead-profile.php:552
 #: core/mailer/classes/class.lead-profile.php:686
 msgid "SUCCESS!"
-msgstr "SUCESSO"
+msgstr "SUCESSO!"
 
 #: core/mailer/classes/class.lead-profile.php:580
 msgid "Recipeient Email"
-msgstr "E-mail do destinatário "
+msgstr "E-mail do destinatário"
 
 #: core/mailer/classes/class.lead-profile.php:584
 msgid "Email Content"
@@ -7120,7 +7122,7 @@ msgstr "Conteúdo do email"
 
 #: core/mailer/classes/class.lead-profile.php:592
 msgid "Please fill in the "
-msgstr "Preencha o campo"
+msgstr "Preencha o "
 
 #: core/mailer/classes/class.lead-profile.php:592
 msgid "Empty field"
@@ -7140,19 +7142,19 @@ msgstr "Ocorreu um erro com o e-mail de resposta"
 
 #: core/mailer/classes/class.lead-profile.php:620
 msgid "The post id was not supplied"
-msgstr "O identificador de postagem não foi fornecido."
+msgstr "O ID do post não foi fornecido"
 
 #: core/mailer/classes/class.lead-profile.php:624
 msgid "The user id was not supplied"
-msgstr "O identificador de usuário não foi fornecido."
+msgstr "O ID do usuário não foi fornecido"
 
 #: core/mailer/classes/class.lead-profile.php:638
 msgid "Direct email to "
-msgstr "Email direto para"
+msgstr "E-mail direto para "
 
 #: core/mailer/classes/class.lead-profile.php:638
 msgid " on "
-msgstr "em"
+msgstr " em "
 
 #: core/mailer/classes/class.lead-profile.php:686
 msgid "Your custom email has been sent!"
@@ -7253,22 +7255,22 @@ msgstr "Cicked"
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:902
 msgid "Reporting Range"
-msgstr ""
+msgstr "Intervalo do relatório"
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:914
 msgid "Select day range for calculating statistics."
-msgstr ""
+msgstr "Selecione o intervalo de dias para o cálculo das estatísticas."
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:923
 msgid "Reporting by Job"
-msgstr ""
+msgstr "Relatório por tarefa"
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:927
 msgid ""
 "Automated email statistics can be segmented by the marketing automation job "
 "id that powered their sending. If sent to individual leads then leave this "
 "set option set to Combined Report."
-msgstr ""
+msgstr "Estatísticas de e-mail automático podem ser segmentadas pelo ID do trabalho de automação de marketing que gerou o seu envio. Se foram enviados a leads individuais, então deixe esta opção definida como Relatório Combinado."
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:939
 msgid "Send Date"
@@ -7345,16 +7347,16 @@ msgstr "Selecione o tempo"
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:1496
 msgid "Combined Report"
-msgstr ""
+msgstr "Relatório Combinado"
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:1505
 #: core/mailer/classes/class.post-type.inbound-email.php:570
 msgid "Last Send"
-msgstr ""
+msgstr "Último envio"
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:1507
 msgid "Send # "
-msgstr ""
+msgstr "Enviar # "
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:1525
 msgid "Enter Email Description"
@@ -7414,7 +7416,7 @@ msgstr "Tem certeza que quer começar a enviar este e-mail?"
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:2155
 msgid "Yes, send it!"
-msgstr "Sim, enviá-lo!"
+msgstr "Sim, envie!"
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:2162
 msgid "We are scheduling your email now."
@@ -7443,7 +7445,7 @@ msgstr "Cancelar este e-mail irá remover todos os e-mails não enviados da noss
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:2249
 msgid "Yes, cancel it now!"
-msgstr "Sim, cancelá-lo agora!"
+msgstr "Sim, cancele agora!"
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:2256
 msgid "We are cancelling your email now."
@@ -7494,7 +7496,7 @@ msgstr "Estamos excluindo as estatísticas e recarregar a página."
 
 #: core/mailer/classes/class.metaboxes.inbound-email.php:2523
 msgid "A new report is being loaded."
-msgstr ""
+msgstr "Um novo relatório está sendo carregado."
 
 #: core/mailer/classes/class.notifications.php:76
 msgid "settings page"
@@ -7521,7 +7523,7 @@ msgstr "Adicionar nova campanha"
 
 #: core/mailer/classes/class.post-type.inbound-email.php:123
 msgid "Edit Email "
-msgstr ""
+msgstr "Editar e-mail "
 
 #: core/mailer/classes/class.post-type.inbound-email.php:124
 msgid "New Campaign"
@@ -7566,7 +7568,7 @@ msgstr "estatuto"
 #: core/mailer/classes/class.post-type.inbound-email.php:185
 #, php-format
 msgid "statistics ( last %s days )"
-msgstr ""
+msgstr "estatísticas (últimos %s dias)"
 
 #: core/mailer/classes/class.post-type.inbound-email.php:427
 #: core/mailer/classes/class.post-type.inbound-email.php:502
@@ -7600,15 +7602,15 @@ msgstr "Email direto"
 
 #: core/mailer/classes/class.post-type.inbound-email.php:551
 msgid "Email Statistics"
-msgstr ""
+msgstr "Estatísticas do e-mail"
 
 #: core/mailer/classes/class.post-type.inbound-email.php:567
 msgid "Automated email reporting"
-msgstr ""
+msgstr "Relatórios de e-mail automático"
 
 #: core/mailer/classes/class.post-type.inbound-email.php:569
 msgid "Combined Sends"
-msgstr ""
+msgstr "Envios Combinados"
 
 #: core/mailer/classes/class.scheduling.php:195
 msgid "Niue Time"
@@ -8369,7 +8371,7 @@ msgstr "Tempo de Tonga"
 
 #: core/mailer/classes/class.scheduling.php:388
 msgid "Chatham Daylight Time"
-msgstr "Horário de Chatham"
+msgstr "Horário de verão de Chatham"
 
 #: core/mailer/classes/class.scheduling.php:389
 msgid "Line Islands Time"
@@ -8389,24 +8391,24 @@ msgstr "Configurações de entrada Mailer"
 
 #: core/mailer/classes/class.settings.php:54
 msgid "Unsubscribe Page"
-msgstr "Página cancelamento de inscrição"
+msgstr "Página de cancelamento"
 
 #: core/mailer/classes/class.settings.php:60
 msgid ""
 "This shortcode can be used to produce an unsubscribe form. Inbound Now "
 "automatically creates an Unsubscribe page with this shortcode on activation."
-msgstr "Este defeito pode ser usado para produzir uma forma de cancelar. De entrada agora cria automaticamente uma página cancelar assinatura com esse defeito na ativação."
+msgstr "Esse shortcode pode ser usado para produzir um formulário de cancelamento. O Inbound Now agora cria automaticamente uma página de cancelamento com esse shortcode na ativação."
 
 #: core/mailer/classes/class.settings.php:67
 msgid "Unsubscribe Location"
-msgstr "Localização cancelamento de inscrição"
+msgstr "Localização do cancelamento"
 
 #: core/mailer/classes/class.settings.php:68
 msgid ""
 "Where to send readers to unsubscribe. We auto create an unsubscribe page on "
 "activation, but you can use our shortcode on any page [inbound-email-"
 "unsubscribe]. "
-msgstr "Para onde enviar os leitores para cancelar a assinatura. Nós auto criar uma página cancelar assinatura na ativação, mas você pode usar nossa fraqueza em qualquer página [de entrada-e-mail-cancelar assinatura]. "
+msgstr "Para onde enviar os leitores para que cancelem sua assinatura. Nós criamos automaticamente uma página de cancelamento na ativação, mas você pode usar nosso shortcode em qualquer página [inbound-email-unsubscribe]. "
 
 #: core/mailer/classes/class.settings.php:75
 msgid "Show Lists"
@@ -8416,42 +8418,42 @@ msgstr "Mostrar as listas"
 msgid ""
 "Leave this set to on to give the reader the option to unsubscribe from "
 "individual lists."
-msgstr "Embora este conjunto para dar ao leitor a opção de cancelar a assinatura de listas individuais."
+msgstr "Deixe isso LIGADO para dar ao leitor a opção de cancelar a assinatura em listas individuais."
 
 #: core/mailer/classes/class.settings.php:87
 msgid "Unsubscribe Labels"
-msgstr "Rótulos cancelamento de inscrições"
+msgstr "Rótulos de cancelamento"
 
 #: core/mailer/classes/class.settings.php:92
 msgid "Unsubscribe Header"
-msgstr "Cabeçalho cancelamento de inscrições"
+msgstr "Cabeçalho de cancelamento"
 
 #: core/mailer/classes/class.settings.php:93
 #: core/mailer/classes/class.settings.php:101
 msgid "This text will display inside the unsubscribe button"
-msgstr "Este texto será exibido dentro do botão cancelar assinatura"
+msgstr "Este texto será exibido dentro do botão de cancelamento"
 
 #: core/mailer/classes/class.settings.php:95
 #: core/mailer/classes/class.unsubscribe.php:40
 msgid "Unsubscribe:"
-msgstr "Cancelamento da inscrição:"
+msgstr "Cancelar assinatura:"
 
 #: core/mailer/classes/class.settings.php:100
 msgid "Unsubscribe Button"
-msgstr "Cancelar botão"
+msgstr "Botão de cancelamento"
 
 #: core/mailer/classes/class.settings.php:108
 msgid "Mute Section Header"
-msgstr "Cabeçalho de seção mudo"
+msgstr "Cabeçalho de seção Silenciar"
 
 #: core/mailer/classes/class.settings.php:109
 msgid "This text will display inside the mute button"
-msgstr "Este texto será exibido dentro o botão mudo"
+msgstr "Este texto será exibido dentro o botão Silenciar"
 
 #: core/mailer/classes/class.settings.php:111
 #: core/mailer/classes/class.unsubscribe.php:43
 msgid "Mute:"
-msgstr "Mudo:"
+msgstr "Silenciar:"
 
 #: core/mailer/classes/class.settings.php:116
 msgid "Confirmation Message #1"
@@ -8459,7 +8461,7 @@ msgstr "Mensagem de confirmação #1"
 
 #: core/mailer/classes/class.settings.php:117
 msgid "This message will show after a reader has unsubscribed."
-msgstr "Esta mensagem aparecerá depois que um leitor tem cancelou sua inscrição."
+msgstr "Essa mensagem aparecerá depois que o leitor cancelar a assinatura."
 
 #: core/mailer/classes/class.settings.php:119
 #: core/shared/classes/class.form.php:1053
@@ -8469,18 +8471,18 @@ msgstr "Obrigado!"
 
 #: core/mailer/classes/class.settings.php:124
 msgid "Confirmation Message #2"
-msgstr ""
+msgstr "Mensagem de confirmação #2"
 
 #: core/mailer/classes/class.settings.php:125
 msgid ""
 "This message will show after a reader has clicked unsubscribe from an "
 "automated email series."
-msgstr ""
+msgstr "Esta mensagem aparecerá depois que o leitor clicar para cancelar a assinatura numa série de e-mails automáticos."
 
 #: core/mailer/classes/class.settings.php:127
 #: core/mailer/classes/class.unsubscribe.php:44
 msgid "You have been unsubscribed from this series!"
-msgstr ""
+msgstr "Você não receberá mais e-mails desta série!"
 
 #: core/mailer/classes/class.settings.php:140
 msgid "Comment Prompt"
@@ -8490,7 +8492,7 @@ msgstr "Prompt de comentário"
 msgid ""
 "This message is meant to encourage the reader to leave an unsubscribe "
 "comments."
-msgstr "Esta mensagem destina-se a incentivar o leitor a deixar cancelar uma assinatura comentários."
+msgstr "Essa mensagem destina-se a motivar o leitor a deixar um comentário sobre o cancelamento da assinatura."
 
 #: core/mailer/classes/class.settings.php:143
 #: core/mailer/classes/class.unsubscribe.php:46
@@ -8507,13 +8509,13 @@ msgstr "Este é um cabeçalho geral que indicam a área de texto de comentário 
 
 #: core/mailer/classes/class.settings.php:154
 msgid "\"All Lists\" label"
-msgstr "Rótulo de \"Todas as listas\""
+msgstr "Rótulo para \"Todas as listas\""
 
 #: core/mailer/classes/class.settings.php:155
 msgid ""
 "When readers are given the option to unsubscribe from all lists, this label "
 "is displayed."
-msgstr "Quando os leitores são dada a opção de cancelar a inscrição de todas as listas, este rótulo é exibido."
+msgstr "Quando os leitores recebem a opção de cancelar sua assinatura de todas as listas, este rótulo é exibido."
 
 #: core/mailer/classes/class.settings.php:157
 #: core/mailer/classes/class.unsubscribe.php:48
@@ -8528,7 +8530,7 @@ msgstr "Rótulo de 1 mês"
 msgid ""
 "When readers are given the option to unsubscribe for 1 month, this label is "
 "displayed."
-msgstr "Quando os leitores recebem a opção de cancelar a assinatura por 1 mês, este rótulo é exibido."
+msgstr "Quando os leitores recebem a opção de cancelar sua assinatura por 1 mês, este rótulo é exibido."
 
 #: core/mailer/classes/class.settings.php:164
 #: core/mailer/classes/class.unsubscribe.php:49
@@ -8543,7 +8545,7 @@ msgstr "Rótulo de 3 meses"
 msgid ""
 "When readers are given the option to unsubscribe for 3 months, this label is"
 " displayed."
-msgstr "Quando os leitores recebem a opção de cancelar a assinatura por 3 meses, este rótulo é exibido."
+msgstr "Quando os leitores recebem a opção de cancelar sua assinatura por 3 meses, este rótulo é exibido."
 
 #: core/mailer/classes/class.settings.php:171
 msgid "3 Months"
@@ -8557,7 +8559,7 @@ msgstr "Rótulo de 6 meses"
 msgid ""
 "When readers are given the option to unsubscribe for 6 months, this label is"
 " displayed."
-msgstr "Quando os leitores recebem a opção de cancelar a assinatura por 6 meses, este rótulo é exibido."
+msgstr "Quando os leitores recebem a opção de cancelar sua assinatura por 6 meses, este rótulo é exibido."
 
 #: core/mailer/classes/class.settings.php:178
 msgid "6 Months"
@@ -8571,7 +8573,7 @@ msgstr "Rótulo de 12 meses"
 msgid ""
 "When readers are given the option to unsubscribe for 12 months, this label "
 "is displayed."
-msgstr "Quando os leitores recebem a opção de cancelar a assinatura por 12 meses, este rótulo é exibido."
+msgstr "Quando os leitores recebem a opção de cancelar sua assinatura por 12 meses, este rótulo é exibido."
 
 #: core/mailer/classes/class.settings.php:185
 msgid "12 Months"
@@ -8592,7 +8594,7 @@ msgid ""
 "cycle, please try reducing the number. Note that this will slow down the "
 "send process. To make up for delayed sends please schedule your email to be "
 "sent in the future. "
-msgstr ""
+msgstr "Nós iremos agendar/processar esta quantidade de e-mails a serem enviados para o seu serviço de e-mail a cada dois minutos. Se o seu servidor está tendo problemas para lidar com 30 e-mails por ciclo, tente reduzir o número. Note que isto retardará o processo de envio. Para compensar os envios atrasados, agende seu e-mail para ser enviado no futuro. "
 
 #: core/mailer/classes/class.settings.php:202
 msgid "Processing Threads"
@@ -8603,7 +8605,7 @@ msgid ""
 "(Inactive) We can increase this number to multiply our processing powers. Be"
 " very careful though, this could cause your server to overwork and damage "
 "your sending efforts. If you're not sure what you are doing leave this to 1."
-msgstr ""
+msgstr "(Inativo) Podemos aumentar esse número para multiplicar nosso poder de processamento. No entanto, tenha muito cuidado pois isso poderia sobrecarregar seu servidor e danificar seus esforços de envio. Se não tem certeza do que está fazendo deixe isto em 1."
 
 #: core/mailer/classes/class.settings.php:211
 msgid "Mail Service Setup"
@@ -8647,7 +8649,7 @@ msgstr "Criar uma chave de API"
 
 #: core/mailer/classes/class.statistics.sparkpost.php:824
 msgid "not created"
-msgstr "Não criado"
+msgstr "não criado"
 
 #: core/mailer/classes/class.statistics.sparkpost.php:829
 #: core/mailer/classes/class.statistics.sparkpost.php:846
@@ -8666,7 +8668,7 @@ msgstr "ativo"
 #: core/mailer/classes/class.statistics.sparkpost.php:929
 #: core/mailer/classes/class.statistics.sparkpost.php:944
 msgid "invalid"
-msgstr "Inválido"
+msgstr "inválido"
 
 #: core/mailer/classes/class.statistics.sparkpost.php:870
 msgid ""
@@ -8680,7 +8682,7 @@ msgstr "Envio de domínios:"
 
 #: core/mailer/classes/class.statistics.sparkpost.php:906
 msgid "ownership"
-msgstr "Propriedade"
+msgstr "propriedade"
 
 #: core/mailer/classes/class.statistics.sparkpost.php:912
 msgid "confirmed"
@@ -8692,7 +8694,7 @@ msgstr "não confirmado"
 
 #: core/mailer/classes/class.statistics.sparkpost.php:921
 msgid "dkim"
-msgstr "DKIM"
+msgstr "dkim"
 
 #: core/mailer/classes/class.statistics.sparkpost.php:927
 #: core/mailer/classes/class.statistics.sparkpost.php:942
@@ -8731,7 +8733,7 @@ msgstr "Aviso: Só fazer upload de arquivos de zip e-mail modelo baixados de ent
 
 #: core/mailer/classes/class.token-engine.php:99
 msgid "Lead Fields"
-msgstr "Campos de chumbo"
+msgstr "Campos do lead"
 
 #: core/mailer/classes/class.token-engine.php:137
 msgid "Select Field"
@@ -8791,7 +8793,7 @@ msgstr "Selecione o modelo de E-mail automático."
 
 #: core/mailer/classes/class.unsubscribe.php:39
 msgid "You have unsubscribed!<br> Additional options below."
-msgstr "Você se cancelou a sua inscrição!<br> Opções adicionais abaixo:"
+msgstr "Você cancelou sua assinatura!<br> Opções adicionais abaixo."
 
 #: core/mailer/classes/class.unsubscribe.php:45
 msgid "Thank You!"
@@ -8799,7 +8801,7 @@ msgstr "Obrigado!"
 
 #: core/mailer/classes/class.unsubscribe.php:47
 msgid "Comments:"
-msgstr "Comentários"
+msgstr "Comentários:"
 
 #: core/mailer/classes/class.unsubscribe.php:50
 msgid "3 Month"
@@ -8817,15 +8819,15 @@ msgstr "12 meses"
 msgid ""
 "Oops. Something is wrong with the unsubscribe token. Please log in and "
 "reload this page."
-msgstr ""
+msgstr "Opa! Algo está errado com o token de cancelamento da assinatura. Faça login e recarregue esta página."
 
 #: core/mailer/classes/class.unsubscribe.php:109
 msgid "Lead unsubscribed from automated email series"
-msgstr ""
+msgstr "O lead saiu da série de e-mails automáticos"
 
 #: core/mailer/classes/class.unsubscribe.php:199
 msgid "#unsubscribe-not-available-in-online-mode"
-msgstr "#unsubscribe-not-available-in-online-mode"
+msgstr "#cancelamento-indisponivel-no-modo-online"
 
 #: core/mailer/mailer.php:53
 msgid ""
@@ -8839,15 +8841,15 @@ msgstr "Um modelo de email no estilo de e-mails de entrada agora."
 
 #: core/mailer/templates/inboundnow/config.php:28
 msgid "Inbound Now Email Template"
-msgstr ""
+msgstr "Modelo de e-mail Inbound Now"
 
 #: core/mailer/templates/inboundnow/config.php:56
 msgid "Logo Positioning"
-msgstr ""
+msgstr "Posicionamento da logo"
 
 #: core/mailer/templates/inboundnow/config.php:59
 msgid "Select where to align the logo"
-msgstr ""
+msgstr "Selecione por onde alinhar o logotipo"
 
 #: core/mailer/templates/inboundnow/config.php:85
 #: core/mailer/templates/simple-responsive/config.php:33
@@ -8856,65 +8858,65 @@ msgstr "URL do logotipo"
 
 #: core/mailer/templates/inboundnow/config.php:101
 msgid "Email Font"
-msgstr ""
+msgstr "Fonte do e-mail"
 
 #: core/mailer/templates/inboundnow/config.php:153
 msgid "Headline Text"
-msgstr ""
+msgstr "Texto da chamada"
 
 #: core/mailer/templates/inboundnow/config.php:164
 msgid "It's Here."
-msgstr ""
+msgstr "Está aqui."
 
 #: core/mailer/templates/inboundnow/config.php:165
 msgid "Headline Text Here"
-msgstr ""
+msgstr "Texto da chamada aqui"
 
 #: core/mailer/templates/inboundnow/config.php:174
 msgid "Headline Size"
-msgstr ""
+msgstr "Tamanho da chamada"
 
 #: core/mailer/templates/inboundnow/config.php:177
 #: core/mailer/templates/inboundnow/config.php:198
 msgid "Be sure to include the px."
-msgstr ""
+msgstr "Não se esqueça de incluir o px."
 
 #: core/mailer/templates/inboundnow/config.php:195
 msgid "Sub Headline Size"
-msgstr ""
+msgstr "Tamanho do subtítulo"
 
 #: core/mailer/templates/inboundnow/config.php:216
 msgid "Sub Headline Text"
-msgstr ""
+msgstr "Texto do subtítulo"
 
 #: core/mailer/templates/inboundnow/config.php:227
 msgid "An all new product..."
-msgstr ""
+msgstr "Um produto totalmente novo..."
 
 #: core/mailer/templates/inboundnow/config.php:228
 msgid "Subheadline text here"
-msgstr ""
+msgstr "Texto do subtítulo aqui"
 
 #: core/mailer/templates/inboundnow/config.php:237
 #: core/mailer/templates/new-post-notification/config.php:99
 msgid "Featured Image"
-msgstr ""
+msgstr "Imagem destacada"
 
 #: core/mailer/templates/inboundnow/config.php:264
 msgid "Control the width of\tyour featured image. Be sure to include px or %."
-msgstr ""
+msgstr "Controle a largura de sua imagem destacada. Não se esqueça de incluir px ou %."
 
 #: core/mailer/templates/inboundnow/config.php:282
 msgid "Image Height"
-msgstr ""
+msgstr "Altura da imagem"
 
 #: core/mailer/templates/inboundnow/config.php:285
 msgid "Control the heightof\tyour featured image. Be sure to include px or %."
-msgstr ""
+msgstr "Controle a altura de sua imagem destacada. Não se esqueça de incluir px ou %."
 
 #: core/mailer/templates/inboundnow/config.php:303
 msgid "Message Content"
-msgstr ""
+msgstr "Conteúdo da mensagem"
 
 #: core/mailer/templates/inboundnow/config.php:314
 msgid ""
@@ -8924,34 +8926,34 @@ msgid ""
 "\n"
 "Cheers!\n"
 "@inboundnow"
-msgstr ""
+msgstr "Olá [lead-field id=\"wpleads_first_name\" default=\"Assinante\"], \n\nAgradecemos por ser um cliente valioso. Que sua experiência com inbound seja muito boa.\n\n\nObrigado!\n@inboundnow"
 
 #: core/mailer/templates/inboundnow/config.php:326
 msgid "Align Message Content"
-msgstr ""
+msgstr "Alinhar o conteúdo da mensagem"
 
 #: core/mailer/templates/inboundnow/config.php:329
 msgid "Select how to position your message content. "
-msgstr ""
+msgstr "Selecione como deseja posicionar o seu conteúdo da mensagem. "
 
 #: core/mailer/templates/inboundnow/config.php:354
 msgid "Unsubscribe Link"
-msgstr ""
+msgstr "Link de cancelamento"
 
 #: core/mailer/templates/inboundnow/config.php:357
 msgid "Use this field to customize the Unsubscribe Link"
-msgstr ""
+msgstr "Use esse campo para personalizar o link de cancelamento"
 
 #: core/mailer/templates/inboundnow/config.php:365
 #, php-format
 msgid ""
 "We respect your privacy. If you believe this has been sent to you in error, "
 "please safely %sUnsubscribe here%s"
-msgstr ""
+msgstr "Nós respeitamos sua privacidade. Se você acredita que isto foi enviado para você por engano, %sdescadastre-se aqui%s com segurança"
 
 #: core/mailer/templates/inboundnow/config.php:366
 msgid "Enter address here for CAN-SPAM compliance."
-msgstr ""
+msgstr "Informe o endereço aqui em conformidade com CAN-SPAM."
 
 #: core/mailer/templates/new-post-notification/config.php:13
 msgid "New Post Notification"
@@ -8963,237 +8965,237 @@ msgstr "Modelo oficial alimentando Inbound Agora email novo post."
 
 #: core/mailer/templates/new-post-notification/config.php:33
 msgid "Optional: Email Header Text"
-msgstr ""
+msgstr "Opcional: Texto de cabeçalho do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:36
 msgid ""
 "Use this optional field to put in some headline text that will display in "
 "the inbox preview, but not in the email body"
-msgstr ""
+msgstr "Use esse campo opcional para colocar em algum texto de chamada que será exibido na visualização de caixa de entrada, mas não no corpo do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:54
 msgid "Article Title / Headline"
-msgstr ""
+msgstr "Título / Chamada do artigo"
 
 #: core/mailer/templates/new-post-notification/config.php:57
 msgid "This will display below the featured image and above  Main Content A."
-msgstr ""
+msgstr "Isso aparecerá abaixo da imagem destacada e acima do  Conteúdo principal A."
 
 #: core/mailer/templates/new-post-notification/config.php:78
 msgid ""
 "Use this field to display your logo in the head of the email. The max width "
 "with 200px and the max height is 200px"
-msgstr ""
+msgstr "Use esse campo para exibir sua logomarca no topo do e-mail. A largura máxima é 200px e a altura máxima é 200px"
 
 #: core/mailer/templates/new-post-notification/config.php:102
 msgid ""
 "This is the main image of the email. The max width is 600px, with the height"
 " being scaled according to aspect ratio"
-msgstr ""
+msgstr "Esta é a imagem principal do e-mail. A largura máxima é 600px, com a altura sendo dimensionada de acordo com a proporção"
 
 #: core/mailer/templates/new-post-notification/config.php:120
 msgid "Main Content A"
-msgstr ""
+msgstr "Conteúdo principal A"
 
 #: core/mailer/templates/new-post-notification/config.php:123
 msgid "This editor is for putting text based content above the email button"
-msgstr ""
+msgstr "Este editor é para colocar o texto baseado em conteúdo acima do botão de e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:138
 msgid "Email Button Text"
-msgstr ""
+msgstr "Texto do botão do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:141
 msgid "Use this to change the displayed text on the email button"
-msgstr ""
+msgstr "Use isso para alterar o texto exibido no botão de e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:159
 msgid "Email Button Link"
-msgstr ""
+msgstr "Link do botão do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:162
 msgid "Use this to set where the email button takes users after they click it"
-msgstr ""
+msgstr "Use isso para definir onde o botão e-mail leva os usuários depois de clicado"
 
 #: core/mailer/templates/new-post-notification/config.php:175
 msgid "Email Button Text Color"
-msgstr ""
+msgstr "Cor de texto do botão do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:178
 msgid "Use this to change the color of the text in the email button"
-msgstr ""
+msgstr "Use isso para mudar a cor do texto no botão de e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:190
 msgid "Email Button Color"
-msgstr ""
+msgstr "Cor do botão do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:193
 #: core/mailer/templates/new-post-notification/config.php:576
 msgid "Use this to change the color of the button in the email"
-msgstr ""
+msgstr "Use isso para mudar a cor do botão no e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:205
 msgid "Email Button Hover Color"
-msgstr ""
+msgstr "Cor do botão do e-mail ao passar o mouse"
 
 #: core/mailer/templates/new-post-notification/config.php:208
 msgid ""
 "Use this to change the color of the email button when the mouse hovers over "
 "it"
-msgstr ""
+msgstr "Use isso para mudar a cor do botão de e-mail quando o mouse passa sobre ele"
 
 #: core/mailer/templates/new-post-notification/config.php:220
 msgid "Button Font size"
-msgstr ""
+msgstr "Tamanho da fonte do botão"
 
 #: core/mailer/templates/new-post-notification/config.php:223
 msgid "Use this to change the font size of the button text"
-msgstr ""
+msgstr "Use isso para mudar o tamanho da fonte do texto do botão"
 
 #: core/mailer/templates/new-post-notification/config.php:241
 msgid "Main Content B"
-msgstr ""
+msgstr "Conteúdo principal B"
 
 #: core/mailer/templates/new-post-notification/config.php:244
 msgid "This editor is for putting text based content below the email button"
-msgstr ""
+msgstr "Este editor é para colocar o texto baseado em conteúdo abaixo do botão de e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:259
 msgid "Main Content Font Size"
-msgstr ""
+msgstr "Tamanho da fonte do conteúdo principal"
 
 #: core/mailer/templates/new-post-notification/config.php:262
 msgid ""
 "Use this to change the font size of the main content area. (Main Content A &"
 " B)"
-msgstr ""
+msgstr "Use isso para mudar o tamanho da fonte da área de conteúdo principal. (Conteúdo principal A e B)"
 
 #: core/mailer/templates/new-post-notification/config.php:280
 msgid "Email Colors"
-msgstr ""
+msgstr "Cores do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:296
 msgid "Email Background Color"
-msgstr ""
+msgstr "Cor de fundo do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:299
 msgid ""
 "Use this to set the background color of the email. This is the overall "
 "background color, not the background for the email content"
-msgstr ""
+msgstr "Use isso para definir a cor de fundo do e-mail. Esta é a cor do fundo global, não o plano de fundo no conteúdo do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:311
 msgid "Email Content Background Color"
-msgstr ""
+msgstr "Cor de fundo do conteúdo do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:314
 msgid "Use this to change the background color of the email's content"
-msgstr ""
+msgstr "Use isso para mudar a cor de fundo do conteúdo do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:326
 msgid "Email Text Color"
-msgstr ""
+msgstr "Cor do texto do e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:329
 msgid "Use this to change the color of the text in the email"
-msgstr ""
+msgstr "Use isso para mudar a cor do texto no e-mail"
 
 #: core/mailer/templates/new-post-notification/config.php:341
 msgid "Contact Information"
-msgstr ""
+msgstr "Informações de contato"
 
 #: core/mailer/templates/new-post-notification/config.php:357
 msgid "Contact Information Content"
-msgstr ""
+msgstr "Conteúdo das informações de contato"
 
 #: core/mailer/templates/new-post-notification/config.php:360
 msgid "Use this editor to put in your company's contact information"
-msgstr ""
+msgstr "Use esse editor para colocar as informações de contato da sua empresa"
 
 #: core/mailer/templates/new-post-notification/config.php:375
 msgid "Contact Information Text Color"
-msgstr ""
+msgstr "Cor do texto das informações de contato"
 
 #: core/mailer/templates/new-post-notification/config.php:378
 msgid "Use this to change the color of the contact information."
-msgstr ""
+msgstr "Use isso para mudar a cor das informações de contato."
 
 #: core/mailer/templates/new-post-notification/config.php:390
 msgid "Contact Information Font Size"
-msgstr ""
+msgstr "Tamanho da fonte das informações de contato"
 
 #: core/mailer/templates/new-post-notification/config.php:393
 msgid "Use this to change the font size of the contact information"
-msgstr ""
+msgstr "Use isso para mudar o tamanho da fonte de informações de contato"
 
 #: core/mailer/templates/new-post-notification/config.php:411
 msgid "Unsubscribe Link Text"
-msgstr ""
+msgstr "Texto do link de cancelamento"
 
 #: core/mailer/templates/new-post-notification/config.php:414
 msgid "Use this to change the text of the \"unsubscribe\" link"
-msgstr ""
+msgstr "Use isso para mudar o texto do link de cancelamento"
 
 #: core/mailer/templates/new-post-notification/config.php:432
 msgid "Unsubscribe Link Color"
-msgstr ""
+msgstr "Cor do link de cancelamento"
 
 #: core/mailer/templates/new-post-notification/config.php:435
 msgid "Use this to change the color of the \"unsubscribe\" link"
-msgstr ""
+msgstr "Use isso para mudar a cor do link de cancelamento"
 
 #: core/mailer/templates/new-post-notification/config.php:447
 msgid "Unsubscribe Link Text Size"
-msgstr ""
+msgstr "Tamanho do texto do link de cancelamento"
 
 #: core/mailer/templates/new-post-notification/config.php:450
 msgid "Use this to change the font size of the \"unsubscribe\" link"
-msgstr ""
+msgstr "Use isso para mudar o tamanho da fonte do link de cancelamento"
 
 #: core/mailer/templates/new-post-notification/config.php:468
 msgid "Additional Options"
-msgstr ""
+msgstr "Opções adicionais"
 
 #: core/mailer/templates/new-post-notification/config.php:484
 msgid "Show Latest Posts"
-msgstr ""
+msgstr "Mostrar posts recentes"
 
 #: core/mailer/templates/new-post-notification/config.php:487
 msgid "Set to yes to show latest posts."
-msgstr ""
+msgstr "Defina como SIM para mostrar os posts mais recentes."
 
 #: core/mailer/templates/new-post-notification/config.php:512
 msgid "Focus Category"
-msgstr ""
+msgstr "Categoria em foco"
 
 #: core/mailer/templates/new-post-notification/config.php:517
 #: core/mailer/templates/new-post-notification/config.php:539
 msgid "Select which categories to pull posts from."
-msgstr ""
+msgstr "Selecione as categorias para buscar os posts."
 
 #: core/mailer/templates/new-post-notification/config.php:535
 msgid "Limit posts"
-msgstr ""
+msgstr "Limitar posts"
 
 #: core/mailer/templates/new-post-notification/config.php:552
 msgid "Keep Reading Button Text"
-msgstr ""
+msgstr "Texto do botão Continue lendo"
 
 #: core/mailer/templates/new-post-notification/config.php:555
 msgid "Use this to change the displayed text on \"Keep Reading\" buttons"
-msgstr ""
+msgstr "Use isso para alterar o texto exibido nos botões Continuar lendo"
 
 #: core/mailer/templates/new-post-notification/config.php:573
 msgid "Keep Reading Button BG Color"
-msgstr ""
+msgstr "Cor de fundo do botão Continue lendo"
 
 #: core/mailer/templates/new-post-notification/config.php:588
 msgid "Keep Reading Button Text Color"
-msgstr ""
+msgstr "Cor de texto do botão Continue lendo"
 
 #: core/mailer/templates/new-post-notification/config.php:591
 msgid "Use this to change the color of the text inside the button"
-msgstr ""
+msgstr "Use isso para mudar a cor do texto dentro do botão"
 
 #: core/mailer/templates/simple-basic/assets/index-non-inlined.php:304
 #: core/mailer/templates/simple-basic/index.php:308
@@ -9211,7 +9213,7 @@ msgstr "Modelo de email básico simples."
 
 #: core/mailer/templates/simple-basic/config.php:34
 msgid "Header"
-msgstr ""
+msgstr "Cabeçalho"
 
 #: core/mailer/templates/simple-basic/config.php:53
 #: core/mailer/templates/simple-responsive/config.php:37
@@ -9220,15 +9222,15 @@ msgstr "Insira ou carregar seu logotipo aqui"
 
 #: core/mailer/templates/simple-basic/config.php:74
 msgid "Header Background Color"
-msgstr ""
+msgstr "Cor de fundo do cabeçalho"
 
 #: core/mailer/templates/simple-basic/config.php:77
 msgid "Choose the background color of your header"
-msgstr ""
+msgstr "Escolha a cor de fundo do seu cabeçalho"
 
 #: core/mailer/templates/simple-basic/config.php:89
 msgid "Email Body"
-msgstr ""
+msgstr "Conteúdo do email"
 
 #: core/mailer/templates/simple-basic/config.php:105
 #: core/mailer/templates/simple-responsive/config.php:51
@@ -9237,132 +9239,132 @@ msgstr "Conteúdo de E-mail principal"
 
 #: core/mailer/templates/simple-basic/config.php:108
 msgid "The content of your email should go here."
-msgstr ""
+msgstr "O conteúdo do seu e-mail deve ir aqui."
 
 #: core/mailer/templates/simple-basic/config.php:116
 msgid ""
 "Dear [lead-field id=\"wpleads_first_name\" default=\"Subscriber\"],\n"
 "\n"
 "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et."
-msgstr ""
+msgstr "Olá [lead-field id=\"wpleads_first_name\" default=\"Assinante\"],\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et."
 
 #: core/mailer/templates/simple-basic/config.php:125
 msgid "Callout Background Color"
-msgstr ""
+msgstr "Cor de fundo da chamada"
 
 #: core/mailer/templates/simple-basic/config.php:128
 msgid "Choose the callout background color"
-msgstr ""
+msgstr "Escolha a cor de fundo da chamada"
 
 #: core/mailer/templates/simple-basic/config.php:140
 msgid "Callout"
-msgstr ""
+msgstr "Chamada"
 
 #: core/mailer/templates/simple-basic/config.php:143
 msgid "Add here the callout content"
-msgstr ""
+msgstr "Adicione aqui o conteúdo da chamada"
 
 #: core/mailer/templates/simple-basic/config.php:151
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
 "tempor incididunt. <a href=\"#\">Do it Now! »</a>"
-msgstr ""
+msgstr "Lorem ipsum dolor sentar amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. <a href=\"#\">Faça agora! »</a>"
 
 #: core/mailer/templates/simple-basic/config.php:158
 msgid "Social Box"
-msgstr ""
+msgstr "Caixa social"
 
 #: core/mailer/templates/simple-basic/config.php:174
 msgid "Social Box Background Color"
-msgstr ""
+msgstr "Cor de fundo da caixa social"
 
 #: core/mailer/templates/simple-basic/config.php:177
 msgid "Choose the background color of the social box"
-msgstr ""
+msgstr "Escolha a cor de fundo da caixa social"
 
 #: core/mailer/templates/simple-basic/config.php:189
 msgid "Facebook Page"
-msgstr ""
+msgstr "Página do Facebook"
 
 #: core/mailer/templates/simple-basic/config.php:192
 msgid "Enter the URL of your Facebook page if you have one"
-msgstr ""
+msgstr "Informe o URL de sua página do Facebook se você tiver uma"
 
 #: core/mailer/templates/simple-basic/config.php:210
 msgid "Twitter Handle"
-msgstr ""
+msgstr "Conta do Twitter"
 
 #: core/mailer/templates/simple-basic/config.php:213
 msgid "Enter you Twitter handle here"
-msgstr ""
+msgstr "Informe o seu usuário do Twitter aqui"
 
 #: core/mailer/templates/simple-basic/config.php:231
 msgid "Google Plus"
-msgstr ""
+msgstr "Google+"
 
 #: core/mailer/templates/simple-basic/config.php:234
 msgid "Enter your Google Plus URL"
-msgstr ""
+msgstr "Informe seu URL do Google+"
 
 #: core/mailer/templates/simple-basic/config.php:252
 msgid "Phone Number"
-msgstr ""
+msgstr "Telefone"
 
 #: core/mailer/templates/simple-basic/config.php:255
 msgid "Enter your phone number here"
-msgstr ""
+msgstr "Informe o seu número de telefone aqui"
 
 #: core/mailer/templates/simple-basic/config.php:263
 msgid "1 555 555 5555"
-msgstr ""
+msgstr "+55 (55) 5555-5555"
 
 #: core/mailer/templates/simple-basic/config.php:276
 msgid "Enter your email here"
-msgstr ""
+msgstr "Informe seu e-mail aqui"
 
 #: core/mailer/templates/simple-basic/config.php:284
 msgid "user@example.com"
-msgstr ""
+msgstr "nome@exemplo.com.br"
 
 #: core/mailer/templates/simple-basic/config.php:291
 msgid "Footer"
-msgstr ""
+msgstr "Rodapé"
 
 #: core/mailer/templates/simple-basic/config.php:307
 #: core/mailer/templates/simple-responsive/config.php:69
 msgid "Unsubscribe Link Anchor"
-msgstr ""
+msgstr "Âncora do link de cancelamento"
 
 #: core/mailer/templates/simple-basic/config.php:310
 #: core/mailer/templates/simple-responsive/config.php:72
 msgid "Enter the text of the unsubscribe link."
-msgstr ""
+msgstr "Insira o texto do link de cancelamento"
 
 #: core/mailer/templates/simple-basic/config.php:328
 msgid "Terms Page URL"
-msgstr ""
+msgstr "URL da página de termos"
 
 #: core/mailer/templates/simple-basic/config.php:331
 msgid "Enter the URL of your terms page here"
-msgstr ""
+msgstr "Informe o URL da sua página de termos aqui"
 
 #: core/mailer/templates/simple-basic/config.php:349
 msgid "Privacy Page URL"
-msgstr ""
+msgstr "URL da página de privacidade"
 
 #: core/mailer/templates/simple-basic/config.php:352
 msgid "Enter the URL of your privacy page here"
-msgstr ""
+msgstr "Informe o URL da sua página de privacidade aqui"
 
 #: core/mailer/templates/simple-basic/config.php:370
 #: core/mailer/templates/simple-responsive/config.php:90
 msgid "Hide 'Show this email in browser' link"
-msgstr ""
+msgstr "Esconder o link 'Mostrar esse e-mail no navegador' no e-mail"
 
 #: core/mailer/templates/simple-basic/config.php:373
 #: core/mailer/templates/simple-responsive/config.php:93
 msgid "Hide/Reveal the link to the online version of the email."
-msgstr ""
+msgstr "Mostrar/esconder o link na versão online do e-mail."
 
 #: core/mailer/templates/simple-basic/index.php:305
 msgid "Trouble viewing? Read this"
@@ -9382,7 +9384,7 @@ msgstr "Facebook"
 #: core/shared/shortcodes/shortcodes/social-share.php:49
 #: core/shared/shortcodes/shortcodes/social.php:24
 msgid "Google+"
-msgstr "Google +"
+msgstr "Google+"
 
 #: core/mailer/templates/simple-basic/index.php:382
 msgid "Contact Info"
@@ -9406,7 +9408,7 @@ msgstr "O conteúdo do seu e-mail deve ir aqui. "
 
 #: core/mailer/templates/simple-responsive/config.php:102
 msgid "hide"
-msgstr ""
+msgstr "ocultar"
 
 #: core/mailer/templates/simple-responsive/index.php:159
 #, php-format
@@ -9428,19 +9430,19 @@ msgstr "Clique no conteúdo"
 
 #: core/shared/classes/class.events.php:1141
 msgid "Direct Messages"
-msgstr "Mensagens diretas. "
+msgstr "Mensagens diretas"
 
 #: core/shared/classes/class.events.php:1141
 msgid "Direct Message"
-msgstr "Mensagem direta. "
+msgstr "Mensagem direta"
 
 #: core/shared/classes/class.events.php:1144
 msgid "Lead Added to Lists"
-msgstr "Lead adicionado a lista"
+msgstr "Lead adicionado às listas"
 
 #: core/shared/classes/class.events.php:1144
 msgid "Lead Added to List"
-msgstr "Lead adicionado a lista"
+msgstr "Lead adicionado à lista"
 
 #: core/shared/classes/class.events.php:1147
 msgid "SparkPost Deliveries"
@@ -9452,19 +9454,19 @@ msgstr "Recebimentos de SparkPost"
 
 #: core/shared/classes/class.events.php:1150
 msgid "Searches Made"
-msgstr ""
+msgstr "Pesquisas feitas"
 
 #: core/shared/classes/class.events.php:1150
 msgid "Search Made"
-msgstr ""
+msgstr "Pesquisa feita"
 
 #: core/shared/classes/class.events.php:1153
 msgid "Comments Made"
-msgstr ""
+msgstr "Comentários feitos"
 
 #: core/shared/classes/class.events.php:1153
 msgid "Comment Made"
-msgstr ""
+msgstr "Comentário feito"
 
 #: core/shared/classes/class.form.php:656
 #: core/shared/classes/class.form.php:657
@@ -9475,11 +9477,11 @@ msgstr "Opa! Parece que não preencheu todos os campos obrigatórios!"
 
 #: core/shared/classes/class.form.php:1112
 msgid "<b>Leads</b> from Inbound Now"
-msgstr "<b>Leva</b> a partir de agora de entrada"
+msgstr "<b>Leads</b> da Inbound Now"
 
 #: core/shared/classes/class.form.php:1153
 msgid "New Lead on {{form-name}}"
-msgstr "Novo Lead em {{formulário-nome}}"
+msgstr "Novo lead em {{form-name}}"
 
 #: core/shared/classes/class.form.php:1154
 msgid ""
@@ -9489,16 +9491,16 @@ msgstr "Há uma nova pista que acabou convertido em <strong>{{data-hora}}</stron
 
 #: core/shared/classes/class.form.php:1166
 msgid "Lead Information"
-msgstr "Levar informações"
+msgstr "Informações do lead"
 
 #: core/shared/classes/class.form.php:1173
 #: core/shared/classes/class.form.php:1218
 msgid "View Lead"
-msgstr "Visualizar Lead"
+msgstr "Ver o lead"
 
 #: core/shared/classes/class.form.php:1198
 msgid "View Lead Activity"
-msgstr "Exibir atividades Leads"
+msgstr "Ver as atividades do lead"
 
 #: core/shared/classes/class.form.php:1202
 msgid "Pages Viewed"
@@ -9510,11 +9512,11 @@ msgstr "Exibir dados de formulário"
 
 #: core/shared/classes/class.form.php:1221
 msgid "View the full Lead details in WordPress"
-msgstr "Vista detalhes completos de Leads em WordPress"
+msgstr "Ver todos os detalhes do lead no WordPress"
 
 #: core/shared/classes/class.form.php:1221
 msgid "View Full Lead Details"
-msgstr "Ver os detalhes completo de Leads"
+msgstr "Ver todos os detalhes do lead"
 
 #: core/shared/classes/class.form.php:1227
 msgid "Thanks for filling out our form."
@@ -9523,7 +9525,7 @@ msgstr "Obrigado por preencher nosso formulário."
 #: core/shared/classes/class.form.php:1229
 #: core/shared/classes/class.form.php:1232
 msgid "Reply to Lead Now"
-msgstr "Responder Lead agora"
+msgstr "Responder ao lead agora"
 
 #: core/shared/classes/class.form.php:1231
 msgid "Thanks for filling out our form on {{current-page-url}}"
@@ -9531,7 +9533,7 @@ msgstr "Obrigado por preencher nosso formulário na {{corrente--url da página}}
 
 #: core/shared/classes/class.form.php:1232
 msgid "Email This Lead now"
-msgstr "Enviar email para este Lead agora"
+msgstr "Enviar e-mail para este lead agora"
 
 #: core/shared/classes/class.form.php:1299
 msgid "Jan"
@@ -9887,7 +9889,7 @@ msgstr "CE"
 
 #: core/shared/classes/class.form.php:1405
 msgid "EG"
-msgstr "POR EXEMPLO"
+msgstr "EG"
 
 #: core/shared/classes/class.form.php:1406
 msgid "SV"
@@ -10071,7 +10073,7 @@ msgstr "IL"
 
 #: core/shared/classes/class.form.php:1448
 msgid "IT"
-msgstr "-"
+msgstr "IT"
 
 #: core/shared/classes/class.form.php:1449
 msgid "JM"
@@ -10699,7 +10701,7 @@ msgstr "Estados Unidos"
 
 #: core/shared/classes/class.form.php:1575
 msgid "UM"
-msgstr "..."
+msgstr "UM"
 
 #: core/shared/classes/class.form.php:1575
 msgid "United States Minor Outlying Islands"
@@ -10759,7 +10761,7 @@ msgstr "Ilhas Wallis e Futuna"
 
 #: core/shared/classes/class.form.php:1585
 msgid "EH"
-msgstr "NÃO É"
+msgstr "EH"
 
 #: core/shared/classes/class.form.php:1585
 msgid "Western Sahara"
@@ -10842,7 +10844,7 @@ msgstr "Chave da API inválido!"
 msgid ""
 "Invalid parameter provided. Expecting a %1$s for '%2$s' while a field type "
 "with %3$s was provided"
-msgstr "Parâmetro inválido. Esperando um %1$s para '%2$s' enquanto um %3$s foi fornecido."
+msgstr "Parâmetro inválido. Esperando um %1$s para '%2$s' mas foi fornecido um campo do tipo %3$s"
 
 #: core/shared/classes/class.inbound-api.php:306
 #, php-format
@@ -10860,7 +10862,7 @@ msgstr "Não há pistas foram encontradas dado esta consulta."
 
 #: core/shared/classes/class.inbound-api.php:939
 msgid "Lead already exists."
-msgstr "Lead já existe."
+msgstr "O lead já existe."
 
 #: core/shared/classes/class.inbound-api.php:1017
 #: core/shared/classes/class.inbound-api.php:1125
@@ -10869,12 +10871,12 @@ msgstr "Válido ID ou endereço de e-mail não está definida."
 
 #: core/shared/classes/class.inbound-api.php:1134
 msgid "Lead successfully deleted"
-msgstr "Lead excluído com sucesso"
+msgstr "O lead foi excluído"
 
 #: core/shared/classes/class.inbound-api.php:1214
 #: core/shared/classes/class.inbound-api.php:1256
 msgid "This endpoint requires that the 'id' be set."
-msgstr "Obrigatório o 'id'  para acessar este endpoint"
+msgstr "Esse endpoint requer que o 'id' seja definido."
 
 #: core/shared/classes/class.inbound-api.php:1321
 msgid ""
@@ -10884,7 +10886,7 @@ msgstr "Esse endpoint requer o parâmetro 'id' ou 'email' ou 'cta_id' ou o parâ
 
 #: core/shared/classes/class.inbound-api.php:1328
 msgid "This endpoint requires the 'url' parameter be set."
-msgstr " Este endpoint necessita do parâmetro 'url'."
+msgstr "Esse endpoint necessita que o parâmetro 'url' seja definido."
 
 #: core/shared/classes/class.inbound-api.php:1335
 msgid "This endpoint requires the 'tracking_id' parameter be set."
@@ -11029,7 +11031,7 @@ msgstr "Conta no Facebook"
 
 #: core/shared/classes/class.lead-fields.php:298
 msgid "Not set."
-msgstr "não configurado"
+msgstr "Não definido."
 
 #: core/shared/classes/class.lead-fields.php:318
 msgid "text"
@@ -11037,7 +11039,7 @@ msgstr "texto"
 
 #: core/shared/classes/class.lead-fields.php:319
 msgid "textarea"
-msgstr "TextArea"
+msgstr "área de texto"
 
 #: core/shared/classes/class.lead-fields.php:320
 msgid "radio"
@@ -11045,7 +11047,7 @@ msgstr "rádio"
 
 #: core/shared/classes/class.lead-fields.php:321
 msgid "checkbox"
-msgstr "Caixa de seleção. "
+msgstr "caixa de seleção"
 
 #: core/shared/classes/class.lead-fields.php:322
 msgid "dropdown"
@@ -11053,7 +11055,7 @@ msgstr "menu suspenso"
 
 #: core/shared/classes/class.lead-fields.php:323
 msgid "dropdown-country"
-msgstr "DropDown-país"
+msgstr "dropdown-country"
 
 #: core/shared/classes/class.lead-fields.php:324
 msgid "links"
@@ -11061,7 +11063,7 @@ msgstr "ligações"
 
 #: core/shared/classes/class.lead-fields.php:325
 msgid "wysiwyg"
-msgstr "WYSIWYG"
+msgstr "wysiwyg"
 
 #: core/shared/classes/class.lead-fields.php:326
 msgid "media"
@@ -11093,7 +11095,7 @@ msgstr "Feito por %sInbound Now%s"
 
 #: core/shared/classes/class.list-double-optin.php:245
 msgid "No Automation emails detected. "
-msgstr "Autmoção de emails não detectado"
+msgstr "Nenhuma automação de e-mails foi detectada. "
 
 #: core/shared/classes/class.list-double-optin.php:250
 msgid "Double Opt-in"
@@ -11146,31 +11148,31 @@ msgstr "Nota"
 msgid ""
 "When creating your own confirmation template you should use the shortcode "
 "below to render your confirmation link. "
-msgstr "Ao criar seu próprio modelo de confirmação, você deve usar o código abaixo para renderizar seu link de confirmação."
+msgstr "Ao criar seu próprio modelo de confirmação, você deve usar o código abaixo para renderizar seu link de confirmação. "
 
 #: core/shared/classes/class.marketing-button.php:145
 msgid "Insert Existing Form"
-msgstr ""
+msgstr "Inserir o formulário existente"
 
 #: core/shared/classes/class.marketing-button.php:149
 msgid "Build a Button"
-msgstr ""
+msgstr "Constra um botão"
 
 #: core/shared/classes/class.marketing-button.php:153
 msgid "Call to Action Shortcodes"
-msgstr ""
+msgstr "Shortcodes de Call to Action"
 
 #: core/shared/classes/class.marketing-button.php:157
 msgid "Social Share"
-msgstr ""
+msgstr "Compartilhamento social"
 
 #: core/shared/classes/class.marketing-button.php:161
 msgid "Insert Icon List"
-msgstr ""
+msgstr "Inserir lista de ícones"
 
 #: core/shared/classes/class.marketing-button.php:165
 msgid "Insert Columns"
-msgstr ""
+msgstr "Inserir colunas"
 
 #: core/shared/classes/class.master-license.php:34
 msgid ""
@@ -11198,11 +11200,11 @@ msgstr " De marketing"
 
 #: core/shared/classes/class.menus.adminbar.php:169
 msgid "Search All Leads"
-msgstr "Procure todos os Leads"
+msgstr "Pesquisar todos os leads"
 
 #: core/shared/classes/class.menus.adminbar.php:184
 msgid "View All Leads"
-msgstr "Visualizar todos os Leads"
+msgstr "Ver todos os leads"
 
 #: core/shared/classes/class.menus.adminbar.php:186
 #: core/shared/classes/class.menus.adminbar.php:421
@@ -11213,15 +11215,15 @@ msgstr "Visualizar todos os formulários"
 #: core/shared/classes/class.menus.adminbar.php:192
 #: core/shared/classes/class.menus.adminbar.php:194
 msgid "View Lead Lists"
-msgstr "Ver lista de Leads"
+msgstr "Ver as listas de leads"
 
 #: core/shared/classes/class.menus.adminbar.php:200
 msgid "Create New Lead"
-msgstr "Criar novo Lead"
+msgstr "Criar novo lead"
 
 #: core/shared/classes/class.menus.adminbar.php:202
 msgid "Add new lead"
-msgstr "Adicionar novo Lead"
+msgstr "Adicionar novo lead"
 
 #: core/shared/classes/class.menus.adminbar.php:225
 msgid "Call to Actions"
@@ -11313,7 +11315,7 @@ msgstr "Modelos Call to Action"
 #: core/shared/classes/class.menus.adminbar.php:509
 #: core/shared/classes/class.menus.adminbar.php:511
 msgid "Inbound Pro Settings"
-msgstr "Configurações de Inbound pro"
+msgstr "Configurações do Inbound pro"
 
 #: core/shared/classes/class.menus.adminbar.php:525
 #: core/shared/classes/class.menus.adminbar.php:527
@@ -11323,7 +11325,7 @@ msgstr "Call to Action configurações"
 #: core/shared/classes/class.menus.adminbar.php:543
 #: core/shared/classes/class.menus.adminbar.php:545
 msgid "Lead Settings"
-msgstr "Configurações de Lead"
+msgstr "Configurações do lead"
 
 #: core/shared/classes/class.menus.adminbar.php:558
 #: core/shared/classes/class.menus.adminbar.php:560
@@ -11395,7 +11397,7 @@ msgstr "Forçar aplicar todas as rotinas de banco de dados compartilhado."
 
 #: core/shared/classes/class.menus.adminbar.php:715
 msgid "Click here to re-run all database upgrade routines. "
-msgstr "Clique aqui para voltar a executar todas as rotinas de atualização de banco de dados."
+msgstr "Clique aqui para executar novamente todas as rotinas de atualização de banco de dados. "
 
 #: core/shared/classes/class.notifications.php:57
 msgid "UPGRADE TO PRO (FREE)"
@@ -11451,7 +11453,7 @@ msgid ""
 "WordPress plugin's directory as well as included in our free Inbound Pro "
 "plugin. We recommend Inbound Pro because it provides better settings "
 "management and additional free features. "
-msgstr "Você está coletando dados, por que não analisá-los? Nosso plugin ajuda você a gerenciar os dados que você coletar com estas formas. Leva plugin está disponível através do diretório do plugin WordPress, bem como incluídos em nosso plugin de entrada Pro grátis. Recomendamos de entrada Pro porque ele fornece uma melhor gestão de configurações e recursos adicionais. "
+msgstr "Você está coletando dados, por que não analisá-los? Nosso plugin leads ajuda você a gerenciar os dados que você coletar com estes formulários. O plugin leads está disponível no diretório de plugins do WordPress, bem como incluído em nosso plugin Inbound Pro grátis. Recomendamos o Inbound Pro porque ele fornece uma melhor gestão de configurações e recursos adicionais. "
 
 #: core/shared/classes/class.notifications.php:180
 msgid "Both are free, and we invite you to try them!"
@@ -11459,11 +11461,11 @@ msgstr "Ambos são livres, e nós convidamos você a experimentá-los!"
 
 #: core/shared/classes/class.notifications.php:183
 msgid "Download Leads Plugin"
-msgstr "Baixar o Plugin de leads"
+msgstr "Baixar o plugin leads"
 
 #: core/shared/classes/class.notifications.php:184
 msgid "Download Inbound Pro (recommended)"
-msgstr "Baixar de inbound Pro (recomendado)"
+msgstr "Baixar o Inbound Pro (recomendado)"
 
 #: core/shared/classes/class.post-type.wp-lead.php:51
 msgid "Add New Lead"
@@ -11471,15 +11473,15 @@ msgstr "Adicionar novo lead"
 
 #: core/shared/classes/class.post-type.wp-lead.php:52
 msgid "Edit Lead"
-msgstr "Editar o lead"
+msgstr "Editar lead"
 
 #: core/shared/classes/class.post-type.wp-lead.php:53
 msgid "New Leads"
-msgstr "Novas leads"
+msgstr "Novos leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:54
 msgid "View Leads"
-msgstr "Visualizar Leads"
+msgstr "Ver os leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:123
 msgid "Lists"
@@ -11487,39 +11489,39 @@ msgstr "Listas"
 
 #: core/shared/classes/class.post-type.wp-lead.php:125
 msgid "Search Lead Lists"
-msgstr "Listas de pesquisa de leads"
+msgstr "Pesquisar Listas de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:126
 msgid "Popular Lead Lists"
-msgstr "Listas de leads mais populares"
+msgstr "Listas de leads populares"
 
 #: core/shared/classes/class.post-type.wp-lead.php:127
 msgid "All Lead Lists"
-msgstr "Listar todos o leads"
+msgstr "Todas as listas de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:130
 msgid "Edit Lead List"
-msgstr "Editar lista de lead"
+msgstr "Editar lista de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:131
 msgid "Update Lead List"
-msgstr "Atualizar lista de lead"
+msgstr "Atualizar a lista de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:132
 msgid "Add New Lead List"
-msgstr "Adicionar nova lista de lead"
+msgstr "Adicionar nova lista de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:133
 msgid "New Lead List"
-msgstr "Nova lista de lead"
+msgstr "Nova lista de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:134
 msgid "Separate Lead Lists with commas"
-msgstr "Separe a lista de leads com vírgulas"
+msgstr "Separe as lista de leads com vírgulas"
 
 #: core/shared/classes/class.post-type.wp-lead.php:135
 msgid "Add or remove Lead Lists"
-msgstr "Adicionar ou remover listas de lead"
+msgstr "Adicionar ou remover listas de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:136
 msgid "Choose from the most used lead List"
@@ -11527,7 +11529,7 @@ msgstr "Escolha entre os leads mais usados"
 
 #: core/shared/classes/class.post-type.wp-lead.php:137
 msgid "No Lead Lists found."
-msgstr "Nenhuma lista de leads encontrados."
+msgstr "Nenhuma lista de leads foi encontrada."
 
 #: core/shared/classes/class.post-type.wp-lead.php:144
 msgid "List Management"
@@ -11535,31 +11537,31 @@ msgstr "Gerenciamento de listas"
 
 #: core/shared/classes/class.post-type.wp-lead.php:158
 msgid "Lead Tag"
-msgstr "Lead Tag"
+msgstr "Tag de lead"
 
 #: core/shared/classes/class.post-type.wp-lead.php:159
 msgid "Search Lead Tags"
-msgstr "Pesquisar Tags lead"
+msgstr "Pesquisar Tags de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:160
 msgid "Popular Lead Tags"
-msgstr "Tags populares de lead"
+msgstr "Tags de leads populares"
 
 #: core/shared/classes/class.post-type.wp-lead.php:161
 msgid "All Lead Tags"
-msgstr "Todas tags lead"
+msgstr "Todas as tags de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:164
 msgid "Edit Lead Tag"
-msgstr "Editar a Tag lead"
+msgstr "Editar tag de lead"
 
 #: core/shared/classes/class.post-type.wp-lead.php:165
 msgid "Update Lead Tag"
-msgstr "Tag de lead de atualização"
+msgstr "Atualizar a tag de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:166
 msgid "Add New Lead Tag"
-msgstr "Adicionar nova Tag lead"
+msgstr "Adicionar nova tag de leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:167
 msgid "New Lead Tag"
@@ -11567,7 +11569,7 @@ msgstr "Nova tag de lead"
 
 #: core/shared/classes/class.post-type.wp-lead.php:168
 msgid "Separate Lead Tags with commas"
-msgstr "Separe Tags de lead com vígula"
+msgstr "Separe as tags de lead com vírgulas"
 
 #: core/shared/classes/class.post-type.wp-lead.php:169
 msgid "Add or remove Lead Tags"
@@ -11633,7 +11635,7 @@ msgstr "Arquivo"
 msgid ""
 "WordPress Leads is not currently installed/activated to view and manage "
 "leads please turn it on."
-msgstr "Não leva o WordPress é atualmente instalado/ativado para exibir e gerenciar contatos por favor ativá-lo."
+msgstr "O plugin leads para WordPress não está atualmente instalado/ativado para exibir e gerenciar seus leads, ative-o."
 
 #: core/shared/classes/class.post-type.wp-lead.php:658
 #, php-format
@@ -11687,14 +11689,14 @@ msgstr "Nenhuma conversão ainda!"
 
 #: core/shared/shortcodes/inbound-shortcodes.php:622
 msgid "Inbound Pro Users"
-msgstr "Usuários Inbound Pro"
+msgstr "Usuários do Inbound Pro"
 
 #: core/shared/shortcodes/inbound-shortcodes.php:625
 #, php-format
 msgid ""
 "To learn how to create a follow up email series, please refer to %s this "
 "document %s. "
-msgstr "Para saber como criar uma série de e-mails de acompanhamento, consulte %s este documento %s."
+msgstr "Para saber como criar uma série de e-mails de acompanhamento, consulte %s este documento %s. "
 
 #: core/shared/shortcodes/inbound-shortcodes.php:632
 msgid "Set Email Response to Send to the person filling out the form"
@@ -11866,7 +11868,7 @@ msgstr "Escolha o Layout de seu formulário"
 
 #: core/shared/shortcodes/shortcodes/call-to-action.php:30
 msgid "Insert Call to Action"
-msgstr ""
+msgstr "Inserir Call to Action"
 
 #: core/shared/shortcodes/shortcodes/callout.php:13
 #: core/shared/shortcodes/shortcodes/callout.php:75
@@ -12120,7 +12122,7 @@ msgstr "Linha de assunto do E-mail admin <span class=\"small-required-text\"> *<
 msgid ""
 "Customize the subject line of email notifications arriving from this form. "
 "default: {{site-name}} {{form-name}} - New Lead Conversion"
-msgstr "Personalize a linha de assunto das notificações de e-mail provenientes desta forma. padrão: {{-nome do site}} {{formulário-nome}} - nova conversão de lead"
+msgstr "Personalize a linha de assunto das notificações de e-mail provenientes deste formulário. padrão: {{site-name}} {{form-name}} - Nova conversão de lead"
 
 #: core/shared/shortcodes/shortcodes/forms.php:86
 msgid "Add to List(s)"
@@ -12140,7 +12142,7 @@ msgstr "Oculta a lista de valores"
 
 #: core/shared/shortcodes/shortcodes/forms.php:100
 msgid "Add Tags to Lead"
-msgstr "Adicionar Tags ao Lead"
+msgstr "Adicionar tags ao lead"
 
 #: core/shared/shortcodes/shortcodes/forms.php:101
 msgid "Tag the lead with these tags"
@@ -12152,7 +12154,7 @@ msgstr "Ocultar Tag"
 
 #: core/shared/shortcodes/shortcodes/forms.php:108
 msgid "Hidden Tag values"
-msgstr "Ocultar Tag "
+msgstr "Ocultar valores de tag"
 
 #: core/shared/shortcodes/shortcodes/forms.php:113
 #: core/shared/shortcodes/shortcodes/forms.php:120
@@ -12225,11 +12227,11 @@ msgstr "Entra em pixels de largura ou largura %. Exemplo: 400 <u>ou</u> 100%"
 
 #: core/shared/shortcodes/shortcodes/forms.php:205
 msgid "Custom Class Names"
-msgstr ""
+msgstr "Nomes de classe personalizadas"
 
 #: core/shared/shortcodes/shortcodes/forms.php:206
 msgid "Add custom classes here "
-msgstr ""
+msgstr "Adicione aqui as classes de CSS personalizadas "
 
 #: core/shared/shortcodes/shortcodes/forms.php:219
 msgid "Enter the Form Field Label. Example: First Name"
@@ -12294,7 +12296,7 @@ msgstr "Mapeamento"
 
 #: core/shared/shortcodes/shortcodes/forms.php:254
 msgid "This is required."
-msgstr "Requerido"
+msgstr "Isto é necessário."
 
 #: core/shared/shortcodes/shortcodes/forms.php:261
 msgid "Dropdown choices"
@@ -12414,7 +12416,7 @@ msgstr "Campo contêiner Classes <span class=\"small-optional-text\"> (opcional)
 msgid ""
 "Add additional class ids to the div that contains this field. Separate "
 "classes with spaces."
-msgstr "Adicione ids de classe adicional para o div que contém neste campo. Classes separadas com espaços."
+msgstr "Adicione ids de classe adicional para o div que contém neste campo. Separe as classes com espaços."
 
 #: core/shared/shortcodes/shortcodes/forms.php:359
 msgid "Field Input Classes <span class=\"small-optional-text\">(optional)</span>"
@@ -12423,7 +12425,7 @@ msgstr "Campo entrada Classes <span class=\"small-optional-text\"> (opcional)</s
 #: core/shared/shortcodes/shortcodes/forms.php:360
 msgid ""
 "Add additional class ids to this input field. Separate classes with spaces."
-msgstr "Adicione ids de classe adicional para este campo de entrada. Classes separadas com espaços."
+msgstr "Adicione ids de classe adicionais para este campo de formulário. Separe as classes com espaços."
 
 #: core/shared/shortcodes/shortcodes/forms.php:367
 msgid ""
@@ -12436,7 +12438,7 @@ msgstr "Digite sua URL dinâmico parâmetro"
 
 #: core/shared/shortcodes/shortcodes/forms.php:377
 msgid "Add Another Field"
-msgstr "Adicionar Outro Campo"
+msgstr "Adicionar outro campo"
 
 #: core/shared/shortcodes/shortcodes/forms.php:393
 msgid "Edit Form"
@@ -12704,7 +12706,7 @@ msgstr "Indo para"
 
 #: core/shared/shortcodes/shortcodes/landing-page-list.php:117
 msgid "View Project"
-msgstr "Visualizar projeto"
+msgstr "Ver o projeto"
 
 #: core/shared/shortcodes/shortcodes/landing_pages.php:22
 #: core/shared/shortcodes/shortcodes/landing_pages.php:80
@@ -12733,7 +12735,7 @@ msgstr "Digite o número de postagem para mostrar. (digite -1 para todos os post
 #: core/shared/shortcodes/shortcodes/landing_pages.php:38
 #: core/shared/shortcodes/shortcodes/landing_pages.php:100
 msgid "Optional you can sort by a category."
-msgstr "Opcional que você pode classificar por uma categoria."
+msgstr "Opcionalmente você pode ordenar pela categoria."
 
 #: core/shared/shortcodes/shortcodes/landing_pages.php:44
 #: core/shared/shortcodes/shortcodes/landing_pages.php:108
@@ -12747,15 +12749,15 @@ msgstr "O comprimento de palavra de trecho do post."
 
 #: core/shared/shortcodes/shortcodes/landing_pages.php:50
 msgid "Show Featured Thumbnails"
-msgstr "Mostrar miniaturas Indicados:"
+msgstr "Mostrar miniaturas destacadas"
 
 #: core/shared/shortcodes/shortcodes/landing_pages.php:51
 msgid "Uncheck to hide featured thumbnails"
-msgstr "Desmarque a opção para ocultar miniaturas Indicados:"
+msgstr "Desmarque a opção para ocultar as miniaturas destacadas"
 
 #: core/shared/shortcodes/shortcodes/landing_pages.php:58
 msgid "Insert Landing Page List Shortcode"
-msgstr "Inserir o Shortcode lista página de aterragem"
+msgstr "Inserir shortcode de lista da Landing Page"
 
 #: core/shared/shortcodes/shortcodes/landing_pages.php:64
 msgid "Entries"
@@ -12779,7 +12781,7 @@ msgstr "Adicionar parágrafo"
 
 #: core/shared/shortcodes/shortcodes/leadp.php:30
 msgid "Insert Lead Paragraph Shortcode"
-msgstr "Inserir ao lead Shortcode parágrafo"
+msgstr "Inserir shortcode de parágrafo do lead"
 
 #: core/shared/shortcodes/shortcodes/list-icon.php:21
 msgid "List Content"
@@ -13060,7 +13062,7 @@ msgstr "Texto de compartilhamento personalizada"
 
 #: core/shared/shortcodes/shortcodes/social-share.php:69
 msgid "Optional setting. Enter your custom share text"
-msgstr "Configuração opcional. Digite seu texto personalizado"
+msgstr "Configuração opcional. Digite seu texto de compartilhamento personalizado"
 
 #: core/shared/shortcodes/shortcodes/social-share.php:75
 msgid "Custom Share URL"
