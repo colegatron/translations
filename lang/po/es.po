@@ -5,13 +5,14 @@
 # Translators:
 # Andres Felipe Nunez Londono <felipe@unobjetivo.com>, 2016
 # Hudson Atwell <atwell.publishing@gmail.com>, 2016
+# Jose Luis Álvarez Forque <lacasin92@gmail.com>, 2018
 # Sara Mendonça <ondigitalmediaoficial@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2017-09-20 15:46-0500\n"
-"PO-Revision-Date: 2017-09-22 21:19+0000\n"
-"Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
+"PO-Revision-Date: 2018-02-22 00:02+0000\n"
+"Last-Translator: Jose Luis Álvarez Forque <lacasin92@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/inboundnow/inbound-pro/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -149,7 +150,7 @@ msgstr "Ver la configuración"
 
 #: classes/admin/class.download-management.php:727
 msgid "Only available to subscribers."
-msgstr ""
+msgstr "Disponible sólo para suscriptores."
 
 #: classes/admin/class.download-management.php:844
 #: core/cta/classes/class.templates.manage.php:104
@@ -180,7 +181,7 @@ msgstr ""
 #: core/mailer/classes/class.metaboxes.inbound-email.php:910
 #: core/mailer/classes/class.post-type.inbound-email.php:561
 msgid "days"
-msgstr ""
+msgstr "días"
 
 #: classes/admin/class.inbound-analytics.php:262
 #: classes/admin/report-templates/report.impressions.php:69
@@ -225,7 +226,7 @@ msgstr ""
 
 #: classes/admin/class.menus.adminmenu.php:36
 msgid "Inbound Pro"
-msgstr ""
+msgstr "Inbound Pro"
 
 #: classes/admin/class.menus.adminmenu.php:50
 #: core/cta/classes/class.menus.php:32 core/cta/classes/class.menus.php:35
@@ -274,7 +275,7 @@ msgstr "Extensiones disponibles Extensions::Refresh"
 
 #: classes/admin/class.menus.adminmenu.php:92
 msgid "Turn Inbound Pro Off For This Page"
-msgstr ""
+msgstr "Desactiva Inbound Pro para esto"
 
 #: classes/admin/class.menus.adminmenu.php:94
 msgid "Tell WordPress not to load Inbound Pro on this page."
@@ -282,7 +283,7 @@ msgstr ""
 
 #: classes/admin/class.notifications.php:79
 msgid "Inbound Pro has been installed!"
-msgstr ""
+msgstr "¡Inbound Pro se ha instalado!"
 
 #: classes/admin/class.notifications.php:80
 msgid ""
@@ -296,7 +297,7 @@ msgstr ""
 
 #: classes/admin/class.notifications.php:82
 msgid "Do This Later"
-msgstr ""
+msgstr "Hacer esto más tarde"
 
 #: classes/admin/class.reporting.funnels.php:67
 #: classes/admin/class.reporting.funnels.php:68

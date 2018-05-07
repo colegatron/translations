@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2017-09-20 15:46-0500\n"
-"PO-Revision-Date: 2018-02-03 21:00+0000\n"
+"PO-Revision-Date: 2018-02-09 07:26+0000\n"
 "Last-Translator: Dionizio Bonfim Bach <translations@djio.com.br>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/inboundnow/inbound-pro/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: classes/admin/class.activate.php:139
 msgid "Inbound Marketer"
-msgstr "Inbound Marketer"
+msgstr "Analista de Inbound Marketing"
 
 #: classes/admin/class.download-management.php:115
 #: classes/admin/class.download-management.php:166
@@ -2324,7 +2324,7 @@ msgstr "Digite o endereço de E-mail"
 
 #: core/automation/definitions/action.send_email.php:59
 msgid "Input email address here."
-msgstr "informe o endereço de e-mail aqui."
+msgstr "Informe o endereço de e-mail aqui."
 
 #: core/automation/definitions/action.send_email.php:69
 msgid "Select Lead List"
@@ -3475,7 +3475,7 @@ msgstr "Plugin ativado com sucesso."
 
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:368
 msgid "The following plugin was activated successfully:"
-msgstr "O seguinte plugin foi ativado com sucesso:"
+msgstr "O seguinte plugin foi ativado:"
 
 #: core/landing-pages/assets/libraries/class-tgm-plugin-activation.php:369
 #, php-format
@@ -9338,7 +9338,7 @@ msgstr "Âncora do link de cancelamento"
 #: core/mailer/templates/simple-basic/config.php:310
 #: core/mailer/templates/simple-responsive/config.php:72
 msgid "Enter the text of the unsubscribe link."
-msgstr "Insira o texto do link de cancelamento"
+msgstr "Insira o texto do link de cancelamento."
 
 #: core/mailer/templates/simple-basic/config.php:328
 msgid "Terms Page URL"
@@ -9589,7 +9589,7 @@ msgstr "AF"
 
 #: core/shared/classes/class.form.php:1341
 msgid "AX"
-msgstr "MACHADO"
+msgstr "AX"
 
 #: core/shared/classes/class.form.php:1341
 msgid "Aland Islands"
@@ -9605,7 +9605,7 @@ msgstr "DZ"
 
 #: core/shared/classes/class.form.php:1344
 msgid "AS"
-msgstr "COMO"
+msgstr "AS"
 
 #: core/shared/classes/class.form.php:1345
 msgid "AD"
@@ -9677,11 +9677,11 @@ msgstr "BB"
 
 #: core/shared/classes/class.form.php:1360
 msgid "BY"
-msgstr "POR"
+msgstr "BY"
 
 #: core/shared/classes/class.form.php:1361
 msgid "BE"
-msgstr "SER"
+msgstr "BE"
 
 #: core/shared/classes/class.form.php:1362
 msgid "BZ"
@@ -9881,11 +9881,11 @@ msgstr "DM"
 
 #: core/shared/classes/class.form.php:1403
 msgid "DO"
-msgstr "FAZER"
+msgstr "DO"
 
 #: core/shared/classes/class.form.php:1404
 msgid "EC"
-msgstr "CE"
+msgstr "EC"
 
 #: core/shared/classes/class.form.php:1405
 msgid "EG"
@@ -9901,7 +9901,7 @@ msgstr "GQ"
 
 #: core/shared/classes/class.form.php:1408
 msgid "ER"
-msgstr "PRONTO-SOCORRO"
+msgstr "ER"
 
 #: core/shared/classes/class.form.php:1409
 msgid "EE"
@@ -10045,15 +10045,15 @@ msgstr "HU"
 
 #: core/shared/classes/class.form.php:1440
 msgid "IS"
-msgstr "É"
+msgstr "IS"
 
 #: core/shared/classes/class.form.php:1441
 msgid "IN"
-msgstr "EM"
+msgstr "IN"
 
 #: core/shared/classes/class.form.php:1443
 msgid "IR"
-msgstr "IV"
+msgstr "IR"
 
 #: core/shared/classes/class.form.php:1444
 msgid "IQ"
@@ -10121,7 +10121,7 @@ msgstr "LA"
 
 #: core/shared/classes/class.form.php:1458
 msgid "Lao People's Democratic Republic"
-msgstr "República Democrática Popular Lao do"
+msgstr "República Popular Democrática do Laos"
 
 #: core/shared/classes/class.form.php:1459
 msgid "LV"
@@ -10173,7 +10173,7 @@ msgstr "MW"
 
 #: core/shared/classes/class.form.php:1471
 msgid "MY"
-msgstr "MEU"
+msgstr "MY"
 
 #: core/shared/classes/class.form.php:1472
 msgid "MV"
@@ -10197,7 +10197,7 @@ msgstr "MQ"
 
 #: core/shared/classes/class.form.php:1477
 msgid "MR"
-msgstr "SENHOR DEPUTADO"
+msgstr "MR"
 
 #: core/shared/classes/class.form.php:1478
 msgid "MU"
@@ -10257,7 +10257,7 @@ msgstr "MM"
 
 #: core/shared/classes/class.form.php:1490
 msgid "NA"
-msgstr "AT"
+msgstr "NA"
 
 #: core/shared/classes/class.form.php:1490
 msgid "Namibia"
@@ -10317,7 +10317,7 @@ msgstr "Ilhas Marianas do Norte"
 
 #: core/shared/classes/class.form.php:1502
 msgid "NO"
-msgstr "N"
+msgstr "NO"
 
 #: core/shared/classes/class.form.php:1503
 msgid "OM"
@@ -10341,7 +10341,7 @@ msgstr "PS"
 
 #: core/shared/classes/class.form.php:1506
 msgid "Palestinian Territory, Occupied"
-msgstr "Palestinian Territory, Occupied"
+msgstr "Teritório Palestino, Ocupado"
 
 #: core/shared/classes/class.form.php:1507
 msgid "PA"
@@ -10417,7 +10417,7 @@ msgstr "São Bartolomeu"
 
 #: core/shared/classes/class.form.php:1522
 msgid "SH"
-msgstr "SOARES"
+msgstr "SH"
 
 #: core/shared/classes/class.form.php:1522
 msgid "Saint Helena"
@@ -10525,7 +10525,7 @@ msgstr "SB"
 
 #: core/shared/classes/class.form.php:1540
 msgid "SO"
-msgstr "ENTÃO"
+msgstr "SO"
 
 #: core/shared/classes/class.form.php:1541
 msgid "ZA"
@@ -10641,7 +10641,7 @@ msgstr "TK"
 
 #: core/shared/classes/class.form.php:1563
 msgid "TO"
-msgstr "Para"
+msgstr "TO"
 
 #: core/shared/classes/class.form.php:1564
 msgid "TT"
@@ -10693,7 +10693,7 @@ msgstr "GB"
 
 #: core/shared/classes/class.form.php:1574
 msgid "US"
-msgstr "NOS"
+msgstr "US"
 
 #: core/shared/classes/class.form.php:1574
 msgid "United States"
@@ -10705,7 +10705,7 @@ msgstr "UM"
 
 #: core/shared/classes/class.form.php:1575
 msgid "United States Minor Outlying Islands"
-msgstr "Estados Unidos ilhas menores distantes"
+msgstr "Ilhas menores distantes dos Estados Unidos"
 
 #: core/shared/classes/class.form.php:1576
 msgid "UY"
@@ -10725,7 +10725,7 @@ msgstr "VA"
 
 #: core/shared/classes/class.form.php:1579
 msgid "Vatican"
-msgstr "VATICANO"
+msgstr "Vaticano"
 
 #: core/shared/classes/class.form.php:1580
 msgid "VE"
@@ -10769,7 +10769,7 @@ msgstr "Saara Ocidental"
 
 #: core/shared/classes/class.form.php:1586
 msgid "YE"
-msgstr "VÓS"
+msgstr "YE"
 
 #: core/shared/classes/class.form.php:1587
 msgid "ZM"
@@ -10939,75 +10939,75 @@ msgstr "País"
 
 #: core/shared/classes/class.lead-fields.php:118
 msgid "Billing First Name"
-msgstr "Primeiro nome de faturamento"
+msgstr "Cobrança: Nome"
 
 #: core/shared/classes/class.lead-fields.php:125
 msgid "Billing Last Name"
-msgstr "Sobrenome de faturamento"
+msgstr "Cobrança: Sobrenome"
 
 #: core/shared/classes/class.lead-fields.php:132
 msgid "Billing Company"
-msgstr "Faturamento empresa"
+msgstr "Cobrança: Empresa"
 
 #: core/shared/classes/class.lead-fields.php:139
 msgid "Billing Address"
-msgstr "Endereço de facturação"
+msgstr "Cobrança: Endereço"
 
 #: core/shared/classes/class.lead-fields.php:146
 msgid "Billing Address Continued"
-msgstr "Endereço de facturação continuado"
+msgstr "Cobrança: Endereço (cont.)"
 
 #: core/shared/classes/class.lead-fields.php:153
 msgid "Billing City"
-msgstr "Cidade de faturamento"
+msgstr "Cobrança: Cidade"
 
 #: core/shared/classes/class.lead-fields.php:160
 msgid "Billing State/Region"
-msgstr "Faturamento estado/região"
+msgstr "Cobrança: UF"
 
 #: core/shared/classes/class.lead-fields.php:167
 msgid "Billing Zip-code"
-msgstr "Faturamento-CEP"
+msgstr "Cobrança: CEP"
 
 #: core/shared/classes/class.lead-fields.php:175
 msgid "Billing Country"
-msgstr "País de facturação"
+msgstr "Cobrança: País"
 
 #: core/shared/classes/class.lead-fields.php:182
 msgid "Shipping First Name"
-msgstr "Primeiro nome do transporte"
+msgstr "Entrega: Nome"
 
 #: core/shared/classes/class.lead-fields.php:189
 msgid "Shipping Last Name"
-msgstr "Último nome do transporte"
+msgstr "Entrega: Sobrenome"
 
 #: core/shared/classes/class.lead-fields.php:196
 msgid "Shipping Company Name"
-msgstr "Nome da empresa de transporte"
+msgstr "Entrega: Empresa"
 
 #: core/shared/classes/class.lead-fields.php:203
 msgid "Shipping Address"
-msgstr "Endereço de entrega"
+msgstr "Entrega: Endereço"
 
 #: core/shared/classes/class.lead-fields.php:210
 msgid "Shipping Address Continued"
-msgstr "Endereço de envio continuou"
+msgstr "Entrega: Endereço (cont.)"
 
 #: core/shared/classes/class.lead-fields.php:217
 msgid "Shipping City"
-msgstr "Cidade de transporte"
+msgstr "Entrega: Cidade"
 
 #: core/shared/classes/class.lead-fields.php:224
 msgid "Shipping State/Region"
-msgstr "Frete estado/região"
+msgstr "Entrega: UF"
 
 #: core/shared/classes/class.lead-fields.php:231
 msgid "Shipping Zip-code"
-msgstr "CEP de envio"
+msgstr "Entrega: CEP"
 
 #: core/shared/classes/class.lead-fields.php:238
 msgid "Shipping Country"
-msgstr "País de envio"
+msgstr "Entrega: País"
 
 #: core/shared/classes/class.lead-fields.php:245
 msgid "Related Websites"
