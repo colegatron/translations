@@ -4,12 +4,13 @@
 # Translators:
 # Translators:
 # Hudson Atwell <atwell.publishing@gmail.com>, 2016
+# Jens Brennholt, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2017-09-20 15:46-0500\n"
-"PO-Revision-Date: 2017-09-22 21:19+0000\n"
-"Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
+"PO-Revision-Date: 2018-06-06 16:00+0000\n"
+"Last-Translator: Jens Brennholt\n"
 "Language-Team: German (Germany) (http://www.transifex.com/inboundnow/inbound-pro/language/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,7 +78,7 @@ msgstr "Aufruf zum Handeln"
 #: core/leads/classes/class.dashboard.php:1
 #: core/shared/classes/class.menus.adminbar.php:163
 msgid "Leads"
-msgstr "Führt"
+msgstr "Leads"
 
 #: classes/admin/class.download-management.php:557
 #: core/automation/classes/class.post-type.automation.php:56
@@ -178,7 +179,7 @@ msgstr ""
 #: core/mailer/classes/class.metaboxes.inbound-email.php:910
 #: core/mailer/classes/class.post-type.inbound-email.php:561
 msgid "days"
-msgstr ""
+msgstr "Tage"
 
 #: classes/admin/class.inbound-analytics.php:262
 #: classes/admin/report-templates/report.impressions.php:69
@@ -198,7 +199,7 @@ msgstr "Impressionen"
 #: classes/admin/report-templates/report.visitors.php:81
 #: classes/admin/report-templates/report.visitors.php:268
 msgid "Visitors"
-msgstr ""
+msgstr "Besucher"
 
 #: classes/admin/class.inbound-analytics.php:264
 #: classes/admin/report-templates/report.event.php:58
@@ -219,11 +220,11 @@ msgstr "Aktionen"
 #: core/leads/classes/class.post-type.wp-lead.php:175
 #, php-format
 msgid "past %s days"
-msgstr ""
+msgstr "vergangene %s Tage"
 
 #: classes/admin/class.menus.adminmenu.php:36
 msgid "Inbound Pro"
-msgstr ""
+msgstr "Inbound Pro"
 
 #: classes/admin/class.menus.adminmenu.php:50
 #: core/cta/classes/class.menus.php:32 core/cta/classes/class.menus.php:35
@@ -272,15 +273,15 @@ msgstr "Extensions::Refresh verfügbaren Erweiterungen"
 
 #: classes/admin/class.menus.adminmenu.php:92
 msgid "Turn Inbound Pro Off For This Page"
-msgstr ""
+msgstr "Inbound Pro für diese Seite ausschalten"
 
 #: classes/admin/class.menus.adminmenu.php:94
 msgid "Tell WordPress not to load Inbound Pro on this page."
-msgstr ""
+msgstr "WordPress mitteilen, Inbound Pro für diese Seite nicht zu laden."
 
 #: classes/admin/class.notifications.php:79
 msgid "Inbound Pro has been installed!"
-msgstr ""
+msgstr "Inbound Pro wurde installiert!"
 
 #: classes/admin/class.notifications.php:80
 msgid ""
@@ -290,11 +291,11 @@ msgstr ""
 
 #: classes/admin/class.notifications.php:81
 msgid "Setup API Key"
-msgstr ""
+msgstr "API-Schlüssel einrichten"
 
 #: classes/admin/class.notifications.php:82
 msgid "Do This Later"
-msgstr ""
+msgstr "Später erledigen"
 
 #: classes/admin/class.reporting.funnels.php:67
 #: classes/admin/class.reporting.funnels.php:68
@@ -403,7 +404,7 @@ msgstr "Quellen"
 
 #: classes/admin/class.reporting.funnels.php:455
 msgid "Datetime"
-msgstr "DateTime"
+msgstr "DatumZeit"
 
 #: classes/admin/class.reporting.funnels.php:458
 #: classes/admin/class.reporting.templates.php:130
@@ -428,19 +429,19 @@ msgstr "Quelle"
 #: core/automation/definitions/action.send_email.php:51
 #: core/leads/classes/class.post-type.wp-lead.php:89
 msgid "Lead"
-msgstr "Führen"
+msgstr "Lead"
 
 #: classes/admin/class.reporting.templates.php:109
 msgid "Page Id"
-msgstr ""
+msgstr "Seiten ID"
 
 #: classes/admin/class.reporting.templates.php:116
 msgid "Lead Id"
-msgstr ""
+msgstr "Lead-ID"
 
 #: classes/admin/class.reporting.templates.php:123
 msgid "Lead UID"
-msgstr ""
+msgstr "Lead-UID"
 
 #: classes/admin/class.reporting.templates.php:137
 #: classes/admin/report-templates/report.event.php:242
@@ -822,7 +823,7 @@ msgstr "Neues Feld erstellen"
 
 #: classes/admin/class.settings.php:1204
 msgid "Manage Lead Statuses:"
-msgstr "Verwalten Sie Lead-Status:"
+msgstr "Lead-Status verwalten:"
 
 #: classes/admin/class.settings.php:1211
 msgid "Label"
@@ -1120,7 +1121,7 @@ msgstr ""
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:199
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:305
 msgid "Lead Name"
-msgstr ""
+msgstr "Lead-Name"
 
 #: classes/admin/report-templates/report.email-stats.php:249
 #: classes/admin/report-templates/report.email-stats.php:391
@@ -1157,7 +1158,7 @@ msgstr ""
 
 #: classes/admin/report-templates/report.email-stats.php:304
 msgid "Lead Deleted"
-msgstr ""
+msgstr "Lead gelöscht"
 
 #: classes/admin/report-templates/report.email-stats.php:324
 #: classes/admin/report-templates/report.event.php:379
@@ -1473,12 +1474,12 @@ msgstr ""
 #: classes/admin/report-templates/report.impressions.php:389
 #: classes/admin/report-templates/report.visitors.php:412
 msgid "Lead exists. Click to view."
-msgstr ""
+msgstr "Lead existiert. Zum Ansehen klicken."
 
 #: classes/admin/report-templates/report.impressions.php:389
 #: classes/admin/report-templates/report.visitors.php:412
 msgid "Lead does not exist in database yet."
-msgstr ""
+msgstr "Der Lead existiert noch nicht in der Datenbank."
 
 #: classes/admin/report-templates/report.impressions.php:416
 #: classes/admin/report-templates/report.visitors.php:438
@@ -1493,7 +1494,7 @@ msgstr ""
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:185
 #, php-format
 msgid "It looks like the lead hasn't made any %s yet."
-msgstr ""
+msgstr "Es scheint, der Lead hat bislang keine %s getätigt."
 
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:204
 #: classes/admin/report-templates/report.lead-searches-and-comments.php:310
@@ -1604,7 +1605,7 @@ msgstr ""
 #: classes/admin/report-templates/report.visitor-events.php:48
 #: classes/admin/report-templates/report.visitor-pageviews.php:45
 msgid "This visitor does not have a lead profile"
-msgstr ""
+msgstr "Der Besucher hat kein Lead-Profil"
 
 #: classes/admin/report-templates/report.visitor-events.php:95
 #: classes/admin/report-templates/report.visitor-events.php:142
@@ -1754,7 +1755,7 @@ msgstr "Bitte aktualisieren Sie fordert zum Handeln auf Version %s oder höher."
 #: core/cta/classes/class.activation.php:245
 #: core/landing-pages/classes/class.activation.php:240
 msgid "Leads Version"
-msgstr "Führt Version"
+msgstr "Leads Version"
 
 #: core/automation/classes/class.activation.php:236
 #: core/cta/classes/class.activation.php:246
@@ -2097,7 +2098,7 @@ msgstr ""
 
 #: core/automation/definitions/action.add_remove_list.php:37
 msgid "Action to add or remove a lead from a lead list."
-msgstr "Aktion zum Hinzufügen oder entfernen eine Führung aus einer Blei-Liste."
+msgstr "Lead zur Lead-Liste hinzufügen oder löschen."
 
 #: core/automation/definitions/action.add_remove_list.php:41
 msgid "Remove from these lists:"
@@ -2133,7 +2134,7 @@ msgstr "Liste ändern - Fail"
 #: core/automation/definitions/action.add_remove_list.php:110
 #: core/automation/definitions/action.add_remove_tag.php:102
 msgid "Failed - bad lead id"
-msgstr "Fehler beim - führen schlechte id"
+msgstr "Fehler - falsche Lead-ID"
 
 #: core/automation/definitions/action.add_remove_list.php:150
 msgid "List Change"
@@ -2167,7 +2168,7 @@ msgstr ""
 
 #: core/automation/definitions/action.add_remove_tag.php:43
 msgid "Remove these lead tags from lead"
-msgstr ""
+msgstr "Diese Lead-Tags vom Lead entfernen"
 
 #: core/automation/definitions/action.add_remove_tag.php:49
 msgid "Add these tags:"
@@ -2175,7 +2176,7 @@ msgstr ""
 
 #: core/automation/definitions/action.add_remove_tag.php:50
 msgid "Add these lead tags to a lead"
-msgstr ""
+msgstr "Diese Lead-Tags dem Lead hinzufügen"
 
 #: core/automation/definitions/action.add_remove_tag.php:101
 msgid "Tag Change - Fail"
@@ -2195,7 +2196,7 @@ msgstr "Erstellen Sie einen Vorsprung von Benutzerereignis Schöpfung."
 
 #: core/automation/definitions/action.create_lead.php:69
 msgid "Created Lead"
-msgstr "Erstellten Blei"
+msgstr "Erstellter Lead"
 
 #: core/automation/definitions/action.kill_lead_tasks.php:31
 msgid "Terminate Email Series for Lead"
@@ -2308,7 +2309,7 @@ msgstr "Eigene e-Mail-Adresse"
 #: core/leads/classes/class.dashboard.php:1
 #: core/shared/classes/class.post-type.wp-lead.php:124
 msgid "Lead List"
-msgstr "Führen Sie Liste"
+msgstr "Lead-Liste"
 
 #: core/automation/definitions/action.send_email.php:58
 msgid "Enter Email Address"
@@ -2320,7 +2321,7 @@ msgstr ""
 
 #: core/automation/definitions/action.send_email.php:69
 msgid "Select Lead List"
-msgstr "Wählen Sie aus, führen"
+msgstr "Wählen Sie eine Lead-Liste aus"
 
 #: core/automation/definitions/action.send_email.php:70
 msgid ""
@@ -2394,15 +2395,15 @@ msgstr ""
 
 #: core/automation/definitions/query.lead_data.php:28
 msgid "Lead has viewed this content (Page/Post ID)"
-msgstr ""
+msgstr "Lead hat diesen Inhalt angesehen (Seiten-/Beitrags-ID)"
 
 #: core/automation/definitions/query.lead_data.php:29
 msgid "Lead has opening this email (Email ID)"
-msgstr ""
+msgstr "Lead hat diese E-Mail geöffnet (E-Mail-ID)"
 
 #: core/automation/definitions/query.lead_data.php:30
 msgid "Lead has clicked this CTA (CTA ID)"
-msgstr ""
+msgstr "Lead hat diesen CTA geklickt (CTA-ID)"
 
 #: core/automation/definitions/query.user_data.php:23
 msgid "User Role"
@@ -2426,7 +2427,7 @@ msgstr ""
 #: core/automation/definitions/trigger.inbound_double_optin_confirm.php:36
 #: core/automation/definitions/trigger.inbound_store_lead_post.php:79
 msgid "Lead Data"
-msgstr "Führen Sie Daten"
+msgstr "Lead-Daten"
 
 #: core/automation/definitions/trigger.inbound_double_optin_confirm.php:47
 msgid "Query Lead Data"
@@ -2445,7 +2446,7 @@ msgstr ""
 #: core/automation/definitions/trigger.inbound_store_lead_post.php:90
 #: core/automation/definitions/trigger.page_tracking_event.php:40
 msgid "Validate Lead Data"
-msgstr "Validieren Sie führende Daten"
+msgstr "Lead-Daten validieren"
 
 #: core/automation/definitions/trigger.inbound_store_lead_post.php:106
 msgid "On add/update lead"
@@ -4917,7 +4918,7 @@ msgstr ""
 
 #: core/leads/classes/class.dashboard.php:1
 msgid "Latest Leads"
-msgstr ""
+msgstr "Letzte Leads"
 
 #: core/leads/classes/class.dashboard.php:1
 msgid "List Performance"
@@ -4927,7 +4928,7 @@ msgstr ""
 #: core/leads/classes/class.lead-management.php:296
 #: core/shared/classes/class.post-type.wp-lead.php:55
 msgid "Search Leads"
-msgstr "Suche führt"
+msgstr "Leads suchen"
 
 #: core/leads/classes/class.dashboard.php:1
 msgid "Refresh page to enable. "
@@ -4992,7 +4993,7 @@ msgstr "Unmarkierten %d Beiträge mit \"%s\""
 #: core/leads/classes/class.lead-management.php:190
 #, php-format
 msgid "%d leads permanently deleted"
-msgstr "%d führt dauerhaft gelöscht"
+msgstr "%d Leads dauerhaft gelöscht"
 
 #: core/leads/classes/class.lead-management.php:208
 msgid "Lead Bulk Management"
@@ -5179,7 +5180,7 @@ msgstr "Entfernen"
 
 #: core/leads/classes/class.lead-management.php:548
 msgid "Remove these tags from the selected leads."
-msgstr "Entfernen Sie diese Tags aus den ausgewählten führt."
+msgstr "Entfernen Sie diese Tags von den ausgewählten Leads."
 
 #: core/leads/classes/class.lead-management.php:552
 msgid "Meta:"
@@ -5201,17 +5202,17 @@ msgstr "Entfernen Sie diese Meta-Werte aus dem ausgewählten Beiträge."
 
 #: core/leads/classes/class.lead-management.php:560
 msgid "Delete Selected Leads (Warning! There is no UNDO):"
-msgstr "Ausgewählte löschen führt (Achtung!) Es gibt keine \"Rückgängig\"):"
+msgstr "Ausgewählte Leads löschen (Achtung! Der Vorgang lässt sich nicht rückgängig machen):"
 
 #: core/leads/classes/class.lead-management.php:562
 #: core/leads/classes/class.lead-management.php:609
 msgid "Permanently Delete Selected Leads"
-msgstr "Dauerhaft löschen ausgewählte Leads"
+msgstr "Ausgewählte Leads dauerhaft löschen"
 
 #: core/leads/classes/class.lead-management.php:562
 msgid ""
 "This will delete the selected leads from your database. There is no undo."
-msgstr "Dies löscht die ausgewählte Leads aus Ihrer Datenbank. Es gibt keine \"Rückgängig\"."
+msgstr "Dies löscht die ausgewählten Leads aus Ihrer Datenbank. Der Vorgang lässt sich nicht rückgängig machen."
 
 #: core/leads/classes/class.lead-management.php:605
 msgid "Choose action to apply to selected leads"
@@ -5223,7 +5224,7 @@ msgstr "Ausgewählte Leads als CSV exportieren"
 
 #: core/leads/classes/class.lead-management.php:607
 msgid "Add or Remove Selected Leads from Lists"
-msgstr "Hinzufügen oder Entfernen von ausgewählte Leads aus Listen"
+msgstr " Ausgewählte Leads zu Listen hinzufügen oder aus Listen entfernen"
 
 #: core/leads/classes/class.lead-management.php:608
 msgid "Add or Remove Tags to Selected Leads"
@@ -5261,15 +5262,15 @@ msgstr ""
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:119
 msgid "Lead Stats"
-msgstr "Führen von Statistiken"
+msgstr "Lead-Statistiken"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:123
 msgid "Lead Overview"
-msgstr "Übersicht zu führen"
+msgstr "Lead-Übersicht"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:131
 msgid "Source of Lead"
-msgstr "Quelle von Blei"
+msgstr "Quelle des Leads"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:204
 msgid "Most Used"
@@ -5288,7 +5289,7 @@ msgstr ""
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:330
 msgid "Lead Status:"
-msgstr "Führen Sie Status:"
+msgstr "Lead-Status:"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:477
 msgid "Years"
@@ -5473,7 +5474,7 @@ msgstr "Anzeigen und reagieren auf den Kommentar"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1671
 msgid "Lead Searches"
-msgstr "Führen Recherchen"
+msgstr "Lead-Suchen"
 
 #: core/leads/classes/class.metaboxes.wp-lead.php:1674
 msgid "No searches found!"
@@ -6753,7 +6754,7 @@ msgstr "API-Schlüssel"
 
 #: core/leads/classes/class.settings.php:65
 msgid "leads"
-msgstr ""
+msgstr "Leads"
 
 #: core/leads/classes/class.settings.php:70
 msgid "Leads Core Settings"
@@ -6786,7 +6787,7 @@ msgstr "WordPress führt Aufzeichnungen Äußerungen führt und fügt sie an ihr
 #: core/leads/classes/class.settings.php:91
 #: core/leads/classes/class.settings.php:193
 msgid "Show Lead/List Data in Dashboard"
-msgstr "Blei/Liste Daten im Dashboard anzeigen"
+msgstr "Lead-/Listen-Daten im Dashboard anzeigen"
 
 #: core/leads/classes/class.settings.php:92
 #: core/leads/classes/class.settings.php:194
@@ -6908,24 +6909,24 @@ msgstr ""
 
 #: core/leads/classes/class.user-profile.php:31
 msgid "Lead Profile"
-msgstr "Führen Profil"
+msgstr "Lead-Profil"
 
 #: core/leads/classes/class.user-profile.php:34
 msgid "A lead profile does not exist yet for this user."
-msgstr "Ein Lead-Profil existiert noch nicht für diesen Benutzer."
+msgstr "Für diesen Benutzer existiert noch kein Lead-Profil."
 
 #: core/leads/classes/class.user-profile.php:39
 msgid "View Lead Profile"
-msgstr "Führen Profil anzeigen"
+msgstr "Lead-Profil anzeigen"
 
 #: core/leads/classes/class.user-profile.php:41
 #: core/shared/classes/class.post-type.wp-lead.php:138
 msgid "Lead Lists"
-msgstr "Führen von Listen"
+msgstr "Lead-Listen"
 
 #: core/leads/leads.php:126
 msgid "Leads requires PHP version 5.3+ to run. Your version "
-msgstr "Leitungen benötigt PHP Version 5.3 + laufen. Ihre version "
+msgstr "Leads benötigt PHP-Version 5.3 +. Ihre version "
 
 #: core/mailer/classes/class.acf-integration.php:264
 msgid "Saving"
@@ -8725,7 +8726,7 @@ msgstr "Achtung: Nur hochladen Sie e-Mail-Vorlage Zip-Dateien heruntergeladen vo
 
 #: core/mailer/classes/class.token-engine.php:99
 msgid "Lead Fields"
-msgstr "Führen Sie Felder"
+msgstr "Lead-Felder"
 
 #: core/mailer/classes/class.token-engine.php:137
 msgid "Select Field"
@@ -9430,11 +9431,11 @@ msgstr ""
 
 #: core/shared/classes/class.events.php:1144
 msgid "Lead Added to Lists"
-msgstr ""
+msgstr "Lead zur Liste hinzugefügt"
 
 #: core/shared/classes/class.events.php:1144
 msgid "Lead Added to List"
-msgstr ""
+msgstr "Lead zur Liste hinzugefügt"
 
 #: core/shared/classes/class.events.php:1147
 msgid "SparkPost Deliveries"
@@ -9469,30 +9470,30 @@ msgstr "Hoppla! Sieht aus wie Sie nicht alle erforderlichen Felder ausgefüllt h
 
 #: core/shared/classes/class.form.php:1112
 msgid "<b>Leads</b> from Inbound Now"
-msgstr "Von eingehenden nun <b>führt</b>"
+msgstr "<b>Leads</b> von Inbound Now"
 
 #: core/shared/classes/class.form.php:1153
 msgid "New Lead on {{form-name}}"
-msgstr "Neue Führung in {{Form-Name}}"
+msgstr "Neuer Lead auf {{Form-Name}}"
 
 #: core/shared/classes/class.form.php:1154
 msgid ""
 "There is a new lead that just converted on <strong>{{date-time}}</strong> "
 "from page: <a href=\"{{source}}\">{{source}}</a> {{redirect-message}}"
-msgstr "Gibt es eine neue Führung, die nur <strong>{{Termin}}</strong> von Seite konvertiert: <a href=\"{{source}}\"> {{Quelle}}</a> {{Redirect-Nachricht}}"
+msgstr "Neue Lead-Conversion am <strong>{{Termin}}</strong> von Seite: <a href=\"{{source}}\"> {{Quelle}}</a> {{Redirect-Nachricht}}"
 
 #: core/shared/classes/class.form.php:1166
 msgid "Lead Information"
-msgstr "Informationen führen"
+msgstr "Lead-Informationen"
 
 #: core/shared/classes/class.form.php:1173
 #: core/shared/classes/class.form.php:1218
 msgid "View Lead"
-msgstr "Ansicht-Blei"
+msgstr "Lead anzeigen"
 
 #: core/shared/classes/class.form.php:1198
 msgid "View Lead Activity"
-msgstr "Lead Aktivität anzeigen"
+msgstr "Lead-Aktivität anzeigen"
 
 #: core/shared/classes/class.form.php:1202
 msgid "Pages Viewed"
@@ -9504,11 +9505,11 @@ msgstr "Form-Daten anzeigen"
 
 #: core/shared/classes/class.form.php:1221
 msgid "View the full Lead details in WordPress"
-msgstr "Die volle Führung in WordPress details anzeigen"
+msgstr "Alle Lead-Details in WordPress anzeigen"
 
 #: core/shared/classes/class.form.php:1221
 msgid "View Full Lead Details"
-msgstr "Volle führen Details anzeigen"
+msgstr "Alle Lead-Details anzeigen"
 
 #: core/shared/classes/class.form.php:1227
 msgid "Thanks for filling out our form."
@@ -9517,7 +9518,7 @@ msgstr "Vielen Dank für das Ausfüllen unseres Formulars."
 #: core/shared/classes/class.form.php:1229
 #: core/shared/classes/class.form.php:1232
 msgid "Reply to Lead Now"
-msgstr "Antwort auf jetzt führen"
+msgstr "Diesem Lead jetzt antworten"
 
 #: core/shared/classes/class.form.php:1231
 msgid "Thanks for filling out our form on {{current-page-url}}"
@@ -9525,7 +9526,7 @@ msgstr "Vielen Dank für das Ausfüllen unseres Formulars auf {{Strom-Seite-Url}
 
 #: core/shared/classes/class.form.php:1232
 msgid "Email This Lead now"
-msgstr "E-Mail diese führen jetzt"
+msgstr "Diesem Lead jetzt eine E-Mail senden"
 
 #: core/shared/classes/class.form.php:1299
 msgid "Jan"
@@ -10850,11 +10851,11 @@ msgstr "Ungültige Endpunkt: "
 
 #: core/shared/classes/class.inbound-api.php:733
 msgid "No leads were found given this query."
-msgstr "Keine Leitungen fanden sich angesichts dieser Abfrage."
+msgstr "Keine Leads zu dieser Anfrage gefunden."
 
 #: core/shared/classes/class.inbound-api.php:939
 msgid "Lead already exists."
-msgstr "Blei ist bereits vorhanden."
+msgstr "Lead ist bereits vorhanden."
 
 #: core/shared/classes/class.inbound-api.php:1017
 #: core/shared/classes/class.inbound-api.php:1125
@@ -10863,7 +10864,7 @@ msgstr "Gültige ID oder e-Mail-Adresse wurde nicht festgelegt."
 
 #: core/shared/classes/class.inbound-api.php:1134
 msgid "Lead successfully deleted"
-msgstr "Führung erfolgreich gelöscht"
+msgstr "Lead erfolgreich gelöscht"
 
 #: core/shared/classes/class.inbound-api.php:1214
 #: core/shared/classes/class.inbound-api.php:1256
@@ -11192,11 +11193,11 @@ msgstr " Marketing"
 
 #: core/shared/classes/class.menus.adminbar.php:169
 msgid "Search All Leads"
-msgstr "Suche alle Leads"
+msgstr "Alle Leads durchsuchen"
 
 #: core/shared/classes/class.menus.adminbar.php:184
 msgid "View All Leads"
-msgstr "Alle potenzielle Kunden anzeigen"
+msgstr "Alle Leads anzeigen"
 
 #: core/shared/classes/class.menus.adminbar.php:186
 #: core/shared/classes/class.menus.adminbar.php:421
@@ -11207,7 +11208,7 @@ msgstr "Alle Formulare anzeigen"
 #: core/shared/classes/class.menus.adminbar.php:192
 #: core/shared/classes/class.menus.adminbar.php:194
 msgid "View Lead Lists"
-msgstr "Führen Ansichtslisten"
+msgstr "Lead-Liste anzeigen"
 
 #: core/shared/classes/class.menus.adminbar.php:200
 msgid "Create New Lead"
@@ -11215,7 +11216,7 @@ msgstr "Neuen Lead erstellen"
 
 #: core/shared/classes/class.menus.adminbar.php:202
 msgid "Add new lead"
-msgstr "Fügen neuen Lead hinzu"
+msgstr "Neuen Lead hinzufügen"
 
 #: core/shared/classes/class.menus.adminbar.php:225
 msgid "Call to Actions"
@@ -11317,7 +11318,7 @@ msgstr "Call to Action-Einstellungen"
 #: core/shared/classes/class.menus.adminbar.php:543
 #: core/shared/classes/class.menus.adminbar.php:545
 msgid "Lead Settings"
-msgstr "Einstellungen führen"
+msgstr "Lead-Einstellungen"
 
 #: core/shared/classes/class.menus.adminbar.php:558
 #: core/shared/classes/class.menus.adminbar.php:560
@@ -11461,11 +11462,11 @@ msgstr "Laden Sie eingehende Pro (empfohlen)"
 
 #: core/shared/classes/class.post-type.wp-lead.php:51
 msgid "Add New Lead"
-msgstr "Fügen neuen Lead hinzu"
+msgstr "Neuen Lead hinzufügen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:52
 msgid "Edit Lead"
-msgstr "Bearbeiten von Blei"
+msgstr "Lead bearbeiten"
 
 #: core/shared/classes/class.post-type.wp-lead.php:53
 msgid "New Leads"
@@ -11473,7 +11474,7 @@ msgstr "Neue Leads"
 
 #: core/shared/classes/class.post-type.wp-lead.php:54
 msgid "View Leads"
-msgstr "Blick führt"
+msgstr "Lead anzeigen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:123
 msgid "Lists"
@@ -11481,23 +11482,23 @@ msgstr "Listen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:125
 msgid "Search Lead Lists"
-msgstr "Suchlisten führen"
+msgstr "Lead-Listen suchen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:126
 msgid "Popular Lead Lists"
-msgstr "Beliebte führen Listen"
+msgstr "Beliebte Lead-Listen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:127
 msgid "All Lead Lists"
-msgstr "Alle führen Listen"
+msgstr "Alle Lead-Listen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:130
 msgid "Edit Lead List"
-msgstr "Führen Liste bearbeiten"
+msgstr "Lead-Liste bearbeiten"
 
 #: core/shared/classes/class.post-type.wp-lead.php:131
 msgid "Update Lead List"
-msgstr "Updateliste führen"
+msgstr "Lead-Liste aktualisieren"
 
 #: core/shared/classes/class.post-type.wp-lead.php:132
 msgid "Add New Lead List"
@@ -11505,11 +11506,11 @@ msgstr "Neue Lead-Liste hinzufügen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:133
 msgid "New Lead List"
-msgstr "Neue Liste führen"
+msgstr "Neue Lead-Liste"
 
 #: core/shared/classes/class.post-type.wp-lead.php:134
 msgid "Separate Lead Lists with commas"
-msgstr "Lead-Listen durch Kommata trennen"
+msgstr "Lead-Listen mit Komma trennen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:135
 msgid "Add or remove Lead Lists"
@@ -11517,7 +11518,7 @@ msgstr "Hinzufügen oder Entfernen von Lead-Listen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:136
 msgid "Choose from the most used lead List"
-msgstr "Wählen Sie aus den am häufigsten verwendete Blei Liste"
+msgstr "Wählen Sie aus der am häufigsten verwendeten Lead-Liste"
 
 #: core/shared/classes/class.post-type.wp-lead.php:137
 msgid "No Lead Lists found."
@@ -11529,55 +11530,55 @@ msgstr "Listenverwaltung"
 
 #: core/shared/classes/class.post-type.wp-lead.php:158
 msgid "Lead Tag"
-msgstr ""
+msgstr "Lead-Tag"
 
 #: core/shared/classes/class.post-type.wp-lead.php:159
 msgid "Search Lead Tags"
-msgstr "Suchmaschinen führen Tags"
+msgstr "Lead-Tags suchen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:160
 msgid "Popular Lead Tags"
-msgstr "Populäre Tags führen"
+msgstr "Beliebte Lead-Tags"
 
 #: core/shared/classes/class.post-type.wp-lead.php:161
 msgid "All Lead Tags"
-msgstr "Alle Blei-Tags"
+msgstr "Alle Lead-Tags"
 
 #: core/shared/classes/class.post-type.wp-lead.php:164
 msgid "Edit Lead Tag"
-msgstr "Blei-Tag bearbeiten"
+msgstr "Lead-Tag bearbeiten"
 
 #: core/shared/classes/class.post-type.wp-lead.php:165
 msgid "Update Lead Tag"
-msgstr "Führen Stil aktualisieren"
+msgstr "Lead-Tag aktualisieren"
 
 #: core/shared/classes/class.post-type.wp-lead.php:166
 msgid "Add New Lead Tag"
-msgstr "Add New Tag führen"
+msgstr "Neuen Lead-Tag hinzufügen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:167
 msgid "New Lead Tag"
-msgstr "Neue Lead-Tag"
+msgstr "Neuer Lead-Tag"
 
 #: core/shared/classes/class.post-type.wp-lead.php:168
 msgid "Separate Lead Tags with commas"
-msgstr "Tags führen durch Kommata trennen"
+msgstr "Lead-Tags mit Komma trennen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:169
 msgid "Add or remove Lead Tags"
-msgstr "Hinzufügen oder Entfernen von Tags führen"
+msgstr "Lead-Tags hinzufügen oder entfernen"
 
 #: core/shared/classes/class.post-type.wp-lead.php:170
 msgid "Choose from the most used lead tags"
-msgstr "Wählen Sie aus den am häufigsten verwendeten Blei-tags"
+msgstr "Wählen Sie aus den am häufigsten verwendeten Lead-Tags"
 
 #: core/shared/classes/class.post-type.wp-lead.php:171
 msgid "No lead tags found."
-msgstr "Kein Blei-Tags gefunden."
+msgstr "Keine Lead-Tags gefunden."
 
 #: core/shared/classes/class.post-type.wp-lead.php:172
 msgid "Lead Tags"
-msgstr "Tags zu führen"
+msgstr "Lead-Tags"
 
 #: core/shared/classes/class.post-type.wp-lead.php:197
 msgid "Double Opt In"
@@ -11597,11 +11598,11 @@ msgstr "muss einen ID-Parameter enthalten."
 
 #: core/shared/classes/class.post-type.wp-lead.php:411
 msgid "lead list deleted"
-msgstr "führen Sie Liste gelöscht"
+msgstr "Lead-Liste gelöscht"
 
 #: core/shared/classes/class.post-type.wp-lead.php:519
 msgid "New Lead"
-msgstr "Neue Führung"
+msgstr "Neuer Lead"
 
 #: core/shared/classes/class.post-type.wp-lead.php:526
 msgid "Read"
@@ -11632,7 +11633,7 @@ msgstr "WordPress führt, ist nicht gerade installiert/aktiviert, anzeigen und V
 #: core/shared/classes/class.post-type.wp-lead.php:658
 #, php-format
 msgid "%d leads"
-msgstr "%d führt"
+msgstr "%d Leads"
 
 #: core/shared/classes/class.shortcodes.email-template.php:106
 msgid "View/Edit this form"
@@ -11673,7 +11674,7 @@ msgstr "Form-Konvertierungen"
 
 #: core/shared/shortcodes/inbound-shortcodes.php:608
 msgid "View this Lead"
-msgstr "Dies führte anzeigen"
+msgstr "Diesen Lead anzeigen"
 
 #: core/shared/shortcodes/inbound-shortcodes.php:612
 msgid "No Conversions Yet!"
@@ -12114,7 +12115,7 @@ msgstr "Admin-Email-Betreff-Zeile <span class=\"small-required-text\"> *</span>"
 msgid ""
 "Customize the subject line of email notifications arriving from this form. "
 "default: {{site-name}} {{form-name}} - New Lead Conversion"
-msgstr "Passen Sie die Betreff-Zeile der e-Mail-Benachrichtigungen aus dieser Form ankommen. Standardwert: {{Website-Name}} {{Form-Name}} - neue führen Umrechnung"
+msgstr "Betreffzeile der E-Mail-Benachrichtigungen dieses Formulars anpassen. Standardwert: {{Website-Name}} {{Form-Name}} - Neue Lead-Conversion"
 
 #: core/shared/shortcodes/shortcodes/forms.php:86
 msgid "Add to List(s)"
@@ -12134,11 +12135,11 @@ msgstr "Ausgeblendete Listenwerte"
 
 #: core/shared/shortcodes/shortcodes/forms.php:100
 msgid "Add Tags to Lead"
-msgstr ""
+msgstr "Dem Lead Tags hinzufügen"
 
 #: core/shared/shortcodes/shortcodes/forms.php:101
 msgid "Tag the lead with these tags"
-msgstr ""
+msgstr "Lead mit diesen Tags kennzeichnen"
 
 #: core/shared/shortcodes/shortcodes/forms.php:107
 msgid "Hidden Tag Values"

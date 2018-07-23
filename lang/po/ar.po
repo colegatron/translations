@@ -4,12 +4,13 @@
 # Translators:
 # Translators:
 # Hudson Atwell <atwell.publishing@gmail.com>, 2016
+# menna amr <mennaamr20024@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Inbound Pro\n"
 "POT-Creation-Date: 2017-09-20 15:46-0500\n"
-"PO-Revision-Date: 2017-09-22 21:19+0000\n"
-"Last-Translator: Hudson Atwell <atwell.publishing@gmail.com>\n"
+"PO-Revision-Date: 2018-07-18 20:10+0000\n"
+"Last-Translator: menna amr <mennaamr20024@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/inboundnow/inbound-pro/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -147,7 +148,7 @@ msgstr "إعدادات العرض"
 
 #: classes/admin/class.download-management.php:727
 msgid "Only available to subscribers."
-msgstr ""
+msgstr "مُتاح فقط للمشتركين"
 
 #: classes/admin/class.download-management.php:844
 #: core/cta/classes/class.templates.manage.php:104
@@ -166,19 +167,19 @@ msgstr "إدارة الملحقات"
 #: classes/admin/class.settings.php:285 classes/admin/class.settings.php:542
 #: core/cta/classes/class.metaboxes.wp-call-to-action.php:166
 msgid "Inbound Analytics"
-msgstr ""
+msgstr "التحليلات الواردة"
 
 #: classes/admin/class.inbound-analytics.php:184
 #: core/mailer/classes/class.post-type.inbound-email.php:553
 msgid "Reporting range in days"
-msgstr ""
+msgstr "مدى الإبلاغ في أيام"
 
 #: classes/admin/class.inbound-analytics.php:191
 #: classes/admin/class.reporting.templates.php:103
 #: core/mailer/classes/class.metaboxes.inbound-email.php:910
 #: core/mailer/classes/class.post-type.inbound-email.php:561
 msgid "days"
-msgstr ""
+msgstr "أيام"
 
 #: classes/admin/class.inbound-analytics.php:262
 #: classes/admin/report-templates/report.impressions.php:69
@@ -466,7 +467,7 @@ msgstr "أدخل مفتاح المعهد هنا"
 
 #: classes/admin/class.settings.php:147
 msgid "activate,deactivate,enable,disable,turn off,turn on"
-msgstr ""
+msgstr "ينشط، يلغي التنشيط،يُمَكن، يُعطل، يطفئ، يُشغل."
 
 #: classes/admin/class.settings.php:152
 msgid "Toggle Core Components On/Off"
@@ -612,7 +613,7 @@ msgstr ""
 
 #: classes/admin/class.settings.php:445
 msgid "Translation Update Notifications"
-msgstr ""
+msgstr "إشعارات تحديث الترجمة."
 
 #: classes/admin/class.settings.php:446
 msgid ""
@@ -622,7 +623,7 @@ msgstr ""
 
 #: classes/admin/class.settings.php:462
 msgid "Help Inbound Now Translate"
-msgstr ""
+msgstr "ساعد إنباوند لتترجم الآن."
 
 #: classes/admin/class.settings.php:463
 #, php-format
@@ -6728,7 +6729,7 @@ msgstr "الاسم الأخير"
 
 #: core/leads/classes/class.post-type.wp-lead.php:94
 msgid "Events"
-msgstr ""
+msgstr "أحداث"
 
 #: core/leads/classes/class.post-type.wp-lead.php:96
 msgid "Updated"
@@ -6861,7 +6862,7 @@ msgstr ""
 #: core/leads/classes/class.settings.php:147
 #: core/leads/classes/class.settings.php:243
 msgid "Confirmation Page Location"
-msgstr ""
+msgstr "تأكيد موقع الصفحة."
 
 #: core/leads/classes/class.settings.php:148
 #: core/leads/classes/class.settings.php:244
@@ -7146,7 +7147,7 @@ msgstr ""
 
 #: core/mailer/classes/class.lead-profile.php:638
 msgid " on "
-msgstr ""
+msgstr "على"
 
 #: core/mailer/classes/class.lead-profile.php:686
 msgid "Your custom email has been sent!"
@@ -12284,11 +12285,11 @@ msgstr "مكافحة البريد المزعج وعاء العسل"
 
 #: core/shared/shortcodes/shortcodes/forms.php:253
 msgid "Mapping"
-msgstr ""
+msgstr "رسم الخرائط"
 
 #: core/shared/shortcodes/shortcodes/forms.php:254
 msgid "This is required."
-msgstr ""
+msgstr "هذا متطلب"
 
 #: core/shared/shortcodes/shortcodes/forms.php:261
 msgid "Dropdown choices"
